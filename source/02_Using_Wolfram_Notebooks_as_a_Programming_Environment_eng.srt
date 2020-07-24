@@ -1,0 +1,1097 @@
+﻿1
+00:00:00,500 --> 00:00:02,500
+This section of Introduction
+to Wolfram Notebooks
+
+2
+00:00:02,500 --> 00:00:05,700
+is about notebook features
+that are helpful for creating,
+
+3
+00:00:05,700 --> 00:00:07,800
+documenting and sharing
+computer programs.
+
+4
+00:00:07,800 --> 00:00:09,000
+To illustrate some
+of those features,
+
+5
+00:00:09,000 --> 00:00:12,000
+here is a notebook from a project
+in image processing.
+
+6
+00:00:12,000 --> 00:00:14,500
+This notebook contains
+programs and comments
+
+7
+00:00:14,500 --> 00:00:17,300
+and programming notes
+all organized into sections,
+
+8
+00:00:17,300 --> 00:00:20,500
+and in the last section are inputs
+that create interactive applications
+
+9
+00:00:20,500 --> 00:00:23,500
+and deploy those applications
+in the Wolfram Cloud.
+
+10
+00:00:23,500 --> 00:00:26,300
+This input, for example,
+gives an interactive application,
+
+11
+00:00:26,300 --> 00:00:28,000
+with sliders
+for adjusting parameters
+
+12
+00:00:28,000 --> 00:00:30,000
+in an image processing program,
+
+13
+00:00:30,000 --> 00:00:33,500
+and the next input deploys
+this application in the cloud.
+
+14
+00:00:33,500 --> 00:00:35,500
+Evaluating that input
+gives a hyperlink,
+
+15
+00:00:35,500 --> 00:00:37,800
+and clicking the hyperlink,
+brings up a web browser
+
+16
+00:00:37,800 --> 00:00:39,500
+that shows another
+Wolfram notebook,
+
+17
+00:00:39,500 --> 00:00:41,800
+this time displayed
+in the web browser,
+
+18
+00:00:41,800 --> 00:00:45,000
+and within this notebook
+is the same interactive application.
+
+19
+00:00:46,000 --> 00:00:48,000
+Returning now to the notebook
+on the desktop,
+
+20
+00:00:48,000 --> 00:00:50,500
+one of the most useful features
+of notebooks for programming
+
+21
+00:00:50,500 --> 00:00:53,300
+comes from the overall structure
+of a notebook itself.
+
+22
+00:00:53,300 --> 00:00:54,800
+Notebooks are organized into cells,
+
+23
+00:00:54,800 --> 00:00:58,500
+which are identified by cell brackets
+on the right side of the window.
+
+24
+00:00:58,500 --> 00:00:59,500
+The different types of cells
+
+25
+00:00:59,500 --> 00:01:02,300
+provide natural places for
+entering different types of content
+
+26
+00:01:02,300 --> 00:01:04,800
+like programs
+and background information,
+
+27
+00:01:04,800 --> 00:01:07,700
+and anything else that might be
+relevant to the project.
+
+28
+00:01:07,700 --> 00:01:09,300
+For larger projects,
+it is convenient
+
+29
+00:01:09,300 --> 00:01:12,500
+to organize the project by
+organizing the cells into groups,
+
+30
+00:01:12,500 --> 00:01:14,800
+like the section groups
+in this notebook.
+
+31
+00:01:14,800 --> 00:01:16,000
+Section groups can be closed
+
+32
+00:01:16,000 --> 00:01:18,000
+by double-clicking
+the grouping bracket,
+
+33
+00:01:18,000 --> 00:01:20,400
+to give an outline overview
+of the project.
+
+34
+00:01:20,400 --> 00:01:22,500
+And to work on some part
+of the program,
+
+35
+00:01:22,500 --> 00:01:25,800
+closed sections can be reopened
+by double-clicking the same bracket
+
+36
+00:01:25,800 --> 00:01:30,500
+or by clicking this icon
+in the heading of a closed cell.
+
+37
+00:01:30,500 --> 00:01:31,500
+At a more detailed level,
+
+38
+00:01:31,500 --> 00:01:33,000
+notebooks support
+a number of features
+
+39
+00:01:33,000 --> 00:01:34,800
+to help with entering programs.
+
+40
+00:01:34,800 --> 00:01:37,500
+Starting with an empty notebook,
+input is treated by default
+
+41
+00:01:37,500 --> 00:01:40,300
+as Wolfram Language code
+in an input cell.
+
+42
+00:01:40,300 --> 00:01:42,000
+As these inputs
+are being entered,
+
+43
+00:01:42,000 --> 00:01:44,500
+various buttons and menus
+appear automatically
+
+44
+00:01:44,500 --> 00:01:46,500
+to help with entering
+the program,
+
+45
+00:01:46,500 --> 00:01:48,300
+along with highlighting
+and changing colors
+
+46
+00:01:48,300 --> 00:01:51,800
+and various other things
+to help with spelling and syntax.
+
+47
+00:01:51,800 --> 00:01:53,600
+One of the buttons is this icon
+
+48
+00:01:53,600 --> 00:01:56,300
+below the left end
+of the Cell Insertion Bar.
+
+49
+00:01:56,300 --> 00:01:58,300
+The Cell Insertion Bar
+is this horizontal line
+
+50
+00:01:58,300 --> 00:02:01,300
+that indicates where
+a new cell will appear.
+
+51
+00:02:01,300 --> 00:02:03,300
+Clicking that icon
+brings up a menu of choices
+
+52
+00:02:03,300 --> 00:02:05,500
+for how the next input
+should be handled.
+
+53
+00:02:05,500 --> 00:02:07,350
+The first choice is
+Wolfram Language Input,
+
+54
+00:02:07,350 --> 00:02:08,800
+which is the default,
+
+55
+00:02:08,800 --> 00:02:10,600
+and the second choice
+is Free-form Input,
+
+56
+00:02:10,600 --> 00:02:13,500
+which provides for entering
+programs in ordinary language.
+
+57
+00:02:13,500 --> 00:02:16,200
+For example, choosing
+Free-form Input and entering,
+
+58
+00:02:16,200 --> 00:02:18,300
+“remove small components
+from an image”,
+
+59
+00:02:18,300 --> 00:02:22,000
+brings up a template for the
+DeleteSmallComponents function.
+
+60
+00:02:22,000 --> 00:02:24,800
+Natural language input
+can also be indicated
+
+61
+00:02:24,800 --> 00:02:28,300
+by entering an equal sign as
+the first character in the input.
+
+62
+00:02:28,300 --> 00:02:31,500
+This input runs an image
+processing operation called
+
+63
+00:02:31,500 --> 00:02:34,000
+DeleteBorderComponents.
+
+64
+00:02:34,000 --> 00:02:36,000
+For general programming,
+free-form inputs like these
+
+65
+00:02:36,000 --> 00:02:38,800
+have the disadvantage
+of often being ambiguous since
+
+66
+00:02:38,800 --> 00:02:40,300
+different phrasing or terminology
+
+67
+00:02:40,300 --> 00:02:42,300
+can give
+different interpretations,
+
+68
+00:02:42,300 --> 00:02:44,500
+but there are also
+many situations
+
+69
+00:02:44,500 --> 00:02:47,500
+where free-form input
+is quite useful.
+
+70
+00:02:47,500 --> 00:02:50,000
+There are many programming tools
+that pop up during input,
+
+71
+00:02:50,000 --> 00:02:52,500
+for example,
+returning to the Import command,
+
+72
+00:02:52,500 --> 00:02:55,000
+as a file name is being entered,
+
+73
+00:02:55,000 --> 00:02:57,500
+a button labeled File Browser
+appears that you can click
+
+74
+00:02:57,500 --> 00:03:00,000
+to bring up the operating system
+file browser,
+
+75
+00:03:00,000 --> 00:03:02,500
+which can be used
+to select a file.
+
+76
+00:03:02,500 --> 00:03:04,300
+That file browser
+can also be accessed
+
+77
+00:03:04,300 --> 00:03:08,500
+by choosing the File Path item
+under the Insert menu.
+
+78
+00:03:08,500 --> 00:03:11,000
+Perhaps the most conspicuous
+programming tool that pops up,
+
+79
+00:03:11,000 --> 00:03:12,500
+is the Suggestions Bar,
+
+80
+00:03:12,500 --> 00:03:15,000
+which appears after each output
+and gives a row of buttons
+
+81
+00:03:15,000 --> 00:03:17,500
+for operations that are
+commonly done with that output.
+
+82
+00:03:17,500 --> 00:03:19,300
+The last output here is an image
+
+83
+00:03:19,300 --> 00:03:21,500
+so, the Suggestions Bar,
+in this example,
+
+84
+00:03:21,500 --> 00:03:25,000
+gives buttons for operations
+that are typically done on images.
+
+85
+00:03:25,000 --> 00:03:27,500
+Some operations are simple
+and can be done right away,
+
+86
+00:03:27,500 --> 00:03:28,800
+like rotating the image.
+
+87
+00:03:28,800 --> 00:03:32,000
+For example, clicking
+the rotate-90-degree-right button
+
+88
+00:03:32,000 --> 00:03:36,000
+enters and evaluates the input
+for a rotating the image.
+
+89
+00:03:36,000 --> 00:03:38,800
+For more complicated operations,
+like edge detection,
+
+90
+00:03:38,800 --> 00:03:42,000
+the buttons in the Suggestions Bar
+do more complicated things.
+
+91
+00:03:42,000 --> 00:03:45,000
+For example, clicking
+the detect features button
+
+92
+00:03:45,000 --> 00:03:46,500
+brings up a menu of choices,
+
+93
+00:03:46,500 --> 00:03:48,000
+one of which is edge detection,
+
+94
+00:03:48,000 --> 00:03:51,000
+which is an operation with
+two parameters and an option.
+
+95
+00:03:51,000 --> 00:03:53,800
+Choosing that menu item
+brings up this dialog box
+
+96
+00:03:53,800 --> 00:03:56,000
+for a setting up the operation.
+
+97
+00:03:56,000 --> 00:03:58,000
+After making some selections,
+
+98
+00:03:58,000 --> 00:04:00,300
+clicking Done
+gives the Wolfram Language code
+
+99
+00:04:00,300 --> 00:04:02,000
+to produce the chosen result,
+
+100
+00:04:02,000 --> 00:04:06,500
+with the function arguments
+and the options already filled in.
+
+101
+00:04:06,500 --> 00:04:09,500
+The Suggestions Bar does take up
+a certain amount of space
+
+102
+00:04:09,500 --> 00:04:10,800
+on the computer screen,
+of course.
+
+103
+00:04:10,800 --> 00:04:12,500
+So for the times
+when you are not using it,
+
+104
+00:04:12,500 --> 00:04:14,300
+you can turn
+the Suggestions Bar off
+
+105
+00:04:14,300 --> 00:04:17,400
+by clicking this little circle,
+on the right side of the window.
+
+106
+00:04:17,400 --> 00:04:19,500
+After that you will see
+a different circle,
+
+107
+00:04:19,500 --> 00:04:23,000
+which you can click to turn
+the Suggestions Bar back on.
+
+108
+00:04:23,000 --> 00:04:27,000
+For now the Suggestions Bar
+will be left off.
+
+109
+00:04:27,000 --> 00:04:29,600
+Another way of generating code,
+or at least templates for code,
+
+110
+00:04:29,600 --> 00:04:33,000
+is through the menus that pop up
+as commands are being entered.
+
+111
+00:04:33,000 --> 00:04:35,300
+For example, here is a short
+Manipulate program
+
+112
+00:04:35,300 --> 00:04:37,000
+and as this program
+is being entered,
+
+113
+00:04:37,000 --> 00:04:40,500
+there are several menus and
+buttons that pop up automatically.
+
+114
+00:04:40,500 --> 00:04:42,300
+This particular program
+gives a result
+
+115
+00:04:42,300 --> 00:04:44,800
+with a slider for adjusting
+a parameter
+
+116
+00:04:44,800 --> 00:04:47,000
+in an image processing operation.
+
+117
+00:04:47,000 --> 00:04:49,000
+To take a closer look
+at the menus that popped up
+
+118
+00:04:49,000 --> 00:04:50,700
+as that program
+was being entered,
+
+119
+00:04:50,700 --> 00:04:52,800
+consider entering
+that input again.
+
+120
+00:04:52,800 --> 00:04:55,300
+The first menu that pops up
+is a menu of choices
+
+121
+00:04:55,300 --> 00:04:57,500
+for completing the name
+of the command.
+
+122
+00:04:57,500 --> 00:05:00,300
+Choosing one of the items
+in that menu completes the name.
+
+123
+00:05:00,300 --> 00:05:02,800
+And after that there is
+another button that can be clicked
+
+124
+00:05:02,800 --> 00:05:04,000
+to bring up a menu of templates
+
+125
+00:05:04,000 --> 00:05:07,000
+for filling in the arguments
+of that function.
+
+126
+00:05:07,000 --> 00:05:09,200
+This example shows choosing
+the second template
+
+127
+00:05:09,200 --> 00:05:11,500
+and then filling in the template.
+
+128
+00:05:11,500 --> 00:05:14,000
+Similar menus and buttons
+appear for each new command.
+
+129
+00:05:14,000 --> 00:05:17,000
+And as each placeholder
+in the template is filled in,
+
+130
+00:05:17,000 --> 00:05:20,400
+you can use the TAB key
+to move to the next placeholder.
+
+131
+00:05:20,400 --> 00:05:22,300
+The appearance option
+is not part of the template,
+
+132
+00:05:22,300 --> 00:05:25,000
+so that can just be typed in.
+
+133
+00:05:25,000 --> 00:05:26,300
+At any point to get a reminder
+
+134
+00:05:26,300 --> 00:05:28,500
+of what the function arguments
+are supposed to look like,
+
+135
+00:05:28,500 --> 00:05:32,000
+you can hover the mouse pointer
+over the name of the function
+
+136
+00:05:32,000 --> 00:05:34,000
+and click the button
+with the arrows on it,
+
+137
+00:05:34,000 --> 00:05:36,000
+which brings up this summary.
+
+138
+00:05:36,000 --> 00:05:38,000
+The other button,
+the circle with the “i” in it,
+
+139
+00:05:38,000 --> 00:05:40,800
+brings up the documentation
+for the function.
+
+140
+00:05:40,800 --> 00:05:42,550
+Template menus can also be shown
+
+141
+00:05:42,550 --> 00:05:44,900
+by choosing Make Template
+from the Edit menu.
+
+142
+00:05:44,900 --> 00:05:45,700
+For example,
+
+143
+00:05:45,700 --> 00:05:48,700
+to access the template menu
+for the Erosion function,
+
+144
+00:05:48,700 --> 00:05:51,000
+you can select
+the Erosion command,
+
+145
+00:05:51,000 --> 00:05:52,200
+position the insertion point
+
+146
+00:05:52,200 --> 00:05:54,000
+immediately to the right
+of that command
+
+147
+00:05:54,000 --> 00:05:55,800
+and choose Make Template
+
+148
+00:05:55,800 --> 00:05:59,300
+or use the keyboard shortcut
+to bring up the template menu.
+
+149
+00:05:59,300 --> 00:06:03,800
+Here select the second template
+and use that to complete the input.
+
+150
+00:06:03,800 --> 00:06:05,400
+At any point
+while working on the program
+
+151
+00:06:05,400 --> 00:06:07,400
+the notebook can be saved
+in the cloud.
+
+152
+00:06:07,400 --> 00:06:09,000
+Save to Cloud under the File menu,
+
+153
+00:06:09,000 --> 00:06:11,500
+saves the notebook
+in the current cloud account
+
+154
+00:06:11,500 --> 00:06:14,500
+and Publish to Cloud
+saves the notebook with a link
+
+155
+00:06:14,500 --> 00:06:16,800
+for sharing the notebook
+with other people.
+
+156
+00:06:16,800 --> 00:06:18,800
+For example,
+choosing Save to Cloud
+
+157
+00:06:18,800 --> 00:06:20,300
+saves the notebook in the cloud,
+
+158
+00:06:20,300 --> 00:06:23,000
+and after that you could move
+to a web browser on this computer
+
+159
+00:06:23,000 --> 00:06:26,800
+or on another computer and open
+the notebook in the cloud.
+
+160
+00:06:26,800 --> 00:06:29,100
+This shows the notebook opened
+in a Wolfram|One account,
+
+161
+00:06:29,100 --> 00:06:31,500
+where the saved notebook
+can be opened
+
+162
+00:06:31,500 --> 00:06:34,700
+to continue working on
+the program in the web browser.
+
+163
+00:06:34,700 --> 00:06:37,500
+Editing, command completion,
+template, menus and other features
+
+164
+00:06:37,500 --> 00:06:42,000
+continue to work here,
+much as they did on the desktop.
+
+165
+00:06:42,000 --> 00:06:45,000
+Instead of a standalone application,
+like the one in that example,
+
+166
+00:06:45,000 --> 00:06:46,000
+there are many
+programming projects
+
+167
+00:06:46,000 --> 00:06:48,000
+where the result
+is a function definition
+
+168
+00:06:48,000 --> 00:06:50,300
+or some other code
+that is intended to be used
+
+169
+00:06:50,300 --> 00:06:53,000
+in other programs
+or as part of a larger project.
+
+170
+00:06:53,000 --> 00:06:55,000
+For example,
+here is a version of that example
+
+171
+00:06:55,000 --> 00:06:58,500
+where the concluding section
+gives the definition of a function.
+
+172
+00:06:58,500 --> 00:07:00,800
+This particular function
+can be applied to an image
+
+173
+00:07:00,800 --> 00:07:03,000
+to count droplets in the image.
+
+174
+00:07:03,000 --> 00:07:04,500
+One way of saving that function
+
+175
+00:07:04,500 --> 00:07:06,400
+so that it can be used
+in another session
+
+176
+00:07:06,400 --> 00:07:08,800
+or in another program
+is to first mark the cell
+
+177
+00:07:08,800 --> 00:07:11,800
+with the definition
+as an initialization cell,
+
+178
+00:07:11,800 --> 00:07:13,700
+which can be done
+by selecting the cell
+
+179
+00:07:13,700 --> 00:07:15,000
+and choosing Initialization Cell,
+
+180
+00:07:15,000 --> 00:07:18,000
+from the Cell Properties submenu
+of the Cell menu.
+
+181
+00:07:18,000 --> 00:07:20,000
+This also adds a grey background
+to the cell,
+
+182
+00:07:20,000 --> 00:07:22,000
+since the stylesheet
+for this notebook
+
+183
+00:07:22,000 --> 00:07:25,800
+adds a gray background
+to initialization cells.
+
+184
+00:07:25,800 --> 00:07:28,500
+Initialization cells are cells
+that are marked to be evaluated
+
+185
+00:07:28,500 --> 00:07:30,000
+when a notebook is opened,
+
+186
+00:07:30,000 --> 00:07:32,000
+but a second use
+of initialization cells
+
+187
+00:07:32,000 --> 00:07:34,600
+is in saving the notebook
+in a form called a package
+
+188
+00:07:34,600 --> 00:07:36,400
+that can be used
+to load and evaluate
+
+189
+00:07:36,400 --> 00:07:39,400
+the initialization cells
+into another session.
+
+190
+00:07:39,400 --> 00:07:41,800
+For example, choosing Save As
+from the File menu
+
+191
+00:07:41,800 --> 00:07:43,000
+brings up a dialog box
+
+192
+00:07:43,000 --> 00:07:44,800
+where you can choose
+to save the notebook
+
+193
+00:07:44,800 --> 00:07:46,800
+as a Wolfram Language Package.
+
+194
+00:07:46,800 --> 00:07:48,500
+After that, you can load
+the saved file
+
+195
+00:07:48,500 --> 00:07:50,800
+into another session
+using the Get function,
+
+196
+00:07:50,800 --> 00:07:53,200
+which loads and evaluates
+initialization cells,
+
+197
+00:07:53,200 --> 00:07:55,500
+to add the definition
+of the DropletCounts function
+
+198
+00:07:55,500 --> 00:07:57,300
+to that session.
+
+199
+00:07:57,300 --> 00:08:00,200
+A convenient way to organize
+the process of creating a package
+
+200
+00:08:00,200 --> 00:08:02,800
+is to start by choosing
+Wolfram Language Package
+
+201
+00:08:02,800 --> 00:08:06,600
+from the New, Package Script
+submenu under the File menu,
+
+202
+00:08:06,600 --> 00:08:08,500
+which gives a notebook
+with styles and options
+
+203
+00:08:08,500 --> 00:08:11,500
+set up specifically to help
+with creating packages.
+
+204
+00:08:11,500 --> 00:08:12,500
+Unlike other notebooks,
+
+205
+00:08:12,500 --> 00:08:16,400
+typing into this notebook gives
+an initialization cell by default,
+
+206
+00:08:16,400 --> 00:08:17,500
+and saving this notebook
+
+207
+00:08:17,500 --> 00:08:20,600
+saves the notebook by default
+as a Wolfram Language Package
+
+208
+00:08:20,600 --> 00:08:22,000
+rather than as a notebook.
+
+209
+00:08:22,000 --> 00:08:24,300
+This notebook editor
+also has other features
+
+210
+00:08:24,300 --> 00:08:25,900
+for package development,
+
+211
+00:08:25,900 --> 00:08:29,000
+like these buttons for navigating
+to particular function definitions
+
+212
+00:08:29,000 --> 00:08:32,000
+or to different sections
+of the notebook.
+
+213
+00:08:32,000 --> 00:08:34,300
+That's the end of the examples
+for this section.
+
+214
+00:08:34,300 --> 00:08:37,000
+You can find more information
+on features for entering code
+
+215
+00:08:37,000 --> 00:08:38,800
+by opening
+the Wolfram documentation
+
+216
+00:08:38,800 --> 00:08:41,000
+and searching for
+predictive interface,
+
+217
+00:08:41,000 --> 00:08:43,600
+where there are descriptions
+of the Suggestions Bar
+
+218
+00:08:43,600 --> 00:08:45,600
+and the command
+completion menus
+
+219
+00:08:45,600 --> 00:08:48,200
+and other topics
+that came up in this section.
+
+220
+00:08:48,200 --> 00:08:51,000
+The documentation also includes
+a selection of workflows
+
+221
+00:08:51,000 --> 00:08:52,800
+that gives
+step-by-step instructions
+
+222
+00:08:52,800 --> 00:08:55,000
+for accomplishing
+many common tasks,
+
+223
+00:08:55,000 --> 00:08:58,600
+like this guide on various ways
+of using free-form Input.
+
+224
+00:08:58,600 --> 00:09:00,000
+All of these features
+have been designed
+
+225
+00:09:00,000 --> 00:09:01,200
+to be sufficiently intuitive;
+
+226
+00:09:01,200 --> 00:09:04,400
+in many cases if a button
+or a menu or something pops up,
+
+227
+00:09:04,400 --> 00:09:05,800
+just going ahead
+and clicking on it
+
+228
+00:09:05,800 --> 00:09:09,000
+is a good way to figure out
+what it does and how to use it.
+

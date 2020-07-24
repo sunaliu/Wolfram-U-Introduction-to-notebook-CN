@@ -1,0 +1,932 @@
+﻿1
+00:00:00,000 --> 00:00:02,500
+This section of Introduction
+to Wolfram Notebooks
+
+2
+00:00:02,500 --> 00:00:05,400
+describes a more precise tools
+for formatting tables,
+
+3
+00:00:05,400 --> 00:00:07,000
+like the table shown here,
+
+4
+00:00:07,000 --> 00:00:09,900
+and is specifically about options
+for setting up details,
+
+5
+00:00:09,900 --> 00:00:11,500
+like the horizontal divider
+
+6
+00:00:11,500 --> 00:00:14,000
+and the rows
+with alternating backgrounds,
+
+7
+00:00:14,000 --> 00:00:15,900
+and tools for controlling
+the appearance
+
+8
+00:00:15,900 --> 00:00:18,500
+of individual items in a table.
+
+9
+00:00:18,500 --> 00:00:19,900
+Starting with the first example,
+
+10
+00:00:19,900 --> 00:00:22,900
+here is an input that generates
+a template for that table.
+
+11
+00:00:22,900 --> 00:00:25,600
+Evaluating this input
+gives a result in an Output cell,
+
+12
+00:00:25,600 --> 00:00:27,650
+which I will convert
+to a Text cell,
+
+13
+00:00:27,650 --> 00:00:31,000
+since most of the entries
+in that table are plain text.
+
+14
+00:00:31,000 --> 00:00:33,000
+The input uses the Grid function.
+
+15
+00:00:33,000 --> 00:00:34,700
+The first argument
+of the Grid function
+
+16
+00:00:34,700 --> 00:00:36,500
+is the actual array
+of table entries
+
+17
+00:00:36,500 --> 00:00:39,500
+that gives the headings
+and an array of placeholders,
+
+18
+00:00:39,500 --> 00:00:41,100
+and there are six options.
+
+19
+00:00:41,100 --> 00:00:43,000
+The Background option
+sets up the alternating
+
+20
+00:00:43,000 --> 00:00:45,000
+white and gray backgrounds
+for the rows.
+
+21
+00:00:45,000 --> 00:00:46,750
+If I click inside the table
+
+22
+00:00:46,750 --> 00:00:49,000
+and use CONTROL+RETURN
+to add more rows,
+
+23
+00:00:49,000 --> 00:00:52,700
+the alternating backgrounds
+continue for the new rows.
+
+24
+00:00:52,700 --> 00:00:54,200
+The Alignment option specifies
+
+25
+00:00:54,200 --> 00:00:57,000
+the horizontal alignment
+of entries within each column
+
+26
+00:00:57,000 --> 00:00:59,700
+and vertical alignment
+within each row.
+
+27
+00:00:59,700 --> 00:01:02,700
+The Dividers option
+draws the lines between the rows.
+
+28
+00:01:02,700 --> 00:01:05,000
+This is where
+the thick horizontal divider
+
+29
+00:01:05,000 --> 00:01:07,500
+below the heading is specified.
+
+30
+00:01:07,500 --> 00:01:08,600
+The BaseStyle option
+
+31
+00:01:08,600 --> 00:01:11,900
+specifies the font to use
+for entries in the table.
+
+32
+00:01:11,900 --> 00:01:13,450
+And finally, the ItemSize option
+
+33
+00:01:13,450 --> 00:01:16,400
+specifies the space
+to allow for each column,
+
+34
+00:01:16,400 --> 00:01:20,300
+and the Spacings option
+specifies space between columns.
+
+35
+00:01:20,300 --> 00:01:23,000
+There are lots of details
+that these options control,
+
+36
+00:01:23,000 --> 00:01:24,800
+but the basic ideas
+are fairly simple
+
+37
+00:01:24,800 --> 00:01:27,500
+and several of these options
+use similar designs
+
+38
+00:01:27,500 --> 00:01:30,300
+that can be illustrated
+by considering their effect
+
+39
+00:01:30,300 --> 00:01:31,600
+on a generic table.
+
+40
+00:01:31,600 --> 00:01:34,150
+Here is a table
+with placeholder entries
+
+41
+00:01:34,150 --> 00:01:35,600
+and with Frame set to All
+
+42
+00:01:35,600 --> 00:01:39,000
+to make it easier
+to see the rows and the columns.
+
+43
+00:01:39,000 --> 00:01:40,500
+Starting with
+the Background option,
+
+44
+00:01:40,500 --> 00:01:43,100
+the Background option
+can be set to a single color,
+
+45
+00:01:43,100 --> 00:01:45,500
+to set the background
+for the entire grid,
+
+46
+00:01:45,500 --> 00:01:47,300
+but the general form
+of the Background option
+
+47
+00:01:47,300 --> 00:01:49,000
+is a list with three elements
+
+48
+00:01:49,000 --> 00:01:50,000
+where the first element
+
+49
+00:01:50,000 --> 00:01:52,000
+specifies the background
+for columns,
+
+50
+00:01:52,000 --> 00:01:54,900
+the second element
+specifies the background for rows
+
+51
+00:01:54,900 --> 00:01:56,900
+and the third element
+can be used to specify
+
+52
+00:01:56,900 --> 00:02:00,000
+the background for individual
+elements in the table.
+
+53
+00:02:00,000 --> 00:02:02,100
+For example,
+entering Red, Green, Blue
+
+54
+00:02:02,100 --> 00:02:03,100
+in the first element
+
+55
+00:02:03,100 --> 00:02:07,750
+causes the first three columns
+to be red, green and blue.
+
+56
+00:02:07,750 --> 00:02:08,850
+Enclosing colors in a list
+
+57
+00:02:08,850 --> 00:02:12,000
+causes those colors
+to be repeated across the table.
+
+58
+00:02:12,000 --> 00:02:14,800
+For example, this gives red
+for the first column
+
+59
+00:02:14,800 --> 00:02:16,900
+and repeated green
+and blue columns
+
+60
+00:02:16,900 --> 00:02:19,000
+for the rest of the table.
+
+61
+00:02:19,000 --> 00:02:20,700
+The same structure
+applies to rows.
+
+62
+00:02:20,700 --> 00:02:21,700
+For example,
+
+63
+00:02:21,700 --> 00:02:24,500
+if that same color specification
+is the second element
+
+64
+00:02:24,500 --> 00:02:26,300
+in the value
+of the Background option,
+
+65
+00:02:26,300 --> 00:02:29,000
+the result is a table
+where the first row is red
+
+66
+00:02:29,000 --> 00:02:33,200
+and the remaining rows alternate
+between green and blue.
+
+67
+00:02:33,200 --> 00:02:35,550
+The third element in the value
+of the Background option
+
+68
+00:02:35,550 --> 00:02:38,000
+can be used for specifying
+the background color
+
+69
+00:02:38,000 --> 00:02:40,000
+of individual entries
+in the table.
+
+70
+00:02:40,000 --> 00:02:41,500
+For example, this specifies
+
+71
+00:02:41,500 --> 00:02:44,000
+that the seventh element
+in the fourth row
+
+72
+00:02:44,000 --> 00:02:47,000
+should have
+an orange background.
+
+73
+00:02:47,000 --> 00:02:49,500
+Similar principles apply
+to the Dividers option
+
+74
+00:02:49,500 --> 00:02:52,500
+and to the Alignment option
+and to all of the options
+
+75
+00:02:52,500 --> 00:02:54,800
+that control specific
+rows and columns.
+
+76
+00:02:54,800 --> 00:02:57,900
+For example, this shows a value
+for the Dividers option
+
+77
+00:02:57,900 --> 00:03:01,000
+that gives a column divider
+every third column
+
+78
+00:03:01,000 --> 00:03:03,500
+and a row divider
+above the second row.
+
+79
+00:03:03,500 --> 00:03:04,900
+As with the Background option,
+
+80
+00:03:04,900 --> 00:03:07,000
+the value of the Dividers option
+is a list.
+
+81
+00:03:07,000 --> 00:03:10,200
+The first element of that list
+specifies column dividers
+
+82
+00:03:10,200 --> 00:03:13,600
+and the second element
+specifies row dividers.
+
+83
+00:03:13,600 --> 00:03:15,300
+The dividers
+can also have styles.
+
+84
+00:03:15,300 --> 00:03:18,000
+For example, this specifies
+that the column dividers
+
+85
+00:03:18,000 --> 00:03:20,800
+should be repeated
+thick lines and light gray lines,
+
+86
+00:03:20,800 --> 00:03:23,700
+and that the horizontal divider
+below the top row
+
+87
+00:03:23,700 --> 00:03:25,000
+should be a thick red line.
+
+88
+00:03:26,200 --> 00:03:27,800
+With those general
+principles in mind,
+
+89
+00:03:27,800 --> 00:03:29,600
+here again is the first example,
+
+90
+00:03:29,600 --> 00:03:33,200
+where I will go ahead and fill in
+some values in the table.
+
+91
+00:03:33,200 --> 00:03:34,600
+This value
+of the Background option
+
+92
+00:03:34,600 --> 00:03:35,600
+gives the alternating
+
+93
+00:03:35,600 --> 00:03:38,600
+white and light gray background
+for the rows.
+
+94
+00:03:38,600 --> 00:03:40,000
+The Alignment option specifies
+
+95
+00:03:40,000 --> 00:03:43,200
+that items in the first column
+should be centered horizontally.
+
+96
+00:03:43,200 --> 00:03:45,400
+The second column
+should be aligned on the right,
+
+97
+00:03:45,400 --> 00:03:48,000
+as is typically done
+for columns of numbers
+
+98
+00:03:48,000 --> 00:03:51,600
+and items in the third column
+are aligned on the left.
+
+99
+00:03:51,600 --> 00:03:53,150
+This value of the Dividers option
+
+100
+00:03:53,150 --> 00:03:55,500
+gives the thick line
+below the top row
+
+101
+00:03:55,500 --> 00:03:58,600
+and the light gray dividers
+for all of the rows after that.
+
+102
+00:03:58,600 --> 00:04:00,700
+The light gray divider
+becomes part of the background
+
+103
+00:04:00,700 --> 00:04:02,750
+for all of the rows
+except the last one,
+
+104
+00:04:02,750 --> 00:04:04,200
+where the divider shows up
+
+105
+00:04:04,200 --> 00:04:07,500
+as a light grey line
+at the bottom of the table.
+
+106
+00:04:07,500 --> 00:04:09,950
+The BaseStyle option
+specifies the default font
+
+107
+00:04:09,950 --> 00:04:12,500
+to use for all of the items
+in the table.
+
+108
+00:04:12,500 --> 00:04:14,000
+The ItemSize option here
+
+109
+00:04:14,000 --> 00:04:16,200
+specifies the width
+of each column.
+
+110
+00:04:16,200 --> 00:04:18,800
+The first two columns
+are given as scaled amounts,
+
+111
+00:04:18,800 --> 00:04:21,250
+which means that they are scaled
+to a fraction
+
+112
+00:04:21,250 --> 00:04:22,800
+of the formatting width,
+
+113
+00:04:22,800 --> 00:04:24,600
+which is related to the width
+of the window.
+
+114
+00:04:24,600 --> 00:04:26,400
+So the width
+of the columns changes
+
+115
+00:04:26,400 --> 00:04:27,700
+with the width of the display,
+
+116
+00:04:27,700 --> 00:04:29,200
+which can be desirable
+
+117
+00:04:29,200 --> 00:04:32,800
+if the table might be displayed
+in different windows.
+
+118
+00:04:32,800 --> 00:04:34,800
+Finally, this value
+of the Spacings option
+
+119
+00:04:34,800 --> 00:04:38,400
+adds some space
+between the last two columns.
+
+120
+00:04:38,400 --> 00:04:40,000
+A good way to learn
+what these options do
+
+121
+00:04:40,000 --> 00:04:41,900
+is to try different values
+for the options
+
+122
+00:04:41,900 --> 00:04:43,800
+and observe the effect
+on the table.
+
+123
+00:04:43,800 --> 00:04:46,350
+For example, here is a simple
+Manipulate program
+
+124
+00:04:46,350 --> 00:04:47,400
+that gives a control
+
+125
+00:04:47,400 --> 00:04:50,000
+for adjusting the space
+between the last two columns.
+
+126
+00:04:51,600 --> 00:04:53,650
+Rather than using options
+for the Grid function,
+
+127
+00:04:53,650 --> 00:04:56,000
+a separate strategy
+for specifying styles
+
+128
+00:04:56,000 --> 00:04:58,900
+is to use Item expressions
+as elements in the table
+
+129
+00:04:58,900 --> 00:05:02,200
+and to specify options
+within each Item expression.
+
+130
+00:05:02,200 --> 00:05:04,300
+For example, rather than using
+the Background option
+
+131
+00:05:04,300 --> 00:05:05,800
+to specify the background color
+
+132
+00:05:05,800 --> 00:05:08,000
+of a particular entry
+in the table,
+
+133
+00:05:08,000 --> 00:05:09,450
+another way to get
+the same effect
+
+134
+00:05:09,450 --> 00:05:12,500
+is to make that one element
+into an Item expression
+
+135
+00:05:12,500 --> 00:05:14,500
+and to include
+the Background option
+
+136
+00:05:14,500 --> 00:05:17,300
+in that Item expression.
+
+137
+00:05:17,300 --> 00:05:20,300
+A related feature
+is using the special symbols
+
+138
+00:05:20,300 --> 00:05:23,800
+SpanFromLeft, SpanFromAbove
+and SpanFromBoth
+
+139
+00:05:23,800 --> 00:05:26,500
+to get table entries that span
+more than one row
+
+140
+00:05:26,500 --> 00:05:28,100
+or more than one column.
+
+141
+00:05:28,100 --> 00:05:31,500
+For example, here is
+a small table of placeholders.
+
+142
+00:05:31,500 --> 00:05:33,000
+Replacing one
+of those placeholders
+
+143
+00:05:33,000 --> 00:05:35,000
+with the special symbol
+SpanFromLeft
+
+144
+00:05:35,000 --> 00:05:36,800
+causes that entry in the table
+
+145
+00:05:36,800 --> 00:05:39,400
+to be merged
+with the entry to the left.
+
+146
+00:05:39,400 --> 00:05:41,450
+There are also symbols
+called SpanFromAbove
+
+147
+00:05:41,450 --> 00:05:42,600
+and SpanFromBoth
+
+148
+00:05:42,600 --> 00:05:47,200
+that can be used to merge entries
+vertically or in both directions.
+
+149
+00:05:47,200 --> 00:05:49,300
+The affect actually ends up
+being the same
+
+150
+00:05:49,300 --> 00:05:51,400
+as selecting items to be merged
+
+151
+00:05:51,400 --> 00:05:56,000
+and choosing Make Spanning
+from the Table/Matrix submenu.
+
+152
+00:05:56,000 --> 00:05:58,800
+As a final example which uses
+several of these tools,
+
+153
+00:05:58,800 --> 00:06:00,900
+here is the second
+of the two tables
+
+154
+00:06:00,900 --> 00:06:02,400
+that were shown earlier
+
+155
+00:06:02,400 --> 00:06:05,400
+together with an input
+to generate that table.
+
+156
+00:06:05,400 --> 00:06:06,400
+This input again
+
+157
+00:06:06,400 --> 00:06:08,500
+uses the Grid function
+with several options.
+
+158
+00:06:08,500 --> 00:06:11,050
+The ItemSize option
+specifies columns
+
+159
+00:06:11,050 --> 00:06:12,100
+with a width of three,
+
+160
+00:06:12,100 --> 00:06:14,500
+which means
+three units called ems.
+
+161
+00:06:14,500 --> 00:06:15,800
+An em is a unit
+
+162
+00:06:15,800 --> 00:06:18,800
+equal to the point size
+of the current font.
+
+163
+00:06:18,800 --> 00:06:20,300
+If the ItemSize option
+is omitted,
+
+164
+00:06:20,300 --> 00:06:24,000
+then the columns are adjusted
+to the width of the widest item
+
+165
+00:06:24,000 --> 00:06:25,000
+in the column,
+
+166
+00:06:25,000 --> 00:06:26,500
+which here gives a table
+with columns
+
+167
+00:06:26,500 --> 00:06:27,900
+that seem a bit too narrow,
+
+168
+00:06:27,900 --> 00:06:29,650
+so the ItemSize option
+is included
+
+169
+00:06:29,650 --> 00:06:32,900
+to give a table
+that is not quite so cramped.
+
+170
+00:06:32,900 --> 00:06:35,500
+This value of the Frame option
+draws the divider lines
+
+171
+00:06:35,500 --> 00:06:37,500
+and the frame around the table.
+
+172
+00:06:37,500 --> 00:06:40,000
+This value of the Alignment option
+specifies that
+
+173
+00:06:40,000 --> 00:06:43,000
+items should be centered
+both vertically and horizontally
+
+174
+00:06:43,000 --> 00:06:44,000
+and the Background option
+
+175
+00:06:44,000 --> 00:06:46,800
+specifies a light gray background
+for the top row
+
+176
+00:06:46,800 --> 00:06:48,000
+and alternating orange
+
+177
+00:06:48,000 --> 00:06:51,000
+and light blue background,
+for the remaining rows.
+
+178
+00:06:51,000 --> 00:06:52,500
+Background is used in this table
+
+179
+00:06:52,500 --> 00:06:56,300
+as a color code for the T
+and F entries in the table.
+
+180
+00:06:56,300 --> 00:06:58,600
+The Background option
+happens in this example
+
+181
+00:06:58,600 --> 00:07:01,400
+to give the correct color
+for all of the entries,
+
+182
+00:07:01,400 --> 00:07:02,400
+except for one
+
+183
+00:07:02,400 --> 00:07:05,800
+where the background is specified
+in an Item expression.
+
+184
+00:07:05,800 --> 00:07:07,000
+Without that Item expression,
+
+185
+00:07:07,000 --> 00:07:09,650
+the color for that item
+would be light blue,
+
+186
+00:07:09,650 --> 00:07:12,500
+which doesn't follow
+the intended color code.
+
+187
+00:07:12,500 --> 00:07:16,000
+This table also includes
+two SpanFromAbove entries,
+
+188
+00:07:16,000 --> 00:07:18,800
+which are there to generate
+the two items in the first column
+
+189
+00:07:18,800 --> 00:07:22,000
+that span more than one row.
+
+190
+00:07:22,000 --> 00:07:24,000
+That's the end of the examples
+for this section.
+
+191
+00:07:24,000 --> 00:07:25,500
+A good source
+for additional information
+
+192
+00:07:25,500 --> 00:07:27,800
+is the documentation
+for the Grid function
+
+193
+00:07:27,800 --> 00:07:29,600
+and related functions,
+
+194
+00:07:29,600 --> 00:07:32,800
+and especially this tutorial
+on grids, rows and columns.
+
+195
+00:07:32,800 --> 00:07:34,400
+And it is of course
+almost always useful
+
+196
+00:07:34,400 --> 00:07:36,300
+to just construct a generic table
+
+197
+00:07:36,300 --> 00:07:39,000
+and try these things out
+for yourself.
+

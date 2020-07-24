@@ -1,0 +1,713 @@
+﻿1
+00:00:00,800 --> 00:00:02,800
+This section of Introduction
+to Wolfram Notebooks
+
+2
+00:00:02,800 --> 00:00:05,000
+is about notebook features
+for entering programs
+
+3
+00:00:05,000 --> 00:00:07,000
+and for making programs
+more readable.
+
+4
+00:00:07,000 --> 00:00:08,000
+As a simple example,
+
+5
+00:00:08,000 --> 00:00:11,000
+here is a short program
+based on the manipulate function
+
+6
+00:00:11,000 --> 00:00:13,000
+and as this program
+is being entered,
+
+7
+00:00:13,000 --> 00:00:15,500
+mismatched brackets
+and incomplete command names
+
+8
+00:00:15,500 --> 00:00:18,200
+and anything else that is
+even temporarily, a syntax error
+
+9
+00:00:18,200 --> 00:00:20,000
+is shown in a different color.
+
+10
+00:00:20,000 --> 00:00:23,300
+This particular program gives
+a slider for adjusting a parameter
+
+11
+00:00:23,300 --> 00:00:26,000
+in an image processing operation.
+
+12
+00:00:26,000 --> 00:00:27,000
+A good way to check
+
+13
+00:00:27,000 --> 00:00:29,300
+that a program like this
+has been entered correctly
+
+14
+00:00:29,300 --> 00:00:30,900
+is to look for anything
+that is displayed
+
+15
+00:00:30,900 --> 00:00:32,500
+in a color other than black.
+
+16
+00:00:32,500 --> 00:00:34,000
+Any name that doesn't
+have a definition
+
+17
+00:00:34,000 --> 00:00:35,400
+is shown in a different color.
+
+18
+00:00:35,400 --> 00:00:38,500
+So for example, if the name of
+a command is spelled incorrectly,
+
+19
+00:00:38,500 --> 00:00:40,600
+like the name in this example,
+
+20
+00:00:40,600 --> 00:00:43,500
+that name will be shown
+in a different color.
+
+21
+00:00:43,500 --> 00:00:45,600
+Color is also used to show
+a syntax errors.
+
+22
+00:00:45,600 --> 00:00:47,800
+For example, the unmatched
+brackets in this input
+
+23
+00:00:47,800 --> 00:00:50,300
+are shown in a different color.
+
+24
+00:00:50,300 --> 00:00:51,300
+You can use notebook options
+
+25
+00:00:51,300 --> 00:00:53,300
+to make the different colors
+easier to see.
+
+26
+00:00:53,300 --> 00:00:56,300
+For example, here is that
+notebook with option settings
+
+27
+00:00:56,300 --> 00:00:57,600
+to show local variables,
+
+28
+00:00:57,600 --> 00:00:59,500
+like the variable r
+in the Manipulate function,
+
+29
+00:00:59,500 --> 00:01:00,800
+in bright green,
+
+30
+00:01:00,800 --> 00:01:03,500
+undefined names, like
+the incomplete name shown here,
+
+31
+00:01:03,500 --> 00:01:06,200
+in large underlined
+magenta characters;
+
+32
+00:01:06,200 --> 00:01:10,000
+and syntax errors,
+like unmatched brackets, in red.
+
+33
+00:01:10,000 --> 00:01:11,500
+There are several
+tools specifically
+
+34
+00:01:11,500 --> 00:01:13,500
+to help with getting all
+of the brackets and braces
+
+35
+00:01:13,500 --> 00:01:15,500
+and other delimiters to match up.
+
+36
+00:01:15,500 --> 00:01:17,300
+For example,
+when a closing delimiter
+
+37
+00:01:17,300 --> 00:01:19,000
+such as a closing bracket
+is entered,
+
+38
+00:01:19,000 --> 00:01:22,000
+the opening delimiter flashes
+briefly to indicate the matching.
+
+39
+00:01:22,000 --> 00:01:25,300
+So in this input, as soon as
+the closing bracket is entered,
+
+40
+00:01:25,300 --> 00:01:27,200
+the opening bracket
+flashes briefly
+
+41
+00:01:27,200 --> 00:01:29,500
+and the color changes to black.
+
+42
+00:01:29,500 --> 00:01:30,650
+Here is that same input
+
+43
+00:01:30,650 --> 00:01:32,600
+with the colors
+set back to their defaults,
+
+44
+00:01:32,600 --> 00:01:35,500
+which again shows the opening
+delimiters flashing briefly
+
+45
+00:01:35,500 --> 00:01:38,800
+as soon as the closing delimiters
+are entered.
+
+46
+00:01:38,800 --> 00:01:40,500
+Another way to find
+matching brackets
+
+47
+00:01:40,500 --> 00:01:42,800
+is to click anywhere
+between matching brackets,
+
+48
+00:01:42,800 --> 00:01:45,000
+which causes the nearest
+enclosing brackets
+
+49
+00:01:45,000 --> 00:01:48,000
+to be highlighted.
+
+50
+00:01:48,000 --> 00:01:51,300
+A similar feature is the Check
+Balance item under the Edit menu.
+
+51
+00:01:51,300 --> 00:01:54,000
+Positioning the cursor anywhere
+between matching delimiters
+
+52
+00:01:54,000 --> 00:01:56,800
+and choosing Check Balance,
+or the keyboard shortcut,
+
+53
+00:01:56,800 --> 00:01:59,000
+has the effect of selecting
+everything between
+
+54
+00:01:59,000 --> 00:02:01,300
+and including
+the matching delimiters.
+
+55
+00:02:01,300 --> 00:02:04,000
+Choosing Check Balance again
+expands the selection out
+
+56
+00:02:04,000 --> 00:02:08,000
+to the next nearest
+enclosing delimiters.
+
+57
+00:02:08,000 --> 00:02:10,000
+Another related feature
+is repeated clicking,
+
+58
+00:02:10,000 --> 00:02:12,000
+which can be used
+to select subexpressions.
+
+59
+00:02:12,000 --> 00:02:15,000
+For example, double-clicking
+the EdgeDetect command,
+
+60
+00:02:15,000 --> 00:02:17,800
+selects the command name
+and clicking three times
+
+61
+00:02:17,800 --> 00:02:18,800
+selects the command
+
+62
+00:02:18,800 --> 00:02:22,000
+as well as the arguments
+and the enclosing square brackets.
+
+63
+00:02:22,000 --> 00:02:23,700
+In this example,
+clicking four times
+
+64
+00:02:23,700 --> 00:02:26,200
+selects the arguments
+of the Manipulate command
+
+65
+00:02:26,200 --> 00:02:30,000
+and clicking five or more times
+selects the entire input.
+
+66
+00:02:30,000 --> 00:02:31,800
+These features for finding
+subexpressions
+
+67
+00:02:31,800 --> 00:02:32,600
+and matching brackets
+
+68
+00:02:32,600 --> 00:02:35,300
+are especially useful for commands
+that are many lines long,
+
+69
+00:02:35,300 --> 00:02:37,800
+where it can be difficult to locate
+the beginning and the end
+
+70
+00:02:37,800 --> 00:02:40,300
+of a command.
+
+71
+00:02:40,300 --> 00:02:42,600
+There are also several ways
+of using formatting
+
+72
+00:02:42,600 --> 00:02:44,000
+to help with getting
+the syntax right
+
+73
+00:02:44,000 --> 00:02:46,600
+and to improve
+the readability of programs.
+
+74
+00:02:46,600 --> 00:02:48,100
+A traditional method
+that has been used
+
+75
+00:02:48,100 --> 00:02:49,950
+since the early days
+of computer programming
+
+76
+00:02:49,950 --> 00:02:51,000
+is indentation.
+
+77
+00:02:51,000 --> 00:02:53,800
+For example, that program
+could be formatted like this,
+
+78
+00:02:53,800 --> 00:02:58,300
+which puts matching delimiters
+at similar levels of indentation.
+
+79
+00:02:58,300 --> 00:02:59,300
+Another formatting tool
+
+80
+00:02:59,300 --> 00:03:01,300
+is conventional
+mathematical notation,
+
+81
+00:03:01,300 --> 00:03:03,800
+which can be useful
+in programs that include
+
+82
+00:03:03,800 --> 00:03:05,300
+any sort of mathematics.
+
+83
+00:03:05,300 --> 00:03:07,800
+For example, here is an input
+to the Erosion function
+
+84
+00:03:07,800 --> 00:03:09,500
+where the second argument
+is a matrix.
+
+85
+00:03:09,500 --> 00:03:12,300
+But rather than showing
+the matrix in a linear form,
+
+86
+00:03:12,300 --> 00:03:14,800
+with nested curly braces
+as in this input,
+
+87
+00:03:14,800 --> 00:03:17,800
+that matrix can be shown in
+traditional mathematical notation
+
+88
+00:03:17,800 --> 00:03:20,500
+by selecting the Cell
+and choosing TraditionalForm
+
+89
+00:03:20,500 --> 00:03:23,000
+from the Convert To submenu
+under the Cell menu,
+
+90
+00:03:23,000 --> 00:03:27,750
+which makes that part of the input
+more recognizable as a matrix.
+
+91
+00:03:27,750 --> 00:03:28,900
+Here is another example,
+
+92
+00:03:28,900 --> 00:03:32,000
+this time involving a program
+from signal processing.
+
+93
+00:03:32,000 --> 00:03:34,600
+A key detail of this program
+is this bit of mathematics,
+
+94
+00:03:34,600 --> 00:03:37,800
+which is entered here
+in linear programming notation,
+
+95
+00:03:37,800 --> 00:03:39,800
+but which can be made
+more recognizable
+
+96
+00:03:39,800 --> 00:03:42,000
+by formatting that formula
+as a fraction
+
+97
+00:03:42,000 --> 00:03:44,500
+using either StandardForm
+or TraditionalForm
+
+98
+00:03:44,500 --> 00:03:47,500
+from the Convert To menu.
+
+99
+00:03:47,500 --> 00:03:50,500
+One other formatting tool that
+can be useful in larger programs,
+
+100
+00:03:50,500 --> 00:03:52,500
+especially programs
+much larger than this one,
+
+101
+00:03:52,500 --> 00:03:55,000
+is to iconize parts
+of the program.
+
+102
+00:03:55,000 --> 00:03:57,500
+For example, that mathematical
+formula can be replaced
+
+103
+00:03:57,500 --> 00:03:59,300
+by what is basically
+a labeled button
+
+104
+00:03:59,300 --> 00:04:01,800
+by using the iconize function.
+
+105
+00:04:01,800 --> 00:04:04,400
+The iconize form
+can be copied and pasted
+
+106
+00:04:04,400 --> 00:04:05,500
+like any other expression,
+
+107
+00:04:05,500 --> 00:04:09,400
+and in a program it behaves
+just like the original expression.
+
+108
+00:04:09,400 --> 00:04:11,900
+You can also iconize
+selections in a program.
+
+109
+00:04:11,900 --> 00:04:15,000
+For example, in this program
+you can triple click the name
+
+110
+00:04:15,000 --> 00:04:16,000
+of the plotting function
+
+111
+00:04:16,000 --> 00:04:18,800
+to select the part of this program
+that generates the plot
+
+112
+00:04:18,800 --> 00:04:21,000
+and then choose
+Iconize Selection
+
+113
+00:04:21,000 --> 00:04:25,800
+under the Edit menu to replace
+that selection with an icon.
+
+114
+00:04:25,800 --> 00:04:28,500
+There is also a keyboard shortcut
+for iconizing a selection,
+
+115
+00:04:28,500 --> 00:04:31,000
+and on many platforms
+there is a context menu
+
+116
+00:04:31,000 --> 00:04:33,300
+for selections
+that can be opened,
+
+117
+00:04:33,300 --> 00:04:37,000
+typically by ALT clicking or
+CONTROL clicking on a selection.
+
+118
+00:04:37,000 --> 00:04:39,300
+For example, after selecting part
+of the program,
+
+119
+00:04:39,300 --> 00:04:42,000
+this shows that context menu
+for the selection,
+
+120
+00:04:42,000 --> 00:04:45,800
+which includes Iconize
+as one of the items in the menu.
+
+121
+00:04:45,800 --> 00:04:48,300
+In a program with expressions
+that have already been iconized,
+
+122
+00:04:48,300 --> 00:04:50,600
+there are several ways to see
+the original expressions,
+
+123
+00:04:50,600 --> 00:04:52,200
+one of which
+is to click the button
+
+124
+00:04:52,200 --> 00:04:55,000
+with the plus sign
+in the iconize form
+
+125
+00:04:55,000 --> 00:04:57,400
+and choose Uniconize.
+
+126
+00:04:57,400 --> 00:04:59,500
+As already noted,
+iconized forms like this
+
+127
+00:04:59,500 --> 00:05:01,500
+are especially useful
+for larger programs,
+
+128
+00:05:01,500 --> 00:05:04,000
+where the iconized forms
+provide a nice way to manage
+
+129
+00:05:04,000 --> 00:05:08,300
+long blocks of code,
+as small labeled pieces.
+
+130
+00:05:08,300 --> 00:05:10,100
+There are many other features
+to help with programming
+
+131
+00:05:10,100 --> 00:05:13,300
+that go beyond the features
+that were covered in the section.
+
+132
+00:05:13,300 --> 00:05:15,000
+Often just clicking a button
+that pops up
+
+133
+00:05:15,000 --> 00:05:17,000
+is a good way
+to find useful features.
+
+134
+00:05:17,000 --> 00:05:19,700
+For example, the error message
+from this input
+
+135
+00:05:19,700 --> 00:05:22,000
+gives a button that you can click
+to open a Stack Trace
+
+136
+00:05:22,000 --> 00:05:24,400
+to see where
+the message came from,
+
+137
+00:05:24,400 --> 00:05:27,300
+which can be useful
+for debugging.
+
+138
+00:05:27,300 --> 00:05:30,000
+Also the focus in this section
+is on Wolfram Notebooks,
+
+139
+00:05:30,000 --> 00:05:31,500
+but there are
+many programming tools
+
+140
+00:05:31,500 --> 00:05:34,000
+that are part of the underlying
+computation engine.
+
+141
+00:05:34,000 --> 00:05:36,400
+For example,
+the Echo function in this input
+
+142
+00:05:36,400 --> 00:05:40,800
+shows an easy way to monitor
+the progress of a calculation.
+
+143
+00:05:40,800 --> 00:05:43,000
+That's the end of the examples
+for this section.
+
+144
+00:05:43,000 --> 00:05:44,800
+For the features that were
+covered in this section,
+
+145
+00:05:44,800 --> 00:05:47,500
+you can find more information
+in the Wolfram Documentation,
+
+146
+00:05:47,500 --> 00:05:50,300
+and in particular, you can find
+more information about syntax,
+
+147
+00:05:50,300 --> 00:05:53,000
+coloring, bracket matching
+and related topics
+
+148
+00:05:53,000 --> 00:05:57,000
+in this tutorial on using
+the Input Assistant.
+

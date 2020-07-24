@@ -1,0 +1,800 @@
+﻿1
+00:00:00,500 --> 00:00:03,400
+Welcome to this short introduction
+to Wolfram Notebooks.
+
+2
+00:00:03,400 --> 00:00:06,000
+Wolfram Notebooks
+were first released in 1988,
+
+3
+00:00:06,000 --> 00:00:08,500
+as the user interface
+for Wolfram Language systems.
+
+4
+00:00:08,500 --> 00:00:10,500
+So, a typical
+Wolfram Language session
+
+5
+00:00:10,500 --> 00:00:11,500
+might look something like this,
+
+6
+00:00:11,500 --> 00:00:15,000
+with inputs and outputs displayed
+in a notebook window.
+
+7
+00:00:15,000 --> 00:00:16,700
+Wolfram Notebooks
+have always been much more
+
+8
+00:00:16,700 --> 00:00:18,500
+than just a user interface though.
+
+9
+00:00:18,500 --> 00:00:20,000
+In addition to inputs and outputs,
+
+10
+00:00:20,000 --> 00:00:22,300
+the notebook can include
+headings and comments,
+
+11
+00:00:22,300 --> 00:00:23,000
+as shown here,
+
+12
+00:00:23,500 --> 00:00:25,500
+as well as project information
+and hyperlinks
+
+13
+00:00:25,500 --> 00:00:28,000
+and anything else that you
+might want put in the document.
+
+14
+00:00:28,800 --> 00:00:30,000
+Here is a more finished notebook,
+
+15
+00:00:30,000 --> 00:00:32,300
+with notes and tables
+and interactive features
+
+16
+00:00:32,300 --> 00:00:33,500
+like buttons and sliders,
+
+17
+00:00:33,500 --> 00:00:36,000
+all organized into sections
+and subsections.
+
+18
+00:00:36,500 --> 00:00:38,000
+A Wolfram Notebook like this is
+
+19
+00:00:38,000 --> 00:00:41,700
+uniquely itself, a programmable
+Wolfram Language expression.
+
+20
+00:00:41,700 --> 00:00:44,400
+It can be saved to the cloud
+for viewing in a web browser
+
+21
+00:00:44,400 --> 00:00:46,700
+or formatted
+as a slide presentation
+
+22
+00:00:46,700 --> 00:00:49,000
+or shared as a standalone
+electronic document
+
+23
+00:00:49,000 --> 00:00:50,500
+or viewed on mobile devices.
+
+24
+00:00:50,500 --> 00:00:52,600
+And a Wolfram Notebook
+can be created
+
+25
+00:00:52,600 --> 00:00:55,300
+and edited programmatically
+from the Wolfram Language,
+
+26
+00:00:55,300 --> 00:00:57,300
+which enables a broad range
+of applications,
+
+27
+00:00:57,300 --> 00:00:59,500
+like generating
+rich reports automatically
+
+28
+00:00:59,500 --> 00:01:02,200
+or even saving notebooks
+as expressions in a blockchain,
+
+29
+00:01:02,200 --> 00:01:03,800
+for a computational contracts.
+
+30
+00:01:04,800 --> 00:01:08,000
+To see a few details of how
+all of these features come together,
+
+31
+00:01:08,000 --> 00:01:11,000
+consider a project that starts
+with an empty notebook.
+
+32
+00:01:11,000 --> 00:01:13,800
+This first input imports
+some data related to earthquakes,
+
+33
+00:01:13,800 --> 00:01:17,500
+and this next input
+organizes that data into a dataset.
+
+34
+00:01:18,000 --> 00:01:21,000
+There are a variety of aids
+to help with getting the syntax right
+
+35
+00:01:21,000 --> 00:01:23,000
+when entering these inputs.
+
+36
+00:01:23,000 --> 00:01:24,800
+This next input will give a plot
+
+37
+00:01:24,800 --> 00:01:27,400
+of the geographic locations
+of earthquakes.
+
+38
+00:01:27,400 --> 00:01:29,500
+And as this input
+is being entered,
+
+39
+00:01:29,500 --> 00:01:31,000
+unmatched brackets
+and quote marks
+
+40
+00:01:31,000 --> 00:01:32,500
+are shown in a different color,
+
+41
+00:01:32,500 --> 00:01:35,500
+and different types of keywords
+are shown in different colors.
+
+42
+00:01:35,500 --> 00:01:38,300
+And for longer programs,
+there are other programming aids
+
+43
+00:01:38,300 --> 00:01:41,400
+like automatic line breaking
+and so on.
+
+44
+00:01:41,400 --> 00:01:43,300
+This shows another one
+of those programming aids
+
+45
+00:01:43,300 --> 00:01:46,000
+called command completion,
+which displays a menu of choices,
+
+46
+00:01:46,000 --> 00:01:49,000
+given the first few letters
+in the name of a function.
+
+47
+00:01:49,000 --> 00:01:50,600
+And after the function is chosen,
+
+48
+00:01:50,600 --> 00:01:52,500
+you can bring up a menu
+of function templates
+
+49
+00:01:52,500 --> 00:01:54,300
+for the arguments
+of the function.
+
+50
+00:01:54,300 --> 00:01:57,000
+This input gives a histogram
+of earthquake magnitudes.
+
+51
+00:01:58,500 --> 00:02:00,700
+Before a project like this
+gets very far along,
+
+52
+00:02:00,700 --> 00:02:03,800
+it can be useful to include notes
+and background information
+
+53
+00:02:03,800 --> 00:02:06,500
+to describe, say,
+an overview of the project,
+
+54
+00:02:06,500 --> 00:02:09,700
+or to give details about
+what each calculation is doing.
+
+55
+00:02:09,700 --> 00:02:11,400
+Notes like that, can be inserted
+
+56
+00:02:11,400 --> 00:02:13,500
+by clicking anywhere
+between the inputs and outputs,
+
+57
+00:02:13,500 --> 00:02:17,000
+and entering text, much as
+you might do in any text editor.
+
+58
+00:02:17,000 --> 00:02:19,000
+You can indicate
+that you are entering text
+
+59
+00:02:19,000 --> 00:02:21,000
+by choosing Text
+from the Style submenu,
+
+60
+00:02:21,000 --> 00:02:22,400
+under the format menu
+
+61
+00:02:22,400 --> 00:02:24,800
+or by using the equivalent
+keyboard shortcut.
+
+62
+00:02:25,700 --> 00:02:27,800
+Eventually the notebook
+can become large enough
+
+63
+00:02:27,800 --> 00:02:30,000
+that it is useful
+to add some organization.
+
+64
+00:02:30,000 --> 00:02:31,800
+There are several ways
+of doing that.
+
+65
+00:02:31,800 --> 00:02:33,700
+Here I will start
+by entering a title
+
+66
+00:02:33,700 --> 00:02:37,000
+and then a section heading,
+at the start of each new topic.
+
+67
+00:02:37,700 --> 00:02:39,500
+Section headings
+are added much like text,
+
+68
+00:02:39,500 --> 00:02:41,700
+by clicking where you want
+to put a heading
+
+69
+00:02:41,700 --> 00:02:44,800
+and choosing Section from the
+Style submenu of the format menu
+
+70
+00:02:44,800 --> 00:02:48,000
+or by using the equivalent
+keyboard shortcut.
+
+71
+00:02:48,000 --> 00:02:51,500
+A key feature of notebooks is that
+notebooks are structured documents,
+
+72
+00:02:51,500 --> 00:02:55,300
+where everything in the notebook
+is organized into units called cells.
+
+73
+00:02:55,300 --> 00:02:56,800
+There are many different
+types of cells.
+
+74
+00:02:56,800 --> 00:02:58,500
+Inputs are shown in input cells.
+
+75
+00:02:58,500 --> 00:03:00,800
+Outputs are shown
+in output cells.
+
+76
+00:03:00,800 --> 00:03:02,500
+Text is shown in text cells.
+
+77
+00:03:02,500 --> 00:03:05,500
+Section headings are shown
+in section cells and so on.
+
+78
+00:03:06,000 --> 00:03:08,000
+Cells are typically identified
+by cell brackets,
+
+79
+00:03:08,000 --> 00:03:10,800
+near the right edge
+of the notebook window.
+
+80
+00:03:10,800 --> 00:03:12,000
+Cells can also be nested.
+
+81
+00:03:12,000 --> 00:03:14,000
+So, for example,
+there is a cell bracket
+
+82
+00:03:14,000 --> 00:03:17,000
+that groups each input
+with the corresponding output.
+
+83
+00:03:17,000 --> 00:03:19,000
+And in this notebook,
+for each section heading
+
+84
+00:03:19,000 --> 00:03:21,300
+there is an outer bracket
+that automatically groups
+
+85
+00:03:21,300 --> 00:03:25,000
+the section heading
+with all of the cells in that section.
+
+86
+00:03:25,000 --> 00:03:26,800
+Returning now to the top
+of the notebook,
+
+87
+00:03:26,800 --> 00:03:28,500
+one useful feature
+of grouped cells
+
+88
+00:03:28,500 --> 00:03:30,500
+is that cell groups
+can be opened and closed.
+
+89
+00:03:30,500 --> 00:03:32,900
+For example,
+double-clicking on
+
+90
+00:03:32,900 --> 00:03:35,000
+the outer section cell bracket
+in this notebook
+
+91
+00:03:35,000 --> 00:03:38,000
+closes the section cells
+to show only the section headings,
+
+92
+00:03:38,000 --> 00:03:41,000
+which gives this outline overview
+of the notebook.
+
+93
+00:03:41,000 --> 00:03:43,300
+For many projects,
+it is convenient to start
+
+94
+00:03:43,300 --> 00:03:46,200
+with an outline like this
+and then proceed with the project
+
+95
+00:03:46,200 --> 00:03:49,000
+by entering content
+within that outline.
+
+96
+00:03:49,000 --> 00:03:51,000
+Closed cells can be reopened
+
+97
+00:03:51,000 --> 00:03:53,000
+by double-clicking
+on the same cell bracket
+
+98
+00:03:53,000 --> 00:03:56,000
+or by clicking this icon
+in the heading of the closed cell.
+
+99
+00:03:57,500 --> 00:03:59,800
+Notebooks support
+many other formatting features.
+
+100
+00:03:59,800 --> 00:04:03,500
+So far, this notebook has only
+been shown with the default styles.
+
+101
+00:04:03,500 --> 00:04:06,000
+But the notebook can be displayed
+in a variety of formats
+
+102
+00:04:06,000 --> 00:04:07,800
+by choosing from
+different stylesheets,
+
+103
+00:04:07,800 --> 00:04:11,500
+like the ones shown here,
+or by setting up your own styles.
+
+104
+00:04:12,000 --> 00:04:13,700
+Another important feature
+of notebooks
+
+105
+00:04:13,700 --> 00:04:15,500
+is support
+for mathematical typesetting,
+
+106
+00:04:15,500 --> 00:04:19,800
+which is useful for projects that
+involve any sort of mathematics.
+
+107
+00:04:19,800 --> 00:04:22,000
+The default mathematical typesetting
+will look more like this,
+
+108
+00:04:22,000 --> 00:04:24,500
+with slightly different typeface
+and formatting,
+
+109
+00:04:24,500 --> 00:04:26,000
+which has some advantages,
+
+110
+00:04:26,000 --> 00:04:27,800
+or there are options
+to make the display
+
+111
+00:04:27,800 --> 00:04:31,000
+look more like what you might find
+in a traditional textbook.
+
+112
+00:04:31,500 --> 00:04:34,000
+All of this is fully integrated
+with the rest of the system,
+
+113
+00:04:34,000 --> 00:04:38,000
+and can be used for input or output
+or anywhere else in a notebook.
+
+114
+00:04:38,000 --> 00:04:40,500
+You can also create tables
+and itemized lists
+
+115
+00:04:40,500 --> 00:04:41,800
+and automatic numbering
+
+116
+00:04:41,800 --> 00:04:43,500
+and other structures
+that you might expect to find
+
+117
+00:04:43,500 --> 00:04:46,500
+in a modern typesetting system.
+
+118
+00:04:46,500 --> 00:04:48,400
+Notebooks also support
+interactive controls,
+
+119
+00:04:48,400 --> 00:04:49,700
+like buttons and sliders.
+
+120
+00:04:49,700 --> 00:04:52,600
+Here, for example, is a display
+that provides sliders
+
+121
+00:04:52,600 --> 00:04:54,800
+for selecting a range
+of earthquake magnitudes
+
+122
+00:04:54,800 --> 00:04:57,000
+and buttons for selecting
+the year.
+
+123
+00:04:57,000 --> 00:05:00,000
+Controls like these can be used
+to set up interactive documents
+
+124
+00:05:00,000 --> 00:05:02,500
+so that anyone using the notebook
+can explore data
+
+125
+00:05:02,500 --> 00:05:05,000
+or choose the content
+that they want to see
+
+126
+00:05:05,000 --> 00:05:07,000
+or even control
+complicated calculations
+
+127
+00:05:07,000 --> 00:05:08,500
+right from within the notebook.
+
+128
+00:05:09,800 --> 00:05:11,500
+As noted earlier,
+there are a number of ways
+
+129
+00:05:11,500 --> 00:05:14,000
+of sharing notebooks
+or saving notebooks to the cloud.
+
+130
+00:05:14,000 --> 00:05:17,000
+Under the File menu,
+you can choose save to cloud
+
+131
+00:05:17,000 --> 00:05:19,000
+and then reload the notebook
+from the cloud,
+
+132
+00:05:19,000 --> 00:05:22,000
+or here I will choose
+publish to cloud,
+
+133
+00:05:22,000 --> 00:05:25,000
+which saves a notebook that
+can be viewed in any web browser.
+
+134
+00:05:25,500 --> 00:05:27,000
+This shows that notebook
+in a web browser,
+
+135
+00:05:27,000 --> 00:05:29,000
+where the notebook
+looks and behaves
+
+136
+00:05:29,000 --> 00:05:30,500
+much like the original notebook,
+
+137
+00:05:30,500 --> 00:05:33,000
+including all
+of the interactive features.
+
+138
+00:05:33,000 --> 00:05:35,000
+So, this is a dynamic document.
+
+139
+00:05:36,300 --> 00:05:38,500
+Notebooks can also be shared
+just as they are,
+
+140
+00:05:38,500 --> 00:05:39,700
+as electronic documents,
+
+141
+00:05:39,700 --> 00:05:41,800
+and viewed using any
+Wolfram Language system,
+
+142
+00:05:41,800 --> 00:05:44,600
+or using the free
+Wolfram Notebook player.
+
+143
+00:05:44,600 --> 00:05:47,000
+This shows that notebook viewed
+in the Wolfram Player,
+
+144
+00:05:47,000 --> 00:05:50,000
+which again behaves much like
+the original notebook,
+
+145
+00:05:50,000 --> 00:05:53,400
+except for a different border
+around the window.
+
+146
+00:05:53,400 --> 00:05:54,500
+With a few clicks of the mouse,
+
+147
+00:05:54,500 --> 00:05:57,000
+this notebook can also
+be converted to a slideshow,
+
+148
+00:05:57,000 --> 00:05:59,300
+with each section
+in a separate slide.
+
+149
+00:05:59,300 --> 00:06:00,500
+For this notebook,
+that can be done
+
+150
+00:06:00,500 --> 00:06:04,200
+by setting the style sheet
+to a PresenterTools style,
+
+151
+00:06:04,200 --> 00:06:07,000
+and then setting the screen
+environment to Slideshow Working,
+
+152
+00:06:07,000 --> 00:06:10,300
+to access the tools
+for editing the presentation.
+
+153
+00:06:10,300 --> 00:06:12,500
+One of those tools
+brings up this dialog box
+
+154
+00:06:12,500 --> 00:06:14,300
+to get a separate slide
+for each section.
+
+155
+00:06:14,300 --> 00:06:17,700
+Then click Start Presentation
+to show the slides.
+
+156
+00:06:17,700 --> 00:06:20,800
+All of the editing and interactive
+features work in the presentation
+
+157
+00:06:20,800 --> 00:06:23,800
+just as they do
+in the original notebook.
+
+158
+00:06:23,800 --> 00:06:25,000
+So basically, Wolfram Notebooks
+
+159
+00:06:25,000 --> 00:06:28,000
+provide a system for organizing
+projects and collaboration,
+
+160
+00:06:28,000 --> 00:06:31,500
+all the way from initial concept
+through to distribution of reports
+
+161
+00:06:31,500 --> 00:06:33,500
+or presentations
+or sharing in the cloud
+
+162
+00:06:33,500 --> 00:06:37,000
+or even as Wolfram Language
+expressions embedded in code.
+
+163
+00:06:37,700 --> 00:06:38,700
+There is much more to be said
+
+164
+00:06:38,700 --> 00:06:41,000
+about all of the features
+that came up in this short video.
+
+165
+00:06:41,000 --> 00:06:44,400
+You can find more information
+in online documentation
+
+166
+00:06:44,400 --> 00:06:47,000
+or in other videos
+on Wolfram Notebooks.
+

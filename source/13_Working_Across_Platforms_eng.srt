@@ -1,0 +1,941 @@
+﻿1
+00:00:02,000 --> 00:00:04,000
+This section of Introduction
+to Wolfram Notebooks
+
+2
+00:00:04,000 --> 00:00:06,500
+is about using notebooks
+on different platforms,
+
+3
+00:00:06,500 --> 00:00:08,800
+especially in the cloud
+and on mobile devices
+
+4
+00:00:08,800 --> 00:00:11,000
+like tablets and smartphones.
+
+5
+00:00:11,000 --> 00:00:13,500
+For example, here is a notebook
+shown on a tablet computer
+
+6
+00:00:13,500 --> 00:00:16,700
+and displayed using
+the free Wolfram Player app.
+
+7
+00:00:16,700 --> 00:00:18,600
+With this app you can
+scroll through the notebook
+
+8
+00:00:18,600 --> 00:00:20,000
+and open and close cells
+
+9
+00:00:20,000 --> 00:00:22,600
+by double tapping
+on cell grouping brackets,
+
+10
+00:00:22,600 --> 00:00:24,500
+much as in Wolfram Desktop.
+
+11
+00:00:24,500 --> 00:00:27,200
+And the notebook
+can also be a dynamic document,
+
+12
+00:00:27,200 --> 00:00:30,300
+so for example, you can adjust
+the controls of dynamic content
+
+13
+00:00:30,300 --> 00:00:33,800
+like the buttons and the slider
+in this Manipulate result.
+
+14
+00:00:33,800 --> 00:00:36,000
+The interactive controls
+in the Wolfram Player app
+
+15
+00:00:36,000 --> 00:00:37,400
+are shown at the bottom
+of the screen,
+
+16
+00:00:37,400 --> 00:00:40,100
+which is done because
+the controls on a mobile device
+
+17
+00:00:40,100 --> 00:00:42,000
+are typically manipulated
+using finger taps
+
+18
+00:00:42,000 --> 00:00:45,100
+rather than with a mouse,
+and fingers can block the display.
+
+19
+00:00:45,100 --> 00:00:47,200
+So having the controls
+at the bottom of the screen
+
+20
+00:00:47,200 --> 00:00:49,500
+can make it easier
+to see the display
+
+21
+00:00:49,500 --> 00:00:52,600
+and operate the controls
+at the same time.
+
+22
+00:00:52,600 --> 00:00:55,200
+To create or edit a notebook,
+instead of Wolfram Player,
+
+23
+00:00:55,200 --> 00:00:57,000
+you can use
+the Wolfram Cloud app.
+
+24
+00:00:57,000 --> 00:00:59,000
+For example, this shows
+that same notebook
+
+25
+00:00:59,000 --> 00:01:00,500
+in the Wolfram Cloud app,
+
+26
+00:01:00,500 --> 00:01:03,500
+which includes controls
+for editing the notebook.
+
+27
+00:01:03,500 --> 00:01:06,800
+Those controls are used here
+for inserting a new Text cell.
+
+28
+00:01:06,800 --> 00:01:10,500
+Editing will be described
+in more detail in a moment.
+
+29
+00:01:10,500 --> 00:01:12,400
+The Wolfram Player
+and the Wolfram Cloud apps
+
+30
+00:01:12,400 --> 00:01:13,900
+also work on smartphones.
+
+31
+00:01:13,900 --> 00:01:15,800
+Here, for example,
+is that notebook
+
+32
+00:01:15,800 --> 00:01:18,700
+on a smartphone,
+using the Wolfram Player app.
+
+33
+00:01:18,700 --> 00:01:20,400
+Except for the size
+of the screen,
+
+34
+00:01:20,400 --> 00:01:22,700
+the display works
+much as it does on the tablet,
+
+35
+00:01:22,700 --> 00:01:27,000
+including dynamic content
+like buttons and sliders.
+
+36
+00:01:27,000 --> 00:01:29,800
+Notebooks can also be displayed
+and edited in a web browser
+
+37
+00:01:29,800 --> 00:01:31,800
+on any computer that is connected
+to the internet
+
+38
+00:01:31,800 --> 00:01:33,600
+or to a suitable cloud.
+
+39
+00:01:33,600 --> 00:01:36,100
+For example, this shows
+that notebook in a web browser
+
+40
+00:01:36,100 --> 00:01:38,000
+on a desktop computer
+through a web page
+
+41
+00:01:38,000 --> 00:01:41,650
+that is logged into
+a free Wolfram Cloud account.
+
+42
+00:01:41,650 --> 00:01:43,600
+Interactive controls
+work here as well
+
+43
+00:01:43,600 --> 00:01:45,400
+and the notebook can be edited,
+
+44
+00:01:45,400 --> 00:01:50,200
+such as adding a new text cell,
+and you can do calculations.
+
+45
+00:01:50,200 --> 00:01:52,000
+And of course
+the notebook can also be shown
+
+46
+00:01:52,000 --> 00:01:54,000
+in an ordinary
+desktop application.
+
+47
+00:01:54,000 --> 00:01:56,400
+This, for example,
+shows that notebook
+
+48
+00:01:56,400 --> 00:02:00,000
+on a desktop computer
+running Wolfram Desktop.
+
+49
+00:02:00,000 --> 00:02:01,100
+The underlying notebook file
+
+50
+00:02:01,100 --> 00:02:02,900
+is the same on all
+of these platforms,
+
+51
+00:02:02,900 --> 00:02:04,800
+on a mobile device
+or in a web browser
+
+52
+00:02:04,800 --> 00:02:06,100
+or on the desktop,
+
+53
+00:02:06,100 --> 00:02:08,800
+and the same notebook
+can be opened in any platform.
+
+54
+00:02:08,800 --> 00:02:11,500
+For example, starting with
+this notebook on the desktop,
+
+55
+00:02:11,500 --> 00:02:13,200
+you can choose Save to Cloud
+
+56
+00:02:13,200 --> 00:02:15,800
+to save the notebook
+in a cloud account.
+
+57
+00:02:15,800 --> 00:02:18,700
+If the desktop application
+is not already signed in
+
+58
+00:02:18,700 --> 00:02:21,700
+to Wolfram Cloud Account,
+you will be asked to sign in,
+
+59
+00:02:21,700 --> 00:02:23,300
+and after that
+you can choose a name
+
+60
+00:02:23,300 --> 00:02:26,800
+for saving the notebook
+in that account.
+
+61
+00:02:26,800 --> 00:02:27,800
+The notebook in the cloud
+
+62
+00:02:27,800 --> 00:02:29,600
+can be opened
+in any of these platforms.
+
+63
+00:02:29,600 --> 00:02:31,000
+For example,
+returning to the tablet,
+
+64
+00:02:31,000 --> 00:02:32,950
+after installing
+the Wolfram Player app
+
+65
+00:02:32,950 --> 00:02:34,950
+you can launch
+the app, which shows
+
+66
+00:02:34,950 --> 00:02:37,000
+the notebooks that are saved
+on this device,
+
+67
+00:02:37,000 --> 00:02:38,000
+but to see the notebook
+
+68
+00:02:38,000 --> 00:02:39,300
+that was just uploaded
+to the cloud,
+
+69
+00:02:39,300 --> 00:02:41,900
+you can tap the button in the
+upper-left corner of the screen
+
+70
+00:02:41,900 --> 00:02:45,100
+to open the side panel,
+tap Add Cloud Account
+
+71
+00:02:45,100 --> 00:02:48,900
+and use the dialog box
+to log into that cloud account.
+
+72
+00:02:48,900 --> 00:02:50,200
+The notebook that was
+just saved to the cloud
+
+73
+00:02:50,200 --> 00:02:52,200
+was saved in the home directory
+of that account,
+
+74
+00:02:52,200 --> 00:02:55,800
+so navigate to that directory
+and open the notebook.
+
+75
+00:02:55,800 --> 00:02:57,700
+There are buttons in the upper-
+right corner of this window
+
+76
+00:02:57,700 --> 00:02:59,800
+for various operations
+with this notebook.
+
+77
+00:02:59,800 --> 00:03:01,000
+Tapping the button
+with letters on it
+
+78
+00:03:01,000 --> 00:03:02,500
+opens a small dialog box
+
+79
+00:03:02,500 --> 00:03:05,600
+that is used here to make
+the display a little bit bigger,
+
+80
+00:03:05,600 --> 00:03:09,300
+which results in the display
+that was shown earlier.
+
+81
+00:03:09,300 --> 00:03:11,200
+This notebook currently exists
+in the cloud,
+
+82
+00:03:11,200 --> 00:03:13,100
+but you can also save
+the notebook locally
+
+83
+00:03:13,100 --> 00:03:15,400
+on this tablet computer
+by tapping this button
+
+84
+00:03:15,400 --> 00:03:17,000
+in the upper-right corner
+of the window,
+
+85
+00:03:17,000 --> 00:03:20,200
+which opens a dialog box
+with various choices.
+
+86
+00:03:20,200 --> 00:03:22,200
+To save the notebook
+on this tablet,
+
+87
+00:03:22,200 --> 00:03:24,800
+tap Save to Files,
+which opens a dialog box
+
+88
+00:03:24,800 --> 00:03:27,000
+for choosing where
+to save the notebook.
+
+89
+00:03:27,000 --> 00:03:28,500
+With the notebook saved
+on this tablet,
+
+90
+00:03:28,500 --> 00:03:30,000
+you could sign out
+of the cloud account
+
+91
+00:03:30,000 --> 00:03:31,500
+and even disconnect
+from the internet
+
+92
+00:03:31,500 --> 00:03:33,200
+and still view the notebook.
+
+93
+00:03:33,200 --> 00:03:35,300
+The basic programs for
+interacting with this notebook
+
+94
+00:03:35,300 --> 00:03:37,000
+are all running locally
+on this tablet,
+
+95
+00:03:37,000 --> 00:03:39,600
+which makes these operations
+significantly faster,
+
+96
+00:03:39,600 --> 00:03:42,800
+since it avoids the overhead
+of running over the internet,
+
+97
+00:03:42,800 --> 00:03:46,500
+and dynamic content like buttons
+and sliders will also work.
+
+98
+00:03:46,500 --> 00:03:48,500
+Working without being connected
+to the internet, of course,
+
+99
+00:03:48,500 --> 00:03:50,000
+requires that nothing
+in these operations
+
+100
+00:03:50,000 --> 00:03:53,500
+either directly or indirectly
+tries to access the internet.
+
+101
+00:03:53,500 --> 00:03:56,300
+In this particular notebook,
+the earthquake data, for example,
+
+102
+00:03:56,300 --> 00:03:59,700
+has to be included
+in the notebook.
+
+103
+00:03:59,700 --> 00:04:01,500
+To edit the notebook
+still on the tablet,
+
+104
+00:04:01,500 --> 00:04:04,000
+you can start by launching
+the Wolfram Cloud app.
+
+105
+00:04:04,000 --> 00:04:08,500
+After logging into the account,
+you can tap to open the notebook.
+
+106
+00:04:08,500 --> 00:04:09,600
+The display includes
+
+107
+00:04:09,600 --> 00:04:13,800
+the same font magnification
+button as the Wolfram Player app.
+
+108
+00:04:13,800 --> 00:04:15,500
+Editing the notebook
+to insert a new cell
+
+109
+00:04:15,500 --> 00:04:17,400
+starts much as it does
+on the desktop
+
+110
+00:04:17,400 --> 00:04:18,950
+by clicking, or in this case
+
+111
+00:04:18,950 --> 00:04:21,000
+tapping, to get
+a cell insertion bar,
+
+112
+00:04:21,000 --> 00:04:22,600
+which also brings up
+a row of buttons
+
+113
+00:04:22,600 --> 00:04:24,500
+at the bottom of the screen.
+
+114
+00:04:24,500 --> 00:04:26,950
+To enter a calculation,
+tap the Input cell button,
+
+115
+00:04:26,950 --> 00:04:29,000
+which creates a new Input cell
+
+116
+00:04:29,000 --> 00:04:30,500
+and also brings up
+a special keyboard
+
+117
+00:04:30,500 --> 00:04:32,400
+for entering input.
+
+118
+00:04:32,400 --> 00:04:34,000
+You can use the keyboard
+to enter the input
+
+119
+00:04:34,000 --> 00:04:37,700
+and then tap the evaluate button
+to do the calculation.
+
+120
+00:04:37,700 --> 00:04:38,900
+To get a Text cell,
+
+121
+00:04:38,900 --> 00:04:41,600
+tap the new cell button
+and choose Plain Text,
+
+122
+00:04:41,600 --> 00:04:44,100
+which creates a Text cell
+and opens a keyboard
+
+123
+00:04:44,100 --> 00:04:46,800
+for entering the contents
+of the cell.
+
+124
+00:04:46,800 --> 00:04:48,400
+Other types of cells
+can be entered
+
+125
+00:04:48,400 --> 00:04:50,800
+by choosing Styled Text
+from the new cell menu.
+
+126
+00:04:50,800 --> 00:04:51,800
+For example,
+
+127
+00:04:51,800 --> 00:04:54,400
+you can choose Section
+to get a Section cell
+
+128
+00:04:54,400 --> 00:04:57,100
+and then enter the contents
+of the cell.
+
+129
+00:04:57,100 --> 00:04:58,100
+Selecting cell brackets
+
+130
+00:04:58,100 --> 00:04:59,450
+brings up a different row
+of buttons
+
+131
+00:04:59,450 --> 00:05:02,000
+for copying or pasting
+or cutting cells.
+
+132
+00:05:02,000 --> 00:05:04,400
+For example, this shows
+using the Cut button
+
+133
+00:05:04,400 --> 00:05:08,200
+to delete the cells
+that were just entered.
+
+134
+00:05:08,200 --> 00:05:10,000
+Finally as was shown earlier,
+Wolfram Notebooks
+
+135
+00:05:10,000 --> 00:05:12,000
+can also be edited
+using a web browser.
+
+136
+00:05:12,000 --> 00:05:14,700
+You can start
+at the Wolfram Cloud website.
+
+137
+00:05:14,700 --> 00:05:16,900
+Log in to your
+Wolfram Cloud Account
+
+138
+00:05:16,900 --> 00:05:19,600
+and navigate to the notebook
+that you want to edit.
+
+139
+00:05:19,600 --> 00:05:20,900
+Here you can enter calculations
+
+140
+00:05:20,900 --> 00:05:23,300
+by clicking in the notebook
+to get a cell insertion bar,
+
+141
+00:05:23,300 --> 00:05:25,000
+enter the calculation
+using the keyboard
+
+142
+00:05:25,000 --> 00:05:28,700
+and press SHIFT+ENTER
+to do the calculation.
+
+143
+00:05:28,700 --> 00:05:31,400
+Many features of Wolfram Desktop
+are also available here,
+
+144
+00:05:31,400 --> 00:05:33,800
+including, for example,
+the Suggestions Bar
+
+145
+00:05:33,800 --> 00:05:35,400
+below the output.
+
+146
+00:05:35,400 --> 00:05:38,200
+Keyboard shortcuts can be used
+for choosing new cell styles.
+
+147
+00:05:38,200 --> 00:05:39,550
+For example, you can type
+
+148
+00:05:39,550 --> 00:05:42,300
+the keyboard shortcut
+for a new Text cell
+
+149
+00:05:42,300 --> 00:05:45,000
+and enter the contents
+of the cell.
+
+150
+00:05:45,000 --> 00:05:47,000
+Another way of choosing
+the style of a new cell
+
+151
+00:05:47,000 --> 00:05:49,500
+is to click the Format button
+at the top of the window,
+
+152
+00:05:49,500 --> 00:05:52,800
+which opens a side panel
+with controls for choosing fonts
+
+153
+00:05:52,800 --> 00:05:54,600
+and cell styles and so on.
+
+154
+00:05:54,600 --> 00:05:56,000
+For example,
+to get a Section cell,
+
+155
+00:05:56,000 --> 00:05:59,700
+you can choose Section
+from the Cell Style menu
+
+156
+00:05:59,700 --> 00:06:02,700
+and enter the contents
+of the cell.
+
+157
+00:06:02,700 --> 00:06:04,800
+For just getting started
+with Wolfram Notebooks,
+
+158
+00:06:04,800 --> 00:06:07,500
+Wolfram Cloud is in some ways
+the easiest place to begin,
+
+159
+00:06:07,500 --> 00:06:09,200
+because usually
+there's nothing to install.
+
+160
+00:06:09,200 --> 00:06:10,600
+All you need is a web browser
+
+161
+00:06:10,600 --> 00:06:12,500
+on a computer
+connected to the internet.
+
+162
+00:06:12,500 --> 00:06:14,700
+For example,
+you can open a web browser
+
+163
+00:06:14,700 --> 00:06:18,500
+and go to the Wolfram webpage,
+www.wolfram.com,
+
+164
+00:06:18,500 --> 00:06:21,000
+which shows the whole range
+of products.
+
+165
+00:06:21,000 --> 00:06:23,300
+One of those products
+is Wolfram Programming Lab,
+
+166
+00:06:23,300 --> 00:06:26,100
+which is a good place for
+learning the Wolfram Language.
+
+167
+00:06:26,100 --> 00:06:29,200
+Choosing Wolfram Programming Lab
+opens a notebook
+
+168
+00:06:29,200 --> 00:06:31,000
+with some sample
+Wolfram Language programs,
+
+169
+00:06:31,000 --> 00:06:32,600
+but to just get a new notebook,
+
+170
+00:06:32,600 --> 00:06:35,300
+you can click
+the Create New Notebook button
+
+171
+00:06:35,300 --> 00:06:37,700
+or choose New Notebook
+from the File menu
+
+172
+00:06:37,700 --> 00:06:38,800
+to get a new notebook
+
+173
+00:06:38,800 --> 00:06:40,700
+in the Wolfram Cloud |
+Open Access system,
+
+174
+00:06:40,700 --> 00:06:43,400
+where you can enter content
+and do calculations
+
+175
+00:06:43,400 --> 00:06:47,000
+much as you might do
+in any other Wolfram Notebook.
+
+176
+00:06:47,000 --> 00:06:48,000
+After creating the notebook,
+
+177
+00:06:48,000 --> 00:06:49,800
+you can save the notebook
+in the cloud,
+
+178
+00:06:49,800 --> 00:06:53,000
+which would of course require
+logging into a cloud account,
+
+179
+00:06:53,000 --> 00:06:55,000
+or you can choose Download
+from the File menu
+
+180
+00:06:55,000 --> 00:06:59,000
+to download the notebook
+to a desktop system.
+
+181
+00:06:59,000 --> 00:07:00,800
+That's the end of the examples
+for this section.
+
+182
+00:07:00,800 --> 00:07:02,400
+The basic features
+of Wolfram Notebooks
+
+183
+00:07:02,400 --> 00:07:05,300
+work much the same
+across all of these platforms,
+
+184
+00:07:05,300 --> 00:07:06,800
+but for features
+that are different
+
+185
+00:07:06,800 --> 00:07:07,800
+on different platforms,
+
+186
+00:07:07,800 --> 00:07:09,600
+a good place to look
+for more information
+
+187
+00:07:09,600 --> 00:07:12,900
+is the workflow guides
+in the Wolfram documentation,
+
+188
+00:07:12,900 --> 00:07:13,900
+which gives separate
+
+189
+00:07:13,900 --> 00:07:16,200
+step-by-step instructions
+for each platform.
+
+190
+00:07:16,200 --> 00:07:18,300
+For example, here is a page
+of workflow guides
+
+191
+00:07:18,300 --> 00:07:19,700
+on working in notebooks,
+
+192
+00:07:19,700 --> 00:07:21,900
+and in this page
+on creating a Text cell,
+
+193
+00:07:21,900 --> 00:07:25,500
+you can choose instructions
+for the desktop platform
+
+194
+00:07:25,500 --> 00:07:27,400
+or for Wolfram Cloud
+
+195
+00:07:27,400 --> 00:07:30,500
+or for mobile devices
+like tablets and smartphones.
+

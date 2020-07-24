@@ -1,0 +1,858 @@
+﻿1
+00:00:00,000 --> 00:00:02,500
+This section is about
+customizing the overall style
+
+2
+00:00:02,500 --> 00:00:03,500
+of Wolfram Notebooks
+
+3
+00:00:03,500 --> 00:00:05,100
+and the styles of the cells
+
+4
+00:00:05,100 --> 00:00:07,200
+and the content
+within a notebook.
+
+5
+00:00:07,200 --> 00:00:08,900
+Style here refers
+to the appearance
+
+6
+00:00:08,900 --> 00:00:10,700
+and behavior of things
+in a notebook.
+
+7
+00:00:10,700 --> 00:00:12,800
+For example,
+here is a typical notebook,
+
+8
+00:00:12,800 --> 00:00:16,300
+which like all Wolfram Notebooks
+is made up of units called cells,
+
+9
+00:00:16,300 --> 00:00:18,000
+which are identified
+by these brackets
+
+10
+00:00:18,000 --> 00:00:19,800
+on the right side of the window.
+
+11
+00:00:19,800 --> 00:00:21,000
+Cells have different styles.
+
+12
+00:00:21,000 --> 00:00:24,000
+The first cell
+has a style called Title,
+
+13
+00:00:24,000 --> 00:00:26,300
+the style of the second cell
+is Section
+
+14
+00:00:26,300 --> 00:00:29,300
+and this notebook also contains
+two Text cells
+
+15
+00:00:29,300 --> 00:00:32,300
+and two Input cells
+and two Output cells.
+
+16
+00:00:32,300 --> 00:00:34,300
+Each cell style
+uses different colors
+
+17
+00:00:34,300 --> 00:00:36,600
+and different fonts
+and font sizes.
+
+18
+00:00:36,600 --> 00:00:40,000
+Text cells use different
+indentation than Section cells,
+
+19
+00:00:40,000 --> 00:00:42,800
+and Input and Output cells
+have these labels
+
+20
+00:00:42,800 --> 00:00:44,600
+with the input
+and output number.
+
+21
+00:00:44,600 --> 00:00:48,000
+All of these things are part
+of the style of the cell.
+
+22
+00:00:48,000 --> 00:00:49,400
+A notebook like this
+can be created
+
+23
+00:00:49,400 --> 00:00:51,500
+by choosing New
+from the File menu
+
+24
+00:00:51,500 --> 00:00:54,500
+to get a new notebook, and
+typing into the empty notebook.
+
+25
+00:00:54,500 --> 00:00:56,800
+Input by default
+goes into an Input Cell
+
+26
+00:00:56,800 --> 00:00:58,300
+and if I evaluate that input
+
+27
+00:00:58,300 --> 00:01:01,000
+the result is displayed
+in an Output cell.
+
+28
+00:01:01,000 --> 00:01:02,500
+Subsequent inputs and outputs
+
+29
+00:01:02,500 --> 00:01:05,000
+give additional Input
+and Output cells.
+
+30
+00:01:05,000 --> 00:01:07,000
+The horizontal line
+after the last output
+
+31
+00:01:07,000 --> 00:01:08,500
+is the Cell Insertion Bar.
+
+32
+00:01:08,500 --> 00:01:11,500
+This is where a new cell
+will appear if I start typing.
+
+33
+00:01:11,500 --> 00:01:12,900
+To put a cell somewhere else,
+
+34
+00:01:12,900 --> 00:01:15,000
+I can click to position
+the cell insertion bar
+
+35
+00:01:15,000 --> 00:01:17,300
+anywhere between
+the existing cells.
+
+36
+00:01:17,300 --> 00:01:19,000
+The available cell styles
+for this notebook
+
+37
+00:01:19,000 --> 00:01:22,300
+are shown in the Style submenu
+of the Format menu.
+
+38
+00:01:22,300 --> 00:01:24,500
+For example, to add a Title cell
+
+39
+00:01:24,500 --> 00:01:26,800
+I can click to position
+the cell insertion bar
+
+40
+00:01:26,800 --> 00:01:28,300
+at the top of the notebook,
+
+41
+00:01:28,300 --> 00:01:32,300
+choose title from the Style
+submenu and enter the title.
+
+42
+00:01:32,300 --> 00:01:33,400
+To enter the Section Cell,
+
+43
+00:01:33,400 --> 00:01:35,700
+I will choose Section
+from the Style submenu
+
+44
+00:01:35,700 --> 00:01:37,600
+and enter the name
+of the section.
+
+45
+00:01:37,600 --> 00:01:40,000
+Common cell styles
+also have keyboard shortcuts,
+
+46
+00:01:40,000 --> 00:01:42,000
+which are listed
+in the Style submenu.
+
+47
+00:01:42,000 --> 00:01:44,000
+For example, to add a Text cell
+
+48
+00:01:44,000 --> 00:01:46,500
+I will here use
+the keyboard shortcut
+
+49
+00:01:46,500 --> 00:01:49,500
+and then enter the contents
+of the cell.
+
+50
+00:01:49,500 --> 00:01:52,500
+The style of a cell can also be
+changed after the cell is created.
+
+51
+00:01:52,500 --> 00:01:54,800
+For example,
+to insert another Text cell
+
+52
+00:01:54,800 --> 00:01:57,000
+I can position
+the cell insertion bar
+
+53
+00:01:57,000 --> 00:02:00,500
+where I want the new cell and
+enter the contents of the cell.
+
+54
+00:02:00,500 --> 00:02:03,500
+Right now, this is an Input cell,
+since that is the default,
+
+55
+00:02:03,500 --> 00:02:05,800
+but I can convert it
+to a Text cell
+
+56
+00:02:05,800 --> 00:02:08,600
+by choosing Text
+from the Style submenu
+
+57
+00:02:08,600 --> 00:02:10,300
+or by typing
+the keyboard shortcut,
+
+58
+00:02:10,300 --> 00:02:13,500
+and the cell is converted
+to a Text cell.
+
+59
+00:02:13,500 --> 00:02:16,500
+Actually if I just start typing
+ordinary text into an Input cell,
+
+60
+00:02:16,500 --> 00:02:19,000
+like this, the system
+typically recognizes that
+
+61
+00:02:19,000 --> 00:02:21,800
+whatever is being entered
+is not computer input
+
+62
+00:02:21,800 --> 00:02:22,800
+and puts up this menu
+
+63
+00:02:22,800 --> 00:02:25,000
+offering to treat the input
+in some other way.
+
+64
+00:02:25,000 --> 00:02:27,200
+One of the choices
+on that menu is text,
+
+65
+00:02:27,200 --> 00:02:29,800
+which converts the cell
+into a Text cell,
+
+66
+00:02:29,800 --> 00:02:33,800
+so that is yet another way
+to get a Text cell.
+
+67
+00:02:33,800 --> 00:02:36,000
+Almost everything in this display
+can be customized.
+
+68
+00:02:36,000 --> 00:02:38,800
+For example,
+to emphasize some bit of text,
+
+69
+00:02:38,800 --> 00:02:41,500
+I could select that text
+and change the style
+
+70
+00:02:41,500 --> 00:02:43,700
+using items
+under the Format menu.
+
+71
+00:02:43,700 --> 00:02:47,800
+For example,
+this sets the text color to red
+
+72
+00:02:47,800 --> 00:02:50,700
+and the text
+to a somewhat larger size.
+
+73
+00:02:50,700 --> 00:02:53,000
+You can also change
+the styles for entire cells.
+
+74
+00:02:53,000 --> 00:02:57,000
+For example, to change the styles
+for the Section cell
+
+75
+00:02:57,000 --> 00:02:58,700
+I can select the cell bracket
+
+76
+00:02:58,700 --> 00:03:00,800
+and again use items
+from the Format menu
+
+77
+00:03:00,800 --> 00:03:02,300
+to change the styles.
+
+78
+00:03:02,300 --> 00:03:03,300
+For example,
+
+79
+00:03:03,300 --> 00:03:05,700
+this sets the background
+of the cell to light orange
+
+80
+00:03:05,700 --> 00:03:08,000
+and the text color to black.
+
+81
+00:03:08,000 --> 00:03:10,000
+All of these changes work
+by controlling options
+
+82
+00:03:10,000 --> 00:03:12,000
+in the underlying
+cell expressions.
+
+83
+00:03:12,000 --> 00:03:14,000
+You can see
+the options settings explicitly
+
+84
+00:03:14,000 --> 00:03:16,100
+by choosing Show Expression
+from the Cell menu,
+
+85
+00:03:16,100 --> 00:03:18,600
+which displays
+the underlying cell expression.
+
+86
+00:03:18,600 --> 00:03:21,300
+For example,
+with that Section cell selected
+
+87
+00:03:21,300 --> 00:03:24,100
+I can choose Show Expression
+to see the cell expression,
+
+88
+00:03:24,100 --> 00:03:26,500
+which shows the content
+of the cell
+
+89
+00:03:26,500 --> 00:03:29,500
+and the argument that identifies
+this as a Section cell
+
+90
+00:03:29,500 --> 00:03:30,500
+and the font color option
+
+91
+00:03:30,500 --> 00:03:33,700
+to specify that the text
+should be shown in black
+
+92
+00:03:33,700 --> 00:03:34,700
+and the background option
+
+93
+00:03:34,700 --> 00:03:37,300
+to specify
+the light orange background.
+
+94
+00:03:37,300 --> 00:03:39,600
+This particular RGB
+color expression
+
+95
+00:03:39,600 --> 00:03:42,600
+is how colors are specified
+in notebooks.
+
+96
+00:03:42,600 --> 00:03:45,000
+I can also type options
+into the cell directly.
+
+97
+00:03:45,000 --> 00:03:48,400
+For example, here I will insert
+the TextAlignment option
+
+98
+00:03:48,400 --> 00:03:51,500
+and specify Center
+as the value of the option.
+
+99
+00:03:51,500 --> 00:03:53,600
+Then choose Show Expression
+from the Cell menu
+
+100
+00:03:53,600 --> 00:03:55,000
+to reformat the cell
+
+101
+00:03:55,000 --> 00:03:59,000
+and the display shows the effect
+of all of those options settings,
+
+102
+00:03:59,000 --> 00:04:01,500
+including the effect
+of the TextAlignment option
+
+103
+00:04:01,500 --> 00:04:04,000
+to center the text.
+
+104
+00:04:04,000 --> 00:04:06,500
+There are actually many hundreds
+of options like this.
+
+105
+00:04:06,500 --> 00:04:09,300
+The general tool for setting
+options is the Option Inspector,
+
+106
+00:04:09,300 --> 00:04:11,200
+which is opened
+by choosing Option Inspector
+
+107
+00:04:11,200 --> 00:04:15,000
+from the Format menu or by using
+the equivalent keyboard shortcut.
+
+108
+00:04:15,000 --> 00:04:18,000
+For example, entering background
+into the search box
+
+109
+00:04:18,000 --> 00:04:19,500
+in the Option Inspector
+
+110
+00:04:19,500 --> 00:04:22,000
+brings up the entry
+for the Background option,
+
+111
+00:04:22,000 --> 00:04:24,100
+which here shows
+the value of this option
+
+112
+00:04:24,100 --> 00:04:27,000
+that was just entered
+using the Format menu.
+
+113
+00:04:27,000 --> 00:04:28,700
+The icon with the X
+on the left side
+
+114
+00:04:28,700 --> 00:04:30,500
+of the Option Inspector entry
+
+115
+00:04:30,500 --> 00:04:34,000
+indicates that this option
+is set within the selection.
+
+116
+00:04:34,000 --> 00:04:36,500
+Clicking that icon
+removes that option setting,
+
+117
+00:04:36,500 --> 00:04:40,000
+which returns the background
+to the default value,
+
+118
+00:04:40,000 --> 00:04:43,000
+which for this cell
+is a plain white background.
+
+119
+00:04:43,000 --> 00:04:44,800
+You can also enter
+options settings
+
+120
+00:04:44,800 --> 00:04:46,000
+using the Option Inspector.
+
+121
+00:04:46,000 --> 00:04:49,000
+For example, there is an option
+called CellDingbat
+
+122
+00:04:49,000 --> 00:04:52,500
+that can be used to add
+something called a cell dingbat,
+
+123
+00:04:52,500 --> 00:04:56,000
+which is a kind of marker
+on the left side of the cell.
+
+124
+00:04:56,000 --> 00:04:57,500
+Clicking this little arrow
+
+125
+00:04:57,500 --> 00:05:00,000
+brings up a menu of choices
+for the cell dingbat.
+
+126
+00:05:00,000 --> 00:05:02,500
+Here I will choose
+Filled Small Circle,
+
+127
+00:05:02,500 --> 00:05:04,400
+which changes the value
+
+128
+00:05:04,400 --> 00:05:06,000
+of the option
+in the Option Inspector
+
+129
+00:05:06,000 --> 00:05:10,000
+and adds a filled small circle
+on the left side of the cell.
+
+130
+00:05:10,000 --> 00:05:12,000
+In the upper left corner
+of the Option Inspector
+
+131
+00:05:12,000 --> 00:05:14,500
+there is another important menu
+for choosing whether options
+
+132
+00:05:14,500 --> 00:05:16,500
+should be shown
+for the thing that is selected
+
+133
+00:05:16,500 --> 00:05:19,000
+or for the entire
+selected notebook,
+
+134
+00:05:19,000 --> 00:05:22,400
+or if the Option Inspector
+should show global preferences.
+
+135
+00:05:22,400 --> 00:05:24,600
+For example,
+choosing Selected Notebook
+
+136
+00:05:24,600 --> 00:05:26,800
+causes the Option Inspector
+to show options
+
+137
+00:05:26,800 --> 00:05:29,700
+for the entire notebook,
+not just for the selected cell.
+
+138
+00:05:29,700 --> 00:05:32,000
+For example, if I now set
+the background option
+
+139
+00:05:32,000 --> 00:05:33,000
+to some other color,
+
+140
+00:05:33,000 --> 00:05:35,400
+that will set the background
+for the entire notebook
+
+141
+00:05:35,400 --> 00:05:38,000
+and not just
+for the selected cell.
+
+142
+00:05:38,000 --> 00:05:40,000
+For now I will click the X
+in the Option Inspector
+
+143
+00:05:40,000 --> 00:05:44,000
+to set the background color
+back to the default.
+
+144
+00:05:44,000 --> 00:05:46,800
+Rather than setting options for
+individual selections like this,
+
+145
+00:05:46,800 --> 00:05:49,200
+probably the most common way
+of customizing a notebook
+
+146
+00:05:49,200 --> 00:05:51,600
+is by choosing from
+predefined cell styles
+
+147
+00:05:51,600 --> 00:05:53,400
+and predefined stylesheets.
+
+148
+00:05:53,400 --> 00:05:55,000
+Every notebook has a stylesheet.
+
+149
+00:05:55,000 --> 00:05:56,800
+The stylesheet for a notebook
+can be set
+
+150
+00:05:56,800 --> 00:05:59,800
+by choosing a stylesheet
+from the Stylesheet submenu
+
+151
+00:05:59,800 --> 00:06:01,400
+under the Format menu.
+
+152
+00:06:01,400 --> 00:06:04,500
+This particular notebook
+uses a stylesheet called Default,
+
+153
+00:06:04,500 --> 00:06:07,600
+which is the item
+that is checked in this menu.
+
+154
+00:06:07,600 --> 00:06:09,500
+All of the options for the cells
+in this notebook
+
+155
+00:06:09,500 --> 00:06:11,300
+are set up in that stylesheet.
+
+156
+00:06:11,300 --> 00:06:13,500
+There are quite a few other
+stylesheets to choose from.
+
+157
+00:06:13,500 --> 00:06:15,800
+For example,
+this switches the stylesheet
+
+158
+00:06:15,800 --> 00:06:18,400
+for this notebook
+to JournalArticle.
+
+159
+00:06:18,400 --> 00:06:20,000
+This is still the same notebook,
+
+160
+00:06:20,000 --> 00:06:22,000
+but the display uses
+different fonts
+
+161
+00:06:22,000 --> 00:06:23,100
+and different font sizes
+
+162
+00:06:23,100 --> 00:06:26,000
+and the title is centered
+rather than aligned on the left
+
+163
+00:06:26,000 --> 00:06:28,000
+and there are
+many other differences.
+
+164
+00:06:28,000 --> 00:06:29,800
+Here is another stylesheet
+called Garnet
+
+165
+00:06:29,800 --> 00:06:31,800
+from the PresenterTools submenu.
+
+166
+00:06:31,800 --> 00:06:33,600
+PresenterTools styles are styles
+
+167
+00:06:33,600 --> 00:06:37,000
+that can be used to show
+this notebook as a slideshow,
+
+168
+00:06:37,000 --> 00:06:39,000
+which will be discussed
+in a later section.
+
+169
+00:06:40,300 --> 00:06:42,600
+That's the end of the examples
+for this section.
+
+170
+00:06:42,600 --> 00:06:44,600
+The next section
+is about editing stylesheets,
+
+171
+00:06:44,600 --> 00:06:47,000
+which you can do
+to customize existing styles
+
+172
+00:06:47,000 --> 00:06:51,500
+or create new cell styles
+or to design your own stylesheets.
+
+173
+00:06:51,500 --> 00:06:53,200
+There are also hundreds
+of cell options
+
+174
+00:06:53,200 --> 00:06:54,200
+and notebook options
+
+175
+00:06:54,200 --> 00:06:56,500
+beyond the options
+that came up in this section.
+
+176
+00:06:56,500 --> 00:06:59,800
+You can find more information
+about other options
+
+177
+00:06:59,800 --> 00:07:01,000
+in the Wolfram Documentation
+
+178
+00:07:01,000 --> 00:07:04,000
+in this tutorial
+on Options for Cells
+
+179
+00:07:04,000 --> 00:07:07,000
+and in this tutorial
+on Options for Notebooks.
+

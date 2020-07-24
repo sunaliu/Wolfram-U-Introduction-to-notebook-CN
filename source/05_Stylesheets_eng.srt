@@ -1,0 +1,956 @@
+﻿1
+00:00:00,000 --> 00:00:02,300
+This section of Introduction
+to Wolfram Notebooks
+
+2
+00:00:02,300 --> 00:00:04,500
+is about customizing the style
+of a notebook
+
+3
+00:00:04,500 --> 00:00:06,600
+by editing stylesheets.
+
+4
+00:00:06,600 --> 00:00:08,300
+The stylesheet is where all
+of the cell styles
+
+5
+00:00:08,300 --> 00:00:10,600
+and things like indentation
+and font sizes
+
+6
+00:00:10,600 --> 00:00:12,300
+and background colors and so on
+
+7
+00:00:12,300 --> 00:00:15,400
+are specified for cells
+and for the notebook.
+
+8
+00:00:15,400 --> 00:00:17,000
+Every notebook has a stylesheet.
+
+9
+00:00:17,000 --> 00:00:19,500
+The stylesheet can be chosen
+from the Stylesheet submenu
+
+10
+00:00:19,500 --> 00:00:21,000
+under the Format menu.
+
+11
+00:00:21,000 --> 00:00:23,900
+This notebook was created
+by just selecting new notebook
+
+12
+00:00:23,900 --> 00:00:26,500
+from the File menu
+without specifying a stylesheet,
+
+13
+00:00:26,500 --> 00:00:29,000
+so the notebook was assigned
+a stylesheet called Default,
+
+14
+00:00:29,000 --> 00:00:31,900
+which is the item
+that is checked in this menu,
+
+15
+00:00:31,900 --> 00:00:34,400
+but there are lots of other
+stylesheets to choose from.
+
+16
+00:00:34,400 --> 00:00:37,000
+For example, this chooses
+the Sky stylesheet
+
+17
+00:00:37,000 --> 00:00:39,000
+from the PresenterTools submenu.
+
+18
+00:00:39,000 --> 00:00:40,900
+PresenterTools styles are used
+
+19
+00:00:40,900 --> 00:00:42,500
+for showing the notebook
+as a slideshow,
+
+20
+00:00:42,500 --> 00:00:46,000
+as will be discussed
+in a later section.
+
+21
+00:00:46,000 --> 00:00:48,400
+You can also select
+Stylesheet Chooser
+
+22
+00:00:48,400 --> 00:00:49,450
+from the Style menu,
+
+23
+00:00:49,450 --> 00:00:52,500
+which opens this palette
+for selecting a stylesheet.
+
+24
+00:00:52,500 --> 00:00:54,500
+The lower part of each item
+in this display
+
+25
+00:00:54,500 --> 00:00:57,700
+is used to apply that style
+to an existing notebook
+
+26
+00:00:57,700 --> 00:00:59,600
+and the upper part
+creates a new notebook.
+
+27
+00:00:59,600 --> 00:01:02,000
+For example,
+here I will click the upper part
+
+28
+00:01:02,000 --> 00:01:04,000
+of the entry
+for a StandardReport style,
+
+29
+00:01:04,000 --> 00:01:08,000
+which gives a notebook that uses
+the StandardReport stylesheet,
+
+30
+00:01:08,000 --> 00:01:10,100
+and in addition, that notebook
+is already filled in
+
+31
+00:01:10,100 --> 00:01:12,000
+with examples
+of all of the cell styles
+
+32
+00:01:12,000 --> 00:01:14,400
+that are defined
+within that stylesheet,
+
+33
+00:01:14,400 --> 00:01:16,500
+which is a nice way
+of getting an overview
+
+34
+00:01:16,500 --> 00:01:19,700
+of what the available
+cell styles look like.
+
+35
+00:01:19,700 --> 00:01:21,500
+Even with lots
+of possible stylesheets
+
+36
+00:01:21,500 --> 00:01:23,700
+and cell styles to choose from,
+
+37
+00:01:23,700 --> 00:01:26,800
+there are still situations where
+it is useful to customize things,
+
+38
+00:01:26,800 --> 00:01:29,600
+which you can do
+by editing the stylesheet.
+
+39
+00:01:29,600 --> 00:01:31,300
+To show an example
+of how that can work,
+
+40
+00:01:31,300 --> 00:01:34,400
+I will return this notebook
+to the default stylesheet
+
+41
+00:01:34,400 --> 00:01:37,400
+and choose Edit Stylesheet
+from the Format menu.
+
+42
+00:01:37,400 --> 00:01:39,700
+The stylesheet that comes up
+is not the default stylesheet,
+
+43
+00:01:39,700 --> 00:01:43,400
+but rather a private stylesheet
+that is specific to this notebook.
+
+44
+00:01:43,400 --> 00:01:45,000
+This private stylesheet
+can be used
+
+45
+00:01:45,000 --> 00:01:46,500
+to specify option settings
+
+46
+00:01:46,500 --> 00:01:48,300
+to apply in preference
+to the settings
+
+47
+00:01:48,300 --> 00:01:50,700
+in the actual
+default stylesheet.
+
+48
+00:01:50,700 --> 00:01:52,400
+For example,
+to change the styles
+
+49
+00:01:52,400 --> 00:01:54,500
+for all of the text cells
+in the notebook,
+
+50
+00:01:54,500 --> 00:01:58,300
+I will start by choosing Text
+from the Choose a style menu,
+
+51
+00:01:58,300 --> 00:02:00,700
+which generates here
+a special type of cell
+
+52
+00:02:00,700 --> 00:02:03,200
+that is mostly only used
+in stylesheets.
+
+53
+00:02:03,200 --> 00:02:05,300
+The other items at the top
+of this window
+
+54
+00:02:05,300 --> 00:02:07,300
+are the Enter a style name box,
+
+55
+00:02:07,300 --> 00:02:10,400
+which can be used to introduce
+a new cell style
+
+56
+00:02:10,400 --> 00:02:12,800
+and the Install Stylesheet button,
+
+57
+00:02:12,800 --> 00:02:15,200
+which is used to add
+a whole new stylesheet
+
+58
+00:02:15,200 --> 00:02:17,800
+that can be used
+by other notebooks.
+
+59
+00:02:17,800 --> 00:02:19,100
+Any option settings that I add
+
+60
+00:02:19,100 --> 00:02:21,000
+for this new cell
+in the stylesheet
+
+61
+00:02:21,000 --> 00:02:23,800
+will apply to all of
+the text cells in the notebook.
+
+62
+00:02:23,800 --> 00:02:26,500
+For example,
+here I will select this cell
+
+63
+00:02:26,500 --> 00:02:28,700
+and use items
+under the Format menu
+
+64
+00:02:28,700 --> 00:02:31,000
+to set the background color
+to light orange
+
+65
+00:02:31,000 --> 00:02:33,500
+and set an italic font.
+
+66
+00:02:33,500 --> 00:02:35,800
+Choosing Show Expression
+from the cell menu
+
+67
+00:02:35,800 --> 00:02:37,800
+shows the underlying
+cell expression,
+
+68
+00:02:37,800 --> 00:02:40,300
+with the new settings
+for the background option
+
+69
+00:02:40,300 --> 00:02:42,200
+and the font slant option.
+
+70
+00:02:42,200 --> 00:02:45,300
+What makes this cell special
+is that the content of the cell
+
+71
+00:02:45,300 --> 00:02:47,800
+is this style data expression.
+
+72
+00:02:47,800 --> 00:02:49,300
+The stylesheet itself
+is a notebook
+
+73
+00:02:49,300 --> 00:02:51,800
+and in general a stylesheet
+is just a notebook
+
+74
+00:02:51,800 --> 00:02:55,900
+where all of the cells are
+these special style data cells.
+
+75
+00:02:55,900 --> 00:02:57,400
+Returning to
+the original notebook
+
+76
+00:02:57,400 --> 00:02:59,500
+shows that this change
+in the stylesheet
+
+77
+00:02:59,500 --> 00:03:01,300
+had the effect of changing
+the background color
+
+78
+00:03:01,300 --> 00:03:02,700
+and the font slant
+
+79
+00:03:02,700 --> 00:03:06,000
+for all of the text cells
+in the notebook.
+
+80
+00:03:06,000 --> 00:03:08,900
+It is still possible to override
+the styles in the stylesheet
+
+81
+00:03:08,900 --> 00:03:12,000
+by making changes directly
+to selections in a notebook.
+
+82
+00:03:12,000 --> 00:03:14,000
+For example,
+if I don't want the italic font
+
+83
+00:03:14,000 --> 00:03:15,300
+for some part of the text,
+
+84
+00:03:15,300 --> 00:03:19,000
+I can select that text
+and specify a different font.
+
+85
+00:03:19,000 --> 00:03:21,400
+When a style is specified
+in several different places
+
+86
+00:03:21,400 --> 00:03:24,000
+like the italic font
+in this text cell,
+
+87
+00:03:24,000 --> 00:03:25,000
+the general principle
+
+88
+00:03:25,000 --> 00:03:27,600
+is that styles that are set
+for a specific selection
+
+89
+00:03:27,600 --> 00:03:30,700
+take precedence over settings
+in a stylesheet.
+
+90
+00:03:30,700 --> 00:03:33,400
+That general principle
+is also sometimes described
+
+91
+00:03:33,400 --> 00:03:35,000
+using the notion of inheritance.
+
+92
+00:03:35,000 --> 00:03:36,100
+We could say, for example,
+
+93
+00:03:36,100 --> 00:03:39,200
+that any style not explicitly
+specified in the notebook
+
+94
+00:03:39,200 --> 00:03:42,000
+is inherited from
+the stylesheet.
+
+95
+00:03:42,000 --> 00:03:44,500
+There is also a principle of
+inheritance for the stylesheets,
+
+96
+00:03:44,500 --> 00:03:46,500
+since most notebooks
+actually use
+
+97
+00:03:46,500 --> 00:03:48,000
+a sequence of stylesheets.
+
+98
+00:03:48,000 --> 00:03:50,500
+For example, returning to
+the private stylesheet,
+
+99
+00:03:50,500 --> 00:03:52,800
+at the top of the stylesheet
+is a cell that says
+
+100
+00:03:52,800 --> 00:03:57,000
+that styles here are inherited
+from the default stylesheet.
+
+101
+00:03:57,000 --> 00:03:58,500
+Clicking on the hyperlink
+in that cell
+
+102
+00:03:58,500 --> 00:04:00,500
+brings up the actual
+default stylesheet,
+
+103
+00:04:00,500 --> 00:04:03,800
+which includes specifications
+not just for text cells,
+
+104
+00:04:03,800 --> 00:04:07,700
+but for all of the cell styles
+within this stylesheet.
+
+105
+00:04:07,700 --> 00:04:10,000
+The default stylesheet
+also includes a cell at the top,
+
+106
+00:04:10,000 --> 00:04:12,600
+noting that this stylesheet
+inherits styles
+
+107
+00:04:12,600 --> 00:04:15,000
+from another stylesheet
+called Core,
+
+108
+00:04:15,000 --> 00:04:16,800
+which is the end
+of the sequence.
+
+109
+00:04:16,800 --> 00:04:19,300
+Any style not specified
+in one of these stylesheets
+
+110
+00:04:19,300 --> 00:04:21,500
+just uses a global value.
+
+111
+00:04:21,500 --> 00:04:23,500
+Inheritance for this set
+of stylesheets
+
+112
+00:04:23,500 --> 00:04:26,300
+means that each stylesheet
+inherits styles
+
+113
+00:04:26,300 --> 00:04:29,000
+from the stylesheet above it.
+
+114
+00:04:29,000 --> 00:04:31,800
+Usually the only stylesheet to
+edit is the private stylesheet
+
+115
+00:04:31,800 --> 00:04:33,000
+for the notebook,
+
+116
+00:04:33,000 --> 00:04:34,500
+but it is often useful to see
+
+117
+00:04:34,500 --> 00:04:36,650
+what is in one
+of the other stylesheets.
+
+118
+00:04:36,650 --> 00:04:40,300
+For example, one of the styles
+in this stylesheet is Item style,
+
+119
+00:04:40,300 --> 00:04:42,500
+which can be used
+for creating bullet lists
+
+120
+00:04:42,500 --> 00:04:43,500
+like this one,
+
+121
+00:04:43,500 --> 00:04:45,400
+but suppose that I want
+to add a new style
+
+122
+00:04:45,400 --> 00:04:48,500
+that works just like Item style
+except that the marker,
+
+123
+00:04:48,500 --> 00:04:51,500
+the cell dingbat for each cell,
+is a checkmark
+
+124
+00:04:51,500 --> 00:04:53,200
+rather than a filled square
+
+125
+00:04:53,200 --> 00:04:56,800
+and the text is shown
+in bold letters.
+
+126
+00:04:56,800 --> 00:04:58,800
+If I do that by going
+to the private stylesheet
+
+127
+00:04:58,800 --> 00:05:00,000
+and choosing Item style,
+
+128
+00:05:00,000 --> 00:05:02,800
+I will be modifying
+the default Item style,
+
+129
+00:05:02,800 --> 00:05:05,400
+but here I want to leave
+the default Item style alone
+
+130
+00:05:05,400 --> 00:05:07,000
+and instead create
+a new cell style,
+
+131
+00:05:07,000 --> 00:05:10,500
+which I will do by going through
+the default stylesheet
+
+132
+00:05:10,500 --> 00:05:13,300
+and navigating to the cell
+in this stylesheet
+
+133
+00:05:13,300 --> 00:05:15,000
+that describes Item cells,
+
+134
+00:05:15,000 --> 00:05:17,500
+where I will select
+the cell bracket for that cell
+
+135
+00:05:17,500 --> 00:05:21,000
+to select the entire cell,
+then copy the cell
+
+136
+00:05:21,000 --> 00:05:22,400
+and return to
+the private stylesheet
+
+137
+00:05:22,400 --> 00:05:23,400
+for this notebook
+
+138
+00:05:23,400 --> 00:05:26,500
+and paste that cell
+into the private stylesheet.
+
+139
+00:05:26,500 --> 00:05:28,800
+The difference between this cell
+and the one above it
+
+140
+00:05:28,800 --> 00:05:31,000
+can be seen by showing
+the cell expressions.
+
+141
+00:05:31,000 --> 00:05:33,400
+The second cell here,
+which is the one that
+
+142
+00:05:33,400 --> 00:05:35,400
+I just copied from
+the default stylesheet,
+
+143
+00:05:35,400 --> 00:05:38,000
+includes all of the option
+settings for Item cells.
+
+144
+00:05:38,000 --> 00:05:40,500
+So even when I change
+the name of the cell,
+
+145
+00:05:40,500 --> 00:05:43,800
+which will have the effect
+of creating a new cell style,
+
+146
+00:05:43,800 --> 00:05:45,550
+the new cell style
+will still behave
+
+147
+00:05:45,550 --> 00:05:48,000
+exactly like an Item cell.
+
+148
+00:05:48,000 --> 00:05:51,000
+The default CellDingbat
+is the FilledSmallSquare,
+
+149
+00:05:51,000 --> 00:05:54,800
+which I will change now
+to the Checkmark character.
+
+150
+00:05:54,800 --> 00:05:58,000
+I will also change the value
+of the MenuSortingValue option
+
+151
+00:05:58,000 --> 00:05:59,300
+to a smaller number.
+
+152
+00:05:59,300 --> 00:06:01,700
+This isn't a critical change,
+but it will have the effect
+
+153
+00:06:01,700 --> 00:06:04,900
+of moving the new cell style
+to the top of the style menu,
+
+154
+00:06:04,900 --> 00:06:07,000
+where it will be easier to find.
+
+155
+00:06:07,000 --> 00:06:08,500
+There are several
+other options here,
+
+156
+00:06:08,500 --> 00:06:10,000
+which won't be explored here,
+
+157
+00:06:10,000 --> 00:06:12,800
+except to note that one good way
+to learn about options
+
+158
+00:06:12,800 --> 00:06:14,500
+is to find a cell style
+
+159
+00:06:14,500 --> 00:06:17,800
+and then look in the stylesheet
+to see the options that were used
+
+160
+00:06:17,800 --> 00:06:19,900
+to set up that style.
+
+161
+00:06:19,900 --> 00:06:21,600
+I could change the font
+to a bold font
+
+162
+00:06:21,600 --> 00:06:23,000
+by typing in the option here,
+
+163
+00:06:23,000 --> 00:06:25,900
+but I will instead do that
+by reformatting the cell
+
+164
+00:06:25,900 --> 00:06:27,000
+and choosing Bold
+
+165
+00:06:27,000 --> 00:06:31,000
+from the Face item
+under the Format menu.
+
+166
+00:06:31,000 --> 00:06:32,500
+Now return to
+the original notebook
+
+167
+00:06:32,500 --> 00:06:33,600
+and add a cell
+
+168
+00:06:33,600 --> 00:06:35,900
+by choosing the new
+CheckmarkItem style
+
+169
+00:06:35,900 --> 00:06:37,800
+from the Style menu,
+
+170
+00:06:37,800 --> 00:06:40,900
+which adds a new cell
+that behaves like an item cell
+
+171
+00:06:40,900 --> 00:06:46,500
+except for the checkmark
+cell dingbat and the bold font.
+
+172
+00:06:46,500 --> 00:06:49,000
+Before concluding the subject
+of stylesheets,
+
+173
+00:06:49,000 --> 00:06:51,800
+many stylesheets support
+variations that can be selected
+
+174
+00:06:51,800 --> 00:06:54,400
+by specifying an option
+called Environment.
+
+175
+00:06:54,400 --> 00:06:55,800
+For example,
+the current environment
+
+176
+00:06:55,800 --> 00:06:58,300
+for displaying this notebook
+on the computer screen
+
+177
+00:06:58,300 --> 00:06:59,500
+is called Working environment,
+
+178
+00:06:59,500 --> 00:07:02,000
+which we can see
+because Working is checked
+
+179
+00:07:02,000 --> 00:07:05,500
+in the Screen Environment submenu
+under the Format menu.
+
+180
+00:07:05,500 --> 00:07:07,800
+If the screen environment
+is changed to Printout,
+
+181
+00:07:07,800 --> 00:07:10,000
+the styles used in the notebook
+change to styles
+
+182
+00:07:10,000 --> 00:07:12,000
+that are more appropriate
+for printing.
+
+183
+00:07:12,000 --> 00:07:14,000
+In this example,
+switching to Printout environment
+
+184
+00:07:14,000 --> 00:07:17,200
+changes the magnification
+and the cell margins
+
+185
+00:07:17,200 --> 00:07:21,000
+and limits the page width
+to the width of printing paper.
+
+186
+00:07:21,000 --> 00:07:22,700
+The different environments could,
+in principle,
+
+187
+00:07:22,700 --> 00:07:25,000
+give cells with completely
+different sets of options
+
+188
+00:07:25,000 --> 00:07:26,500
+and completely different styles,
+
+189
+00:07:26,500 --> 00:07:28,700
+but environments
+are more typically used
+
+190
+00:07:28,700 --> 00:07:31,000
+to introduce small variations
+on a general theme,
+
+191
+00:07:31,000 --> 00:07:33,500
+like optimizing a notebook
+for printing
+
+192
+00:07:33,500 --> 00:07:37,500
+or optimizing a notebook
+for a slide presentation.
+
+193
+00:07:37,500 --> 00:07:39,300
+There is really an enormous range
+of other things
+
+194
+00:07:39,300 --> 00:07:42,500
+that can be done like this
+to customize notebook styles.
+
+195
+00:07:42,500 --> 00:07:44,500
+You can find more information
+about stylesheets
+
+196
+00:07:44,500 --> 00:07:46,300
+in the Wolfram Documentation
+
+197
+00:07:46,300 --> 00:07:50,000
+by navigating to this tutorial
+on working with stylesheets
+
+198
+00:07:50,000 --> 00:07:51,000
+and a good reference
+
+199
+00:07:51,000 --> 00:07:53,000
+on the general structure
+of Wolfram notebooks
+
+200
+00:07:53,000 --> 00:07:58,000
+is this section on notebooks
+as Wolfram Language expressions.
+

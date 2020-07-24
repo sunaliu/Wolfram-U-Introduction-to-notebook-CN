@@ -1,0 +1,1434 @@
+﻿1
+00:00:00,000 --> 00:00:02,500
+This section of Introduction
+to Wolfram Notebooks
+
+2
+00:00:02,500 --> 00:00:04,800
+is about using notebooks
+for presentations,
+
+3
+00:00:04,800 --> 00:00:07,500
+such as showing
+a notebook as a slideshow.
+
+4
+00:00:07,500 --> 00:00:09,400
+Here's an example
+of a typical slideshow,
+
+5
+00:00:09,400 --> 00:00:10,900
+which is essentially
+just a notebook
+
+6
+00:00:10,900 --> 00:00:13,500
+that is being displayed
+one slide at a time.
+
+7
+00:00:13,500 --> 00:00:15,500
+You can end the slideshow
+by clicking this button
+
+8
+00:00:15,500 --> 00:00:17,400
+in the upper-right corner
+of the display
+
+9
+00:00:17,400 --> 00:00:20,700
+and choosing End Presentation
+from the resulting popup menu,
+
+10
+00:00:20,700 --> 00:00:22,800
+which shows the same notebook
+in the working format
+
+11
+00:00:22,800 --> 00:00:25,400
+that was used
+for creating the slideshow.
+
+12
+00:00:25,400 --> 00:00:26,900
+This working slideshow notebook
+
+13
+00:00:26,900 --> 00:00:28,400
+behaves much like
+any other notebook,
+
+14
+00:00:28,400 --> 00:00:29,900
+with two essential differences
+
+15
+00:00:29,900 --> 00:00:33,200
+being the presence of cells
+for marking breaks between slides
+
+16
+00:00:33,200 --> 00:00:36,000
+and the authoring toolbar
+at the top of the notebook.
+
+17
+00:00:36,000 --> 00:00:37,900
+The authoring toolbar
+is a docked cell
+
+18
+00:00:37,900 --> 00:00:39,800
+with controls
+for common operations
+
+19
+00:00:39,800 --> 00:00:43,400
+like inserting a new slide
+and starting the presentation.
+
+20
+00:00:43,400 --> 00:00:45,600
+The authoring toolbar
+and the Slide Break cells
+
+21
+00:00:45,600 --> 00:00:47,900
+and all of the other options
+that make this notebook
+
+22
+00:00:47,900 --> 00:00:50,600
+function as an environment
+for creating a slideshow
+
+23
+00:00:50,600 --> 00:00:52,500
+are set up in the stylesheet.
+
+24
+00:00:52,500 --> 00:00:53,800
+The stylesheet for this notebook
+
+25
+00:00:53,800 --> 00:00:56,000
+is chosen
+from the PresenterTools submenu
+
+26
+00:00:56,000 --> 00:00:58,300
+under the Format ►
+Stylesheet menu.
+
+27
+00:00:58,300 --> 00:01:01,000
+All of the stylesheets
+in the PresenterTools submenu
+
+28
+00:01:01,000 --> 00:01:04,000
+include all of the options
+for creating a slideshow.
+
+29
+00:01:04,000 --> 00:01:06,450
+In fact, any notebook
+can be made into a slideshow
+
+30
+00:01:06,450 --> 00:01:09,600
+by simply choosing one
+of the PresenterTools stylesheets
+
+31
+00:01:09,600 --> 00:01:11,400
+and inserting slide breaks.
+
+32
+00:01:11,400 --> 00:01:13,100
+For example,
+here is that same notebook,
+
+33
+00:01:13,100 --> 00:01:15,200
+but without any
+of the Slide Break cells
+
+34
+00:01:15,200 --> 00:01:17,500
+and with the normal
+Default stylesheet,
+
+35
+00:01:17,500 --> 00:01:21,000
+which is the item that is checked
+in the stylesheet submenu.
+
+36
+00:01:21,000 --> 00:01:23,800
+Further down this menu
+is the PresenterTools submenu,
+
+37
+00:01:23,800 --> 00:01:26,800
+and below that is another submenu
+called SlideShow.
+
+38
+00:01:26,800 --> 00:01:28,450
+The SlideShow submenu is included
+
+39
+00:01:28,450 --> 00:01:30,300
+to support an older
+slideshow system
+
+40
+00:01:30,300 --> 00:01:31,300
+that has been available
+
+41
+00:01:31,300 --> 00:01:33,300
+in Wolfram Notebooks
+for many years.
+
+42
+00:01:33,300 --> 00:01:36,000
+But this section is about
+the newer PresenterTools system,
+
+43
+00:01:36,000 --> 00:01:39,100
+which is an enhanced version
+of the older system.
+
+44
+00:01:39,100 --> 00:01:40,800
+To make this notebook
+into a slideshow,
+
+45
+00:01:40,800 --> 00:01:44,300
+we will choose one
+of the PresenterTools stylesheets.
+
+46
+00:01:44,300 --> 00:01:46,250
+A convenient way
+to insert slide breaks
+
+47
+00:01:46,250 --> 00:01:48,300
+is to first bring up
+the authoring toolbar,
+
+48
+00:01:48,300 --> 00:01:49,900
+which is made visible
+by changing
+
+49
+00:01:49,900 --> 00:01:51,950
+the screen environment
+to Slideshow Working,
+
+50
+00:01:51,950 --> 00:01:55,300
+using the Screen Environment
+submenu under the Format menu.
+
+51
+00:01:55,300 --> 00:01:57,000
+Clicking
+the Insert New Slide button
+
+52
+00:01:57,000 --> 00:02:00,000
+in the authoring toolbar
+opens a short popup menu
+
+53
+00:02:00,000 --> 00:02:03,200
+offering to insert a slide break
+with or without a background.
+
+54
+00:02:03,200 --> 00:02:05,000
+Either choice
+inserts the slide break,
+
+55
+00:02:05,000 --> 00:02:06,800
+which is marked by a new cell
+
+56
+00:02:06,800 --> 00:02:10,000
+with a cell style
+called slideshow navigation bar.
+
+57
+00:02:10,000 --> 00:02:11,500
+You can also create a new slide
+
+58
+00:02:11,500 --> 00:02:13,800
+by copying and pasting
+the Slide Break cell
+
+59
+00:02:13,800 --> 00:02:15,400
+from elsewhere in the notebook.
+
+60
+00:02:15,400 --> 00:02:17,700
+For example, we can select
+the Slide Break cell
+
+61
+00:02:17,700 --> 00:02:19,800
+and the Section cell below it,
+
+62
+00:02:19,800 --> 00:02:22,750
+and then copy that selection
+and paste those cells elsewhere
+
+63
+00:02:22,750 --> 00:02:25,000
+in the notebook
+to get a new slide.
+
+64
+00:02:25,000 --> 00:02:27,200
+This sort of editing
+is also a way of deleting slides
+
+65
+00:02:27,200 --> 00:02:28,600
+or deleting slide breaks.
+
+66
+00:02:28,600 --> 00:02:31,000
+For example, to delete the slide
+that was just added,
+
+67
+00:02:31,000 --> 00:02:33,000
+we can select
+the Slide Break cell
+
+68
+00:02:33,000 --> 00:02:37,300
+and the contents of the slide
+and delete that selection.
+
+69
+00:02:37,300 --> 00:02:39,000
+Another way
+of inserting slide breaks
+
+70
+00:02:39,000 --> 00:02:40,000
+throughout the notebook
+
+71
+00:02:40,000 --> 00:02:42,000
+is to click
+the Slide Break Defaults button
+
+72
+00:02:42,000 --> 00:02:43,700
+in the authoring toolbar,
+
+73
+00:02:43,700 --> 00:02:45,000
+which opens a dialog box
+
+74
+00:02:45,000 --> 00:02:48,300
+where you can choose slide breaks
+based on cell styles.
+
+75
+00:02:48,300 --> 00:02:51,300
+For example, choosing Section
+in this dialog box
+
+76
+00:02:51,300 --> 00:02:53,800
+and clicking the Set button
+inserts a slide break
+
+77
+00:02:53,800 --> 00:02:56,500
+before every Section cell
+in the notebook.
+
+78
+00:02:56,500 --> 00:02:58,800
+If the notebook is already
+organized into sections,
+
+79
+00:02:58,800 --> 00:03:03,000
+this is a fast way of turning
+the notebook into a slideshow.
+
+80
+00:03:03,000 --> 00:03:04,750
+Rather than converting
+a default notebook
+
+81
+00:03:04,750 --> 00:03:05,825
+into a slideshow,
+
+82
+00:03:05,825 --> 00:03:06,825
+in many cases
+
+83
+00:03:06,825 --> 00:03:08,300
+the easiest way
+to create a new slideshow
+
+84
+00:03:08,300 --> 00:03:11,000
+is to start by choosing New ►
+Presenter Notebook
+
+85
+00:03:11,000 --> 00:03:12,000
+from the File menu,
+
+86
+00:03:12,000 --> 00:03:14,000
+which brings up this dialog box
+
+87
+00:03:14,000 --> 00:03:16,950
+for choosing from the same set
+of PresenterTools stylesheets,
+
+88
+00:03:16,950 --> 00:03:19,500
+which are here
+referred to as themes.
+
+89
+00:03:19,500 --> 00:03:21,600
+From this dialog box
+you can also choose
+
+90
+00:03:21,600 --> 00:03:24,500
+from various default fonts
+and color schemes.
+
+91
+00:03:24,500 --> 00:03:25,900
+After making some choices,
+
+92
+00:03:25,900 --> 00:03:28,400
+click the Create button
+to get a slideshow template
+
+93
+00:03:28,400 --> 00:03:30,500
+with the chosen
+PresenterTools stylesheet
+
+94
+00:03:30,500 --> 00:03:33,500
+and the screen environment
+set to Slideshow Working
+
+95
+00:03:33,500 --> 00:03:35,800
+and the authoring toolbar
+at the top and several slides
+
+96
+00:03:35,800 --> 00:03:38,900
+with some generic content
+already filled in.
+
+97
+00:03:38,900 --> 00:03:41,300
+This notebook can then be edited
+much like any other notebook
+
+98
+00:03:41,300 --> 00:03:44,500
+to fill in the contents
+of the slideshow.
+
+99
+00:03:44,500 --> 00:03:46,200
+Several of the buttons
+in the authoring toolbar
+
+100
+00:03:46,200 --> 00:03:48,500
+are generic controls
+for fonts and styling
+
+101
+00:03:48,500 --> 00:03:50,300
+that could apply
+to any notebook.
+
+102
+00:03:50,300 --> 00:03:52,250
+For example,
+this button brings up a menu
+
+103
+00:03:52,250 --> 00:03:53,600
+for choosing cell style,
+
+104
+00:03:53,600 --> 00:03:55,600
+which are the same styles
+that can be chosen
+
+105
+00:03:55,600 --> 00:03:58,200
+from the Style submenu
+under the Format menu.
+
+106
+00:03:58,200 --> 00:03:59,750
+Next to the cell style menu
+
+107
+00:03:59,750 --> 00:04:01,400
+is an interesting button
+that can be used
+
+108
+00:04:01,400 --> 00:04:04,900
+to add font choices to all cells
+of the selected style.
+
+109
+00:04:04,900 --> 00:04:05,900
+For example,
+
+110
+00:04:05,900 --> 00:04:09,000
+after setting this text cell
+to use large, bold characters,
+
+111
+00:04:09,000 --> 00:04:10,600
+clicking that button
+has the effect
+
+112
+00:04:10,600 --> 00:04:13,050
+of applying those options
+to all of the text cells
+
+113
+00:04:13,050 --> 00:04:14,300
+in the notebook.
+
+114
+00:04:14,300 --> 00:04:16,550
+This worked by editing
+the private stylesheet
+
+115
+00:04:16,550 --> 00:04:17,550
+for this notebook.
+
+116
+00:04:17,550 --> 00:04:18,550
+For example,
+
+117
+00:04:18,550 --> 00:04:20,500
+choosing Edit Stylesheet
+from the Format menu
+
+118
+00:04:20,500 --> 00:04:22,800
+shows the private stylesheet
+for this notebook
+
+119
+00:04:22,800 --> 00:04:24,500
+with the new local
+style definitions
+
+120
+00:04:24,500 --> 00:04:27,500
+that specify large,
+bold characters for the text.
+
+121
+00:04:27,500 --> 00:04:28,700
+You could achieve
+the same effect
+
+122
+00:04:28,700 --> 00:04:30,400
+by editing
+the stylesheet directly,
+
+123
+00:04:30,400 --> 00:04:32,400
+so that button
+in the authoring toolbar
+
+124
+00:04:32,400 --> 00:04:33,700
+essentially provides
+
+125
+00:04:33,700 --> 00:04:36,200
+one-click editing
+of the stylesheet.
+
+126
+00:04:36,200 --> 00:04:38,000
+One button that is worth
+saying a few words about
+
+127
+00:04:38,000 --> 00:04:40,000
+is this button,
+which opens a popup menu
+
+128
+00:04:40,000 --> 00:04:42,800
+for making font sizes
+larger or smaller.
+
+129
+00:04:42,800 --> 00:04:45,500
+To describe what that menu does,
+it is helpful to first bring up
+
+130
+00:04:45,500 --> 00:04:47,800
+a feature of all
+PresenterTools stylesheets,
+
+131
+00:04:47,800 --> 00:04:49,750
+which is dynamic resizing
+of content
+
+132
+00:04:49,750 --> 00:04:51,800
+depending on the size
+of the window.
+
+133
+00:04:51,800 --> 00:04:54,300
+For example, if the size
+of this window is changed,
+
+134
+00:04:54,300 --> 00:04:57,300
+the font sizes change,
+and in fact the sizes of images
+
+135
+00:04:57,300 --> 00:04:58,800
+and almost all
+of the other content
+
+136
+00:04:58,800 --> 00:05:02,300
+within the notebook also changes
+based on the size of the window.
+
+137
+00:05:02,300 --> 00:05:04,100
+You could get the same effect
+in any notebook
+
+138
+00:05:04,100 --> 00:05:07,800
+by using scaled sizes for fonts
+and images and so on,
+
+139
+00:05:07,800 --> 00:05:10,900
+but unlike most other stylesheets,
+with PresenterTools stylesheets
+
+140
+00:05:10,900 --> 00:05:13,000
+all of the options settings
+for that resizing
+
+141
+00:05:13,000 --> 00:05:15,500
+are already part
+of the stylesheet.
+
+142
+00:05:15,500 --> 00:05:16,700
+Dynamic resizing like this
+
+143
+00:05:16,700 --> 00:05:18,600
+is helpful for
+the common situation
+
+144
+00:05:18,600 --> 00:05:20,950
+where you want to enlarge
+the window for presentation
+
+145
+00:05:20,950 --> 00:05:23,800
+or where the presentation is done
+on a different display system
+
+146
+00:05:23,800 --> 00:05:26,300
+where window sizes
+might be different.
+
+147
+00:05:26,300 --> 00:05:29,300
+Returning now to the specific
+issue of font sizes,
+
+148
+00:05:29,300 --> 00:05:32,500
+if font size is
+specified by selecting some text
+
+149
+00:05:32,500 --> 00:05:35,100
+and choosing a font size
+from the Size submenu
+
+150
+00:05:35,100 --> 00:05:36,600
+under the Format menu,
+
+151
+00:05:36,600 --> 00:05:38,600
+the size of that text
+remains constant
+
+152
+00:05:38,600 --> 00:05:40,800
+as the size of the window
+is changed,
+
+153
+00:05:40,800 --> 00:05:42,800
+since that size setting
+takes precedence
+
+154
+00:05:42,800 --> 00:05:46,000
+over the dynamic resizing system
+from the stylesheet.
+
+155
+00:05:46,000 --> 00:05:47,000
+The font size button
+
+156
+00:05:47,000 --> 00:05:49,100
+in the authoring toolbar
+works differently.
+
+157
+00:05:49,100 --> 00:05:52,950
+For example, selecting some text
+and then choosing a new size
+
+158
+00:05:52,950 --> 00:05:55,300
+from the popup menu
+in the authoring toolbar
+
+159
+00:05:55,300 --> 00:05:57,400
+causes the size
+of the selected text
+
+160
+00:05:57,400 --> 00:06:00,900
+to be scaled up or down
+by the chosen number of steps,
+
+161
+00:06:00,900 --> 00:06:03,900
+and the resized text
+does change size
+
+162
+00:06:03,900 --> 00:06:05,800
+based on the size of the window.
+
+163
+00:06:05,800 --> 00:06:08,300
+Similar issues also apply
+to images and to graphics.
+
+164
+00:06:08,300 --> 00:06:10,000
+For example,
+selecting this image
+
+165
+00:06:10,000 --> 00:06:11,500
+changes the authoring toolbar
+
+166
+00:06:11,500 --> 00:06:14,400
+to show a button for locking
+the current size of the image
+
+167
+00:06:14,400 --> 00:06:16,300
+or letting the size
+of the image change
+
+168
+00:06:16,300 --> 00:06:18,000
+with the size of the window.
+
+169
+00:06:18,000 --> 00:06:19,700
+Choosing Lock to current size
+
+170
+00:06:19,700 --> 00:06:21,800
+sets the image size option
+for that selection
+
+171
+00:06:21,800 --> 00:06:23,300
+to the current fixed value,
+
+172
+00:06:23,300 --> 00:06:26,500
+which results in an image
+that, like the text shown earlier,
+
+173
+00:06:26,500 --> 00:06:28,000
+remains at a fixed size
+
+174
+00:06:28,000 --> 00:06:30,000
+when the size
+of the window is changed.
+
+175
+00:06:30,000 --> 00:06:32,000
+So while dynamic resizing
+is the default,
+
+176
+00:06:32,000 --> 00:06:35,400
+you can get fixed sizes
+by specifying sizes
+
+177
+00:06:35,400 --> 00:06:37,800
+for individual selections.
+
+178
+00:06:37,800 --> 00:06:39,500
+Other buttons
+in the authoring toolbar
+
+179
+00:06:39,500 --> 00:06:41,300
+include the
+Start Presentation button,
+
+180
+00:06:41,300 --> 00:06:43,800
+which is the button to click
+to start the presentation,
+
+181
+00:06:43,800 --> 00:06:45,500
+which we will do in a moment.
+
+182
+00:06:45,500 --> 00:06:47,900
+The first button below
+the Start Presentation button
+
+183
+00:06:47,900 --> 00:06:49,000
+brings up a palette of buttons
+
+184
+00:06:49,000 --> 00:06:51,200
+showing the outline
+of the slideshow.
+
+185
+00:06:51,200 --> 00:06:52,500
+These buttons can be clicked
+
+186
+00:06:52,500 --> 00:06:55,000
+to navigate between slides
+in the notebook.
+
+187
+00:06:55,000 --> 00:06:57,500
+This palette also includes
+a refresh button
+
+188
+00:06:57,500 --> 00:07:00,500
+to update the palette
+if slides are added or removed.
+
+189
+00:07:00,500 --> 00:07:03,300
+The button next to that
+opens the Side Notes palette,
+
+190
+00:07:03,300 --> 00:07:05,000
+which provides a way
+of adding notes
+
+191
+00:07:05,000 --> 00:07:06,300
+that are intended
+for the presenter
+
+192
+00:07:06,300 --> 00:07:08,400
+and that will be shown
+in this palette,
+
+193
+00:07:08,400 --> 00:07:11,000
+but that are not displayed
+in the presentation.
+
+194
+00:07:11,000 --> 00:07:12,500
+To add a side note,
+
+195
+00:07:12,500 --> 00:07:15,000
+click the Add note
+to slide button,
+
+196
+00:07:15,000 --> 00:07:17,100
+which inserts a cell
+called a SideNote cell
+
+197
+00:07:17,100 --> 00:07:19,000
+into the slideshow notebook.
+
+198
+00:07:19,000 --> 00:07:21,600
+This cell can be edited
+just like any other cell.
+
+199
+00:07:21,600 --> 00:07:24,800
+Clicking the refresh button
+updates the Side Notes palette
+
+200
+00:07:24,800 --> 00:07:27,000
+with any new side notes.
+
+201
+00:07:27,000 --> 00:07:29,300
+Clicking this last button
+opens a popup menu.
+
+202
+00:07:29,300 --> 00:07:31,100
+Choosing Style Palette
+from that menu
+
+203
+00:07:31,100 --> 00:07:32,400
+opens a palette of buttons
+
+204
+00:07:32,400 --> 00:07:34,500
+like the buttons
+in the authoring toolbar.
+
+205
+00:07:34,500 --> 00:07:36,300
+Choosing Presentation Controls
+
+206
+00:07:36,300 --> 00:07:39,500
+opens a dialog box
+for customizing the computer keys
+
+207
+00:07:39,500 --> 00:07:41,500
+for navigating between slides.
+
+208
+00:07:41,500 --> 00:07:44,200
+Choosing Theme Options
+opens the same dialog box
+
+209
+00:07:44,200 --> 00:07:46,500
+that was used initially
+for choosing a stylesheet.
+
+210
+00:07:46,500 --> 00:07:48,300
+So if you wanted
+to change the stylesheet
+
+211
+00:07:48,300 --> 00:07:50,800
+from the stylesheet
+that was chosen initially,
+
+212
+00:07:50,800 --> 00:07:52,100
+you can do that here,
+
+213
+00:07:52,100 --> 00:07:54,600
+or equivalently, by choosing
+a different stylesheet
+
+214
+00:07:54,600 --> 00:07:56,400
+from the Stylesheet submenu.
+
+215
+00:07:56,400 --> 00:07:58,300
+For example,
+this changes the fonts
+
+216
+00:07:58,300 --> 00:08:00,000
+and the color scheme
+of the presentation
+
+217
+00:08:00,000 --> 00:08:03,000
+by changing the stylesheet.
+
+218
+00:08:03,000 --> 00:08:04,400
+To start the slideshow,
+
+219
+00:08:04,400 --> 00:08:06,500
+we can click
+the Start Presentation button.
+
+220
+00:08:06,500 --> 00:08:09,000
+At the end
+of the Start Presentation button
+
+221
+00:08:09,000 --> 00:08:11,900
+is a popup menu
+for other screen environments.
+
+222
+00:08:11,900 --> 00:08:13,800
+Scrolling Presentation
+gives a display
+
+223
+00:08:13,800 --> 00:08:15,400
+for scrolling through the slides
+
+224
+00:08:15,400 --> 00:08:17,500
+rather than clicking
+from slide to slide,
+
+225
+00:08:17,500 --> 00:08:18,800
+and Slideshow Presentation
+
+226
+00:08:18,800 --> 00:08:22,100
+switches the screen environment
+to Slideshow Presentation,
+
+227
+00:08:22,100 --> 00:08:24,000
+which removes
+the authoring toolbar
+
+228
+00:08:24,000 --> 00:08:27,000
+and the Slide Break cells
+and the SideNote cells.
+
+229
+00:08:27,000 --> 00:08:29,000
+Clicking the main
+Start Presentation button
+
+230
+00:08:29,000 --> 00:08:30,200
+does all of that
+
+231
+00:08:30,200 --> 00:08:33,500
+and also switches
+to full-screen display.
+
+232
+00:08:33,500 --> 00:08:34,900
+After the presentation
+is started,
+
+233
+00:08:34,900 --> 00:08:36,000
+you can move
+between slides
+
+234
+00:08:36,000 --> 00:08:37,900
+using keys
+on the computer keyboard
+
+235
+00:08:37,900 --> 00:08:40,900
+or the corresponding keys
+on a separate controller.
+
+236
+00:08:40,900 --> 00:08:42,400
+Within the slideshow,
+there is a button
+
+237
+00:08:42,400 --> 00:08:44,000
+in the upper-right corner
+of the window
+
+238
+00:08:44,000 --> 00:08:45,000
+that can be clicked
+
+239
+00:08:45,000 --> 00:08:47,800
+to open a popup menu
+with other controls.
+
+240
+00:08:47,800 --> 00:08:50,800
+There are choices here
+for moving to the first slide
+
+241
+00:08:50,800 --> 00:08:53,000
+or to the next slide and so on.
+
+242
+00:08:53,000 --> 00:08:56,000
+Choosing Toggle Navigation Bar
+adds on-screen controls
+
+243
+00:08:56,000 --> 00:08:59,000
+at the top of the window
+for moving between slides.
+
+244
+00:08:59,000 --> 00:09:02,100
+Choosing Toggle Style Tools
+opens the same palette
+
+245
+00:09:02,100 --> 00:09:04,300
+of style controls
+that was shown earlier.
+
+246
+00:09:04,300 --> 00:09:06,000
+In Slideshow Working
+screen environment,
+
+247
+00:09:06,000 --> 00:09:08,650
+this palette isn't usually needed
+since the same controls
+
+248
+00:09:08,650 --> 00:09:10,800
+are available
+in the authoring toolbar,
+
+249
+00:09:10,800 --> 00:09:13,800
+but here this palette provides
+a way of editing the slideshow
+
+250
+00:09:13,800 --> 00:09:15,500
+from within
+the actual presentation,
+
+251
+00:09:15,500 --> 00:09:18,800
+rather than from
+the working notebook environment.
+
+252
+00:09:18,800 --> 00:09:19,800
+Choosing Side Notes
+
+253
+00:09:19,800 --> 00:09:22,200
+opens the Side Notes palette
+to show side notes,
+
+254
+00:09:22,200 --> 00:09:25,300
+which you could display
+on a different monitor
+
+255
+00:09:25,300 --> 00:09:27,800
+or on a separate tablet
+or other device.
+
+256
+00:09:27,800 --> 00:09:29,200
+You can also click
+within this palette
+
+257
+00:09:29,200 --> 00:09:31,100
+to move between slides.
+
+258
+00:09:31,100 --> 00:09:34,000
+Choosing Slide Outline
+opens the Slide Outline palette
+
+259
+00:09:34,000 --> 00:09:35,400
+that was shown earlier,
+
+260
+00:09:35,400 --> 00:09:39,000
+which provides yet another way
+of moving between slides.
+
+261
+00:09:39,000 --> 00:09:41,000
+Going beyond a basic slideshow
+like this,
+
+262
+00:09:41,000 --> 00:09:43,000
+there's an unlimited range
+of possibilities
+
+263
+00:09:43,000 --> 00:09:44,900
+for what is displayed
+in a presentation
+
+264
+00:09:44,900 --> 00:09:47,000
+and for how that display
+is controlled.
+
+265
+00:09:47,000 --> 00:09:48,600
+To illustrate some
+of the possibilities,
+
+266
+00:09:48,600 --> 00:09:49,900
+consider this animation,
+
+267
+00:09:49,900 --> 00:09:51,800
+which is used
+for illustrating a topic
+
+268
+00:09:51,800 --> 00:09:54,700
+that comes up during this
+particular presentation.
+
+269
+00:09:54,700 --> 00:09:55,700
+During a presentation,
+
+270
+00:09:55,700 --> 00:09:58,000
+the presenter can control
+this animation
+
+271
+00:09:58,000 --> 00:10:00,200
+using the controls
+in the display.
+
+272
+00:10:00,200 --> 00:10:02,400
+There are, however, situations
+where it would be better
+
+273
+00:10:02,400 --> 00:10:04,000
+to have the controls
+somewhere else,
+
+274
+00:10:04,000 --> 00:10:05,900
+such as in a separate controller.
+
+275
+00:10:05,900 --> 00:10:07,300
+There are several ways
+to do that,
+
+276
+00:10:07,300 --> 00:10:08,800
+one of which is shown here.
+
+277
+00:10:08,800 --> 00:10:11,400
+This example shows a display
+in the presentation
+
+278
+00:10:11,400 --> 00:10:13,900
+that depends on
+a dynamically updated variable
+
+279
+00:10:13,900 --> 00:10:16,000
+and a button
+in a separate notebook
+
+280
+00:10:16,000 --> 00:10:18,600
+for controlling the value
+of that variable.
+
+281
+00:10:18,600 --> 00:10:19,900
+This allows the presentation
+
+282
+00:10:19,900 --> 00:10:21,800
+to be controlled
+by a separate controller,
+
+283
+00:10:21,800 --> 00:10:23,300
+which is useful in settings
+
+284
+00:10:23,300 --> 00:10:25,600
+where it is inconvenient
+for the presenter
+
+285
+00:10:25,600 --> 00:10:28,100
+to click on buttons
+in the display.
+
+286
+00:10:28,100 --> 00:10:30,000
+Wolfram Notebooks support
+a whole collection of features
+
+287
+00:10:30,000 --> 00:10:32,500
+for programmatic control
+of the display,
+
+288
+00:10:32,500 --> 00:10:34,500
+so it is possible
+to design presentations
+
+289
+00:10:34,500 --> 00:10:37,000
+with complex animations
+or sequences of images,
+
+290
+00:10:37,000 --> 00:10:38,800
+and to program
+all of that in advance
+
+291
+00:10:38,800 --> 00:10:41,300
+so that it can be shown
+during the presentation
+
+292
+00:10:41,300 --> 00:10:44,650
+with the click of a button
+on an off-screen controller.
+
+293
+00:10:44,650 --> 00:10:46,800
+That's the end of the examples
+for this section.
+
+294
+00:10:46,800 --> 00:10:49,200
+In the Wolfram documentation,
+you can find more information
+
+295
+00:10:49,200 --> 00:10:52,000
+by searching for presentations
+or slideshows,
+
+296
+00:10:52,000 --> 00:10:53,750
+and in particular from this page
+
+297
+00:10:53,750 --> 00:10:55,650
+on preparing
+and giving presentations,
+
+298
+00:10:55,650 --> 00:10:58,800
+which includes links
+to workflow guides like this one,
+
+299
+00:10:58,800 --> 00:11:00,200
+with step-by-step instructions
+
+300
+00:11:00,200 --> 00:11:03,000
+for the operations
+that came up in this section.
+

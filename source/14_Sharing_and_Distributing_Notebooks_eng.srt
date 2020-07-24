@@ -1,0 +1,956 @@
+﻿1
+00:00:00,800 --> 00:00:02,900
+This section of Introduction
+to Wolfram Notebooks
+
+2
+00:00:02,900 --> 00:00:04,800
+is about sharing notebooks
+with other people
+
+3
+00:00:04,800 --> 00:00:07,700
+and distributing notebooks
+publicly over the internet.
+
+4
+00:00:07,700 --> 00:00:10,500
+A notebook can be shared
+either from a desktop application
+
+5
+00:00:10,500 --> 00:00:12,450
+or from the Wolfram Cloud.
+
+6
+00:00:12,450 --> 00:00:14,600
+This happens to be
+a notebook in a web browser
+
+7
+00:00:14,600 --> 00:00:17,200
+that is signed into
+a Wolfram Cloud Account.
+
+8
+00:00:17,200 --> 00:00:18,300
+At the top of this page
+
+9
+00:00:18,300 --> 00:00:20,700
+are buttons labeled
+Share and Publish.
+
+10
+00:00:20,700 --> 00:00:23,200
+Share is used for sharing
+the notebook with specific people
+
+11
+00:00:23,200 --> 00:00:24,300
+and Publish is used
+
+12
+00:00:24,300 --> 00:00:27,000
+for making the notebook
+more publicly available.
+
+13
+00:00:27,000 --> 00:00:29,000
+Clicking the Share button
+opens a dialog box
+
+14
+00:00:29,000 --> 00:00:31,000
+where you can enter
+an email address.
+
+15
+00:00:31,000 --> 00:00:32,950
+Clicking Share
+in that dialog box
+
+16
+00:00:32,950 --> 00:00:36,000
+puts a link to this notebook
+in the Wolfram Cloud Account
+
+17
+00:00:36,000 --> 00:00:38,000
+that is associated
+with that address
+
+18
+00:00:38,000 --> 00:00:41,100
+and sends an email notification
+to that address.
+
+19
+00:00:41,100 --> 00:00:43,200
+The contents of that email
+will look something like this,
+
+20
+00:00:43,200 --> 00:00:46,000
+with a button that can be clicked
+to see the notebook.
+
+21
+00:00:46,000 --> 00:00:48,300
+If the owner of that account
+is not already signed in
+
+22
+00:00:48,300 --> 00:00:50,000
+to that Wolfram Cloud Account,
+
+23
+00:00:50,000 --> 00:00:52,200
+clicking that button
+will first bring up a dialog box
+
+24
+00:00:52,200 --> 00:00:53,500
+for signing in,
+
+25
+00:00:53,500 --> 00:00:55,900
+and after that
+the notebook will be displayed
+
+26
+00:00:55,900 --> 00:00:58,550
+in that Wolfram Cloud Account.
+
+27
+00:00:58,550 --> 00:01:00,500
+Returning to the notebook
+in the original account,
+
+28
+00:01:00,500 --> 00:01:03,100
+clicking the Publish button
+brings up a different dialog box
+
+29
+00:01:03,100 --> 00:01:05,450
+for making the notebook
+publicly available.
+
+30
+00:01:05,450 --> 00:01:07,500
+Clicking the Publish button
+in that dialog box
+
+31
+00:01:07,500 --> 00:01:10,650
+opens a second dialog box
+with a URL
+
+32
+00:01:10,650 --> 00:01:12,800
+that anyone could use
+to view this notebook.
+
+33
+00:01:12,800 --> 00:01:16,600
+To see the notebook,
+copy the URL, open a web browser
+
+34
+00:01:16,600 --> 00:01:18,300
+and go to
+the corresponding webpage,
+
+35
+00:01:18,300 --> 00:01:22,000
+which displays the notebook
+in a web browser.
+
+36
+00:01:22,000 --> 00:01:23,950
+The notebook can be viewed here
+in the web browser,
+
+37
+00:01:23,950 --> 00:01:25,500
+and dynamic content also works,
+
+38
+00:01:25,500 --> 00:01:28,300
+like the controls
+in this Manipulate result.
+
+39
+00:01:28,300 --> 00:01:30,900
+This display is not editable,
+but it does include buttons
+
+40
+00:01:30,900 --> 00:01:32,450
+for making a copy
+of the notebook
+
+41
+00:01:32,450 --> 00:01:33,500
+that can be edited.
+
+42
+00:01:33,500 --> 00:01:35,450
+For example,
+clicking the Download button
+
+43
+00:01:35,450 --> 00:01:38,200
+would download a copy
+of the notebook to the desktop,
+
+44
+00:01:38,200 --> 00:01:41,300
+where the copy could be opened
+and edited in Wolfram Desktop,
+
+45
+00:01:41,300 --> 00:01:43,500
+just like any other notebook.
+
+46
+00:01:43,500 --> 00:01:45,800
+There was no need to sign in
+to a Wolfram Cloud Account
+
+47
+00:01:45,800 --> 00:01:46,900
+to see this notebook,
+
+48
+00:01:46,900 --> 00:01:49,900
+so the notebook is currently
+being viewed anonymously,
+
+49
+00:01:49,900 --> 00:01:52,700
+but the notebook can be copied
+to a Wolfram Cloud Account
+
+50
+00:01:52,700 --> 00:01:54,800
+either by clicking
+the sign-in button
+
+51
+00:01:54,800 --> 00:01:57,000
+or by clicking
+the Make Your Own Copy button.
+
+52
+00:01:57,000 --> 00:01:58,650
+For example,
+since this web browser
+
+53
+00:01:58,650 --> 00:02:01,300
+is not already signed in
+to a Wolfram Cloud Account,
+
+54
+00:02:01,300 --> 00:02:03,000
+clicking
+the Make Your Own Copy button
+
+55
+00:02:03,000 --> 00:02:05,600
+opens a dialog box
+for signing in,
+
+56
+00:02:05,600 --> 00:02:06,600
+and after signing in
+
+57
+00:02:06,600 --> 00:02:08,300
+the copy is displayed
+in the web browser,
+
+58
+00:02:08,300 --> 00:02:11,000
+where it can be edited
+just like any other notebook
+
+59
+00:02:11,000 --> 00:02:13,450
+in this account.
+
+60
+00:02:13,450 --> 00:02:16,200
+As noted earlier, this notebook
+can also be published or shared
+
+61
+00:02:16,200 --> 00:02:17,600
+from the desktop.
+
+62
+00:02:17,600 --> 00:02:18,600
+For example,
+
+63
+00:02:18,600 --> 00:02:20,900
+starting now with this notebook
+on the desktop,
+
+64
+00:02:20,900 --> 00:02:23,000
+the notebook can be made
+publicly available
+
+65
+00:02:23,000 --> 00:02:25,800
+by selecting Publish to Cloud
+from the File menu,
+
+66
+00:02:25,800 --> 00:02:27,000
+which opens a dialog box
+
+67
+00:02:27,000 --> 00:02:29,400
+much like the dialog box
+that came up earlier
+
+68
+00:02:29,400 --> 00:02:30,500
+for choosing a file name
+
+69
+00:02:30,500 --> 00:02:34,100
+and for choosing whether
+or not to require a password.
+
+70
+00:02:34,100 --> 00:02:35,300
+Clicking the Publish button
+
+71
+00:02:35,300 --> 00:02:37,000
+copies the notebook
+from the desktop
+
+72
+00:02:37,000 --> 00:02:39,400
+to the cloud and displays a URL.
+
+73
+00:02:39,400 --> 00:02:41,200
+As before, anyone with that URL
+
+74
+00:02:41,200 --> 00:02:43,500
+and a web browser
+connected to the internet
+
+75
+00:02:43,500 --> 00:02:45,600
+could see the notebook.
+
+76
+00:02:45,600 --> 00:02:47,400
+The dialog box
+also includes code
+
+77
+00:02:47,400 --> 00:02:49,700
+for embedding the notebook
+in another document.
+
+78
+00:02:49,700 --> 00:02:51,600
+As a simple example
+of how that can work,
+
+79
+00:02:51,600 --> 00:02:52,900
+here is a text editor
+
+80
+00:02:52,900 --> 00:02:55,800
+with raw HTML code
+for a webpage.
+
+81
+00:02:55,800 --> 00:02:59,600
+The code from the dialog box
+can be pasted into the HTML file
+
+82
+00:02:59,600 --> 00:03:02,300
+in the text editor,
+then save the HTML file
+
+83
+00:03:02,300 --> 00:03:04,100
+and open it in a web browser,
+
+84
+00:03:04,100 --> 00:03:07,200
+which shows the notebook
+rendered in the web browser.
+
+85
+00:03:07,200 --> 00:03:09,400
+This webpage also includes
+a button near the bottom
+
+86
+00:03:09,400 --> 00:03:11,400
+that can be clicked
+to download the notebook
+
+87
+00:03:11,400 --> 00:03:13,900
+or copy it
+to a Wolfram Cloud Account.
+
+88
+00:03:13,900 --> 00:03:15,200
+You could also include
+your own link
+
+89
+00:03:15,200 --> 00:03:18,200
+for downloading the notebook
+directly from your computer.
+
+90
+00:03:18,200 --> 00:03:19,850
+Either way,
+the downloaded notebook
+
+91
+00:03:19,850 --> 00:03:21,300
+can be displayed on the desktop
+
+92
+00:03:21,300 --> 00:03:23,900
+using a Wolfram Desktop
+application
+
+93
+00:03:23,900 --> 00:03:25,500
+or using
+the free Wolfram Player,
+
+94
+00:03:25,500 --> 00:03:28,750
+which can be downloaded from
+the Wolfram Research website.
+
+95
+00:03:28,750 --> 00:03:31,200
+For example, this shows
+the downloaded notebook
+
+96
+00:03:31,200 --> 00:03:33,800
+in Wolfram Player.
+
+97
+00:03:33,800 --> 00:03:34,900
+From the desktop,
+
+98
+00:03:34,900 --> 00:03:37,000
+you can also share the notebook
+with specific people,
+
+99
+00:03:37,000 --> 00:03:38,900
+like the sharing
+that was shown earlier
+
+100
+00:03:38,900 --> 00:03:40,500
+from my Wolfram Cloud Account.
+
+101
+00:03:40,500 --> 00:03:42,500
+For example,
+evaluating CloudShare
+
+102
+00:03:42,500 --> 00:03:44,700
+with an email address
+in this notebook
+
+103
+00:03:44,700 --> 00:03:46,500
+uploads the notebook
+to Wolfram Cloud
+
+104
+00:03:46,500 --> 00:03:49,000
+and sends an email notification
+to that address
+
+105
+00:03:49,000 --> 00:03:51,700
+with a link to the notebook
+in the cloud.
+
+106
+00:03:51,700 --> 00:03:53,000
+The CloudShare function
+is essentially
+
+107
+00:03:53,000 --> 00:03:55,300
+just a different way
+of doing the same operations
+
+108
+00:03:55,300 --> 00:03:59,500
+that were done earlier
+using the Share dialog box.
+
+109
+00:03:59,500 --> 00:04:01,400
+The return value
+from the CloudShare function
+
+110
+00:04:01,400 --> 00:04:02,950
+is a cloud object expression,
+
+111
+00:04:02,950 --> 00:04:05,100
+which represents
+the uploaded notebook.
+
+112
+00:04:05,100 --> 00:04:07,300
+CloudObject expressions
+are useful to know about
+
+113
+00:04:07,300 --> 00:04:09,800
+in part because the permissions
+for accessing the notebook
+
+114
+00:04:09,800 --> 00:04:12,100
+are stored as options
+of that expression.
+
+115
+00:04:12,100 --> 00:04:13,900
+For example,
+the Permissions option
+
+116
+00:04:13,900 --> 00:04:15,400
+of this CloudObject expression
+
+117
+00:04:15,400 --> 00:04:18,000
+includes the email address
+where the notebook was shared
+
+118
+00:04:18,000 --> 00:04:19,800
+and a list of permissions.
+
+119
+00:04:19,800 --> 00:04:21,450
+This works much like
+Permissions for files
+
+120
+00:04:21,450 --> 00:04:23,950
+and common operating systems,
+where their permissions
+
+121
+00:04:23,950 --> 00:04:26,000
+are typically associated
+with each file,
+
+122
+00:04:26,000 --> 00:04:27,950
+a difference here being
+that you can specify
+
+123
+00:04:27,950 --> 00:04:30,900
+different permissions
+for each individual user.
+
+124
+00:04:30,900 --> 00:04:32,700
+The default permissions
+give Read, Write
+
+125
+00:04:32,700 --> 00:04:34,800
+and Execute permission
+to the owner,
+
+126
+00:04:34,800 --> 00:04:37,000
+and permission to read
+and interact with the notebook,
+
+127
+00:04:37,000 --> 00:04:39,700
+which permits the use
+of interactive controls
+
+128
+00:04:39,700 --> 00:04:42,000
+in the account
+where the notebook is shared.
+
+129
+00:04:42,000 --> 00:04:44,000
+Those permissions
+can be changed.
+
+130
+00:04:44,000 --> 00:04:46,700
+For example, this input
+gives that account read, write
+
+131
+00:04:46,700 --> 00:04:50,550
+and execute permission
+for the notebook.
+
+132
+00:04:50,550 --> 00:04:51,550
+To see that notebook
+
+133
+00:04:51,550 --> 00:04:52,900
+in the account
+where it was shared,
+
+134
+00:04:52,900 --> 00:04:55,600
+you could click the link
+in the email notification,
+
+135
+00:04:55,600 --> 00:04:56,700
+but a link to that notebook
+
+136
+00:04:56,700 --> 00:04:59,000
+will actually already be
+available in that account.
+
+137
+00:04:59,000 --> 00:05:01,000
+Here, for example,
+is a web browser
+
+138
+00:05:01,000 --> 00:05:03,000
+that is logged into
+that account.
+
+139
+00:05:03,000 --> 00:05:06,600
+Clicking either the Files button
+or the My Files icon
+
+140
+00:05:06,600 --> 00:05:07,700
+opens a file browser
+
+141
+00:05:07,700 --> 00:05:09,900
+where you can navigate
+to a directory of files
+
+142
+00:05:09,900 --> 00:05:11,300
+that have been shared with you.
+
+143
+00:05:11,300 --> 00:05:13,300
+Right now the most recent file
+in that directory
+
+144
+00:05:13,300 --> 00:05:15,600
+is the notebook
+that was just shared,
+
+145
+00:05:15,600 --> 00:05:18,500
+which you can open
+for viewing in this account.
+
+146
+00:05:18,500 --> 00:05:21,000
+As expected from the permissions
+that were set earlier,
+
+147
+00:05:21,000 --> 00:05:22,900
+the notebook can be viewed here
+
+148
+00:05:22,900 --> 00:05:24,800
+and interactive controls work
+
+149
+00:05:24,800 --> 00:05:27,100
+and the notebook can be edited.
+
+150
+00:05:27,100 --> 00:05:29,200
+The notebook cannot, however,
+be shared or published,
+
+151
+00:05:29,200 --> 00:05:31,800
+since the notebook
+is not owned by this account.
+
+152
+00:05:31,800 --> 00:05:33,700
+There is not a Share button
+or a Publish button
+
+153
+00:05:33,700 --> 00:05:35,000
+at the top of this window,
+
+154
+00:05:35,000 --> 00:05:36,700
+but the notebook
+can be duplicated here,
+
+155
+00:05:36,700 --> 00:05:38,900
+by choosing Duplicate
+from the File menu,
+
+156
+00:05:38,900 --> 00:05:40,700
+which creates a new notebook.
+
+157
+00:05:40,700 --> 00:05:43,300
+Clicking Open new file,
+opens the new notebook,
+
+158
+00:05:43,300 --> 00:05:45,900
+which is owned
+by this Wolfram Cloud Account
+
+159
+00:05:45,900 --> 00:05:48,200
+and which can be shared
+or published.
+
+160
+00:05:48,200 --> 00:05:49,200
+For example,
+
+161
+00:05:49,200 --> 00:05:51,900
+clicking the Share button
+opens the dialog box for sharing,
+
+162
+00:05:51,900 --> 00:05:54,000
+where you can enter the name
+of another account,
+
+163
+00:05:54,000 --> 00:05:56,000
+indicate edit permission
+for that account
+
+164
+00:05:56,000 --> 00:05:59,700
+and click the Share button
+to share the notebook.
+
+165
+00:05:59,700 --> 00:06:01,000
+One important feature
+of this system
+
+166
+00:06:01,000 --> 00:06:03,800
+is that the shared notebook
+will be a link to this notebook,
+
+167
+00:06:03,800 --> 00:06:05,650
+so both accounts will,
+in effect,
+
+168
+00:06:05,650 --> 00:06:07,300
+be viewing the same notebook.
+
+169
+00:06:07,300 --> 00:06:09,700
+Here is that notebook
+in the other account.
+
+170
+00:06:09,700 --> 00:06:11,200
+Since the notebook is still open
+
+171
+00:06:11,200 --> 00:06:13,000
+in the owner's
+Wolfram Cloud Account,
+
+172
+00:06:13,000 --> 00:06:14,600
+this display includes a message
+
+173
+00:06:14,600 --> 00:06:16,300
+indicating that the file
+is currently locked,
+
+174
+00:06:16,300 --> 00:06:19,800
+since it is already open
+for editing in another account.
+
+175
+00:06:19,800 --> 00:06:21,200
+If the other account signs out,
+
+176
+00:06:21,200 --> 00:06:24,000
+then since the notebook was
+shared with editing permission,
+
+177
+00:06:24,000 --> 00:06:25,900
+the notebook could be edited
+in this account
+
+178
+00:06:25,900 --> 00:06:28,800
+and any changes
+would affect both notebooks.
+
+179
+00:06:28,800 --> 00:06:30,200
+This is convenient if two
+
+180
+00:06:30,200 --> 00:06:32,400
+or more people are working
+with the same notebook,
+
+181
+00:06:32,400 --> 00:06:36,200
+but you could also make
+your own copy of the notebook.
+
+182
+00:06:36,200 --> 00:06:38,300
+That's the end of the examples
+for this section.
+
+183
+00:06:38,300 --> 00:06:39,500
+This section is mostly about
+
+184
+00:06:39,500 --> 00:06:41,300
+sharing and distributing
+entire notebooks,
+
+185
+00:06:41,300 --> 00:06:43,900
+but you can also share
+pieces of notebooks.
+
+186
+00:06:43,900 --> 00:06:47,150
+For example, clicking this icon
+within a cell
+
+187
+00:06:47,150 --> 00:06:48,600
+opens a menu
+where you can choose
+
+188
+00:06:48,600 --> 00:06:49,900
+to share this cell,
+
+189
+00:06:49,900 --> 00:06:52,200
+which leads to a dialog box
+with a URL
+
+190
+00:06:52,200 --> 00:06:53,500
+that can be used to view
+
+191
+00:06:53,500 --> 00:06:56,700
+the contents of that cell
+in a web browser.
+
+192
+00:06:56,700 --> 00:06:58,000
+More generally,
+the Wolfram Cloud
+
+193
+00:06:58,000 --> 00:06:59,300
+supports a whole range of tools
+
+194
+00:06:59,300 --> 00:07:02,000
+for putting data
+and apps and APIs
+
+195
+00:07:02,000 --> 00:07:04,200
+and things other than notebooks
+on the internet.
+
+196
+00:07:04,200 --> 00:07:05,500
+You can find more information
+
+197
+00:07:05,500 --> 00:07:07,400
+about the operations
+in this section
+
+198
+00:07:07,400 --> 00:07:09,000
+and about all
+of those other features
+
+199
+00:07:09,000 --> 00:07:11,800
+by following links
+to cloud-related topics
+
+200
+00:07:11,800 --> 00:07:14,500
+in the Wolfram documentation,
+starting with this guide page
+
+201
+00:07:14,500 --> 00:07:16,800
+on cloud functions
+and deployment.
+

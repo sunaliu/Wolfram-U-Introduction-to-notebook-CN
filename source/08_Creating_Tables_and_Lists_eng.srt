@@ -1,0 +1,658 @@
+﻿1
+00:00:00,000 --> 00:00:02,400
+This section of Introduction
+to Wolfram Notebooks
+
+2
+00:00:02,400 --> 00:00:05,000
+is about formatting things
+like tables and matrices
+
+3
+00:00:05,000 --> 00:00:06,400
+and bullet lists.
+
+4
+00:00:06,400 --> 00:00:08,000
+Starting with bullet lists,
+
+5
+00:00:08,000 --> 00:00:10,400
+one easy way to get a bullet
+or itemized list
+
+6
+00:00:10,400 --> 00:00:12,700
+is to choose Item
+from the Style submenu
+
+7
+00:00:12,700 --> 00:00:15,200
+under the Format menu,
+to get an Item cell
+
+8
+00:00:15,200 --> 00:00:17,600
+and then enter
+the contents of the cell.
+
+9
+00:00:17,600 --> 00:00:20,500
+Item cells have the property
+that pressing the RETURN key
+
+10
+00:00:20,500 --> 00:00:23,300
+from within an Item cell
+generates a new Item cell,
+
+11
+00:00:23,300 --> 00:00:26,900
+so items can be added
+just by typing RETURN.
+
+12
+00:00:26,900 --> 00:00:28,300
+There is also
+a keyboard shortcut
+
+13
+00:00:28,300 --> 00:00:29,650
+for creating an Item cell,
+
+14
+00:00:29,650 --> 00:00:32,800
+which is to type an asterisk
+to create a new cell.
+
+15
+00:00:32,800 --> 00:00:34,600
+For example,
+with the cell insertion bar
+
+16
+00:00:34,600 --> 00:00:35,600
+where it is now,
+
+17
+00:00:35,600 --> 00:00:38,500
+the input would, by default,
+become an Input cell.
+
+18
+00:00:38,500 --> 00:00:41,100
+But if I type an asterisk
+as the first character,
+
+19
+00:00:41,100 --> 00:00:43,100
+then the cell becomes
+an Item cell.
+
+20
+00:00:43,100 --> 00:00:45,500
+So that is a way to enter
+an itemized list
+
+21
+00:00:45,500 --> 00:00:49,000
+directly from the keyboard,
+without using the menus.
+
+22
+00:00:49,000 --> 00:00:51,700
+Numbered lists can be created
+by choosing ItemNumbered
+
+23
+00:00:51,700 --> 00:00:55,200
+from the Style submenu
+and proceeding much as before.
+
+24
+00:00:55,200 --> 00:00:59,700
+The number is incremented
+automatically for each new entry.
+
+25
+00:00:59,700 --> 00:01:02,900
+The number in those numbered
+items is the cell dingbat.
+
+26
+00:01:02,900 --> 00:01:05,100
+A cell dingbat in general
+is just a marker
+
+27
+00:01:05,100 --> 00:01:07,000
+on the left side of the cell.
+
+28
+00:01:07,000 --> 00:01:09,400
+The numbering, however, can
+actually be inserted anywhere.
+
+29
+00:01:09,400 --> 00:01:11,800
+For example, to get
+automatically numbered sections,
+
+30
+00:01:11,800 --> 00:01:15,000
+I can enter a section heading
+and insert a number,
+
+31
+00:01:15,000 --> 00:01:18,800
+by positioning the entry point
+where I want to put the number
+
+32
+00:01:18,800 --> 00:01:21,500
+and choosing Automatic Numbering
+from the Insert menu,
+
+33
+00:01:21,500 --> 00:01:24,500
+which brings up a dialog box
+that I can use to insert a number
+
+34
+00:01:24,500 --> 00:01:28,000
+that will be incremented
+for each new section cell.
+
+35
+00:01:28,000 --> 00:01:29,800
+I can insert more
+numbered sections
+
+36
+00:01:29,800 --> 00:01:32,400
+by making a copy of that cell
+and pasting it
+
+37
+00:01:32,400 --> 00:01:34,300
+wherever I want
+a new numbered section,
+
+38
+00:01:34,300 --> 00:01:36,800
+and the number will be
+incremented automatically
+
+39
+00:01:36,800 --> 00:01:39,000
+for each section.
+
+40
+00:01:39,000 --> 00:01:41,800
+You can find more information
+about automatic numbering
+
+41
+00:01:41,800 --> 00:01:43,200
+in the Wolfram documentation
+
+42
+00:01:43,200 --> 00:01:45,500
+in this tutorial
+on automatic numbering
+
+43
+00:01:45,500 --> 00:01:47,200
+and in the documentation
+
+44
+00:01:47,200 --> 00:01:50,400
+for the Automatic Numbering
+menu item.
+
+45
+00:01:50,400 --> 00:01:53,000
+Moving on now
+to creating tables and matrices,
+
+46
+00:01:53,000 --> 00:01:56,300
+an easy way to get a matrix is
+to choose the Table/Matrix item
+
+47
+00:01:56,300 --> 00:01:57,900
+under the Insert menu.
+
+48
+00:01:57,900 --> 00:02:00,900
+Choosing New from the submenu
+brings up this dialog box,
+
+49
+00:02:00,900 --> 00:02:02,800
+where I can set various options
+
+50
+00:02:02,800 --> 00:02:06,000
+and choose the number of rows
+and the number of columns.
+
+51
+00:02:06,000 --> 00:02:08,000
+Here I will click the button
+to give a matrix
+
+52
+00:02:08,000 --> 00:02:10,600
+and specify 3 rows and 3 columns
+
+53
+00:02:10,600 --> 00:02:12,000
+and then click the OK button
+
+54
+00:02:12,000 --> 00:02:15,000
+to get a 3-by-3 matrix
+in the notebook.
+
+55
+00:02:15,000 --> 00:02:16,300
+The elements in that matrix
+
+56
+00:02:16,300 --> 00:02:18,300
+are empty boxes
+called placeholders,
+
+57
+00:02:18,300 --> 00:02:20,000
+where I can enter
+matrix elements.
+
+58
+00:02:20,000 --> 00:02:22,700
+I will use the mouse
+to select the first placeholder
+
+59
+00:02:22,700 --> 00:02:24,000
+and enter a value,
+
+60
+00:02:24,000 --> 00:02:27,300
+then use the Tab key to move
+to the next placeholder
+
+61
+00:02:27,300 --> 00:02:29,000
+and enter the next value,
+
+62
+00:02:29,000 --> 00:02:30,500
+then use the Tab key again
+
+63
+00:02:30,500 --> 00:02:33,000
+to move to the next placeholder
+and enter the next value
+
+64
+00:02:33,000 --> 00:02:36,000
+and so on for the rest
+of the matrix.
+
+65
+00:02:36,000 --> 00:02:39,500
+The Add Row and Add Column items
+in the Table/Matrix submenu
+
+66
+00:02:39,500 --> 00:02:42,700
+can be used to add rows
+and columns to this matrix.
+
+67
+00:02:42,700 --> 00:02:45,000
+To do that,
+I will click on the matrix
+
+68
+00:02:45,000 --> 00:02:48,000
+to select where I want to enter
+a row or a column
+
+69
+00:02:48,000 --> 00:02:52,000
+and then choose the Add Row
+or Add Column menu items.
+
+70
+00:02:52,000 --> 00:02:54,500
+Those menu items
+also have keyboard shortcuts.
+
+71
+00:02:54,500 --> 00:02:56,600
+CONTROL+RETURN
+creates a new row
+
+72
+00:02:56,600 --> 00:02:59,300
+and CONTROL+COMMA
+creates a new column,
+
+73
+00:02:59,300 --> 00:03:00,600
+and those keyboard shortcuts
+
+74
+00:03:00,600 --> 00:03:02,800
+actually can also be used
+outside of a matrix
+
+75
+00:03:02,800 --> 00:03:04,000
+to create a new matrix.
+
+76
+00:03:04,000 --> 00:03:06,600
+For example,
+if I press CONTROL+RETURN
+
+77
+00:03:06,600 --> 00:03:09,800
+in a place that isn't part
+of a current matrix,
+
+78
+00:03:09,800 --> 00:03:12,600
+the effect is to generate a new
+matrix with one placeholder
+
+79
+00:03:12,600 --> 00:03:14,000
+and add a row to that matrix,
+
+80
+00:03:14,000 --> 00:03:17,800
+which gives a matrix
+with two rows and one column.
+
+81
+00:03:17,800 --> 00:03:20,000
+Additional rows and columns
+can then be created
+
+82
+00:03:20,000 --> 00:03:22,300
+by pressing CONTROL+RETURN
+to add rows
+
+83
+00:03:22,300 --> 00:03:25,000
+and CONTROL+COMMA
+to add columns,
+
+84
+00:03:25,000 --> 00:03:27,500
+so it is possible to create
+a matrix entirely
+
+85
+00:03:27,500 --> 00:03:31,500
+using keyboard commands,
+without ever going to the menus.
+
+86
+00:03:31,500 --> 00:03:33,800
+The system for formatting
+a matrix can also be used
+
+87
+00:03:33,800 --> 00:03:36,000
+to format a table
+like this one.
+
+88
+00:03:36,000 --> 00:03:38,600
+Start by choosing Table/Matrix
+from the Insert menu
+
+89
+00:03:38,600 --> 00:03:41,000
+and click New
+to bring up the dialog box.
+
+90
+00:03:41,000 --> 00:03:44,000
+This time I will select
+the Table button.
+
+91
+00:03:44,000 --> 00:03:45,800
+I also want lines
+between the rows
+
+92
+00:03:45,800 --> 00:03:48,600
+and lines between the columns
+and a frame around the table,
+
+93
+00:03:48,600 --> 00:03:50,500
+so I will check all
+of those boxes
+
+94
+00:03:50,500 --> 00:03:53,800
+and click OK to get the table.
+
+95
+00:03:53,800 --> 00:03:56,800
+I could have specified
+a 6x5 table in the dialog box,
+
+96
+00:03:56,800 --> 00:03:59,300
+but instead I will select
+an element in the table
+
+97
+00:03:59,300 --> 00:04:02,000
+and use CONTROL+RETURN
+and CONTROL+COMMA
+
+98
+00:04:02,000 --> 00:04:04,500
+to add rows and columns.
+
+99
+00:04:04,500 --> 00:04:06,500
+Several of the entries
+in the desired table
+
+100
+00:04:06,500 --> 00:04:09,300
+span more than one row
+or more than one column.
+
+101
+00:04:09,300 --> 00:04:10,800
+To get those spanning entries,
+
+102
+00:04:10,800 --> 00:04:12,800
+I will select the entries
+that are to be merged
+
+103
+00:04:12,800 --> 00:04:15,800
+and choose Make Spanning
+from the Table/Matrix menu
+
+104
+00:04:15,800 --> 00:04:17,800
+and repeat that process for
+
+105
+00:04:17,800 --> 00:04:20,500
+the other elements that are
+combined in this table.
+
+106
+00:04:23,800 --> 00:04:24,800
+All that remains now
+
+107
+00:04:24,800 --> 00:04:27,400
+is to enter values
+for the elements in the table,
+
+108
+00:04:27,400 --> 00:04:28,800
+but if I just start typing,
+
+109
+00:04:28,800 --> 00:04:30,800
+all of the inputs
+are treated as variables
+
+110
+00:04:30,800 --> 00:04:33,500
+or as other
+Wolfram Language commands,
+
+111
+00:04:33,500 --> 00:04:35,800
+which happens because
+this is still an Input cell
+
+112
+00:04:35,800 --> 00:04:38,450
+and input into an Input cell
+is treated by default
+
+113
+00:04:38,450 --> 00:04:41,000
+as Wolfram Language commands.
+
+114
+00:04:41,000 --> 00:04:42,000
+Sometimes that is fine,
+
+115
+00:04:42,000 --> 00:04:44,300
+but since much of this table
+is plain text,
+
+116
+00:04:44,300 --> 00:04:47,000
+it might be better
+to have text be the default.
+
+117
+00:04:47,000 --> 00:04:48,100
+One way to make that happen
+
+118
+00:04:48,100 --> 00:04:52,300
+is to change the style
+of this cell from Input to Text,
+
+119
+00:04:52,300 --> 00:04:54,600
+and as long as I am changing
+the styles of things,
+
+120
+00:04:54,600 --> 00:04:59,000
+I will also change the font
+using the Show Fonts dialog box.
+
+121
+00:04:59,000 --> 00:05:02,000
+Now proceed with filling in
+the entries in the table.
+
+122
+00:05:02,000 --> 00:05:04,700
+It is worth noting
+that this is still a live table
+
+123
+00:05:04,700 --> 00:05:07,800
+that could have been generated
+or filled in automatically,
+
+124
+00:05:07,800 --> 00:05:10,000
+and the table
+and parts of the table
+
+125
+00:05:10,000 --> 00:05:12,500
+can be used as data
+in other computations.
+
+126
+00:05:12,500 --> 00:05:15,500
+For example, I can copy
+some desired part of the table
+
+127
+00:05:15,500 --> 00:05:18,000
+and paste that
+into the Total function
+
+128
+00:05:18,000 --> 00:05:20,800
+to get the sum of the amounts
+in that part of the table.
+
+129
+00:05:22,500 --> 00:05:24,050
+There is much more
+that can be done
+
+130
+00:05:24,050 --> 00:05:25,400
+with the formatting of tables,
+
+131
+00:05:25,400 --> 00:05:27,500
+some of which is introduced
+in the next section,
+
+132
+00:05:27,500 --> 00:05:29,000
+and you can also find
+
+133
+00:05:29,000 --> 00:05:31,100
+more information
+in the Wolfram Documentation,
+
+134
+00:05:31,100 --> 00:05:34,500
+starting with this short tutorial
+on entering tables and matrices
+
+135
+00:05:34,500 --> 00:05:37,200
+using the Table/Matrix menu item.
+
+136
+00:05:37,200 --> 00:05:39,500
+And you can also follow
+links to this guide
+
+137
+00:05:39,500 --> 00:05:41,000
+to all of the functions
+and options
+
+138
+00:05:41,000 --> 00:05:44,000
+related to grids and tables.
+
