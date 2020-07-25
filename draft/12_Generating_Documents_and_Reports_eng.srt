@@ -1,0 +1,1400 @@
+﻿1
+00:00:00,500 --> 00:00:02,400
+这一章节的《Wolfram 笔记本介绍》
+
+2
+00:00:02,400 --> 00:00:04,200
+是关于使用程序和模板
+
+3
+00:00:04,200 --> 00:00:07,300
+来自动产生笔记本和文档
+
+4
+00:00:07,300 --> 00:00:09,600
+自动产生文档在实际应用中很有用
+
+5
+00:00:09,600 --> 00:00:11,700
+比如处理那些以某种方式重复的文档
+
+6
+00:00:11,700 --> 00:00:14,200
+就像这里展示出的一系列报告
+
+7
+00:00:14,200 --> 00:00:15,950
+或者是处理有相同内容的文档
+
+8
+00:00:15,950 --> 00:00:16,950
+像是这个笔记本
+
+9
+00:00:16,950 --> 00:00:19,400
+或者是应用于一些更加专业的场景
+
+10
+00:00:19,400 --> 00:00:21,400
+像是处理按日程编写的报告
+
+11
+00:00:21,400 --> 00:00:23,000
+处理计算合同
+
+12
+00:00:23,000 --> 00:00:26,900
+或者只是记录长时间运行的程序结果
+
+13
+00:00:26,900 --> 00:00:28,900
+待会将要详细介绍的
+
+14
+00:00:28,900 --> 00:00:31,100
+一个处理报告的基本过程
+
+15
+00:00:31,100 --> 00:00:34,000
+会从创建一个像这样的简单模板笔记本开始
+
+16
+00:00:34,000 --> 00:00:36,300
+然后用那个模板填充信息
+
+17
+00:00:36,300 --> 00:00:38,300
+去产生一个文件
+
+18
+00:00:38,300 --> 00:00:40,450
+这个输入用了 GenerateDocument 函数
+
+19
+00:00:40,450 --> 00:00:42,500
+和被保存在文件中的
+
+20
+00:00:42,500 --> 00:00:45,300
+模板里的名称参数
+
+21
+00:00:45,300 --> 00:00:47,600
+另一个产生文件的更低级的方式
+
+22
+00:00:47,600 --> 00:00:49,000
+是写一个这样的程序
+
+23
+00:00:49,000 --> 00:00:51,650
+含有 CreateDocument 和 NotebookWrite 函数
+
+24
+00:00:51,650 --> 00:00:52,900
+去产生一个笔记本文件
+
+25
+00:00:52,900 --> 00:00:55,500
+然后在这个笔记本中插入内容
+
+26
+00:00:55,500 --> 00:00:57,100
+产生笔记本的任何方式
+
+27
+00:00:57,100 --> 00:00:58,500
+基本上都是可能的
+
+28
+00:00:58,500 --> 00:00:59,900
+因为 Wolfram 笔记本
+
+29
+00:00:59,900 --> 00:01:02,400
+是由 Wolfram 语言表达的
+
+30
+00:01:02,400 --> 00:01:04,000
+而且可以被 Wolfram 语言程序
+
+31
+00:01:04,000 --> 00:01:06,000
+创建和修改
+
+32
+00:01:06,000 --> 00:01:08,000
+将一个笔记本描述为一系列单元(Cell)
+
+33
+00:01:08,000 --> 00:01:10,000
+字面上是说这个笔记本的内容
+
+34
+00:01:10,000 --> 00:01:11,450
+是一个 Wolfram 语言中的列表(List)
+
+35
+00:01:11,450 --> 00:01:14,200
+拥有很多个单元(Cell)表达式作为元素
+
+36
+00:01:14,200 --> 00:01:16,000
+比如 这里是一个笔记本的表达式
+
+37
+00:01:16,000 --> 00:01:18,000
+拥有三个单元(Cell)
+
+38
+00:01:18,000 --> 00:01:20,000
+和指定笔记本窗口顶端标题、窗口大小
+
+39
+00:01:20,000 --> 00:01:22,800
+的选项
+
+40
+00:01:22,800 --> 00:01:24,800
+使用 NotebookPut 函数
+
+41
+00:01:24,800 --> 00:01:27,500
+这个表达式可以作为一个笔记本被展示
+
+42
+00:01:27,500 --> 00:01:28,900
+直接输入笔记本表达式
+
+43
+00:01:28,900 --> 00:01:31,300
+不是笔记本被创建的方式
+
+44
+00:01:31,300 --> 00:01:33,425
+但是笔记本最终完成于
+
+45
+00:01:33,425 --> 00:01:36,800
+笔记本表达式的操作
+
+46
+00:01:36,800 --> 00:01:39,300
+其中一个操作就是 CreateNotebook 函数
+
+47
+00:01:39,300 --> 00:01:41,800
+用在这里去创建一个新的笔记本表达式
+
+48
+00:01:41,800 --> 00:01:44,200
+然后在计算机屏幕上展示
+
+49
+00:01:44,200 --> 00:01:47,000
+这个输入同时分配了笔记本对象
+
+50
+00:01:47,000 --> 00:01:48,800
+和变量的值
+
+51
+00:01:48,800 --> 00:01:50,800
+将内容输入进笔记本的一个方式
+
+52
+00:01:50,800 --> 00:01:52,700
+是用 NotebookWrite 函数
+
+53
+00:01:52,700 --> 00:01:56,300
+将单元(Cell)表达式插入笔记本
+
+54
+00:01:56,300 --> 00:01:58,900
+All of the general programming
+features of the Wolfram Language
+
+55
+00:01:58,900 --> 00:02:01,000
+can also be used
+in generating notebooks.
+
+56
+00:02:01,000 --> 00:02:02,700
+For example,
+starting with some data
+
+57
+00:02:02,700 --> 00:02:05,000
+to form the basis for a report,
+
+58
+00:02:05,000 --> 00:02:07,000
+here is a program
+that creates a new notebook,
+
+59
+00:02:07,000 --> 00:02:09,800
+writes a title cell
+into that notebook
+
+60
+00:02:09,800 --> 00:02:12,300
+and then uses
+NotebookWrite commands in a loop
+
+61
+00:02:12,300 --> 00:02:13,300
+to generate a notebook
+
+62
+00:02:13,300 --> 00:02:17,100
+with a section for each element
+in the data list.
+
+63
+00:02:17,100 --> 00:02:19,000
+Beyond CreateNotebook
+and NotebookWrite,
+
+64
+00:02:19,000 --> 00:02:21,500
+there are many other functions
+for manipulating notebooks.
+
+65
+00:02:21,500 --> 00:02:23,600
+You can find more information
+about those functions
+
+66
+00:02:23,600 --> 00:02:26,450
+in the Wolfram documentation,
+such as in this page
+
+67
+00:02:26,450 --> 00:02:29,000
+on manipulating notebooks
+from the kernel.
+
+68
+00:02:29,000 --> 00:02:30,900
+There are functions here
+for moving around
+
+69
+00:02:30,900 --> 00:02:32,050
+and searching within a notebook,
+
+70
+00:02:32,050 --> 00:02:34,700
+for inserting
+and deleting content,
+
+71
+00:02:34,700 --> 00:02:37,300
+for opening and closing
+notebooks, and so on.
+
+72
+00:02:37,300 --> 00:02:39,200
+Basically almost anything
+that can be done
+
+73
+00:02:39,200 --> 00:02:40,800
+by interactively editing
+this notebook
+
+74
+00:02:40,800 --> 00:02:44,500
+can also be done from a program.
+
+75
+00:02:44,500 --> 00:02:46,100
+A more graphical way
+of generating notebooks
+
+76
+00:02:46,100 --> 00:02:47,600
+is the method mentioned earlier
+
+77
+00:02:47,600 --> 00:02:49,600
+of starting with
+a template notebook like this one
+
+78
+00:02:49,600 --> 00:02:52,300
+and inserting content
+within that template.
+
+79
+00:02:52,300 --> 00:02:55,000
+A template notebook
+can be created by choosing New ►
+
+80
+00:02:55,000 --> 00:02:56,000
+Programmatic Notebook ►
+
+81
+00:02:56,000 --> 00:02:58,000
+Template Notebook
+from the File menu,
+
+82
+00:02:58,000 --> 00:03:00,800
+which opens a new notebook
+with a toolbar in a docked cell
+
+83
+00:03:00,800 --> 00:03:02,700
+at the top of the notebook.
+
+84
+00:03:02,700 --> 00:03:03,750
+Except for the toolbar,
+
+85
+00:03:03,750 --> 00:03:06,800
+this notebook can be edited
+much like any other notebook.
+
+86
+00:03:06,800 --> 00:03:09,500
+The report is completed
+either by inserting expressions
+
+87
+00:03:09,500 --> 00:03:12,000
+at locations called slots
+within this notebook
+
+88
+00:03:12,000 --> 00:03:14,200
+or by doing evaluations
+within the template
+
+89
+00:03:14,200 --> 00:03:16,200
+when the report is generated.
+
+90
+00:03:16,200 --> 00:03:18,400
+You can add a slot
+by clicking the Slot button,
+
+91
+00:03:18,400 --> 00:03:21,000
+which opens a dialog box
+for entering the name of the slot,
+
+92
+00:03:21,000 --> 00:03:25,600
+and you can optionally enter
+default values for each slot.
+
+93
+00:03:25,600 --> 00:03:26,900
+After finishing the template,
+
+94
+00:03:26,900 --> 00:03:29,300
+you can click the Generate button
+to generate a report
+
+95
+00:03:29,300 --> 00:03:32,300
+with the slots filled in
+by the default values,
+
+96
+00:03:32,300 --> 00:03:34,300
+which is useful for checking
+that the template
+
+97
+00:03:34,300 --> 00:03:36,700
+is giving the expected result.
+
+98
+00:03:36,700 --> 00:03:39,500
+The template notebook
+can also be saved for later use
+
+99
+00:03:39,500 --> 00:03:40,500
+like any other notebook
+
+100
+00:03:40,500 --> 00:03:43,900
+by choosing Save
+under the File menu.
+
+101
+00:03:43,900 --> 00:03:45,700
+After creating the template,
+there are several tools
+
+102
+00:03:45,700 --> 00:03:48,000
+for filling in the slots
+in the template.
+
+103
+00:03:48,000 --> 00:03:50,500
+One of those tools
+is the GenerateDocument function,
+
+104
+00:03:50,500 --> 00:03:53,400
+shown here with the name
+of the saved template notebook
+
+105
+00:03:53,400 --> 00:03:56,400
+as the first argument
+and a list of rules giving values
+
+106
+00:03:56,400 --> 00:03:59,600
+for the named template slots
+as the second argument.
+
+107
+00:03:59,600 --> 00:04:01,500
+The result is a report
+with the template slots
+
+108
+00:04:01,500 --> 00:04:04,800
+filled in with
+the specified values.
+
+109
+00:04:04,800 --> 00:04:06,300
+Rather than
+evaluating expressions
+
+110
+00:04:06,300 --> 00:04:09,200
+and inserting the results
+into slots in the template,
+
+111
+00:04:09,200 --> 00:04:10,800
+it is also possible,
+and often makes
+
+112
+00:04:10,800 --> 00:04:13,300
+the document-generation process
+somewhat easier,
+
+113
+00:04:13,300 --> 00:04:16,000
+to do those evaluations
+right within the template.
+
+114
+00:04:16,000 --> 00:04:18,000
+For example,
+the DateString expression
+
+115
+00:04:18,000 --> 00:04:19,600
+in that GenerateDocument input,
+
+116
+00:04:19,600 --> 00:04:21,400
+which is evaluated
+to get a result
+
+117
+00:04:21,400 --> 00:04:24,000
+that is inserted into a slot
+in the template,
+
+118
+00:04:24,000 --> 00:04:26,000
+could alternatively be included
+right in the template
+
+119
+00:04:26,000 --> 00:04:29,300
+using the Expression button
+in the template toolbar.
+
+120
+00:04:29,300 --> 00:04:31,600
+Clicking the Expression button
+gives a box
+
+121
+00:04:31,600 --> 00:04:34,000
+where you can enter
+an expression to be evaluated
+
+122
+00:04:34,000 --> 00:04:35,900
+when the document generated.
+
+123
+00:04:35,900 --> 00:04:37,600
+After saving
+the revised template,
+
+124
+00:04:37,600 --> 00:04:39,800
+we can return
+to the GenerateDocument input,
+
+125
+00:04:39,800 --> 00:04:42,800
+where the DateString expression
+is no longer needed.
+
+126
+00:04:42,800 --> 00:04:44,000
+When the document is generated,
+
+127
+00:04:44,000 --> 00:04:46,600
+the output from evaluating
+the DateString expression
+
+128
+00:04:46,600 --> 00:04:48,300
+in the template is inserted
+
+129
+00:04:48,300 --> 00:04:50,300
+and the document looks
+just as it did before,
+
+130
+00:04:50,300 --> 00:04:54,600
+but that GenerateDocument input
+is a bit less complicated.
+
+131
+00:04:54,600 --> 00:04:57,000
+Reports can be much more
+elaborate than this one
+
+132
+00:04:57,000 --> 00:04:59,600
+and can include tables
+and graphs and anything else
+
+133
+00:04:59,600 --> 00:05:02,000
+that can be included
+in any notebook.
+
+134
+00:05:02,000 --> 00:05:05,100
+For example, here is a plot
+using data from a dataset
+
+135
+00:05:05,100 --> 00:05:07,500
+that is loaded
+from an external file.
+
+136
+00:05:07,500 --> 00:05:09,000
+This plot can be added
+to the report
+
+137
+00:05:09,000 --> 00:05:12,500
+by including another slot
+in the template, as shown here;
+
+138
+00:05:12,500 --> 00:05:15,000
+saving the revised template;
+
+139
+00:05:15,000 --> 00:05:17,400
+then moving over
+to the GenerateDocument input
+
+140
+00:05:17,400 --> 00:05:20,600
+to enter a value
+for the new named slot
+
+141
+00:05:20,600 --> 00:05:24,000
+and evaluating that input
+to generate the report.
+
+142
+00:05:24,000 --> 00:05:26,500
+As was used earlier
+for the DateString expression,
+
+143
+00:05:26,500 --> 00:05:29,000
+the programming to load the data
+and generate the plot
+
+144
+00:05:29,000 --> 00:05:32,000
+in that example
+can also be put in the template.
+
+145
+00:05:32,000 --> 00:05:33,000
+A direct way of doing that
+
+146
+00:05:33,000 --> 00:05:35,500
+is to simply edit the template
+to add the inputs
+
+147
+00:05:35,500 --> 00:05:38,300
+to load the data
+and generate the plot.
+
+148
+00:05:38,300 --> 00:05:40,500
+If we click the Generate button
+for this template,
+
+149
+00:05:40,500 --> 00:05:44,200
+the inputs and outputs
+are all included in the report.
+
+150
+00:05:44,200 --> 00:05:46,800
+If the report
+only needs to show the plot,
+
+151
+00:05:46,800 --> 00:05:48,800
+the inputs can be omitted
+with the help of items
+
+152
+00:05:48,800 --> 00:05:52,500
+under the Cell Behavior menu
+in the report template toolbar.
+
+153
+00:05:52,500 --> 00:05:54,600
+To evaluate
+and then delete the cell
+
+154
+00:05:54,600 --> 00:05:56,200
+with the input
+for loading the data,
+
+155
+00:05:56,200 --> 00:05:59,100
+select that cell
+and choose Evaluate and Delete
+
+156
+00:05:59,100 --> 00:06:01,400
+from the Cell Behavior menu.
+
+157
+00:06:01,400 --> 00:06:03,300
+For the cell with the input
+that generates the plot,
+
+158
+00:06:03,300 --> 00:06:05,400
+we could again choose
+Evaluate and Delete,
+
+159
+00:06:05,400 --> 00:06:07,800
+which would show the plot
+and delete the input,
+
+160
+00:06:07,800 --> 00:06:10,600
+or we can choose
+Evaluate and Hide.
+
+161
+00:06:10,600 --> 00:06:11,750
+Clicking the Generate button
+
+162
+00:06:11,750 --> 00:06:13,800
+shows the effect
+of those settings.
+
+163
+00:06:13,800 --> 00:06:14,900
+The cell for loading the data,
+
+164
+00:06:14,900 --> 00:06:17,000
+which was set to
+Evaluate and Delete,
+
+165
+00:06:17,000 --> 00:06:18,900
+was evaluated and deleted,
+
+166
+00:06:18,900 --> 00:06:20,300
+and the cell
+for generating the plot,
+
+167
+00:06:20,300 --> 00:06:22,400
+which was set to
+Evaluate and Hide,
+
+168
+00:06:22,400 --> 00:06:25,200
+gives the plot shown
+in a closed cell group.
+
+169
+00:06:25,200 --> 00:06:27,500
+Double-clicking on the closed
+cell group bracket
+
+170
+00:06:27,500 --> 00:06:29,600
+opens that cell group
+to show the input,
+
+171
+00:06:29,600 --> 00:06:31,950
+which can be useful
+if users of the report
+
+172
+00:06:31,950 --> 00:06:34,000
+might want to see that input.
+
+173
+00:06:34,000 --> 00:06:36,000
+Other choices
+for cell behavior are
+
+174
+00:06:36,000 --> 00:06:38,600
+Leave Unevaluated,
+which copies the chosen cell
+
+175
+00:06:38,600 --> 00:06:41,400
+over to the report
+without doing any evaluation,
+
+176
+00:06:41,400 --> 00:06:43,500
+and Exclude Cell,
+which omits the cell
+
+177
+00:06:43,500 --> 00:06:46,600
+from the report,
+also without evaluating it,
+
+178
+00:06:46,600 --> 00:06:48,500
+which is useful
+for saving notes and comments
+
+179
+00:06:48,500 --> 00:06:51,000
+that are not part of the report.
+
+180
+00:06:51,000 --> 00:06:53,500
+The programming in that example
+brings up a technical detail
+
+181
+00:06:53,500 --> 00:06:55,900
+that can sometimes be important
+to know about,
+
+182
+00:06:55,900 --> 00:06:58,600
+which is that the notebooks
+for the report template
+
+183
+00:06:58,600 --> 00:07:00,000
+and for the generated report
+
+184
+00:07:00,000 --> 00:07:01,000
+have an option setting
+
+185
+00:07:01,000 --> 00:07:03,900
+that causes new variables
+to be assigned a context
+
+186
+00:07:03,900 --> 00:07:06,000
+that is unique to each notebook.
+
+187
+00:07:06,000 --> 00:07:07,900
+The new variable in question
+in this example
+
+188
+00:07:07,900 --> 00:07:09,800
+is the data variable.
+
+189
+00:07:09,800 --> 00:07:12,000
+By default, the context
+of new variables
+
+190
+00:07:12,000 --> 00:07:13,800
+is global in all notebooks,
+
+191
+00:07:13,800 --> 00:07:15,500
+so a new variable
+in one notebook
+
+192
+00:07:15,500 --> 00:07:18,150
+is the same as a variable
+with that same name
+
+193
+00:07:18,150 --> 00:07:19,800
+in another notebook.
+
+194
+00:07:19,800 --> 00:07:21,500
+In this generated notebook,
+however,
+
+195
+00:07:21,500 --> 00:07:23,500
+the context is unique
+to this notebook,
+
+196
+00:07:23,500 --> 00:07:25,400
+so values assigned
+to this variable
+
+197
+00:07:25,400 --> 00:07:26,400
+in this notebook
+
+198
+00:07:26,400 --> 00:07:28,600
+have no effect on variables
+with the same name
+
+199
+00:07:28,600 --> 00:07:30,000
+in another notebook.
+
+200
+00:07:30,000 --> 00:07:31,700
+Normally this is
+desirable behavior,
+
+201
+00:07:31,700 --> 00:07:34,100
+but if report generation
+is for some reason set up
+
+202
+00:07:34,100 --> 00:07:36,300
+to depend on
+global names for variables,
+
+203
+00:07:36,300 --> 00:07:39,300
+then it is necessary
+to specify the context explicitly
+
+204
+00:07:39,300 --> 00:07:41,000
+or to otherwise arrange
+for those variables
+
+205
+00:07:41,000 --> 00:07:44,000
+to use the same context.
+
+206
+00:07:44,000 --> 00:07:46,000
+The most common reason
+for creating a template
+
+207
+00:07:46,000 --> 00:07:47,900
+is for creating
+more than one report,
+
+208
+00:07:47,900 --> 00:07:50,000
+which in part means
+being careful to program
+
+209
+00:07:50,000 --> 00:07:52,200
+into the template
+only the content and formatting
+
+210
+00:07:52,200 --> 00:07:54,500
+that is common
+to all of the reports.
+
+211
+00:07:54,500 --> 00:07:57,000
+As an example, consider
+generating a separate report
+
+212
+00:07:57,000 --> 00:08:00,000
+for each record in the dataset
+that was loaded earlier.
+
+213
+00:08:00,000 --> 00:08:02,300
+That dataset consists
+of a list of records
+
+214
+00:08:02,300 --> 00:08:04,700
+and the example template
+is programmed to show
+
+215
+00:08:04,700 --> 00:08:06,500
+only the first record.
+
+216
+00:08:06,500 --> 00:08:07,800
+This data happens
+to be in the form
+
+217
+00:08:07,800 --> 00:08:09,700
+of a Wolfram Language dataset,
+
+218
+00:08:09,700 --> 00:08:11,900
+from which it is easy
+to extract an expression
+
+219
+00:08:11,900 --> 00:08:15,400
+called an association
+for the elements in each record.
+
+220
+00:08:15,400 --> 00:08:18,500
+This association can be used
+in the GenerateDocument function,
+
+221
+00:08:18,500 --> 00:08:20,700
+just like the list of rules
+that was used earlier
+
+222
+00:08:20,700 --> 00:08:23,100
+for named slots in a template.
+
+223
+00:08:23,100 --> 00:08:24,900
+To make the template work
+with this dataset,
+
+224
+00:08:24,900 --> 00:08:26,100
+we can modify the template
+
+225
+00:08:26,100 --> 00:08:28,700
+so that the names of the named
+slots in the template
+
+226
+00:08:28,700 --> 00:08:30,300
+match the names
+of the named items
+
+227
+00:08:30,300 --> 00:08:32,400
+in each record in the dataset.
+
+228
+00:08:32,400 --> 00:08:33,900
+After saving the revised template,
+
+229
+00:08:33,900 --> 00:08:36,700
+the GenerateDocument function
+can be used with the association
+
+230
+00:08:36,700 --> 00:08:40,000
+extracted from the dataset
+to generate a report.
+
+231
+00:08:40,000 --> 00:08:42,300
+Applying the Normal function
+to the entire dataset
+
+232
+00:08:42,300 --> 00:08:45,600
+gives a list of associations
+for each record,
+
+233
+00:08:45,600 --> 00:08:48,700
+and each association
+has the names and values to use
+
+234
+00:08:48,700 --> 00:08:52,500
+in the GenerateDocument function
+to generate the document.
+
+235
+00:08:52,500 --> 00:08:55,400
+All that remains now
+is to write a short program
+
+236
+00:08:55,400 --> 00:08:57,000
+to apply
+the GenerateDocument function
+
+237
+00:08:57,000 --> 00:08:58,500
+to each element in that list,
+
+238
+00:08:58,500 --> 00:09:01,300
+which results in a separate
+report being generated
+
+239
+00:09:01,300 --> 00:09:02,900
+for each record in the dataset.
+
+240
+00:09:04,400 --> 00:09:05,800
+Rather than creating
+separate reports,
+
+241
+00:09:05,800 --> 00:09:07,400
+a report based on this dataset
+
+242
+00:09:07,400 --> 00:09:09,400
+could alternatively
+be a single document
+
+243
+00:09:09,400 --> 00:09:12,700
+with a separate section
+for each record in the dataset.
+
+244
+00:09:12,700 --> 00:09:14,100
+One way of generating
+such a report
+
+245
+00:09:14,100 --> 00:09:17,500
+uses the Repeating Block feature
+in the template toolbar.
+
+246
+00:09:17,500 --> 00:09:19,400
+To demonstrate
+how repeating block works
+
+247
+00:09:19,400 --> 00:09:20,600
+in a simple example,
+
+248
+00:09:20,600 --> 00:09:23,000
+here is a template
+with two cells.
+
+249
+00:09:23,000 --> 00:09:25,300
+To repeat these two cells,
+select the cell bracket
+
+250
+00:09:25,300 --> 00:09:27,000
+and click
+the Repeating Block button,
+
+251
+00:09:27,000 --> 00:09:29,800
+which opens a dialog box
+with several choices.
+
+252
+00:09:29,800 --> 00:09:31,800
+Here we will demonstrate
+only the second choice,
+
+253
+00:09:31,800 --> 00:09:33,300
+which specifies
+that this template
+
+254
+00:09:33,300 --> 00:09:35,400
+will use a variable named data
+
+255
+00:09:35,400 --> 00:09:36,500
+and that the value
+of that variable
+
+256
+00:09:36,500 --> 00:09:39,700
+will be a list for filling in
+the slots in each block.
+
+257
+00:09:39,700 --> 00:09:43,500
+A GenerateDocument input to use
+this template can look like this,
+
+258
+00:09:43,500 --> 00:09:45,300
+where the value
+of the data variable
+
+259
+00:09:45,300 --> 00:09:46,500
+is a list of associations
+
+260
+00:09:46,500 --> 00:09:49,300
+and each association
+gives a list of named values
+
+261
+00:09:49,300 --> 00:09:52,100
+for filling in the slots
+in each block.
+
+262
+00:09:52,100 --> 00:09:53,100
+In this example,
+
+263
+00:09:53,100 --> 00:09:55,000
+the value of the data variable
+has three elements,
+
+264
+00:09:55,000 --> 00:09:58,200
+so the block will be repeated
+three times in the report.
+
+265
+00:09:59,500 --> 00:10:00,900
+Returning to
+the previous dataset,
+
+266
+00:10:00,900 --> 00:10:03,000
+rather than applying
+GenerateDocument separately
+
+267
+00:10:03,000 --> 00:10:04,300
+to each record in the dataset,
+
+268
+00:10:04,300 --> 00:10:06,300
+this time the entire list
+of associations
+
+269
+00:10:06,300 --> 00:10:07,300
+from that dataset
+
+270
+00:10:07,300 --> 00:10:09,700
+will be passed
+to the GenerateDocument function
+
+271
+00:10:09,700 --> 00:10:12,000
+as the value of the variable
+named data.
+
+272
+00:10:13,000 --> 00:10:15,000
+Now modify the earlier template
+
+273
+00:10:15,000 --> 00:10:17,300
+to use a repeating block
+with named slots
+
+274
+00:10:17,300 --> 00:10:19,800
+that match the names
+of the elements in each record.
+
+275
+00:10:19,800 --> 00:10:20,900
+After that modification,
+
+276
+00:10:20,900 --> 00:10:23,600
+the GenerateDocument program
+to create the report
+
+277
+00:10:23,600 --> 00:10:25,000
+is just a single line of input.
+
+278
+00:10:26,500 --> 00:10:28,300
+All of the formatting
+and interactive features
+
+279
+00:10:28,300 --> 00:10:30,500
+of notebooks that have come up
+in earlier sections
+
+280
+00:10:30,500 --> 00:10:33,300
+can also be used in
+automatically generated reports.
+
+281
+00:10:33,300 --> 00:10:34,700
+For example,
+here is a template
+
+282
+00:10:34,700 --> 00:10:37,600
+that uses the Grid function
+to show data in a table
+
+283
+00:10:37,600 --> 00:10:39,500
+and a TabView input
+
+284
+00:10:39,500 --> 00:10:43,000
+so that users of the report
+can choose between different plots.
+
+285
+00:10:43,000 --> 00:10:44,700
+The report generated
+from that template
+
+286
+00:10:44,700 --> 00:10:47,300
+is an interactive report
+with a summary table
+
+287
+00:10:47,300 --> 00:10:48,500
+and an interactive feature
+
+288
+00:10:48,500 --> 00:10:51,000
+for selecting different
+information to display.
+
+289
+00:10:52,300 --> 00:10:54,200
+That's the end of the examples
+for this section.
+
+290
+00:10:54,200 --> 00:10:55,300
+There are many variations
+
+291
+00:10:55,300 --> 00:10:57,800
+on the basic
+report-generation process.
+
+292
+00:10:57,800 --> 00:11:00,300
+In the Wolfram documentation,
+you can find more information
+
+293
+00:11:00,300 --> 00:11:02,900
+by searching
+for report generation.
+
+294
+00:11:02,900 --> 00:11:04,300
+For example, this guide page
+
+295
+00:11:04,300 --> 00:11:07,200
+gives links to the functions
+that came up in the section
+
+296
+00:11:07,200 --> 00:11:09,950
+and also functions for doing
+document generation in the cloud
+
+297
+00:11:09,950 --> 00:11:10,950
+and for such things
+
+298
+00:11:10,950 --> 00:11:14,000
+as generating reports
+automatically on a schedule.
+
+299
+00:11:14,000 --> 00:11:17,000
+There are also workflow guides
+with step-by-step instructions
+
+300
+00:11:17,000 --> 00:11:18,000
+for the basic process
+
+301
+00:11:18,000 --> 00:11:20,300
+of generating a report
+from a template
+
+302
+00:11:20,300 --> 00:11:24,500
+and for generating a report
+on schedule or as a PDF file.
+
