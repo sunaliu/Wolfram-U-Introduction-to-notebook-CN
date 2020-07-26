@@ -16,9 +16,9 @@ Video File: ../../../下载/09 Table Formatting.mp4
 Video AR Mode: 4
 Video AR Value: 1.777778
 Video Zoom Percent: 0.500000
-Scroll Position: 174
-Active Line: 177
-Video Position: 13164
+Scroll Position: 182
+Active Line: 185
+Video Position: 13689
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
@@ -28,7 +28,7 @@ Style: Default,Arial,20,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
 Dialogue: 0,0:00:00.00,0:00:02.50,Default,,0,0,0,,这一章节的《Wolfram 笔记本介绍》
 Dialogue: 0,0:00:02.50,0:00:05.40,Default,,0,0,0,,讲解了一个更合适的表格格式化工具
-Dialogue: 0,0:00:05.40,0:00:07.00,Default,,0,0,0,,就像这里所示的表格
+Dialogue: 0,0:00:05.40,0:00:07.00,Default,,0,0,0,,比如这里所示的表格
 Dialogue: 0,0:00:07.00,0:00:09.90,Default,,0,0,0,,and is specifically about options for setting up details,
 Dialogue: 0,0:00:09.90,0:00:11.50,Default,,0,0,0,,例如分割线
 Dialogue: 0,0:00:11.50,0:00:14.00,Default,,0,0,0,,还有交错底色的横行
@@ -53,7 +53,7 @@ Dialogue: 0,0:00:54.20,0:00:57.00,Default,,0,0,0,,每一列中文本的水平对
 Dialogue: 0,0:00:57.00,0:00:59.70,Default,,0,0,0,,和每一行中文本的垂直对齐方式
 Dialogue: 0,0:00:59.70,0:01:02.70,Default,,0,0,0,,“分割线” (Dividers) 选项用来绘制行与行之间的分割线
 Dialogue: 0,0:01:02.70,0:01:05.00,Default,,0,0,0,,这就是定义表头之下绘制粗分割线的地方
-Dialogue: 0,0:01:05.00,0:01:07.50,Default,,0,0,0,,below the heading is specified.
+Dialogue: 0,0:01:05.00,0:01:07.50,Default,,0,0,0,,(-)
 Dialogue: 0,0:01:07.50,0:01:08.60,Default,,0,0,0,,“基本样式” (BaseStyle) 选项
 Dialogue: 0,0:01:08.60,0:01:11.90,Default,,0,0,0,,定义了表格中文字所用的字体
 Dialogue: 0,0:01:11.90,0:01:13.45,Default,,0,0,0,,最后，对象大小 (ItemSize) 选项
@@ -63,7 +63,7 @@ Dialogue: 0,0:01:20.30,0:01:23.00,Default,,0,0,0,,即使被这些选项控制的
 Dialogue: 0,0:01:23.00,0:01:24.80,Default,,0,0,0,,它的基本思想依然很简单
 Dialogue: 0,0:01:24.80,0:01:27.50,Default,,0,0,0,,可以发现，许多选项都有着相似的设计
 Dialogue: 0,0:01:27.50,0:01:30.30,Default,,0,0,0,,只需观察他们的效果即可阐明表格中的这些设计\N （译注：需要一定的英语基础）
-Dialogue: 0,0:01:30.30,0:01:31.60,Default,,0,0,0,,on a generic table.
+Dialogue: 0,0:01:30.30,0:01:31.60,Default,,0,0,0,,(-)
 Dialogue: 0,0:01:31.60,0:01:34.15,Default,,0,0,0,,这里有一个带有占位符文本的表格
 Dialogue: 0,0:01:34.15,0:01:35.60,Default,,0,0,0,,它的“边框” (Frame) 选项被设置为“全部” (All)
 Dialogue: 0,0:01:35.60,0:01:39.00,Default,,0,0,0,,以帮助我们清楚的观察行和列
@@ -84,14 +84,14 @@ Dialogue: 0,0:02:12.00,0:02:14.80,Default,,0,0,0,,例如  这样会使第一列�
 Dialogue: 0,0:02:14.80,0:02:19.00,Default,,0,0,0,,然后剩下的列被交替重复的绿色和蓝色所填充
 Dialogue: 0,0:02:19.00,0:02:20.70,Default,,0,0,0,,行也采用同样的参数结构
 Dialogue: 0,0:02:20.70,0:02:21.70,Default,,0,0,0,,例如
-Dialogue: 0,0:02:21.70,0:02:26.30,Default,,0,0,0,,如果我们在“背景” (Background) 选项中第二个参数处定义相同的颜色序列 
+Dialogue: 0,0:02:21.70,0:02:26.30,Default,,0,0,0,,如果我们在“背景” (Background) 选项中第二个参数处定义相同的颜色序列
 Dialogue: 0,0:02:26.30,0:02:29.00,Default,,0,0,0,,就会得到第一行是红色
 Dialogue: 0,0:02:29.00,0:02:33.20,Default,,0,0,0,,剩下的行是交错的绿色和蓝色的表格
 Dialogue: 0,0:02:33.20,0:02:35.55,Default,,0,0,0,,“背景” (Background) 选项的第三个参数
 Dialogue: 0,0:02:35.55,0:02:40.00,Default,,0,0,0,,能用于具体定义特定单元格的背景颜色
 Dialogue: 0,0:02:40.00,0:02:40.84,Default,,0,0,0,,例如
 Dialogue: 0,0:02:40.84,0:02:47.00,Default,,0,0,0,,这样可以指定第四行第七列的单元格采用橙色背景
-Dialogue: 0,0:02:47.00,0:02:49.50,Default,,0,0,0,,“分割线” (Dividers) 选项的原理与之相仿 
+Dialogue: 0,0:02:47.00,0:02:49.50,Default,,0,0,0,,“分割线” (Dividers) 选项的原理与之相仿
 Dialogue: 0,0:02:49.50,0:02:51.28,Default,,0,0,0,,相似的还有排列 (Alignment) 选项
 Dialogue: 0,0:02:51.28,0:02:54.80,Default,,0,0,0,,乃至所有控制行和列的选项
 Dialogue: 0,0:02:54.80,0:02:57.90,Default,,0,0,0,,例如
@@ -123,13 +123,13 @@ Dialogue: 0,0:04:02.75,0:04:04.20,Default,,0,0,0,,这里分割线显示了出来
 Dialogue: 0,0:04:04.20,0:04:07.50,Default,,0,0,0,,就像表格末尾的浅灰色直线
 Dialogue: 0,0:04:07.50,0:04:12.50,Default,,0,0,0,,“预设格式” (BaseStyle) 选项定义了用于表格中所有元素的默认字体
 Dialogue: 0,0:04:12.50,0:04:14.00,Default,,0,0,0,,“项大小” (ItemSize) 参数定义了每一列的宽度
-Dialogue: 0,0:04:14.00,0:04:16.20,Default,,0,0,0,,specifies the width of each column.
+Dialogue: 0,0:04:14.00,0:04:16.20,Default,,0,0,0,,(-)
 Dialogue: 0,0:04:16.20,0:04:18.80,Default,,0,0,0,,The first two columns are given as scaled amounts,
 Dialogue: 0,0:04:18.80,0:04:21.25,Default,,0,0,0,,which means that they are scaled to a fraction
 Dialogue: 0,0:04:21.25,0:04:22.80,Default,,0,0,0,,of the formatting width,
 Dialogue: 0,0:04:22.80,0:04:24.60,Default,,0,0,0,,which is related to the width of the window.
 Dialogue: 0,0:04:24.60,0:04:26.40,Default,,0,0,0,,所以列宽会随着窗口宽度而更改
-Dialogue: 0,0:04:26.40,0:04:27.70,Default,,0,0,0,,with the width of the display,
+Dialogue: 0,0:04:26.40,0:04:27.70,Default,,0,0,0,,(-)
 Dialogue: 0,0:04:27.70,0:04:29.20,Default,,0,0,0,,在表格可能会在不同窗口下展示时
 Dialogue: 0,0:04:29.20,0:04:32.80,Default,,0,0,0,,这是一种比较理想的方式
 Dialogue: 0,0:04:32.80,0:04:34.80,Default,,0,0,0,,最后  “间隔” (Spacings) 选项
@@ -139,7 +139,7 @@ Dialogue: 0,0:04:40.00,0:04:41.90,Default,,0,0,0,,就是尝试这些选项的不
 Dialogue: 0,0:04:41.90,0:04:43.80,Default,,0,0,0,,然后观察表格的显示效果
 Dialogue: 0,0:04:43.80,0:04:46.35,Default,,0,0,0,,例如  这里有一个简单的可交互 (Manipulate) 程序
 Dialogue: 0,0:04:46.35,0:04:47.40,Default,,0,0,0,,它会提供一个用于调整列与列之间空隙的控制器
-Dialogue: 0,0:04:47.40,0:04:50.00,Default,,0,0,0,,for adjusting the space between the last two columns.
+Dialogue: 0,0:04:47.40,0:04:50.00,Default,,0,0,0,,(-)
 Dialogue: 0,0:04:51.60,0:04:53.65,Default,,0,0,0,,与调整 Grid 内置符号的选项不同
 Dialogue: 0,0:04:53.65,0:04:56.00,Default,,0,0,0,,a separate strategy for specifying styles
 Dialogue: 0,0:04:56.00,0:04:58.90,Default,,0,0,0,,is to use Item expressions as elements in the table
@@ -150,14 +150,14 @@ Dialogue: 0,0:05:05.80,0:05:08.00,Default,,0,0,0,,of a particular entry in the t
 Dialogue: 0,0:05:08.00,0:05:09.45,Default,,0,0,0,,另一个能达到相同效果的方法是
 Dialogue: 0,0:05:09.45,0:05:12.50,Default,,0,0,0,,是使用 Item 内置符号作用于对应的元素
 Dialogue: 0,0:05:12.50,0:05:14.50,Default,,0,0,0,,并且在 Item 函数体内包含“背景” (Background) 选项
-Dialogue: 0,0:05:14.50,0:05:17.30,Default,,0,0,0,,in that Item expression.
+Dialogue: 0,0:05:14.50,0:05:17.30,Default,,0,0,0,,(-)
 Dialogue: 0,0:05:17.30,0:05:20.30,Default,,0,0,0,,一个与此相关的特性是使用特殊内置符号
 Dialogue: 0,0:05:20.30,0:05:23.80,Default,,0,0,0,,SpanFromLeft. SpanFromAbove, SpanFromBoth
 Dialogue: 0,0:05:23.80,0:05:26.50,Default,,0,0,0,,来让表格中的项占用不止一行或一列
-Dialogue: 0,0:05:26.50,0:05:28.10,Default,,0,0,0,,or more than one column.
+Dialogue: 0,0:05:26.50,0:05:28.10,Default,,0,0,0,,(-)
 Dialogue: 0,0:05:28.10,0:05:31.50,Default,,0,0,0,,例如  这里有一个被占位符填充的小表格
 Dialogue: 0,0:05:31.50,0:05:33.00,Default,,0,0,0,,用内置符号 SpanFromLeft 替换其中一个占位符
-Dialogue: 0,0:05:33.00,0:05:35.00,Default,,0,0,0,,with the special symbol SpanFromLeft
+Dialogue: 0,0:05:33.00,0:05:35.00,Default,,0,0,0,,(-)
 Dialogue: 0,0:05:35.00,0:05:36.80,Default,,0,0,0,,会使这个单元格
 Dialogue: 0,0:05:36.80,0:05:39.40,Default,,0,0,0,,和左侧的单元格合并
 Dialogue: 0,0:05:39.40,0:05:41.45,Default,,0,0,0,,内置符号 SpanFromAbove
@@ -168,14 +168,14 @@ Dialogue: 0,0:05:49.30,0:05:51.40,Default,,0,0,0,,选中想要合并的项
 Dialogue: 0,0:05:51.40,0:05:56.00,Default,,0,0,0,,and choosing Make Spanning from the Table/Matrix submenu.
 Dialogue: 0,0:05:56.00,0:05:58.80,Default,,0,0,0,,使用数次上述工具后  我们的到了最终的样例
 Dialogue: 0,0:05:58.80,0:06:00.90,Default,,0,0,0,,这里是我们刚才所展示的两个表格中的第一个
-Dialogue: 0,0:06:00.90,0:06:02.40,Default,,0,0,0,,that were shown earlier
+Dialogue: 0,0:06:00.90,0:06:02.40,Default,,0,0,0,,(-)
 Dialogue: 0,0:06:02.40,0:06:05.40,Default,,0,0,0,,及生成它所需的输入
 Dialogue: 0,0:06:05.40,0:06:06.40,Default,,0,0,0,,这一输入仍然
 Dialogue: 0,0:06:06.40,0:06:08.50,Default,,0,0,0,,采用了带有几个参数的 Grid 内置符号
 Dialogue: 0,0:06:08.50,0:06:11.05,Default,,0,0,0,,“项大小”  (ItemSize) 选项定义列的宽度为 3
 Dialogue: 0,0:06:11.05,0:06:12.10,Default,,0,0,0,,with a width of three,
 Dialogue: 0,0:06:12.10,0:06:14.50,Default,,0,0,0,,(?) 这意味着 3 将个单位叫做 em
-Dialogue: 0,0:06:14.50,0:06:15.80,Default,,0,0,0,,An em is a unit
+Dialogue: 0,0:06:14.50,0:06:15.80,Default,,0,0,0,,em 是一个单位
 Dialogue: 0,0:06:15.80,0:06:18.80,Default,,0,0,0,,等于当前字体的磅数
 Dialogue: 0,0:06:18.80,0:06:20.30,Default,,0,0,0,,如果省略了项大小 (ItemSize) 选项
 Dialogue: 0,0:06:20.30,0:06:24.00,Default,,0,0,0,,那么列宽会调整为与最宽的项相同
@@ -193,22 +193,22 @@ Dialogue: 0,0:06:44.00,0:06:46.80,Default,,0,0,0,,定义了表头为淡灰色
 Dialogue: 0,0:06:46.80,0:06:48.00,Default,,0,0,0,,剩下部分交错出现橙色
 Dialogue: 0,0:06:48.00,0:06:51.00,Default,,0,0,0,,和天蓝色
 Dialogue: 0,0:06:51.00,0:06:52.50,Default,,0,0,0,,这个表格使用背景色
-Dialogue: 0,0:06:52.50,0:06:56.30,Default,,0,0,0,,作为元素“真” (T) 和“假” (F) 的颜色信号
-Dialogue: 0,0:06:56.30,0:06:58.60,Default,,0,0,0,,The Background option happens in this example
-Dialogue: 0,0:06:58.60,0:07:01.40,Default,,0,0,0,,to give the correct color for all of the entries,
-Dialogue: 0,0:07:01.40,0:07:02.40,Default,,0,0,0,,except for one
-Dialogue: 0,0:07:02.40,0:07:05.80,Default,,0,0,0,,where the background is specified in an Item expression.
-Dialogue: 0,0:07:05.80,0:07:07.00,Default,,0,0,0,,Without that Item expression,
-Dialogue: 0,0:07:07.00,0:07:09.65,Default,,0,0,0,,the color for that item would be light blue,
+Dialogue: 0,0:06:52.50,0:06:56.30,Default,,0,0,0,,来区别元素“真” (T) 和“假” (F)
+Dialogue: 0,0:06:56.30,0:06:58.60,Default,,0,0,0,,样例中的“背景” (Background) 参数
+Dialogue: 0,0:06:58.60,0:07:01.40,Default,,0,0,0,,用来赋予单元格正确的颜色
+Dialogue: 0,0:07:01.40,0:07:02.40,Default,,0,0,0,,除了一个单元格的背景
+Dialogue: 0,0:07:02.40,0:07:05.80,Default,,0,0,0,,是单独被 Item 内置函数定义的
+Dialogue: 0,0:07:05.80,0:07:07.00,Default,,0,0,0,,如果没有这个 Item 内置函数
+Dialogue: 0,0:07:07.00,0:07:09.65,Default,,0,0,0,,这一项（单元格）会变成天蓝色
 Dialogue: 0,0:07:09.65,0:07:12.50,Default,,0,0,0,,which doesn't follow the intended color code.
-Dialogue: 0,0:07:12.50,0:07:16.00,Default,,0,0,0,,This table also includes two SpanFromAbove entries,
-Dialogue: 0,0:07:16.00,0:07:18.80,Default,,0,0,0,,which are there to generate the two items in the first column
-Dialogue: 0,0:07:18.80,0:07:22.00,Default,,0,0,0,,that span more than one row.
-Dialogue: 0,0:07:22.00,0:07:24.00,Default,,0,0,0,,That's the end of the examples for this section.
-Dialogue: 0,0:07:24.00,0:07:25.50,Default,,0,0,0,,A good source for additional information
-Dialogue: 0,0:07:25.50,0:07:27.80,Default,,0,0,0,,is the documentation for the Grid function
-Dialogue: 0,0:07:27.80,0:07:29.60,Default,,0,0,0,,and related functions,
-Dialogue: 0,0:07:29.60,0:07:32.80,Default,,0,0,0,,and especially this tutorial on grids, rows and columns.
-Dialogue: 0,0:07:32.80,0:07:34.40,Default,,0,0,0,,And it is of course almost always useful
-Dialogue: 0,0:07:34.40,0:07:36.30,Default,,0,0,0,,to just construct a generic table
-Dialogue: 0,0:07:36.30,0:07:39.00,Default,,0,0,0,,and try these things out for yourself.
+Dialogue: 0,0:07:12.50,0:07:16.00,Default,,0,0,0,,表格中还有两个使用 SpanFromAbove 的单元格
+Dialogue: 0,0:07:16.00,0:07:18.80,Default,,0,0,0,,它们用于生成表格的第一列
+Dialogue: 0,0:07:18.80,0:07:22.00,Default,,0,0,0,,（第一列中的两个单元格）占用了多于一行
+Dialogue: 0,0:07:22.00,0:07:24.00,Default,,0,0,0,,这一章节的范例到此结束
+Dialogue: 0,0:07:24.00,0:07:25.50,Default,,0,0,0,,Grid 内置符号的帮助文档
+Dialogue: 0,0:07:25.50,0:07:27.80,Default,,0,0,0,,是比较好的补充资料
+Dialogue: 0,0:07:27.80,0:07:29.60,Default,,0,0,0,,这里有相关函数
+Dialogue: 0,0:07:29.60,0:07:32.80,Default,,0,0,0,,还特别附带了网格、行和列的教程
+Dialogue: 0,0:07:32.80,0:07:34.40,Default,,0,0,0,,当然  构建一个普通表格
+Dialogue: 0,0:07:34.40,0:07:36.30,Default,,0,0,0,,自己尝试这些选项和参数
+Dialogue: 0,0:07:36.30,0:07:39.00,Default,,0,0,0,,也是非常有用的方法
