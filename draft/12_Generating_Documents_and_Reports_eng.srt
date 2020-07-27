@@ -372,7 +372,7 @@
 
 94
 00:03:26,900 --> 00:03:29,300
-你可以点击 Generate 按钮来生成一个报告
+你可以点击生成报告(Generate)按钮来生成一个报告
 
 95
 00:03:29,300 --> 00:03:32,300
@@ -412,7 +412,7 @@
 
 104
 00:03:50,500 --> 00:03:53,400
-这里的函数实例中
+这里的函数示例中
 
 105
 00:03:53,400 --> 00:03:56,400
@@ -472,7 +472,7 @@ DateString 表达式
 
 119
 00:04:26,000 --> 00:04:29,300
-用模板工具栏上的 Expression 按钮
+用模板工具栏上的表达式(Expression)按钮
 
 120
 00:04:29,300 --> 00:04:31,600
@@ -564,307 +564,259 @@ DateString 表达式
 
 142
 00:05:24,000 --> 00:05:26,500
-As was used earlier
-for the DateString expression,
+像之前使用 DateString 表达式一样
 
 143
 00:05:26,500 --> 00:05:29,000
-the programming to load the data
-and generate the plot
+加载数据和生成图表的程序
 
 144
 00:05:29,000 --> 00:05:32,000
-in that example
-can also be put in the template.
+在那个示例里也可以被放在模板中
 
 145
 00:05:32,000 --> 00:05:33,000
-A direct way of doing that
+一个直接的方法是
 
 146
 00:05:33,000 --> 00:05:35,500
-is to simply edit the template
-to add the inputs
+是简单地编辑模板并写下输入(Input)
 
 147
 00:05:35,500 --> 00:05:38,300
-to load the data
-and generate the plot.
+来加载数据和生成图表
 
 148
 00:05:38,300 --> 00:05:40,500
-If we click the Generate button
-for this template,
+如果我们点击模板中的生成报告(Generate)按钮
 
 149
 00:05:40,500 --> 00:05:44,200
-the inputs and outputs
-are all included in the report.
+输入和输出都会写入报告
 
 150
 00:05:44,200 --> 00:05:46,800
-If the report
-only needs to show the plot,
+如果报告只需要展示图表
 
 151
 00:05:46,800 --> 00:05:48,800
-the inputs can be omitted
-with the help of items
+那么可以进行以下操作
 
 152
 00:05:48,800 --> 00:05:52,500
-under the Cell Behavior menu
-in the report template toolbar.
+点击模板工具栏的单元行为(Cell Behavior)菜单
 
 153
 00:05:52,500 --> 00:05:54,600
-To evaluate
-and then delete the cell
+如果想要计算并且删除
 
 154
 00:05:54,600 --> 00:05:56,200
-with the input
-for loading the data,
+含有载入数据的输入单元
 
 155
 00:05:56,200 --> 00:05:59,100
-select that cell
-and choose Evaluate and Delete
+选择那个单元
 
 156
 00:05:59,100 --> 00:06:01,400
-from the Cell Behavior menu.
+然后点击计算并删除(Evaluate and Delete)
 
 157
 00:06:01,400 --> 00:06:03,300
-For the cell with the input
-that generates the plot,
+对于生成图表的另一个单元
 
 158
 00:06:03,300 --> 00:06:05,400
-we could again choose
-Evaluate and Delete,
+我们可以再次选择计算并删除(Evaluate and Delete)
 
 159
 00:06:05,400 --> 00:06:07,800
-which would show the plot
-and delete the input,
+这将会展示图表并删除输入
 
 160
 00:06:07,800 --> 00:06:10,600
-or we can choose
-Evaluate and Hide.
+或者我们可以选择计算并隐藏(Evaluate and Hide)
 
 161
 00:06:10,600 --> 00:06:11,750
-Clicking the Generate button
+点击生成报告(Generate)按钮
 
 162
 00:06:11,750 --> 00:06:13,800
-shows the effect
-of those settings.
+可以看到效果
 
 163
 00:06:13,800 --> 00:06:14,900
-The cell for loading the data,
+载入数据的单元
 
 164
 00:06:14,900 --> 00:06:17,000
-which was set to
-Evaluate and Delete,
+被设置为计算并删除(Evaluate and Delete)的那个
 
 165
 00:06:17,000 --> 00:06:18,900
-was evaluated and deleted,
+计算后被删除了
 
 166
 00:06:18,900 --> 00:06:20,300
-and the cell
-for generating the plot,
+生成图表的单元
 
 167
 00:06:20,300 --> 00:06:22,400
-which was set to
-Evaluate and Hide,
+被设置为计算并隐藏(Evaluate and Hide)的那个
 
 168
 00:06:22,400 --> 00:06:25,200
-gives the plot shown
-in a closed cell group.
+在被关闭的单元组里展示了图表
 
 169
 00:06:25,200 --> 00:06:27,500
-Double-clicking on the closed
-cell group bracket
+双击被关闭的这个单元组括号
 
 170
 00:06:27,500 --> 00:06:29,600
-opens that cell group
-to show the input,
+可以显示那个被隐藏的输入
 
 171
 00:06:29,600 --> 00:06:31,950
-which can be useful
-if users of the report
+对于那些想要查看输入的用户来说
 
 172
 00:06:31,950 --> 00:06:34,000
-might want to see that input.
+在使用报告时这个功能很有用
 
 173
 00:06:34,000 --> 00:06:36,000
-Other choices
-for cell behavior are
+单元行为(Cell Behavior)菜单中的其他选项包括
 
 174
 00:06:36,000 --> 00:06:38,600
-Leave Unevaluated,
-which copies the chosen cell
+不计算(Leave Unevaluated) 可以在不进行计算的情况下
 
 175
 00:06:38,600 --> 00:06:41,400
-over to the report
-without doing any evaluation,
+复制选中的单元进入报告 
 
 176
 00:06:41,400 --> 00:06:43,500
-and Exclude Cell,
-which omits the cell
+和不包括该单元(Exclude Cell) 可以忽略这个单元
 
 177
 00:06:43,500 --> 00:06:46,600
-from the report,
-also without evaluating it,
+同样不进行计算
 
 178
 00:06:46,600 --> 00:06:48,500
-which is useful
-for saving notes and comments
+它对于保存不是报告一部分的
 
 179
 00:06:48,500 --> 00:06:51,000
-that are not part of the report.
+笔记和注释很有用
 
 180
 00:06:51,000 --> 00:06:53,500
-The programming in that example
-brings up a technical detail
+那个示例的程序造就了一个技术细节
 
 181
 00:06:53,500 --> 00:06:55,900
-that can sometimes be important
-to know about,
+有的时候知道它很有用
 
 182
 00:06:55,900 --> 00:06:58,600
-which is that the notebooks
-for the report template
+那就是生成报告模板
 
 183
 00:06:58,600 --> 00:07:00,000
-and for the generated report
+和产生报告的笔记本
 
 184
 00:07:00,000 --> 00:07:01,000
-have an option setting
+有一个设置选项
 
 185
 00:07:01,000 --> 00:07:03,900
-that causes new variables
-to be assigned a context
+可以让每个笔记本产生
 
 186
 00:07:03,900 --> 00:07:06,000
-that is unique to each notebook.
+不同上下文(Context)的变量
 
 187
 00:07:06,000 --> 00:07:07,900
-The new variable in question
-in this example
+这个示例中讨论的新变量
 
 188
 00:07:07,900 --> 00:07:09,800
-is the data variable.
+是 data 变量
 
 189
 00:07:09,800 --> 00:07:12,000
-By default, the context
-of new variables
+默认来说 在所有笔记本中
 
 190
 00:07:12,000 --> 00:07:13,800
-is global in all notebooks,
+新变量的上下文(Context)都是 global
 
 191
 00:07:13,800 --> 00:07:15,500
-so a new variable
-in one notebook
+所以一个笔记本中的变量
 
 192
 00:07:15,500 --> 00:07:18,150
-is the same as a variable
-with that same name
+和其他笔记本中的
 
 193
 00:07:18,150 --> 00:07:19,800
-in another notebook.
+相同名称的变量是同一个
 
 194
 00:07:19,800 --> 00:07:21,500
-In this generated notebook,
-however,
+然而，在这个产生的笔记本中
 
 195
 00:07:21,500 --> 00:07:23,500
-the context is unique
-to this notebook,
+它的上下文(Context)是独特的
 
 196
 00:07:23,500 --> 00:07:25,400
-so values assigned
-to this variable
+所以笔记本中
 
 197
 00:07:25,400 --> 00:07:26,400
-in this notebook
+这个变量被赋的值
 
 198
 00:07:26,400 --> 00:07:28,600
-have no effect on variables
-with the same name
+对其他笔记本中的
 
 199
 00:07:28,600 --> 00:07:30,000
-in another notebook.
+同名变量无影响
 
 200
 00:07:30,000 --> 00:07:31,700
-Normally this is
-desirable behavior,
+一般来说这是一个很好的特性
 
 201
 00:07:31,700 --> 00:07:34,100
-but if report generation
-is for some reason set up
+不过如果报告的产生
 
 202
 00:07:34,100 --> 00:07:36,300
-to depend on
-global names for variables,
+基于变量的全局名称
 
 203
 00:07:36,300 --> 00:07:39,300
-then it is necessary
-to specify the context explicitly
+那么说明变量的上下文(Context)是必须的
 
 204
 00:07:39,300 --> 00:07:41,000
-or to otherwise arrange
-for those variables
+或者让这些变量
 
 205
 00:07:41,000 --> 00:07:44,000
-to use the same context.
+使用同一个上下文(Context)
 
 206
 00:07:44,000 --> 00:07:46,000
