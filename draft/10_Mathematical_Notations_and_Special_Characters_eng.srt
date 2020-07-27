@@ -1,0 +1,1149 @@
+﻿1
+00:00:01,500 --> 00:00:03,600
+这一章节的《Wolfram 笔记本介绍》
+
+2
+00:00:03,600 --> 00:00:05,800
+讲述了特殊字符、符号
+
+3
+00:00:05,800 --> 00:00:08,000
+和数学符号
+
+4
+00:00:08,000 --> 00:00:09,500
+本节大部分内容可以通过
+
+5
+00:00:09,500 --> 00:00:11,000
+思考多种基本的数学表述来说明
+
+6
+00:00:11,000 --> 00:00:15,000
+(-)
+
+7
+00:00:15,000 --> 00:00:17,700
+一种输入数学表述的方法是使用“面板” (palettes)
+
+8
+00:00:17,700 --> 00:00:20,100
+让我们从打开“数学助手”面板 (Basic Math Assistant palette) 开始
+
+9
+00:00:20,100 --> 00:00:23,900
+从“面板” (Palettes) 菜单下打开“数学助手” (Basic Math Assistant)
+
+10
+00:00:23,900 --> 00:00:26,300
+面板的每一部分都显示着一组按钮
+
+11
+00:00:26,300 --> 00:00:28,300
+用于向笔记本中输入符号
+
+12
+00:00:28,300 --> 00:00:29,300
+笔记本中同样也有键盘指令
+
+13
+00:00:29,300 --> 00:00:31,000
+用来输入符号
+
+14
+00:00:31,000 --> 00:00:32,600
+稍后我们将讲解键盘指令
+
+15
+00:00:32,600 --> 00:00:34,800
+我们先从面板开始入手
+
+16
+00:00:34,800 --> 00:00:36,700
+输入所示公式需要的按钮
+
+17
+00:00:36,700 --> 00:00:39,000
+are in the section labeled Typesetting.
+
+18
+00:00:39,000 --> 00:00:40,650
+！！！这句没补全；选择“”后  在第一个标签页下
+
+19
+00:00:40,650 --> 00:00:42,600
+就是输入数学符号
+
+20
+00:00:42,600 --> 00:00:44,600
+例如分数线和指数所需的按钮了
+
+21
+00:00:44,600 --> 00:00:46,800
+在第二个标签页下
+
+22
+00:00:46,800 --> 00:00:49,200
+是用于输入特殊符号和希腊字母的按钮
+
+23
+00:00:49,200 --> 00:00:50,900
+回到第一个标签页  我们可以从点击
+
+24
+00:00:50,900 --> 00:00:53,500
+标示定积分的按钮开始
+
+25
+00:00:53,500 --> 00:00:56,300
+这会向笔记本输入一个带有空框的模板
+
+26
+00:00:56,300 --> 00:00:59,100
+这些空框叫做“占位符”  用来输入符号中空缺的部分
+
+27
+00:00:59,100 --> 00:01:00,900
+积分下限
+
+28
+00:01:00,900 --> 00:01:02,650
+被着色的背景所高亮
+
+29
+00:01:02,650 --> 00:01:04,950
+以显示输入位置
+
+30
+00:01:04,950 --> 00:01:07,600
+在这个例子中  积分下限是 0
+
+31
+00:01:07,600 --> 00:01:09,000
+所以我们输入 0
+
+32
+00:01:09,000 --> 00:01:11,900
+再按下 TAB 按钮移动光标到下一个占位符处
+
+33
+00:01:11,900 --> 00:01:14,200
+也就是积分上限所在的位置
+
+34
+00:01:14,200 --> 00:01:16,000
+范例中的积分上限
+
+35
+00:01:16,000 --> 00:01:17,300
+是一个特殊符号
+
+36
+00:01:17,300 --> 00:01:20,000
+也就是数学中的无穷符号
+
+37
+00:01:20,000 --> 00:01:22,100
+为了输入这一符号  需要点击第二个标签页
+
+38
+00:01:22,100 --> 00:01:25,600
+来打开用于输入特殊字符和希腊字母的按键组
+
+39
+00:01:25,600 --> 00:01:27,600
+然后点击面板中标示无穷符号 (∞) 输入积分上界
+
+40
+00:01:27,600 --> 00:01:30,300
+(-)
+
+41
+00:01:30,300 --> 00:01:32,750
+接着按下 TAB 键到达下一个占位符处
+
+42
+00:01:32,750 --> 00:01:35,000
+在本例中是被积函数
+
+43
+00:01:35,000 --> 00:01:37,200
+被积函数的第一部分是一个指数式
+
+44
+00:01:37,200 --> 00:01:39,100
+指数符号在第一个标签页下
+
+45
+00:01:39,100 --> 00:01:41,400
+按下按钮输入指数的模板
+
+46
+00:01:41,400 --> 00:01:42,900
+(-)
+
+47
+00:01:42,900 --> 00:01:46,000
+接着回到第二页输入底数 <i>e</i>
+
+48
+00:01:46,000 --> 00:01:48,900
+按下 TAB 键到达下一个占位符处
+
+49
+00:01:48,900 --> 00:01:50,500
+这里是指数
+
+50
+00:01:50,500 --> 00:01:53,900
+现在我们输入指数 –2<i>x</i>.
+
+51
+00:01:53,900 --> 00:01:55,300
+在此时继续输入
+
+52
+00:01:55,300 --> 00:01:57,200
+会在指数上继续输入内容
+
+53
+00:01:57,200 --> 00:01:59,000
+但为了继续完成样例
+
+54
+00:01:59,000 --> 00:02:01,400
+我们需要从指数中离开
+
+55
+00:02:01,400 --> 00:02:03,400
+用于结束输入指数
+
+56
+00:02:03,400 --> 00:02:05,000
+and move to the enclosing expression 的快捷键
+
+57
+00:02:05,000 --> 00:02:06,600
+是 Ctrl + 空格
+
+58
+00:02:06,600 --> 00:02:08,900
+光标在指数上时
+
+59
+00:02:08,900 --> 00:02:10,000
+按下 Ctrl + 空格
+
+60
+00:02:10,000 --> 00:02:12,800
+并且完成这个积分式
+
+61
+00:02:12,800 --> 00:02:14,200
+你也可以用鼠标点击指数外侧
+
+62
+00:02:14,200 --> 00:02:16,500
+来使光标离开指数位置
+
+63
+00:02:16,500 --> 00:02:18,500
+(-)
+
+64
+00:02:18,500 --> 00:02:20,950
+现在按下 TAB 按键到达下一个占位符
+
+65
+00:02:20,950 --> 00:02:23,000
+再输入 <i>x</i> 完成这个输入
+
+66
+00:02:23,000 --> 00:02:24,000
+这是一个动态的输入
+
+67
+00:02:24,000 --> 00:02:26,200
+它也可以和其他输入一样被计算并且得到结果
+
+68
+00:02:26,200 --> 00:02:29,500
+(-)
+
+69
+00:02:29,500 --> 00:02:32,500
+这一输入的样式和原始样例不大相同
+
+70
+00:02:32,500 --> 00:02:34,400
+在排列和字符的形状上都有些许不同点
+
+71
+00:02:34,400 --> 00:02:36,500
+(-)
+
+72
+00:02:36,500 --> 00:02:39,400
+此处的不同是因为原始样例处于传统样式 (TraditionForm)
+
+73
+00:02:39,400 --> 00:02:41,500
+(-)
+
+74
+00:02:41,500 --> 00:02:43,000
+然而我们的输入是标准样式 (StandardForm)
+
+75
+00:02:43,000 --> 00:02:45,000
+(-)
+
+76
+00:02:45,000 --> 00:02:47,300
+标准样式 (StandardForm) 可以被转换为传统样式 (TraditionalForm)
+
+77
+00:02:47,300 --> 00:02:49,000
+通过选中输入单元  然后选择
+
+78
+00:02:49,000 --> 00:02:52,000
+“单元”菜单下的“转换成” ► “TraditionalForm ”
+
+79
+00:02:52,000 --> 00:02:54,500
+传统样式 (TraditionalForm) 看起来更像传统数学的写法
+
+80
+00:02:54,500 --> 00:02:56,350
+它们通常更加受欢迎
+
+81
+00:02:56,350 --> 00:02:57,350
+传统样式 (TraditionalForm) 不是默认格式的唯一原因
+
+82
+00:02:57,350 --> 00:02:58,900
+(-)
+
+83
+00:02:58,900 --> 00:03:02,000
+是转换传统数学格式到计算机输入
+
+84
+00:03:02,000 --> 00:03:03,300
+需要有点儿
+
+85
+00:03:03,300 --> 00:03:06,500
+复杂并且不规则的转换规则集
+
+86
+00:03:06,500 --> 00:03:09,000
+例如  在标准样式 (StandardForm) 下函数以方括号包住参数
+
+87
+00:03:09,000 --> 00:03:11,000
+(-)
+
+88
+00:03:11,000 --> 00:03:12,200
+但在传统样式 (TraditionalForm) 下
+
+89
+00:03:12,200 --> 00:03:15,000
+函数的参数被圆括号包裹
+
+90
+00:03:15,000 --> 00:03:18,200
+但是圆括号的这种用法有潜在的歧义
+
+91
+00:03:18,200 --> 00:03:20,400
+因为圆括号也可以用来表示
+
+92
+00:03:20,400 --> 00:03:21,700
+arithmetic grouping
+
+93
+00:03:21,700 --> 00:03:24,000
+电脑并不能总是猜对
+
+94
+00:03:24,000 --> 00:03:27,400
+圆括号在每种情境下分别表示什么
+
+95
+00:03:27,400 --> 00:03:28,500
+然而作为一个实际问题
+
+96
+00:03:28,500 --> 00:03:30,650
+转换传统样式 (TraditionalForm) 输入的规则
+
+97
+00:03:30,650 --> 00:03:31,650
+执行的非常完美
+
+98
+00:03:31,650 --> 00:03:33,500
+所以  如果你偏好传统样式 (TraditionalForm)
+
+99
+00:03:33,500 --> 00:03:36,000
+你完全有理由使用它
+
+100
+00:03:36,000 --> 00:03:38,900
+另外如果你只是用传统样式来显示而不是用来输入
+
+101
+00:03:38,900 --> 00:03:42,000
+它一点儿都没有问题
+
+102
+00:03:42,000 --> 00:03:43,800
+上述输入及所有的符号
+
+103
+00:03:43,800 --> 00:03:45,900
+也都可以使用键盘指令输入
+
+104
+00:03:45,900 --> 00:03:47,650
+将鼠标悬停在面板中符号对应的的按钮上是学习键盘命令的一种方式
+
+105
+00:03:47,650 --> 00:03:51,500
+(-)
+
+106
+00:03:51,500 --> 00:03:53,000
+例如  悬停鼠标于
+
+107
+00:03:53,000 --> 00:03:55,500
+面板中自然对数的底 <i>e</i> 按钮上
+
+108
+00:03:55,500 --> 00:03:57,800
+会显示一个提示框
+
+109
+00:03:57,800 --> 00:03:59,600
+其中显示了符号的名称
+
+110
+00:03:59,600 --> 00:04:01,200
+！！！需校对：这里是“指数<i>e</i>”
+
+111
+00:04:01,200 --> 00:04:05,100
+和相应的键盘指令 这里是 ESC + ee + ESC
+译注：先按一下 ESC，输入 ee，再按一下 ESC，下同
+
+112
+00:04:05,100 --> 00:04:06,650
+在键盘上输入  ESC + ee + ESC
+
+113
+00:04:06,650 --> 00:04:09,000
+！！！需校对：会输入样例中出现的常数“自然对数的底”<i>e</i>
+
+114
+00:04:09,000 --> 00:04:11,100
+(-)
+
+115
+00:04:11,100 --> 00:04:13,500
+数学模板同样也有键盘指令
+
+116
+00:04:13,500 --> 00:04:16,500
+例如  , under the tab for typesetting forms,
+
+117
+00:04:16,500 --> 00:04:18,000
+在输入定积分的按钮上悬停鼠标
+
+118
+00:04:18,000 --> 00:04:19,900
+(-)
+
+119
+00:04:19,900 --> 00:04:24,000
+就会显示键盘指令 ESC + dintt + ESC
+
+120
+00:04:24,000 --> 00:04:25,500
+用键盘输入上述指令
+
+121
+00:04:25,500 --> 00:04:28,000
+就可以得到定积分模板
+
+122
+00:04:28,000 --> 00:04:29,450
+键盘指令的名字
+
+123
+00:04:29,450 --> 00:04:32,000
+在选取时就考虑了记忆它们的合理方法
+
+124
+00:04:32,000 --> 00:04:35,000
+例如  无穷符号的键盘指令
+
+125
+00:04:35,000 --> 00:04:37,000
+是 ESC + int + ESC
+
+126
+00:04:37,000 --> 00:04:39,850
+不定积分模板的键盘指令
+
+127
+00:04:39,850 --> 00:04:42,200
+是 ESC + dintt +ESC
+
+128
+00:04:42,200 --> 00:04:46,500
+这里的 d-i-n-t-t  是不定积分 (<u>d</u>efinite <u>in</u>tegral <u>t</u>empla<u>t</u>e) 的缩写
+
+129
+00:04:46,500 --> 00:04:47,800
+为了继续完成输入
+
+130
+00:04:47,800 --> 00:04:49,300
+我们需要输入积分下限
+
+131
+00:04:49,300 --> 00:04:50,400
+然后按下 TAB 按键
+
+132
+00:04:50,400 --> 00:04:52,500
+移动光标到积分上限
+
+133
+00:04:52,500 --> 00:04:54,700
+输入无穷符号的键盘指令
+
+134
+00:04:54,700 --> 00:04:56,900
+是 ESC + inf + ESC
+
+135
+00:04:56,900 --> 00:04:59,800
+接着按下 TAB 按键移动到被积函数
+
+136
+00:04:59,800 --> 00:05:02,500
+按下 ESC + ee + ESC 以输入 <i>e</i>
+
+137
+00:05:02,500 --> 00:05:05,800
+再按下 Ctrl + 6 输入指数模板
+
+138
+00:05:05,800 --> 00:05:08,400
+在一般的键盘上脱字符 “^” 位于按键 6 上
+
+139
+00:05:08,400 --> 00:05:10,400
+它在电脑上是用来表示指数的符号
+
+140
+00:05:10,400 --> 00:05:12,400
+(-)
+
+141
+00:05:12,400 --> 00:05:15,000
+所以记住 Ctrl 键和那个印有 “^” 的按键是记住快捷键 Ctrl + 6 的好方法
+
+142
+00:05:15,000 --> 00:05:19,500
+(-)
+
+143
+00:05:19,500 --> 00:05:21,900
+最后在指数中按下 TAB 按键
+
+144
+00:05:21,900 --> 00:05:25,500
+移动光标到最后一个占位符并完成输入
+
+145
+00:05:25,500 --> 00:05:27,900
+This input could have been entered in many different ways.
+
+146
+00:05:27,900 --> 00:05:29,800
+For example, to enter the exponential
+
+147
+00:05:29,800 --> 00:05:31,400
+rather than starting with the template,
+
+148
+00:05:31,400 --> 00:05:33,500
+we can start with the exponential <i>e</i> character,
+
+149
+00:05:33,500 --> 00:05:34,900
+select that character
+
+150
+00:05:34,900 --> 00:05:37,200
+and then click the button for the template.
+
+151
+00:05:37,200 --> 00:05:40,100
+This had the effect of inserting the exponential <i>e</i> character
+
+152
+00:05:40,100 --> 00:05:41,800
+in place of the filled black square
+
+153
+00:05:41,800 --> 00:05:43,500
+that is shown on the button.
+
+154
+00:05:43,500 --> 00:05:44,800
+Several of the buttons in this palette
+
+155
+00:05:44,800 --> 00:05:47,000
+have placeholders that are filled black squares
+
+156
+00:05:47,000 --> 00:05:49,000
+rather than empty black squares.
+
+157
+00:05:49,000 --> 00:05:51,800
+The filled black squares are selection placeholders,
+
+158
+00:05:51,800 --> 00:05:54,300
+which work just like the empty square placeholders
+
+159
+00:05:54,300 --> 00:05:56,900
+except that if something in the notebook is selected
+
+160
+00:05:56,900 --> 00:05:57,700
+when one of those buttons
+
+161
+00:05:57,700 --> 00:06:01,300
+with a filled black square selection placeholder is clicked,
+
+162
+00:06:01,300 --> 00:06:03,200
+then the selected expression gets inserted
+
+163
+00:06:03,200 --> 00:06:05,500
+in place of the selection placeholder.
+
+164
+00:06:05,500 --> 00:06:07,650
+For example, the definite integral example
+
+165
+00:06:07,650 --> 00:06:08,650
+could have been entered
+
+166
+00:06:08,650 --> 00:06:11,500
+by starting with the inner expression.
+
+167
+00:06:11,500 --> 00:06:13,900
+The button that was used earlier for entering
+
+168
+00:06:13,900 --> 00:06:15,800
+the definite integral template does not have
+
+169
+00:06:15,800 --> 00:06:17,800
+a filled black square selection placeholder,
+
+170
+00:06:17,800 --> 00:06:19,050
+but there is a similar button
+
+171
+00:06:19,050 --> 00:06:21,200
+in the Basic Commands section of the palette
+
+172
+00:06:21,200 --> 00:06:23,500
+that does have a selection placeholder.
+
+173
+00:06:23,500 --> 00:06:25,750
+To enter the input, select the expression
+
+174
+00:06:25,750 --> 00:06:27,100
+and click the button,
+
+175
+00:06:27,100 --> 00:06:28,650
+which inserts the selected expression
+
+176
+00:06:28,650 --> 00:06:31,400
+in place of the selection placeholder.
+
+177
+00:06:31,400 --> 00:06:32,600
+This template is also different
+
+178
+00:06:32,600 --> 00:06:34,500
+in that it has descriptive placeholders
+
+179
+00:06:34,500 --> 00:06:36,500
+that display as shaded boxes
+
+180
+00:06:36,500 --> 00:06:40,100
+with reminders about the purpose of each part of the input.
+
+181
+00:06:40,100 --> 00:06:41,300
+These descriptive placeholders
+
+182
+00:06:41,300 --> 00:06:43,300
+work just like the empty box placeholders
+
+183
+00:06:43,300 --> 00:06:47,400
+and can be filled in just as before to complete the input.
+
+184
+00:06:47,400 --> 00:06:49,200
+All of these notations and special characters
+
+185
+00:06:49,200 --> 00:06:51,800
+can be used in Text cells and in graphics
+
+186
+00:06:51,800 --> 00:06:54,000
+and almost anywhere else in the notebook.
+
+187
+00:06:54,000 --> 00:06:56,000
+For example, here is a Text cell
+
+188
+00:06:56,000 --> 00:06:59,200
+with some mathematical notations within the text.
+
+189
+00:06:59,200 --> 00:07:00,800
+This Text cell can be entered
+
+190
+00:07:00,800 --> 00:07:04,000
+using much the same process as was used for entering input.
+
+191
+00:07:04,000 --> 00:07:06,500
+Start with a Text cell and use either the palette
+
+192
+00:07:06,500 --> 00:07:10,800
+or keyboard commands to enter mathematical notations.
+
+193
+00:07:10,800 --> 00:07:12,800
+An important aspect of this Text cell
+
+194
+00:07:12,800 --> 00:07:14,500
+is that the formatted mathematics
+
+195
+00:07:14,500 --> 00:07:17,800
+is actually in a separate cell called an Inline cell.
+
+196
+00:07:17,800 --> 00:07:19,500
+Clicking within the formatted mathematics
+
+197
+00:07:19,500 --> 00:07:22,500
+changes the background color to highlight the Inline cell.
+
+198
+00:07:22,500 --> 00:07:25,000
+To leave the Inline cell and continue entering text,
+
+199
+00:07:25,000 --> 00:07:27,600
+you can either click beyond the Inline cell
+
+200
+00:07:27,600 --> 00:07:29,400
+or press CONTROL+0,
+
+201
+00:07:29,400 --> 00:07:33,000
+which is the keyboard command to end the Inline cell.
+
+202
+00:07:33,000 --> 00:07:35,700
+In that example, the Inline cell was created automatically
+
+203
+00:07:35,700 --> 00:07:38,500
+as soon as some notation other than text was entered,
+
+204
+00:07:38,500 --> 00:07:39,750
+but in general it is necessary
+
+205
+00:07:39,750 --> 00:07:41,600
+to first create a new Inline cell,
+
+206
+00:07:41,600 --> 00:07:44,000
+which you can do by choosing Start Inline Cell
+
+207
+00:07:44,000 --> 00:07:46,700
+from the Typesetting menu under the Insert menu,
+
+208
+00:07:46,700 --> 00:07:49,400
+and right below that is End Inline Cell,
+
+209
+00:07:49,400 --> 00:07:50,800
+which is the command that was used
+
+210
+00:07:50,800 --> 00:07:53,000
+to end an Inline cell.
+
+211
+00:07:53,000 --> 00:07:54,650
+The keyboard command for Start Inline Cell
+
+212
+00:07:54,650 --> 00:07:55,650
+is CONTROL+9
+
+213
+00:07:55,650 --> 00:07:57,650
+and the keyboard command for End Inline Cell
+
+214
+00:07:57,650 --> 00:07:58,650
+is CONTROL+0.
+
+215
+00:07:58,650 --> 00:08:00,550
+So to enter another Inline cell,
+
+216
+00:08:00,550 --> 00:08:03,000
+press CONTORL+9 to create the cell,
+
+217
+00:08:03,000 --> 00:08:04,000
+then enter the fraction,
+
+218
+00:08:04,000 --> 00:08:06,000
+press CONTROL+0 to end the inline cell
+
+219
+00:08:06,000 --> 00:08:08,900
+and return to the enclosing text cell
+
+220
+00:08:08,900 --> 00:08:10,750
+and complete the input.
+
+221
+00:08:10,750 --> 00:08:12,600
+These notations can also be used in graphics.
+
+222
+00:08:12,600 --> 00:08:15,600
+For example, this input uses the Epilog option
+
+223
+00:08:15,600 --> 00:08:18,000
+to add a formatted label to a plot.
+
+224
+00:08:18,000 --> 00:08:20,400
+The label is entered here just as it would be
+
+225
+00:08:20,400 --> 00:08:22,650
+in any other input.
+
+226
+00:08:22,650 --> 00:08:24,000
+Keyboard commands for special characters
+
+227
+00:08:24,000 --> 00:08:26,000
+are referred to as aliases.
+
+228
+00:08:26,000 --> 00:08:27,800
+Many common characters have aliases
+
+229
+00:08:27,800 --> 00:08:29,500
+and often several aliases.
+
+230
+00:08:29,500 --> 00:08:32,000
+For example, the tooltip for the Greek letter alpha
+
+231
+00:08:32,000 --> 00:08:34,400
+shows that the long name of the character
+
+232
+00:08:34,400 --> 00:08:36,000
+is the capitalized word Alpha,
+
+233
+00:08:36,000 --> 00:08:39,000
+which can be entered by typing backslash,
+
+234
+00:08:39,000 --> 00:08:41,200
+square bracket, followed by the long name,
+
+235
+00:08:41,200 --> 00:08:43,650
+and as soon as the closing square bracket is entered,
+
+236
+00:08:43,650 --> 00:08:46,400
+the display turns into the character.
+
+237
+00:08:46,400 --> 00:08:49,900
+Characters can also be entered using tech or SGML names.
+
+238
+00:08:49,900 --> 00:08:52,500
+For example, typing ESCAPE+BACKSLASH+alpha,
+
+239
+00:08:52,500 --> 00:08:54,700
+which is the tech name for this character,
+
+240
+00:08:54,700 --> 00:08:57,000
+and pressing the ESCAPE key a second time
+
+241
+00:08:57,000 --> 00:08:59,500
+gives the same alpha character.
+
+242
+00:08:59,500 --> 00:09:00,500
+The SGML name,
+
+243
+00:09:00,500 --> 00:09:02,450
+which comes up in HTML documents,
+
+244
+00:09:02,450 --> 00:09:05,000
+can be entered as ESCAPE, ampersand,
+
+245
+00:09:05,000 --> 00:09:07,100
+then the SGML name of the character,
+
+246
+00:09:07,100 --> 00:09:08,700
+which is also Alpha,
+
+247
+00:09:08,700 --> 00:09:11,000
+followed by a semicolon and then pressing
+
+248
+00:09:11,000 --> 00:09:13,900
+the ESCAPE key a second time to get the character.
+
+249
+00:09:13,900 --> 00:09:15,150
+So if you already know
+
+250
+00:09:15,150 --> 00:09:17,150
+character names from tech or from SGML,
+
+251
+00:09:17,150 --> 00:09:18,400
+you can use those names
+
+252
+00:09:18,400 --> 00:09:21,300
+to enter characters in Wolfram Notebooks.
+
+253
+00:09:21,300 --> 00:09:23,300
+There are many thousands of special characters.
+
+254
+00:09:23,300 --> 00:09:24,800
+At the bottom of each grid of characters
+
+255
+00:09:24,800 --> 00:09:26,500
+in the basic math assistant palette
+
+256
+00:09:26,500 --> 00:09:28,900
+is a button that opens the Special Characters palette,
+
+257
+00:09:28,900 --> 00:09:30,700
+which is the same palette that is opened
+
+258
+00:09:30,700 --> 00:09:34,000
+by choosing Special Character under the Insert menu.
+
+259
+00:09:34,000 --> 00:09:35,400
+If you see a character like this one
+
+260
+00:09:35,400 --> 00:09:37,000
+and would like to know how to enter it,
+
+261
+00:09:37,000 --> 00:09:38,600
+you can select the character
+
+262
+00:09:38,600 --> 00:09:41,400
+and choose Find Selected Function from the Help menu
+
+263
+00:09:41,400 --> 00:09:43,000
+to bring up the documentation page
+
+264
+00:09:43,000 --> 00:09:44,300
+for that character,
+
+265
+00:09:44,300 --> 00:09:45,300
+which for this character
+
+266
+00:09:45,300 --> 00:09:47,000
+shows the long name of the character,
+
+267
+00:09:47,000 --> 00:09:50,700
+which is DoubleLongRightArrow and the Unicode number
+
+268
+00:09:50,700 --> 00:09:53,500
+and the alias and some other information.
+
+269
+00:09:53,500 --> 00:09:55,000
+Not all characters have aliases
+
+270
+00:09:55,000 --> 00:09:58,300
+and some less common characters do not even have long names,
+
+271
+00:09:58,300 --> 00:10:00,000
+but it is essentially always possible
+
+272
+00:10:00,000 --> 00:10:01,500
+to enter a character as Unicode.
+
+273
+00:10:01,500 --> 00:10:05,800
+For example, backslash, colon, followed by the Unicode number
+
+274
+00:10:05,800 --> 00:10:09,000
+gives the double long right arrow character.
+
+275
+00:10:09,000 --> 00:10:11,200
+That's the end of the examples for this section.
+
+276
+00:10:11,200 --> 00:10:13,800
+You can find more information in the Wolfram documentation
+
+277
+00:10:13,800 --> 00:10:17,300
+in this tutorial on two-dimensional expression input.
+
+278
+00:10:17,300 --> 00:10:19,000
+This section covered the basic process
+
+279
+00:10:19,000 --> 00:10:21,000
+for entering mathematics and special characters,
+
+280
+00:10:21,000 --> 00:10:24,000
+but there are many details that can also be controlled
+
+281
+00:10:24,000 --> 00:10:27,000
+involving things like the size and alignment of characters
+
+282
+00:10:27,000 --> 00:10:29,600
+and ways to customize the formatting
+
+283
+00:10:29,600 --> 00:10:32,000
+and customize the handling of various inputs.
+
+284
+00:10:32,000 --> 00:10:34,800
+If your application requires that sort of control,
+
+285
+00:10:34,800 --> 00:10:37,300
+you can find more information in the section
+
+286
+00:10:37,300 --> 00:10:40,000
+on math typesetting options and tweaking
+
+287
+00:10:40,000 --> 00:10:44,000
+and in links from this guide page on defining custom notation.
+
