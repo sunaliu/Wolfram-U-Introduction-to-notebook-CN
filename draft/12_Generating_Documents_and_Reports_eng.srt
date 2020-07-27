@@ -820,142 +820,119 @@ DateString 表达式
 
 206
 00:07:44,000 --> 00:07:46,000
-The most common reason
-for creating a template
+创建模板的最常见的原因
 
 207
 00:07:46,000 --> 00:07:47,900
-is for creating
-more than one report,
+是为了生成不止一个报告
 
 208
 00:07:47,900 --> 00:07:50,000
-which in part means
-being careful to program
+这在某种程度上提示我们
 
 209
 00:07:50,000 --> 00:07:52,200
-into the template
-only the content and formatting
+只应该在模板中编写
 
 210
 00:07:52,200 --> 00:07:54,500
-that is common
-to all of the reports.
+对所有报告都相同的格式和内容
 
 211
 00:07:54,500 --> 00:07:57,000
-As an example, consider
-generating a separate report
+例如，考虑生成一个单独的报告
 
 212
 00:07:57,000 --> 00:08:00,000
-for each record in the dataset
-that was loaded earlier.
+使用之前加载的数据集中的每条记录
 
 213
 00:08:00,000 --> 00:08:02,300
-That dataset consists
-of a list of records
+那个数据集包含了一系列的记录
 
 214
 00:08:02,300 --> 00:08:04,700
-and the example template
-is programmed to show
+但是那个示例模板只展示了
 
 215
 00:08:04,700 --> 00:08:06,500
-only the first record.
+第一条记录
 
 216
 00:08:06,500 --> 00:08:07,800
-This data happens
-to be in the form
+这个数据碰巧在
 
 217
 00:08:07,800 --> 00:08:09,700
-of a Wolfram Language dataset,
+Wolfram 语言数据集中
 
 218
 00:08:09,700 --> 00:08:11,900
-from which it is easy
-to extract an expression
+所以它可以被简单地使用
 
 219
 00:08:11,900 --> 00:08:15,400
-called an association
-for the elements in each record.
+通过被称为关联(Association)的方式
 
 220
 00:08:15,400 --> 00:08:18,500
-This association can be used
-in the GenerateDocument function,
+这个关联(Association)可以在 GenerateDocument 函数中使用
 
 221
 00:08:18,500 --> 00:08:20,700
-just like the list of rules
-that was used earlier
+就像之前的一系列
 
 222
 00:08:20,700 --> 00:08:23,100
-for named slots in a template.
+用于模板中被命名的插槽的规则一样
 
 223
 00:08:23,100 --> 00:08:24,900
-To make the template work
-with this dataset,
+让模板和数据集一起发挥作用
 
 224
 00:08:24,900 --> 00:08:26,100
-we can modify the template
+我们可以修改模板
 
 225
 00:08:26,100 --> 00:08:28,700
-so that the names of the named
-slots in the template
+模板中被命名的插槽的名称
 
 226
 00:08:28,700 --> 00:08:30,300
-match the names
-of the named items
+与数据集每一个记录中的
 
 227
 00:08:30,300 --> 00:08:32,400
-in each record in the dataset.
+被命名的项(Item)匹配
 
 228
 00:08:32,400 --> 00:08:33,900
-After saving the revised template,
+在保存修改后的模板之后
 
 229
 00:08:33,900 --> 00:08:36,700
-the GenerateDocument function
-can be used with the association
+GenerateDocument 函数可以和从数据集中提取的
 
 230
 00:08:36,700 --> 00:08:40,000
-extracted from the dataset
-to generate a report.
+关联(Association)一起 产生一个报告
 
 231
 00:08:40,000 --> 00:08:42,300
-Applying the Normal function
-to the entire dataset
+对整个数据集使用 Normal 函数
 
 232
 00:08:42,300 --> 00:08:45,600
-gives a list of associations
-for each record,
+可以给出每一个记录的关联(Association)
 
 233
 00:08:45,600 --> 00:08:48,700
-and each association
-has the names and values to use
+而且每一条关联都有名称和值
 
 234
 00:08:48,700 --> 00:08:52,500
-in the GenerateDocument function
-to generate the document.
+以供使用 GenerateDocument 函数使用来产生文档
 
 235
 00:08:52,500 --> 00:08:55,400
