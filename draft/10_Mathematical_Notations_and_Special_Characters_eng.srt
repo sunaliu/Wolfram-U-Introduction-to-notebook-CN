@@ -577,107 +577,107 @@ arithmetic grouping
 
 145
 00:05:25,500 --> 00:05:27,900
-This input could have been entered in many different ways.
+这个输入可以有很多不同的输入方式。
 
 146
 00:05:27,900 --> 00:05:29,800
-For example, to enter the exponential
+例如  我们先输入自然对数的底数 <i>e</i>
 
 147
 00:05:29,800 --> 00:05:31,400
-rather than starting with the template,
+而不是先输入指数模板
 
 148
 00:05:31,400 --> 00:05:33,500
-we can start with the exponential <i>e</i> character,
+我们可以从 <i>e</i> 字符开始
 
 149
 00:05:33,500 --> 00:05:34,900
-select that character
+选择 <i>e</i> 字符
 
 150
 00:05:34,900 --> 00:05:37,200
-and then click the button for the template.
+然后单击指数模板对应的按钮
 
 151
 00:05:37,200 --> 00:05:40,100
-This had the effect of inserting the exponential <i>e</i> character
+这就产生了在按钮图样黑色实心框处插入指数 <i>e</i> 字符的效果
 
 152
 00:05:40,100 --> 00:05:41,800
-in place of the filled black square
+(-)
 
 153
 00:05:41,800 --> 00:05:43,500
-that is shown on the button.
+(-)2
 
 154
 00:05:43,500 --> 00:05:44,800
-Several of the buttons in this palette
+一些面板上的按钮具有黑色实心方块占位符
 
 155
 00:05:44,800 --> 00:05:47,000
-have placeholders that are filled black squares
+(-)
 
 156
 00:05:47,000 --> 00:05:49,000
-rather than empty black squares.
+而不是黑色空心方块
 
 157
 00:05:49,000 --> 00:05:51,800
-The filled black squares are selection placeholders,
+黑色实心方块是被选中的占位符
 
 158
 00:05:51,800 --> 00:05:54,300
-which work just like the empty square placeholders
+平时它与空心方块占位符具有同样的效果
 
 159
 00:05:54,300 --> 00:05:56,900
-except that if something in the notebook is selected
+除非笔记本中某些东西被选中了
 
 160
 00:05:56,900 --> 00:05:57,700
-when one of those buttons
+此时点击某个带黑色实心方块占位符的按钮
 
 161
 00:05:57,700 --> 00:06:01,300
-with a filled black square selection placeholder is clicked,
+(-)
 
 162
 00:06:01,300 --> 00:06:03,200
-then the selected expression gets inserted
+被选中的部分就会插入到黑色实心方块占位符所在的位置上
 
 163
 00:06:03,200 --> 00:06:05,500
-in place of the selection placeholder.
+(-)
 
 164
 00:06:05,500 --> 00:06:07,650
-For example, the definite integral example
+例如  定积分模板也可以从内部（已经存在的）表达式开始输入
 
 165
 00:06:07,650 --> 00:06:08,650
-could have been entered
+(-)
 
 166
 00:06:08,650 --> 00:06:11,500
-by starting with the inner expression.
+(-)2
 
 167
 00:06:11,500 --> 00:06:13,900
-The button that was used earlier for entering
+先前用来输入定积分模板的按钮并没有黑色实心占位符
 
 168
 00:06:13,900 --> 00:06:15,800
-the definite integral template does not have
+(-)
 
 169
 00:06:15,800 --> 00:06:17,800
-a filled black square selection placeholder,
+(-)2
 
 170
 00:06:17,800 --> 00:06:19,050
-but there is a similar button
+但是在「下一句需要对应截图翻译」面板有一个相似的按钮
 
 171
 00:06:19,050 --> 00:06:21,200
@@ -685,139 +685,139 @@ in the Basic Commands section of the palette
 
 172
 00:06:21,200 --> 00:06:23,500
-that does have a selection placeholder.
+它具有被选中的占位符
 
 173
 00:06:23,500 --> 00:06:25,750
-To enter the input, select the expression
+为了输入上式  我们选中这个表达式并且点击按钮
 
 174
 00:06:25,750 --> 00:06:27,100
-and click the button,
+(-)
 
 175
 00:06:27,100 --> 00:06:28,650
-which inserts the selected expression
+这使选中的表达式插入了选中的占位符所在的位置
 
 176
 00:06:28,650 --> 00:06:31,400
-in place of the selection placeholder.
+(-)
 
 177
 00:06:31,400 --> 00:06:32,600
-This template is also different
+这一模板还有些不同
 
 178
 00:06:32,600 --> 00:06:34,500
-in that it has descriptive placeholders
+它的占位符带有一些描述
 
 179
 00:06:34,500 --> 00:06:36,500
-that display as shaded boxes
+这种占位符显示为带阴影的框
 
 180
 00:06:36,500 --> 00:06:40,100
-with reminders about the purpose of each part of the input.
+并提醒输入的每一部分的目的
 
 181
 00:06:40,100 --> 00:06:41,300
-These descriptive placeholders
+这些带有描述的占位符
 
 182
 00:06:41,300 --> 00:06:43,300
-work just like the empty box placeholders
+和普通空心占位符是一样的
 
 183
 00:06:43,300 --> 00:06:47,400
-and can be filled in just as before to complete the input.
+它也可以和之前一样在输入时被填入
 
 184
 00:06:47,400 --> 00:06:49,200
-All of these notations and special characters
+所有这些符号和特殊字符
 
 185
 00:06:49,200 --> 00:06:51,800
-can be used in Text cells and in graphics
+都可以用于文本单元 (Text cell)  绘图
 
 186
 00:06:51,800 --> 00:06:54,000
-and almost anywhere else in the notebook.
+乃至笔记本的任何角落
 
 187
 00:06:54,000 --> 00:06:56,000
-For example, here is a Text cell
+例如  这里是一个文本单元 (Text cell)
 
 188
 00:06:56,000 --> 00:06:59,200
-with some mathematical notations within the text.
+带有夹在文本间的数学符号
 
 189
 00:06:59,200 --> 00:07:00,800
-This Text cell can be entered
+这个文本单元 (Text cell)
 
 190
 00:07:00,800 --> 00:07:04,000
-using much the same process as was used for entering input.
+可以用类似刚才我们输入的过程来输入
 
 191
 00:07:04,000 --> 00:07:06,500
-Start with a Text cell and use either the palette
+从一个文本单元 (Text cell) 开始  我们使用面板
 
 192
 00:07:06,500 --> 00:07:10,800
-or keyboard commands to enter mathematical notations.
+或者键盘指令输入数学符号
 
 193
 00:07:10,800 --> 00:07:12,800
-An important aspect of this Text cell
+在文本单元中一个重要的特征
 
 194
 00:07:12,800 --> 00:07:14,500
-is that the formatted mathematics
+是格式化的数学符号
 
 195
 00:07:14,500 --> 00:07:17,800
-is actually in a separate cell called an Inline cell.
+！！暂译行内单元，需和界面匹配：处于单独的单元中  这种单元叫行内（公式）单元 (Inline cell)
 
 196
 00:07:17,800 --> 00:07:19,500
-Clicking within the formatted mathematics
+在格式化后的数学格式中点击
 
 197
 00:07:19,500 --> 00:07:22,500
-changes the background color to highlight the Inline cell.
+会改变单元的底色来高亮这个行内单元 (Inline cell)
 
 198
 00:07:22,500 --> 00:07:25,000
-To leave the Inline cell and continue entering text,
+为了离开行内单元 (Inline cell) 继续输入文本
 
 199
 00:07:25,000 --> 00:07:27,600
-you can either click beyond the Inline cell
+你可以点击行内单元 (Inline cell) 之后的位置
 
 200
 00:07:27,600 --> 00:07:29,400
-or press CONTROL+0,
+或者按 Ctrl + 0
 
 201
 00:07:29,400 --> 00:07:33,000
-which is the keyboard command to end the Inline cell.
+这是结束行内单元 (Inline cell) 的快捷键
 
 202
 00:07:33,000 --> 00:07:35,700
-In that example, the Inline cell was created automatically
+在这个范例中  行内单元 (Inline cell) 是自动创建的
 
 203
 00:07:35,700 --> 00:07:38,500
-as soon as some notation other than text was entered,
+只需要输入文字以外的符号（行内单元就会自动创建）
 
 204
 00:07:38,500 --> 00:07:39,750
-but in general it is necessary
+但在一般情况下
 
 205
 00:07:39,750 --> 00:07:41,600
-to first create a new Inline cell,
+我们需要先创建一个行内单元 (Inline cell)
 
 206
 00:07:41,600 --> 00:07:44,000
@@ -841,19 +841,19 @@ to end an Inline cell.
 
 211
 00:07:53,000 --> 00:07:54,650
-The keyboard command for Start Inline Cell
+开始行内单元 (Inline cell) 的快捷键是
 
 212
 00:07:54,650 --> 00:07:55,650
-is CONTROL+9
+Ctrl + 9
 
 213
 00:07:55,650 --> 00:07:57,650
-and the keyboard command for End Inline Cell
+结束行内单元 (Inline cell) 的快捷键是
 
 214
 00:07:57,650 --> 00:07:58,650
-is CONTROL+0.
+Ctrl + 0
 
 215
 00:07:58,650 --> 00:08:00,550
