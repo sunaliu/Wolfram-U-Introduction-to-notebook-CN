@@ -696,7 +696,7 @@ DateString 表达式
 
 175
 00:06:38,600 --> 00:06:41,400
-复制选中的单元进入报告 
+复制选中的单元进入报告
 
 176
 00:06:41,400 --> 00:06:43,500
@@ -936,323 +936,273 @@ GenerateDocument 函数可以和从数据集中提取的
 
 235
 00:08:52,500 --> 00:08:55,400
-All that remains now
-is to write a short program
+现在剩下的事情是写一个小程序
 
 236
 00:08:55,400 --> 00:08:57,000
-to apply
-the GenerateDocument function
+来对每一个列表里的元素
 
 237
 00:08:57,000 --> 00:08:58,500
-to each element in that list,
+应用 GenerateDocument 函数
 
 238
 00:08:58,500 --> 00:09:01,300
-which results in a separate
-report being generated
+这样可以对数据集中的每一条记录
 
 239
 00:09:01,300 --> 00:09:02,900
-for each record in the dataset.
+生成一个独立的报告
 
 240
 00:09:04,400 --> 00:09:05,800
-Rather than creating
-separate reports,
+除了生成独立的报告
 
 241
 00:09:05,800 --> 00:09:07,400
-a report based on this dataset
+基于这个数据集的很多报告
 
 242
 00:09:07,400 --> 00:09:09,400
-could alternatively
-be a single document
+也可以成为一个文档
 
 243
 00:09:09,400 --> 00:09:12,700
-with a separate section
-for each record in the dataset.
+其中的每一个独立的部分对应一条记录
 
 244
 00:09:12,700 --> 00:09:14,100
-One way of generating
-such a report
+生成这样的报告的一种方式是
 
 245
 00:09:14,100 --> 00:09:17,500
-uses the Repeating Block feature
-in the template toolbar.
+使用模板工具栏中的重复块(Repeating Block)按钮
 
 246
 00:09:17,500 --> 00:09:19,400
-To demonstrate
-how repeating block works
+下面简单地展示一下
 
 247
 00:09:19,400 --> 00:09:20,600
-in a simple example,
+如何使用这个功能
 
 248
 00:09:20,600 --> 00:09:23,000
-here is a template
-with two cells.
+这里有一个带有两个单元的模板
 
 249
 00:09:23,000 --> 00:09:25,300
-To repeat these two cells,
-select the cell bracket
+为了重复这两个单元 需要选择单元括号
 
 250
 00:09:25,300 --> 00:09:27,000
-and click
-the Repeating Block button,
+然后点击重复块(Repeating Block)按钮
 
 251
 00:09:27,000 --> 00:09:29,800
-which opens a dialog box
-with several choices.
+会出现一个有几个选项的对话框
 
 252
 00:09:29,800 --> 00:09:31,800
-Here we will demonstrate
-only the second choice,
+这里我们只会展示第二个选项
 
 253
 00:09:31,800 --> 00:09:33,300
-which specifies
-that this template
+选项二表明了这个模板
 
 254
 00:09:33,300 --> 00:09:35,400
-will use a variable named data
+会使用一个用变量命名的数据
 
 255
 00:09:35,400 --> 00:09:36,500
-and that the value
-of that variable
+并且这个变量的值
 
 256
 00:09:36,500 --> 00:09:39,700
-will be a list for filling in
-the slots in each block.
+将会被填充入每一个块(Block)中的插槽
 
 257
 00:09:39,700 --> 00:09:43,500
-A GenerateDocument input to use
-this template can look like this,
+使用这个模板的 GenerateDocument 输入看起来像这样
 
 258
 00:09:43,500 --> 00:09:45,300
-where the value
-of the data variable
+其中数据变量的值
 
 259
 00:09:45,300 --> 00:09:46,500
-is a list of associations
+是一系列关联(Association)
 
 260
 00:09:46,500 --> 00:09:49,300
-and each association
-gives a list of named values
+每一个关联都给出了一系列命名的值
 
 261
 00:09:49,300 --> 00:09:52,100
-for filling in the slots
-in each block.
+来填充每一个块中的插槽
 
 262
 00:09:52,100 --> 00:09:53,100
-In this example,
+在这个示例中
 
 263
 00:09:53,100 --> 00:09:55,000
-the value of the data variable
-has three elements,
+数据变量的值有三个元素
 
 264
 00:09:55,000 --> 00:09:58,200
-so the block will be repeated
-three times in the report.
+所以报告中的块会被重复三次
 
 265
 00:09:59,500 --> 00:10:00,900
-Returning to
-the previous dataset,
+回到之前的数据集
 
 266
 00:10:00,900 --> 00:10:03,000
-rather than applying
-GenerateDocument separately
+这次我们没有对数据集中每一条记录
 
 267
 00:10:03,000 --> 00:10:04,300
-to each record in the dataset,
+分别地应用 GenerateDocument 函数
 
 268
 00:10:04,300 --> 00:10:06,300
-this time the entire list
-of associations
+而是数据集中的
 
 269
 00:10:06,300 --> 00:10:07,300
-from that dataset
+所有的关联
 
 270
 00:10:07,300 --> 00:10:09,700
-will be passed
-to the GenerateDocument function
+都将被传入 GenerateDocument 函数
 
 271
 00:10:09,700 --> 00:10:12,000
-as the value of the variable
-named data.
+作为变量命名的数据的值
 
 272
 00:10:13,000 --> 00:10:15,000
-Now modify the earlier template
+现在编辑之前的模板
 
 273
 00:10:15,000 --> 00:10:17,300
-to use a repeating block
-with named slots
+来使用与每一条记录中的元素名称匹配的
 
 274
 00:10:17,300 --> 00:10:19,800
-that match the names
-of the elements in each record.
+重复块(repeating block)和命名的插槽
 
 275
 00:10:19,800 --> 00:10:20,900
-After that modification,
+修改过后
 
 276
 00:10:20,900 --> 00:10:23,600
-the GenerateDocument program
-to create the report
+创建报告的 GenerateDocument 程序
 
 277
 00:10:23,600 --> 00:10:25,000
-is just a single line of input.
+只剩下了一行
 
 278
 00:10:26,500 --> 00:10:28,300
-All of the formatting
-and interactive features
+之前部分出现的所有
 
 279
 00:10:28,300 --> 00:10:30,500
-of notebooks that have come up
-in earlier sections
+笔记本格式化和交互式的特性
 
 280
 00:10:30,500 --> 00:10:33,300
-can also be used in
-automatically generated reports.
+也可以被自动产生的报告使用
 
 281
 00:10:33,300 --> 00:10:34,700
-For example,
-here is a template
+比如说 这里是一个模板
 
 282
 00:10:34,700 --> 00:10:37,600
-that uses the Grid function
-to show data in a table
+使用了 Grid 函数来在表格中展示数据
 
 283
 00:10:37,600 --> 00:10:39,500
-and a TabView input
+并且使用了 TabView 函数
 
 284
 00:10:39,500 --> 00:10:43,000
-so that users of the report
-can choose between different plots.
+因此报告的用户可以在不同的图表中选择
 
 285
 00:10:43,000 --> 00:10:44,700
-The report generated
-from that template
+这个模板产生的报告
 
 286
 00:10:44,700 --> 00:10:47,300
-is an interactive report
-with a summary table
+是一个有总结表格的交互性的报告
 
 287
 00:10:47,300 --> 00:10:48,500
-and an interactive feature
+有着交互的特性
 
 288
 00:10:48,500 --> 00:10:51,000
-for selecting different
-information to display.
+可以选择并展示不同的信息
 
 289
 00:10:52,300 --> 00:10:54,200
-That's the end of the examples
-for this section.
+这就是这部分教程的最后的示例
 
 290
 00:10:54,200 --> 00:10:55,300
-There are many variations
+在基础的报告生成的过程中
 
 291
 00:10:55,300 --> 00:10:57,800
-on the basic
-report-generation process.
+有很多变量
 
 292
 00:10:57,800 --> 00:11:00,300
-In the Wolfram documentation,
-you can find more information
+在 Wolfram 参考文档中
 
 293
 00:11:00,300 --> 00:11:02,900
-by searching
-for report generation.
+你可以通过搜索报告生成(report generation)找到更多信息
 
 294
 00:11:02,900 --> 00:11:04,300
-For example, this guide page
+比如说 这个指导页面
 
 295
 00:11:04,300 --> 00:11:07,200
-gives links to the functions
-that came up in the section
+给出了出现在这一部分教程中的一系列函数的链接
 
 296
 00:11:07,200 --> 00:11:09,950
-and also functions for doing
-document generation in the cloud
+和在云上产生文档的函数
 
 297
 00:11:09,950 --> 00:11:10,950
-and for such things
+对按照时间自动生成报告
 
 298
 00:11:10,950 --> 00:11:14,000
-as generating reports
-automatically on a schedule.
+这样的事情
 
 299
 00:11:14,000 --> 00:11:17,000
-There are also workflow guides
-with step-by-step instructions
+也有很多对于基本过程的
 
 300
 00:11:17,000 --> 00:11:18,000
-for the basic process
+一步一步的工作流程指导
 
 301
 00:11:18,000 --> 00:11:20,300
-of generating a report
-from a template
+来帮助你们从模板中生成报告
 
 302
 00:11:20,300 --> 00:11:24,500
-and for generating a report
-on schedule or as a PDF file.
+和按照时间生成报告或者保存为PDF文件
 
