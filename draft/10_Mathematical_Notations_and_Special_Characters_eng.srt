@@ -857,87 +857,87 @@ Ctrl + 0
 
 215
 00:07:58,650 --> 00:08:00,550
-So to enter another Inline cell,
+所以我们按下 Ctrl + 9 以进入新的行内单元 (Inline cell)
 
 216
 00:08:00,550 --> 00:08:03,000
-press CONTORL+9 to create the cell,
+(-)
 
 217
 00:08:03,000 --> 00:08:04,000
-then enter the fraction,
+接着输入分数
 
 218
 00:08:04,000 --> 00:08:06,000
-press CONTROL+0 to end the inline cell
+按下 Ctrl + 0 来结束行内单元 (Inline cell)
 
 219
 00:08:06,000 --> 00:08:08,900
-and return to the enclosing text cell
+然后按下回车结束这一文本单元
 
 220
 00:08:08,900 --> 00:08:10,750
-and complete the input.
+完成此次输入
 
 221
 00:08:10,750 --> 00:08:12,600
-These notations can also be used in graphics.
+这些符号也可以用在绘图中
 
 222
 00:08:12,600 --> 00:08:15,600
-For example, this input uses the Epilog option
+例如  这个输入使用了 Epilog 选项
 
 223
 00:08:15,600 --> 00:08:18,000
-to add a formatted label to a plot.
+以添加一个格式化的标签到图形上
 
 224
 00:08:18,000 --> 00:08:20,400
-The label is entered here just as it would be
+在这里输入标签
 
 225
 00:08:20,400 --> 00:08:22,650
-in any other input.
+就像在其他输入中一样
 
 226
 00:08:22,650 --> 00:08:24,000
-Keyboard commands for special characters
+特殊字符的键盘指令
 
 227
 00:08:24,000 --> 00:08:26,000
-are referred to as aliases.
+称之为“别名”
 
 228
 00:08:26,000 --> 00:08:27,800
-Many common characters have aliases
+许多常用字符都有别名
 
 229
 00:08:27,800 --> 00:08:29,500
-and often several aliases.
+而且往往有好几个别名
 
 230
 00:08:29,500 --> 00:08:32,000
-For example, the tooltip for the Greek letter alpha
+例如  希腊字母 alpha (<i>α</i>) 的提示框
 
 231
 00:08:32,000 --> 00:08:34,400
-shows that the long name of the character
+显示了字符的完整名称
 
 232
 00:08:34,400 --> 00:08:36,000
-is the capitalized word Alpha,
+是首字母大写的单词 Alpha
 
 233
 00:08:36,000 --> 00:08:39,000
-which can be entered by typing backslash,
+我们可以通过键入反斜杠 (\)
 
 234
 00:08:39,000 --> 00:08:41,200
-square bracket, followed by the long name,
+左方括号  紧接着输入完整名称
 
 235
 00:08:41,200 --> 00:08:43,650
-and as soon as the closing square bracket is entered,
+一旦我们输入了右方括号
 
 236
 00:08:43,650 --> 00:08:46,400
@@ -945,103 +945,103 @@ the display turns into the character.
 
 237
 00:08:46,400 --> 00:08:49,900
-Characters can also be entered using tech or SGML names.
+字符也可以通过使用学名或 SGML 命名输入
 
 238
 00:08:49,900 --> 00:08:52,500
-For example, typing ESCAPE+BACKSLASH+alpha,
+例如  按顺序按下 ESC  + 反斜杠 + alpha
 
 239
 00:08:52,500 --> 00:08:54,700
-which is the tech name for this character,
+这是该字符的学名
 
 240
 00:08:54,700 --> 00:08:57,000
-and pressing the ESCAPE key a second time
+然后再次按下 ESC
 
 241
 00:08:57,000 --> 00:08:59,500
-gives the same alpha character.
+会出现相同的字符
 
 242
 00:08:59,500 --> 00:09:00,500
-The SGML name,
+SGML 名称
 
 243
 00:09:00,500 --> 00:09:02,450
-which comes up in HTML documents,
+从 HTML 文档衍生而来
 
 244
 00:09:02,450 --> 00:09:05,000
-can be entered as ESCAPE, ampersand,
+可以通过按下 ESC 输入 & 符号
 
 245
 00:09:05,000 --> 00:09:07,100
-then the SGML name of the character,
+再跟着输入字符的 SGML 名称
 
 246
 00:09:07,100 --> 00:09:08,700
-which is also Alpha,
+它的名称也是 alpha
 
 247
 00:09:08,700 --> 00:09:11,000
-followed by a semicolon and then pressing
+紧随其后的是一个英文分号 (;)  然后
 
 248
 00:09:11,000 --> 00:09:13,900
-the ESCAPE key a second time to get the character.
+再次按下 ESC 按钮即可得到字符
 
 249
 00:09:13,900 --> 00:09:15,150
-So if you already know
+所以  如果你已经知道
 
 250
 00:09:15,150 --> 00:09:17,150
-character names from tech or from SGML,
+字符的学名或者 SGML 名称
 
 251
 00:09:17,150 --> 00:09:18,400
-you can use those names
+你也可以使用这些名称
 
 252
 00:09:18,400 --> 00:09:21,300
-to enter characters in Wolfram Notebooks.
+向 Wolfram 笔记本输入字符
 
 253
 00:09:21,300 --> 00:09:23,300
-There are many thousands of special characters.
+（生活中）总共有成千上万个特殊字符
 
 254
 00:09:23,300 --> 00:09:24,800
-At the bottom of each grid of characters
+在数学助手面板  每组字符的底端
 
 255
 00:09:24,800 --> 00:09:26,500
-in the basic math assistant palette
+(-)
 
 256
 00:09:26,500 --> 00:09:28,900
-is a button that opens the Special Characters palette,
+是一个打开特殊字符面板的按钮
 
 257
 00:09:28,900 --> 00:09:30,700
-which is the same palette that is opened
+从菜单栏选择“插入”-“特殊字符”会打开同样的面板
 
 258
 00:09:30,700 --> 00:09:34,000
-by choosing Special Character under the Insert menu.
+(-)
 
 259
 00:09:34,000 --> 00:09:35,400
-If you see a character like this one
+如果你看到类似这样的字符
 
 260
 00:09:35,400 --> 00:09:37,000
-and would like to know how to enter it,
+并且想知道如何输入它
 
 261
 00:09:37,000 --> 00:09:38,600
-you can select the character
+你可以选中这个字符
 
 262
 00:09:38,600 --> 00:09:41,400
@@ -1049,101 +1049,101 @@ and choose Find Selected Function from the Help menu
 
 263
 00:09:41,400 --> 00:09:43,000
-to bring up the documentation page
+这回带领你来到该字符对应的参考文档页面
 
 264
 00:09:43,000 --> 00:09:44,300
-for that character,
+对刚才我们选中的字符而言
 
 265
 00:09:44,300 --> 00:09:45,300
-which for this character
+帮助文档显示了字符的全名
 
 266
 00:09:45,300 --> 00:09:47,000
-shows the long name of the character,
+(-)
 
 267
 00:09:47,000 --> 00:09:50,700
-which is DoubleLongRightArrow and the Unicode number
+这里显示了它叫做 DoubleLongRightArrow 、它的 Unicode 编号
 
 268
 00:09:50,700 --> 00:09:53,500
-and the alias and some other information.
+它的别名还有其他一些信息
 
 269
 00:09:53,500 --> 00:09:55,000
-Not all characters have aliases
+不是所有的字符都拥有别名
 
 270
 00:09:55,000 --> 00:09:58,300
-and some less common characters do not even have long names,
+一些不太常见的字符甚至没有全名
 
 271
 00:09:58,300 --> 00:10:00,000
-but it is essentially always possible
+但基本上我们总可以
 
 272
 00:10:00,000 --> 00:10:01,500
-to enter a character as Unicode.
+使用 Unicode 编码输入字符
 
 273
 00:10:01,500 --> 00:10:05,800
-For example, backslash, colon, followed by the Unicode number
+例如  反斜杠、冒号  后面跟上Unicode数字。
 
 274
 00:10:05,800 --> 00:10:09,000
-gives the double long right arrow character.
+可以打出长右箭头字符
 
 275
 00:10:09,000 --> 00:10:11,200
-That's the end of the examples for this section.
+在此我们结束了这一小节的例子
 
 276
 00:10:11,200 --> 00:10:13,800
-You can find more information in the Wolfram documentation
+你可以在 Wolfram 参考资料中心获取更多有关本次输入二维表达式旅程的信息
 
 277
 00:10:13,800 --> 00:10:17,300
-in this tutorial on two-dimensional expression input.
+(-)
 
 278
 00:10:17,300 --> 00:10:19,000
-This section covered the basic process
+帮助文档的这一章节涵盖了基本输入数学符号或特殊符号的基本流程
 
 279
 00:10:19,000 --> 00:10:21,000
-for entering mathematics and special characters,
+(-)
 
 280
 00:10:21,000 --> 00:10:24,000
-but there are many details that can also be controlled
+但这里仍有很多细节可以调整和控制
 
 281
 00:10:24,000 --> 00:10:27,000
-involving things like the size and alignment of characters
+涉及大小尺寸、对齐方式等
 
 282
 00:10:27,000 --> 00:10:29,600
-and ways to customize the formatting
+以及自定义格式
 
 283
 00:10:29,600 --> 00:10:32,000
-and customize the handling of various inputs.
+和自定义处理各种输入的方法
 
 284
 00:10:32,000 --> 00:10:34,800
-If your application requires that sort of control,
+如果你的应用需要这种控制
 
 285
 00:10:34,800 --> 00:10:37,300
-you can find more information in the section
+你可以在这一章节中找到关于数学排版选项和调整的更多信息
 
 286
 00:10:37,300 --> 00:10:40,000
-on math typesetting options and tweaking
+(-)
 
 287
 00:10:40,000 --> 00:10:44,000
-and in links from this guide page on defining custom notation.
+本页中关于定义自定义符号的链接也提供了不少信息
 
