@@ -1,345 +1,286 @@
 ﻿1
 00:00:02,000 --> 00:00:04,000
-This section of Introduction
-to Wolfram Notebooks
+这一章节的《Wolfram 笔记本介绍》
 
 2
 00:00:04,000 --> 00:00:06,500
-is about using notebooks
-on different platforms,
+是关于在不同的平台上使用笔记本的
 
 3
 00:00:06,500 --> 00:00:08,800
-especially in the cloud
-and on mobile devices
+特别是在 Cloud 和在移动设备上
 
 4
 00:00:08,800 --> 00:00:11,000
-like tablets and smartphones.
+像是平板电脑和智能手机
 
 5
 00:00:11,000 --> 00:00:13,500
-For example, here is a notebook
-shown on a tablet computer
+比如说 这里是一个平板电脑上的笔记本
 
 6
 00:00:13,500 --> 00:00:16,700
-and displayed using
-the free Wolfram Player app.
+通过免费的 Wolfram Player 应用展示
 
 7
 00:00:16,700 --> 00:00:18,600
-With this app you can
-scroll through the notebook
+在这个应用中你可以滚动笔记本
 
 8
 00:00:18,600 --> 00:00:20,000
-and open and close cells
+双击单元组括号
 
 9
 00:00:20,000 --> 00:00:22,600
-by double tapping
-on cell grouping brackets,
+来打开和关闭单元
 
 10
 00:00:22,600 --> 00:00:24,500
-much as in Wolfram Desktop.
+像 Wolfram 桌面端一样
 
 11
 00:00:24,500 --> 00:00:27,200
-And the notebook
-can also be a dynamic document,
+而且这个笔记本也可变成动态的文件
 
 12
 00:00:27,200 --> 00:00:30,300
-so for example, you can adjust
-the controls of dynamic content
+所以比如说 你可以调整动态内容
 
 13
 00:00:30,300 --> 00:00:33,800
-like the buttons and the slider
-in this Manipulate result.
+像是这里的按钮和滑动条
 
 14
 00:00:33,800 --> 00:00:36,000
-The interactive controls
-in the Wolfram Player app
+Wolfram Player 应用中 交互式的操控内容
 
 15
 00:00:36,000 --> 00:00:37,400
-are shown at the bottom
-of the screen,
+在屏幕底部展示
 
 16
 00:00:37,400 --> 00:00:40,100
-which is done because
-the controls on a mobile device
+因为移动设备的控制
 
 17
 00:00:40,100 --> 00:00:42,000
-are typically manipulated
-using finger taps
+主要由手指触摸实现
 
 18
 00:00:42,000 --> 00:00:45,100
-rather than with a mouse,
-and fingers can block the display.
+而不是鼠标 并且手指可以阻挡展示的内容
 
 19
 00:00:45,100 --> 00:00:47,200
-So having the controls
-at the bottom of the screen
+所以在屏幕底部有控制栏
 
 20
 00:00:47,200 --> 00:00:49,500
-can make it easier
-to see the display
+可以同时让观看展示
 
 21
 00:00:49,500 --> 00:00:52,600
-and operate the controls
-at the same time.
+和进行控制更加简单
 
 22
 00:00:52,600 --> 00:00:55,200
-To create or edit a notebook,
-instead of Wolfram Player,
+你可以使用 Wolfram Cloud 应用而不是 Wolfram Player
 
 23
 00:00:55,200 --> 00:00:57,000
-you can use
-the Wolfram Cloud app.
+来创建或者编辑一个笔记本
 
 24
 00:00:57,000 --> 00:00:59,000
-For example, this shows
-that same notebook
+比如说 这里展示了同一个笔记本
 
 25
 00:00:59,000 --> 00:01:00,500
-in the Wolfram Cloud app,
+在 Wolfram Cloud 应用中的样子
 
 26
 00:01:00,500 --> 00:01:03,500
-which includes controls
-for editing the notebook.
+包括编辑笔记本的控制选项
 
 27
 00:01:03,500 --> 00:01:06,800
-Those controls are used here
-for inserting a new Text cell.
+这些控制选项在这里使用来插入一个新的文本单元
 
 28
 00:01:06,800 --> 00:01:10,500
-Editing will be described
-in more detail in a moment.
+编辑的具体操作会在稍后被说明
 
 29
 00:01:10,500 --> 00:01:12,400
-The Wolfram Player
-and the Wolfram Cloud apps
+Wolfram Player 和 Wolfram Cloud 应用
 
 30
 00:01:12,400 --> 00:01:13,900
-also work on smartphones.
+在智能手机上也可以被使用
 
 31
 00:01:13,900 --> 00:01:15,800
-Here, for example,
-is that notebook
+比如说 这是那个笔记本在手机上被展示
 
 32
 00:01:15,800 --> 00:01:18,700
-on a smartphone,
-using the Wolfram Player app.
+使用 Wolfram Player 应用
 
 33
 00:01:18,700 --> 00:01:20,400
-Except for the size
-of the screen,
+除了屏幕的大小不同
 
 34
 00:01:20,400 --> 00:01:22,700
-the display works
-much as it does on the tablet,
+它与在平板电脑上没有什么区别
 
 35
 00:01:22,700 --> 00:01:27,000
-including dynamic content
-like buttons and sliders.
+包括按钮和滑动条这些动态内容
 
 36
 00:01:27,000 --> 00:01:29,800
-Notebooks can also be displayed
-and edited in a web browser
+笔记本也可以在网页浏览器中被展示和编辑
 
 37
 00:01:29,800 --> 00:01:31,800
-on any computer that is connected
-to the internet
+使用连接到互联网
 
 38
 00:01:31,800 --> 00:01:33,600
-or to a suitable cloud.
+或者合适的 Cloud 上的任何电脑
 
 39
 00:01:33,600 --> 00:01:36,100
-For example, this shows
-that notebook in a web browser
+比如说 这里展示了电脑浏览器中
 
 40
 00:01:36,100 --> 00:01:38,000
-on a desktop computer
-through a web page
+一个网页上的笔记本
 
 41
 00:01:38,000 --> 00:01:41,650
-that is logged into
-a free Wolfram Cloud account.
+它被登录到了免费 Wolfram Cloud 账户中
 
 42
 00:01:41,650 --> 00:01:43,600
-Interactive controls
-work here as well
+互动性的操作在这里也可以被实现
 
 43
 00:01:43,600 --> 00:01:45,400
-and the notebook can be edited,
+笔记本在这也可以被编辑
 
 44
 00:01:45,400 --> 00:01:50,200
-such as adding a new text cell,
-and you can do calculations.
+例如添加一个新的文本单元和做计算
 
 45
 00:01:50,200 --> 00:01:52,000
-And of course
-the notebook can also be shown
+当然 笔记本可以在
 
 46
 00:01:52,000 --> 00:01:54,000
-in an ordinary
-desktop application.
+普通的电脑应用中被展示
 
 47
 00:01:54,000 --> 00:01:56,400
-This, for example,
-shows that notebook
+比如说 这里展示了
 
 48
 00:01:56,400 --> 00:02:00,000
-on a desktop computer
-running Wolfram Desktop.
+ Wolfram 桌面端中的笔记本
 
 49
 00:02:00,000 --> 00:02:01,100
-The underlying notebook file
+笔记本文件的基础
 
 50
 00:02:01,100 --> 00:02:02,900
-is the same on all
-of these platforms,
+在所有平台中都相同
 
 51
 00:02:02,900 --> 00:02:04,800
-on a mobile device
-or in a web browser
+在手机端 在网页浏览器中
 
 52
 00:02:04,800 --> 00:02:06,100
-or on the desktop,
+或者在桌面端
 
 53
 00:02:06,100 --> 00:02:08,800
-and the same notebook
-can be opened in any platform.
+相同的笔记本可以在任何平台下被打开
 
 54
 00:02:08,800 --> 00:02:11,500
-For example, starting with
-this notebook on the desktop,
+比如说 从桌面端的这个笔记本开始 你可以选择
 
 55
 00:02:11,500 --> 00:02:13,200
-you can choose Save to Cloud
+保存到 Wolfram Cloud (Save to Cloud)
 
 56
 00:02:13,200 --> 00:02:15,800
-to save the notebook
-in a cloud account.
+来在 Cloud 账号中保存
 
 57
 00:02:15,800 --> 00:02:18,700
-If the desktop application
-is not already signed in
+如果桌面端应用没有登入
 
 58
 00:02:18,700 --> 00:02:21,700
-to Wolfram Cloud Account,
-you will be asked to sign in,
+Wolfram Cloud 账号 你会被要求登入
 
 59
 00:02:21,700 --> 00:02:23,300
-and after that
-you can choose a name
+之后你可以选择一个名称
 
 60
 00:02:23,300 --> 00:02:26,800
-for saving the notebook
-in that account.
+来在那个账号中保存笔记本
 
 61
 00:02:26,800 --> 00:02:27,800
-The notebook in the cloud
+Cloud 中的笔记本
 
 62
 00:02:27,800 --> 00:02:29,600
-can be opened
-in any of these platforms.
+可以在任何平台中被打开
 
 63
 00:02:29,600 --> 00:02:31,000
-For example,
-returning to the tablet,
+比如说 回到平板电脑
 
 64
 00:02:31,000 --> 00:02:32,950
-after installing
-the Wolfram Player app
+在安装 Wolfram Player 应用后
 
 65
 00:02:32,950 --> 00:02:34,950
-you can launch
-the app, which shows
+你可以启动这个应用 它将会展示
 
 66
 00:02:34,950 --> 00:02:37,000
-the notebooks that are saved
-on this device,
+保存在这个设备里的笔记本
 
 67
 00:02:37,000 --> 00:02:38,000
-but to see the notebook
+想要看到刚才
 
 68
 00:02:38,000 --> 00:02:39,300
-that was just uploaded
-to the cloud,
+被上传到 Cloud 的那个笔记本
 
 69
 00:02:39,300 --> 00:02:41,900
-you can tap the button in the
-upper-left corner of the screen
+你可以点击屏幕左上角的按钮
 
 70
 00:02:41,900 --> 00:02:45,100
-to open the side panel,
-tap Add Cloud Account
+打开侧边栏 点击 Add Cloud Account
 
 71
 00:02:45,100 --> 00:02:48,900
-and use the dialog box
-to log into that cloud account.
+然后使用这个对话框来登入 Cloud 账户
 
 72
 00:02:48,900 --> 00:02:50,200
