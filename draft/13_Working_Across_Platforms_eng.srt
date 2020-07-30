@@ -188,7 +188,7 @@ Wolfram Player 和 Wolfram Cloud 应用
 
 48
 00:01:56,400 --> 00:02:00,000
- Wolfram 桌面端中的笔记本
+Wolfram 桌面端中的笔记本
 
 49
 00:02:00,000 --> 00:02:01,100
@@ -284,303 +284,251 @@ Cloud 中的笔记本
 
 72
 00:02:48,900 --> 00:02:50,200
-The notebook that was
-just saved to the cloud
+刚才被保存至 Cloud 的笔记本
 
 73
 00:02:50,200 --> 00:02:52,200
-was saved in the home directory
-of that account,
+可以在 home 目录在找到
 
 74
 00:02:52,200 --> 00:02:55,800
-so navigate to that directory
-and open the notebook.
+所以我们直接进入并且打开笔记本
 
 75
 00:02:55,800 --> 00:02:57,700
-There are buttons in the upper-
-right corner of this window
+右上角有几个按钮
 
 76
 00:02:57,700 --> 00:02:59,800
-for various operations
-with this notebook.
+可以进行一些操作
 
 77
 00:02:59,800 --> 00:03:01,000
-Tapping the button
-with letters on it
+点击上面有字母的这个按钮
 
 78
 00:03:01,000 --> 00:03:02,500
-opens a small dialog box
+可以打开一个小对话框
 
 79
 00:03:02,500 --> 00:03:05,600
-that is used here to make
-the display a little bit bigger,
+用在这里可以放大文字
 
 80
 00:03:05,600 --> 00:03:09,300
-which results in the display
-that was shown earlier.
+就像之前展示的那样
 
 81
 00:03:09,300 --> 00:03:11,200
-This notebook currently exists
-in the cloud,
+这个笔记本现在位于 Cloud 上
 
 82
 00:03:11,200 --> 00:03:13,100
-but you can also save
-the notebook locally
+但是你可以在本地保存它
 
 83
 00:03:13,100 --> 00:03:15,400
-on this tablet computer
-by tapping this button
+点击屏幕右上角的这个按钮
 
 84
 00:03:15,400 --> 00:03:17,000
-in the upper-right corner
-of the window,
+来保存至平板电脑
 
 85
 00:03:17,000 --> 00:03:20,200
-which opens a dialog box
-with various choices.
+它会打开一个对话框 其中有很多选项
 
 86
 00:03:20,200 --> 00:03:22,200
-To save the notebook
-on this tablet,
+为了保存至平板电脑
 
 87
 00:03:22,200 --> 00:03:24,800
-tap Save to Files,
-which opens a dialog box
+点击 Save to Files 又会打开一个对话框
 
 88
 00:03:24,800 --> 00:03:27,000
-for choosing where
-to save the notebook.
+可以选择保存的位置
 
 89
 00:03:27,000 --> 00:03:28,500
-With the notebook saved
-on this tablet,
+保存至本地之后
 
 90
 00:03:28,500 --> 00:03:30,000
-you could sign out
-of the cloud account
+你可以在登出 Cloud 账号
 
 91
 00:03:30,000 --> 00:03:31,500
-and even disconnect
-from the internet
+甚至断开互联网的条件下
 
 92
 00:03:31,500 --> 00:03:33,200
-and still view the notebook.
+观看这个笔记本
 
 93
 00:03:33,200 --> 00:03:35,300
-The basic programs for
-interacting with this notebook
+和笔记本互动的基本程序
 
 94
 00:03:35,300 --> 00:03:37,000
-are all running locally
-on this tablet,
+在这个平板电脑本地也可以运行
 
 95
 00:03:37,000 --> 00:03:39,600
-which makes these operations
-significantly faster,
+这可以让操作显著地更加迅速
 
 96
 00:03:39,600 --> 00:03:42,800
-since it avoids the overhead
-of running over the internet,
+因为不用从互联网上下载内容
 
 97
 00:03:42,800 --> 00:03:46,500
-and dynamic content like buttons
-and sliders will also work.
+并且按钮和滑动条这样的动态内容也可以运行
 
 98
 00:03:46,500 --> 00:03:48,500
-Working without being connected
-to the internet, of course,
+当然 不需要连接至互联网的条件是
 
 99
 00:03:48,500 --> 00:03:50,000
-requires that nothing
-in these operations
+这些操作内容
 
 100
 00:03:50,000 --> 00:03:53,500
-either directly or indirectly
-tries to access the internet.
+既不需要直接也不需要间接的互联网访问
 
 101
 00:03:53,500 --> 00:03:56,300
-In this particular notebook,
-the earthquake data, for example,
+比如在这个特定的笔记本中 地震数据(Earthquake Data)
 
 102
 00:03:56,300 --> 00:03:59,700
-has to be included
-in the notebook.
+需要包括在笔记本里
 
 103
 00:03:59,700 --> 00:04:01,500
-To edit the notebook
-still on the tablet,
+为了在平板电脑上编辑这个笔记本
 
 104
 00:04:01,500 --> 00:04:04,000
-you can start by launching
-the Wolfram Cloud app.
+你可以从启动 Wolfram Cloud 应用开始
 
 105
 00:04:04,000 --> 00:04:08,500
-After logging into the account,
-you can tap to open the notebook.
+在登录至账户后 你可以点击打开这个笔记本
 
 106
 00:04:08,500 --> 00:04:09,600
-The display includes
+这里包括了
 
 107
 00:04:09,600 --> 00:04:13,800
-the same font magnification
-button as the Wolfram Player app.
+和 Wolfram Player 应用同样的字体放大的按钮
 
 108
 00:04:13,800 --> 00:04:15,500
-Editing the notebook
-to insert a new cell
+编辑笔记本 比如说插入一个新的单元
 
 109
 00:04:15,500 --> 00:04:17,400
-starts much as it does
-on the desktop
+和桌面端的操作差不多
 
 110
 00:04:17,400 --> 00:04:18,950
-by clicking, or in this case
+通过点击
 
 111
 00:04:18,950 --> 00:04:21,000
-tapping, to get
-a cell insertion bar,
+来得到一个单元插入栏(Cell insertion bar)
 
 112
 00:04:21,000 --> 00:04:22,600
-which also brings up
-a row of buttons
+它将在屏幕的底部
 
 113
 00:04:22,600 --> 00:04:24,500
-at the bottom of the screen.
+带来一行按钮
 
 114
 00:04:24,500 --> 00:04:26,950
-To enter a calculation,
-tap the Input cell button,
+为了输入一个计算 点击 Input cell 按钮
 
 115
 00:04:26,950 --> 00:04:29,000
-which creates a new Input cell
+将会出现一个新的输入单元
 
 116
 00:04:29,000 --> 00:04:30,500
-and also brings up
-a special keyboard
+并且会唤出一个特殊的键盘
 
 117
 00:04:30,500 --> 00:04:32,400
-for entering input.
+来供输入使用
 
 118
 00:04:32,400 --> 00:04:34,000
-You can use the keyboard
-to enter the input
+你可以使用键盘键入输入
 
 119
 00:04:34,000 --> 00:04:37,700
-and then tap the evaluate button
-to do the calculation.
+并且点击 evaluate 按钮来做计算
 
 120
 00:04:37,700 --> 00:04:38,900
-To get a Text cell,
+为了得到一个文本单元
 
 121
 00:04:38,900 --> 00:04:41,600
-tap the new cell button
-and choose Plain Text,
+点击 new cell 按钮然后选择 Plain Text
 
 122
 00:04:41,600 --> 00:04:44,100
-which creates a Text cell
-and opens a keyboard
+将会出现一个文本单元并且同时唤出键盘
 
 123
 00:04:44,100 --> 00:04:46,800
-for entering the contents
-of the cell.
+以供在单元中输入内容使用
 
 124
 00:04:46,800 --> 00:04:48,400
-Other types of cells
-can be entered
+其他类型的单元可以通过
 
 125
 00:04:48,400 --> 00:04:50,800
-by choosing Styled Text
-from the new cell menu.
+选择新建单元菜单中的 Styled Text 来实现
 
 126
 00:04:50,800 --> 00:04:51,800
-For example,
+比如说
 
 127
 00:04:51,800 --> 00:04:54,400
-you can choose Section
-to get a Section cell
+你可以选择 Section 来得到一个“章节”样式的单元
 
 128
 00:04:54,400 --> 00:04:57,100
-and then enter the contents
-of the cell.
+然后在这个单元中输入内容
 
 129
 00:04:57,100 --> 00:04:58,100
-Selecting cell brackets
+选择单元括号
 
 130
 00:04:58,100 --> 00:04:59,450
-brings up a different row
-of buttons
+会唤出一行不同的按钮
 
 131
 00:04:59,450 --> 00:05:02,000
-for copying or pasting
-or cutting cells.
+可以用来复制、粘贴或剪切单元
 
 132
 00:05:02,000 --> 00:05:04,400
-For example, this shows
-using the Cut button
+比如说 这里展示了使用剪切(Cut)按钮
 
 133
 00:05:04,400 --> 00:05:08,200
-to delete the cells
-that were just entered.
+来删除刚才输入的单元
 
 134
 00:05:08,200 --> 00:05:10,000
