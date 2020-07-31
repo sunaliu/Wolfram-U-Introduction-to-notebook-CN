@@ -1,46 +1,46 @@
 ﻿1
 00:00:00,000 --> 00:00:02,500
-This section of Introduction to Wolfram Notebooks
+这一章节的《 Wolfram 笔记本介绍》的内容
 
 2
 00:00:02,500 --> 00:00:04,800
-is about using notebooks for presentations,
+是使用笔记本进行演示
 
 3
 00:00:04,800 --> 00:00:07,500
-such as showing a notebook as a slideshow.
+例如以幻灯片的形式显示笔记本
 
 4
 00:00:07,500 --> 00:00:09,400
-Here's an example of a typical slideshow,
+这里是一个典型的幻灯片的例子
 
 5
 00:00:09,400 --> 00:00:10,900
-which is essentially just a notebook
+它本质上只是一个笔记本
 
 6
 00:00:10,900 --> 00:00:13,500
-that is being displayed one slide at a time.
+并且每次显示一张幻灯片
 
 7
 00:00:13,500 --> 00:00:15,500
-You can end the slideshow by clicking this button
+你可以通过点击显示屏右上角的这个按钮
 
 8
 00:00:15,500 --> 00:00:17,400
-in the upper-right corner of the display
+(-)
 
 9
 00:00:17,400 --> 00:00:20,700
-and choosing End Presentation from the resulting popup menu,
+待对照！！！然后在弹出的菜单中选择" "来结束幻灯片放映
 
 10
 00:00:20,700 --> 00:00:22,800
-which shows the same notebook in the working format
+这样会在工作格式下显示同一个笔记本
 
 11
 00:00:22,800 --> 00:00:25,400
-that was used for creating the slideshow.
+这个笔记本用来创建幻灯片
 
 12
 00:00:25,400 --> 00:00:26,900
@@ -48,31 +48,32 @@ This working slideshow notebook
 
 13
 00:00:26,900 --> 00:00:28,400
-behaves much like any other notebook,
+和其他的笔记本几乎一样
 
 14
 00:00:28,400 --> 00:00:29,900
-with two essential differences
+不过有两个基本的区别
 
 15
 00:00:29,900 --> 00:00:33,200
-being the presence of cells for marking breaks between slides
+一是两张幻灯片直接有空隙分隔
 
 16
 00:00:33,200 --> 00:00:36,000
-and the authoring toolbar at the top of the notebook.
+二是是笔记本顶部会显示创作工具栏
 
 17
 00:00:36,000 --> 00:00:37,900
+！！不通顺：创作工具栏是一个停靠在顶端的单元
 The authoring toolbar is a docked cell
 
 18
 00:00:37,900 --> 00:00:39,800
-with controls for common operations
+带有常见操作的控件
 
 19
 00:00:39,800 --> 00:00:43,400
-like inserting a new slide and starting the presentation.
+例如插入新幻灯片页面、开始演示
 
 20
 00:00:43,400 --> 00:00:45,600
