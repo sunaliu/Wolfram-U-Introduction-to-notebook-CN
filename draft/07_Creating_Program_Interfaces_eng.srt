@@ -432,134 +432,115 @@ Delimiter 在一些控件组之间绘制线条
 
 109
 00:04:20,500 --> 00:04:24,000
-那里你可以发现数千个
-由用户提交的例子
+那里你可以发现数千个由用户提交的例子
 
 110
 00:04:24,000 --> 00:04:27,300
-and there are also good tutorials
-on the Manipulate function
+并且 Wolfram 文档中也有很多
 
 111
 00:04:27,300 --> 00:04:30,600
-in the Wolfram documentation.
+有关 Manipulate 函数的好教程
 
 112
 00:04:30,600 --> 00:04:33,000
-Manipulate is useful
-for standalone applications,
+Manipulate 对于独立应用程序很有用
 
 113
 00:04:33,000 --> 00:04:36,500
-where the controls and display
-are all in the same place,
+它们的控件和显示结果被放在一处
 
 114
 00:04:36,500 --> 00:04:37,600
-but there are many applications
+但是还有很多应用程序
 
 115
 00:04:37,600 --> 00:04:40,200
-where it is useful to put
-the controls somewhere else.
+对于它们来说 把控件放在别处更有用
 
 116
 00:04:40,200 --> 00:04:41,350
-One place to put controls
+一个放控件的地方
 
 117
 00:04:41,350 --> 00:04:43,900
-is in a separate window,
-called a palette.
+是一个叫做 palette 的独立窗口
 
 118
 00:04:43,900 --> 00:04:46,100
-Here is the example
-shown earlier, which is
+这是一个先前展示出的例子
 
 119
 00:04:46,100 --> 00:04:48,000
-the special characters palette.
+它是一个特殊字符面板
 
 120
 00:04:48,000 --> 00:04:51,000
-This palette is a collection
-of buttons called paste buttons,
+这个面板是一些粘贴 (paste) 按钮的集合
 
 121
 00:04:51,000 --> 00:04:54,500
-which can be generated using
-a function called PasteButton.
+它们能被 PasteButton 函数生成
 
 122
 00:04:54,500 --> 00:04:56,800
-For example, this gives
-a paste button
+例如 这里给出一个粘贴按钮
 
 123
 00:04:56,800 --> 00:05:00,800
-that pastes the letters ABC
-into the current notebook.
+它能把“ABC”字母粘贴进当前笔记本
 
 124
 00:05:00,800 --> 00:05:02,300
-You can create a grid of buttons,
+您可以创建一个按钮网格 // unconfirmed
 
 125
 00:05:02,300 --> 00:05:04,500
-like the grids in
-特殊字符调色板
+就像特殊字符面板里的网格那样
 
 126
 00:05:04,500 --> 00:05:06,300
-使用网格功能。
+使用 Grid 函数
 
 127
 00:05:06,300 --> 00:05:08,800
-那个网格可以
-转换为调色板
+那个网格可以被转换成一个面板 (Palette)
 
 128
 00:05:08,800 --> 00:05:11,300
-使用CreatePalette函数。
+使用 CreatePalette 函数
 
 129
 00:05:11,300 --> 00:05:13,200
-该调色板中的按钮
-然后可以使用
+之后 那个面板里的按钮能被用于
 
 130
 00:05:13,200 --> 00:05:15,500
-插入字符
-进入笔记本。
+把字符插入进笔记本
 
 131
 00:05:15,500 --> 00:05:18,000
-这个调色板也可以有
-通过选择生成
+这个面板还能通过选定
 
 132
 00:05:18,000 --> 00:05:19,800
-按钮网格并选择
+那个按钮网格并从“面板” (Palette) 菜单下
 
 133
 00:05:19,800 --> 00:05:23,500
-通过选择创建调色板
-在“调色板”菜单下。
+选择“从选定内容中创建面板” (Create Palette from Section) 来生成
 
 134
 00:05:23,500 --> 00:05:26,300
-选板也可以包含控件
-除了粘贴按钮。
+面板也可以包含除粘贴按钮外的其他控件
 
 135
 00:05:26,300 --> 00:05:27,500
-例如，
+例如
 
 136
 00:05:27,500 --> 00:05:29,800
-此输入提供了一个调色板
-带有弹出菜单
+此输入提供了一个带有弹出菜单的面板
 
 137
 00:05:29,800 --> 00:05:31,000
@@ -567,12 +548,11 @@ like the grids in
 
 138
 00:05:31,000 --> 00:05:34,300
-和粘贴按钮
-用于�����贴所选位置
+和一个粘贴按钮 用于把所选位置
 
 139
 00:05:34,300 --> 00:05:36,500
-放入笔记本。
+粘贴进笔记本
 
 140
 00:05:36,500 --> 00:05:39,700
