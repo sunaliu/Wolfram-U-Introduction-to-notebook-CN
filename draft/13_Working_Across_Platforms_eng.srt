@@ -532,299 +532,249 @@ Cloud 中的笔记本
 
 134
 00:05:08,200 --> 00:05:10,000
-Finally as was shown earlier,
-Wolfram Notebooks
+最后 像刚才被展示的那样
 
 135
 00:05:10,000 --> 00:05:12,000
-can also be edited
-using a web browser.
+Wolfram 笔记本可以被浏览器编辑
 
 136
 00:05:12,000 --> 00:05:14,700
-You can start
-at the Wolfram Cloud website.
+你可以访问 Wolfram Cloud 网页
 
 137
 00:05:14,700 --> 00:05:16,900
-Log in to your
-Wolfram Cloud Account
+登入你的 Wolfram Cloud 账号
 
 138
 00:05:16,900 --> 00:05:19,600
-and navigate to the notebook
-that you want to edit.
+然后进入你想要编辑的笔记本
 
 139
 00:05:19,600 --> 00:05:20,900
-Here you can enter calculations
+在这你可以用以下方式进行计算
 
 140
 00:05:20,900 --> 00:05:23,300
-by clicking in the notebook
-to get a cell insertion bar,
+点击笔记本然后得到一个单元插入条
 
 141
 00:05:23,300 --> 00:05:25,000
-enter the calculation
-using the keyboard
+用键盘输入计算式
 
 142
 00:05:25,000 --> 00:05:28,700
-and press SHIFT+ENTER
-to do the calculation.
+然后按下 SHIFT+ENTER 来做计算
 
 143
 00:05:28,700 --> 00:05:31,400
-Many features of Wolfram Desktop
-are also available here,
+Wolfram 桌面端的很多特性在这里也可以被使用
 
 144
 00:05:31,400 --> 00:05:33,800
-including, for example,
-the Suggestions Bar
+比如说 输出下方的
 
 145
 00:05:33,800 --> 00:05:35,400
-below the output.
+建议栏
 
 146
 00:05:35,400 --> 00:05:38,200
-Keyboard shortcuts can be used
-for choosing new cell styles.
+快捷键也可以被用在这里来选择新的单元样式
 
 147
 00:05:38,200 --> 00:05:39,550
-For example, you can type
+比如说 你可以按下
 
 148
 00:05:39,550 --> 00:05:42,300
-the keyboard shortcut
-for a new Text cell
+快捷键来生成一个新的文本单元
 
 149
 00:05:42,300 --> 00:05:45,000
-and enter the contents
-of the cell.
+然后输入单元中的文字
 
 150
 00:05:45,000 --> 00:05:47,000
-Another way of choosing
-the style of a new cell
+另一种选择样式的方式
 
 151
 00:05:47,000 --> 00:05:49,500
-is to click the Format button
-at the top of the window,
+是点击窗口顶部的 Format 按钮
 
 152
 00:05:49,500 --> 00:05:52,800
-which opens a side panel
-with controls for choosing fonts
+这将打开一个控制字体和单元样式
 
 153
 00:05:52,800 --> 00:05:54,600
-and cell styles and so on.
+等选项的侧边栏 比如说
 
 154
 00:05:54,600 --> 00:05:56,000
-For example,
-to get a Section cell,
+为了得到一个“章节”样式的单元
 
 155
 00:05:56,000 --> 00:05:59,700
-you can choose Section
-from the Cell Style menu
+你可以在 Cell Style 菜单中选择 Section
 
 156
 00:05:59,700 --> 00:06:02,700
-and enter the contents
-of the cell.
+然后在单元中输入内容
 
 157
 00:06:02,700 --> 00:06:04,800
-For just getting started
-with Wolfram Notebooks,
+如果想快速上手 Wolfram 笔记本
 
 158
 00:06:04,800 --> 00:06:07,500
-Wolfram Cloud is in some ways
-the easiest place to begin,
+Wolfram Cloud 在某种程度上是最简单的方式
 
 159
 00:06:07,500 --> 00:06:09,200
-because usually
-there's nothing to install.
+因为通常来说你不用安装任何东西
 
 160
 00:06:09,200 --> 00:06:10,600
-All you need is a web browser
+你需要的只是连接至
 
 161
 00:06:10,600 --> 00:06:12,500
-on a computer
-connected to the internet.
+互联网的电脑和一个网页浏览器
 
 162
 00:06:12,500 --> 00:06:14,700
-For example,
-you can open a web browser
+比如说 你可以打开一个网页浏览器
 
 163
 00:06:14,700 --> 00:06:18,500
-and go to the Wolfram webpage,
-www.wolfram.com,
+然后访问 Wolfram 主页 www.wolfram.com
 
 164
 00:06:18,500 --> 00:06:21,000
-which shows the whole range
-of products.
+在那里你可以看到所有的产品
 
 165
 00:06:21,000 --> 00:06:23,300
-One of those products
-is Wolfram Programming Lab,
+其中之一是 Wolfram Programming Lab
 
 166
 00:06:23,300 --> 00:06:26,100
-which is a good place for
-learning the Wolfram Language.
+那是一个学习 Wolfram 语言的好地方
 
 167
 00:06:26,100 --> 00:06:29,200
-Choosing Wolfram Programming Lab
-opens a notebook
+选择 Wolfram Programming Lab 会打开一个笔记本
 
 168
 00:06:29,200 --> 00:06:31,000
-with some sample
-Wolfram Language programs,
+其中有一些 Wolfram 语言程序的案例
 
 169
 00:06:31,000 --> 00:06:32,600
-but to just get a new notebook,
+想要新建笔记本
 
 170
 00:06:32,600 --> 00:06:35,300
-you can click
-the Create New Notebook button
+你可以点击 Create New Notebook 按钮
 
 171
 00:06:35,300 --> 00:06:37,700
-or choose New Notebook
-from the File menu
+或者点击 File 菜单中的 New Notebook
 
 172
 00:06:37,700 --> 00:06:38,800
-to get a new notebook
+在 Wolfram Cloud
 
 173
 00:06:38,800 --> 00:06:40,700
-in the Wolfram Cloud |
-Open Access system,
+和 Open Access 系统中新建笔记本
 
 174
 00:06:40,700 --> 00:06:43,400
-where you can enter content
-and do calculations
+和在其他地方新建笔记本的操作相似
 
 175
 00:06:43,400 --> 00:06:47,000
-much as you might do
-in any other Wolfram Notebook.
+在那里你也可以输入内容和做计算
 
 176
 00:06:47,000 --> 00:06:48,000
-After creating the notebook,
+在新建笔记本之后
 
 177
 00:06:48,000 --> 00:06:49,800
-you can save the notebook
-in the cloud,
+你可以在 Cloud 中保存
 
 178
 00:06:49,800 --> 00:06:53,000
-which would of course require
-logging into a cloud account,
+当然 这需要你登入 Cloud 账号
 
 179
 00:06:53,000 --> 00:06:55,000
-or you can choose Download
-from the File menu
+或者你可以在 File 菜单中选择 Download 
 
 180
 00:06:55,000 --> 00:06:59,000
-to download the notebook
-to a desktop system.
+来将笔记本下载至桌面
 
 181
 00:06:59,000 --> 00:07:00,800
-That's the end of the examples
-for this section.
+这是这章节教程的最后一部分
 
 182
 00:07:00,800 --> 00:07:02,400
-The basic features
-of Wolfram Notebooks
+Wolfram 笔记本的基础特性
 
 183
 00:07:02,400 --> 00:07:05,300
-work much the same
-across all of these platforms,
+在不同平台上表现得基本一样
 
 184
 00:07:05,300 --> 00:07:06,800
-but for features
-that are different
+不过为了查找那些在不同平台上
 
 185
 00:07:06,800 --> 00:07:07,800
-on different platforms,
+不同的特性
 
 186
 00:07:07,800 --> 00:07:09,600
-a good place to look
-for more information
+你可以在 Wolfram 帮助文档的
 
 187
 00:07:09,600 --> 00:07:12,900
-is the workflow guides
-in the Wolfram documentation,
+工作流(Workflow)中进行搜索 来获得更多信息
 
 188
 00:07:12,900 --> 00:07:13,900
-which gives separate
+它将给出独立
 
 189
 00:07:13,900 --> 00:07:16,200
-step-by-step instructions
-for each platform.
+并且分步的 对每个平台的说明
 
 190
 00:07:16,200 --> 00:07:18,300
-For example, here is a page
-of workflow guides
+比如说 这里有一个关于在笔记本中工作的
 
 191
 00:07:18,300 --> 00:07:19,700
-on working in notebooks,
+工作流(Workflow)指导
 
 192
 00:07:19,700 --> 00:07:21,900
-and in this page
-on creating a Text cell,
+在创建文本单元(creating a Text cell)中
 
 193
 00:07:21,900 --> 00:07:25,500
-you can choose instructions
-for the desktop platform
+你可以选择对于桌面端
 
 194
 00:07:25,500 --> 00:07:27,400
-or for Wolfram Cloud
+或者 Wolfram Cloud
 
 195
 00:07:27,400 --> 00:07:30,500
-or for mobile devices
-like tablets and smartphones.
+或者像平板电脑和手机这样的移动设备的说明
 
