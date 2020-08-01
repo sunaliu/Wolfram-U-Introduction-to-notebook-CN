@@ -290,11 +290,11 @@ which is marked by a new cell with a cell style called slideshow navigation bar.
 
 73
 00:02:43,700 --> 00:02:45,000
-这回打开一个对话框
+这会打开一个对话框
 
 74
 00:02:45,000 --> 00:02:48,300
-在这个对话框中你可以根据单元格的样式选择幻灯片中断
+在这个对话框中你可以根据单元格的样式选择幻灯片分割线
 
 75
 00:02:48,300 --> 00:02:51,300
@@ -446,14 +446,15 @@ for choosing from the same set of PresenterTools stylesheets,
 
 112
 00:04:10,600 --> 00:04:13,050
-将这些选项应用到所有文本单元的效果
+将这些选项应用到该笔记本里所有文本单元的效果
 
 113
 00:04:13,050 --> 00:04:14,300
-在这个笔记本里
+(-)
 
 114
 00:04:14,300 --> 00:04:16,550
+你也可以
 This worked by editing the private stylesheet
 
 115
@@ -462,183 +463,184 @@ for this notebook.
 
 116
 00:04:17,550 --> 00:04:18,550
-For example,
+例如
 
 117
 00:04:18,550 --> 00:04:20,500
-choosing Edit Stylesheet from the Format menu
+选择“格式”菜单下 Edit Stylesheet
 
 118
 00:04:20,500 --> 00:04:22,800
-shows the private stylesheet for this notebook
+会显示本笔记本内的 private stylesheet 
 
 119
 00:04:22,800 --> 00:04:24,500
-with the new local style definitions
+和新的本地样式定义
 
 120
 00:04:24,500 --> 00:04:27,500
-that specify large, bold characters for the text.
+这些定义为文本指定了大的粗体字
 
 121
 00:04:27,500 --> 00:04:28,700
-You could achieve the same effect
+你可以通过直接编辑样式表来达到同样的效果
 
 122
 00:04:28,700 --> 00:04:30,400
-by editing the stylesheet directly,
+(-)
 
 123
 00:04:30,400 --> 00:04:32,400
-so that button in the authoring toolbar
+所以在创作工具栏中的按钮
 
 124
 00:04:32,400 --> 00:04:33,700
-essentially provides
+基本上
 
 125
 00:04:33,700 --> 00:04:36,200
-one-click editing of the stylesheet.
+用于一键修改样式表
 
 126
 00:04:36,200 --> 00:04:38,000
-One button that is worth saying a few words about
+有一个按钮是值得说几句的  按下这个按钮
 
 127
 00:04:38,000 --> 00:04:40,000
-is this button, which opens a popup menu
+会打开一个浮动菜单
 
 128
 00:04:40,000 --> 00:04:42,800
-for making font sizes larger or smaller.
+用来调大或调小字号
 
 129
 00:04:42,800 --> 00:04:45,500
-To describe what that menu does, it is helpful to first bring up
+要描述该菜单的作用  我们需要首先介绍一下
 
 130
 00:04:45,500 --> 00:04:47,800
-a feature of all PresenterTools stylesheets,
+所有 PresenterTools stylesheets 的功能
 
 131
 00:04:47,800 --> 00:04:49,750
-which is dynamic resizing of content
+它可以根据窗口大小动态调整内容的尺寸
 
 132
 00:04:49,750 --> 00:04:51,800
-depending on the size of the window.
+(-)
 
 133
 00:04:51,800 --> 00:04:54,300
-For example, if the size of this window is changed,
+例如  如果窗口的大小改变了
 
 134
 00:04:54,300 --> 00:04:57,300
-the font sizes change, and in fact the sizes of images
+文本的字号也会随之改变  图片也有同样的效果
 
 135
 00:04:57,300 --> 00:04:58,800
-and almost all of the other content
+几乎所有笔记本中其他的内容
 
 136
 00:04:58,800 --> 00:05:02,300
-within the notebook also changes based on the size of the window.
+都会随之窗口的大小而改变
 
 137
 00:05:02,300 --> 00:05:04,100
-You could get the same effect in any notebook
+你可以在任何一个笔记本中获得同样的效果
 
 138
 00:05:04,100 --> 00:05:07,800
-by using scaled sizes for fonts and images and so on,
+只需要调整字体、图片等的缩放比例
 
 139
 00:05:07,800 --> 00:05:10,900
-but unlike most other stylesheets, with PresenterTools stylesheets
+但是与其他大部分 stylesheets 不同 
 
 140
 00:05:10,900 --> 00:05:13,000
-all of the options settings for that resizing
+在 RresenterTools stylesheets 中所有关于缩放的选项
 
 141
 00:05:13,000 --> 00:05:15,500
-are already part of the stylesheet.
+都已经是这个 stylesheet 的一部分
 
 142
 00:05:15,500 --> 00:05:16,700
-Dynamic resizing like this
+像这样的动态缩放
 
 143
 00:05:16,700 --> 00:05:18,600
-is helpful for the common situation
+通常情况下很有帮助
 
 144
 00:05:18,600 --> 00:05:20,950
-where you want to enlarge the window for presentation
+譬如在你想扩大演示界面的窗口
 
 145
 00:05:20,950 --> 00:05:23,800
-or where the presentation is done on a different display system
+或者是在不同窗口大小的显示系统上进行演示的情况下
 
 146
 00:05:23,800 --> 00:05:26,300
-where window sizes might be different.
+(-)
 
 147
 00:05:26,300 --> 00:05:29,300
-Returning now to the specific issue of font sizes,
+现在让我们回到字体大小的问题上
 
 148
 00:05:29,300 --> 00:05:32,500
-if font size is specified by selecting some text
+如果字体大小通过选中一些文字
 
 149
 00:05:32,500 --> 00:05:35,100
-and choosing a font size from the Size submenu
+然后在“格式”菜单的 Size 子菜单选则某个字号的方式指定
 
 150
 00:05:35,100 --> 00:05:36,600
-under the Format menu,
+(-)
 
 151
 00:05:36,600 --> 00:05:38,600
-the size of that text remains constant
+那么当窗口的大小发生变化时   该文本的大小将保持不变
 
 152
 00:05:38,600 --> 00:05:40,800
-as the size of the window is changed,
+(-)
 
 153
 00:05:40,800 --> 00:05:42,800
-since that size setting takes precedence
+因为这种大小设置优先于
 
 154
 00:05:42,800 --> 00:05:46,000
-over the dynamic resizing system from the stylesheet.
+ stylesheet 的动态缩放系统
 
 155
 00:05:46,000 --> 00:05:47,000
-The font size button
+创作工具栏上的字体大小按钮
 
 156
 00:05:47,000 --> 00:05:49,100
-in the authoring toolbar works differently.
+的工作方式不同
 
 157
 00:05:49,100 --> 00:05:52,950
-For example, selecting some text and then choosing a new size
+例如  选中一些字符然后在创作工具栏的浮动菜单中选择一个新的大小
 
 158
 00:05:52,950 --> 00:05:55,300
-from the popup menu in the authoring toolbar
+(-)
 
 159
 00:05:55,300 --> 00:05:57,400
-causes the size of the selected text
+会使选中的文字的字号按所选步长的比例放大或缩小
+to be scaled up or down by the chosen number of steps,
 
 160
 00:05:57,400 --> 00:06:00,900
-to be scaled up or down by the chosen number of steps,
+(-)
 
 161
 00:06:00,900 --> 00:06:03,900
