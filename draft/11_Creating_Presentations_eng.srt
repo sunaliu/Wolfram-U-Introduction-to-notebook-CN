@@ -56,7 +56,7 @@ This working slideshow notebook
 
 15
 00:00:29,900 --> 00:00:33,200
-一是两张幻灯片直接有空隙分隔
+一是两张幻灯片之间有幻灯片分隔线 (Slide Break) 单元
 
 16
 00:00:33,200 --> 00:00:36,000
@@ -81,27 +81,27 @@ The authoring toolbar and the Slide Break cells
 
 21
 00:00:45,600 --> 00:00:47,900
-and all of the other options that make this notebook
+还有其他所有能让笔记本能够作为创建幻灯片环境的功能
 
 22
 00:00:47,900 --> 00:00:50,600
-function as an environment for creating a slideshow
+(-)
 
 23
 00:00:50,600 --> 00:00:52,500
-are set up in the stylesheet.
+是在 stylesheet. 中设置的
 
 24
 00:00:52,500 --> 00:00:53,800
-The stylesheet for this notebook
+这个笔记本的 stylesheet 
 
 25
 00:00:53,800 --> 00:00:56,000
-is chosen from the PresenterTools submenu
+是在 PresenterTools 子菜单中选择的
 
 26
 00:00:56,000 --> 00:00:58,300
-under the Format ► Stylesheet menu.
+该子菜单位于 Format ► Stylesheet 
 
 27
 00:00:58,300 --> 00:01:01,000
@@ -109,239 +109,240 @@ All of the stylesheets in the PresenterTools submenu
 
 28
 00:01:01,000 --> 00:01:04,000
-include all of the options for creating a slideshow.
+包括创建幻灯片所需的所有选项
 
 29
 00:01:04,000 --> 00:01:06,450
-In fact, any notebook can be made into a slideshow
+实际上  任何一个笔记本都可以做成幻灯片
 
 30
 00:01:06,450 --> 00:01:09,600
-by simply choosing one of the PresenterTools stylesheets
+只需要选择 PresenterTools stylesheets 中的一个选项
 
 31
 00:01:09,600 --> 00:01:11,400
-and inserting slide breaks.
+并且插入幻灯片分隔线单元
 
 32
 00:01:11,400 --> 00:01:13,100
-For example, here is that same notebook,
+例如  这里是和刚才同样的笔记本
 
 33
 00:01:13,100 --> 00:01:15,200
-but without any of the Slide Break cells
+但是没有幻灯片分界线单元
 
 34
 00:01:15,200 --> 00:01:17,500
-and with the normal Default stylesheet,
+并且采用的是 normal Default stylesheet,
 
 35
 00:01:17,500 --> 00:01:21,000
-which is the item that is checked in the stylesheet submenu.
+也就是在 stylesheet 子菜单中选中的项目
 
 36
 00:01:21,000 --> 00:01:23,800
-Further down this menu is the PresenterTools submenu,
+菜单的下方是 PresenterTools 子菜单
 
 37
 00:01:23,800 --> 00:01:26,800
-and below that is another submenu called SlideShow.
+再下方有一个名为 SlideShow 的子菜单
 
 38
 00:01:26,800 --> 00:01:28,450
-The SlideShow submenu is included
+这里包含的 SlideShow 子菜单是为了
 
 39
 00:01:28,450 --> 00:01:30,300
-to support an older slideshow system
+提供对旧版本幻灯片系统的支持
 
 40
 00:01:30,300 --> 00:01:31,300
-that has been available
+它已经在 Wolfram 笔记本中存在多年了
 
 41
 00:01:31,300 --> 00:01:33,300
-in Wolfram Notebooks for many years.
+(-)
 
 42
 00:01:33,300 --> 00:01:36,000
-But this section is about the newer PresenterTools system,
+但是本节课程是关于更新的 PresenterTools 系统的
 
 43
 00:01:36,000 --> 00:01:39,100
-which is an enhanced version of the older system.
+它是旧系统的增强版
 
 44
 00:01:39,100 --> 00:01:40,800
-To make this notebook into a slideshow,
+要把笔记本做成幻灯片
 
 45
 00:01:40,800 --> 00:01:44,300
-we will choose one of the PresenterTools stylesheets.
+我们需要选择 PresenterTools stylesheets 中的一个选项
 
 46
 00:01:44,300 --> 00:01:46,250
-A convenient way to insert slide breaks
+一个便捷的插入幻灯片分界线的方式
 
 47
 00:01:46,250 --> 00:01:48,300
-is to first bring up the authoring toolbar,
+是首先打开创作工具栏
 
 48
 00:01:48,300 --> 00:01:49,900
-which is made visible by changing
+它可以通过在“格式”菜单的“显示屏环境”子菜单内将屏幕环境改为 Slideshow Working 来调出
 
 49
 00:01:49,900 --> 00:01:51,950
-the screen environment to Slideshow Working,
+(-)
 
 50
 00:01:51,950 --> 00:01:55,300
-using the Screen Environment submenu under the Format menu.
+(-)2
 
 51
 00:01:55,300 --> 00:01:57,000
-Clicking the Insert New Slide button
+然后点击创作工具栏上的“插入新幻灯片”按钮
 
 52
 00:01:57,000 --> 00:02:00,000
-in the authoring toolbar opens a short popup menu
+打开一个小的浮动菜单
 
 53
 00:02:00,000 --> 00:02:03,200
-offering to insert a slide break with or without a background.
+提供插入不带背景的幻灯片分隔或带背景的幻灯片分隔两个选项
 
 54
 00:02:03,200 --> 00:02:05,000
-Either choice inserts the slide break,
+无论哪种选择都会插入幻灯片中断
 
 55
 00:02:05,000 --> 00:02:06,800
-which is marked by a new cell
+它被一个新的具有名为幻灯片导航栏的格式的单元所标记
+which is marked by a new cell with a cell style called slideshow navigation bar.
 
 56
 00:02:06,800 --> 00:02:10,000
-with a cell style called slideshow navigation bar.
+(-)
 
 57
 00:02:10,000 --> 00:02:11,500
-You can also create a new slide
+你也可以通过从幻灯片其他位置复制粘贴幻灯片分界线单元来创建新幻灯片
 
 58
 00:02:11,500 --> 00:02:13,800
-by copying and pasting the Slide Break cell
+(-)
 
 59
 00:02:13,800 --> 00:02:15,400
-from elsewhere in the notebook.
+(-)2
 
 60
 00:02:15,400 --> 00:02:17,700
-For example, we can select the Slide Break cell
+例如  我们可以选中幻灯片分界线单元
 
 61
 00:02:17,700 --> 00:02:19,800
-and the Section cell below it,
+和下方的 Section 单元
 
 62
 00:02:19,800 --> 00:02:22,750
-and then copy that selection and paste those cells elsewhere
+接着复制所选单元  再将它们粘贴在笔记本其他部位
 
 63
 00:02:22,750 --> 00:02:25,000
-in the notebook to get a new slide.
+来获得新的一页幻灯片
 
 64
 00:02:25,000 --> 00:02:27,200
-This sort of editing is also a way of deleting slides
+编辑幻灯片的方式还包括删除幻灯片
 
 65
 00:02:27,200 --> 00:02:28,600
-or deleting slide breaks.
+或删除幻灯片分界线
 
 66
 00:02:28,600 --> 00:02:31,000
-For example, to delete the slide that was just added,
+例如  为了删除刚才新增的幻灯片页面
 
 67
 00:02:31,000 --> 00:02:33,000
-we can select the Slide Break cell
+我们可以选中幻灯片分界线单元
 
 68
 00:02:33,000 --> 00:02:37,300
-and the contents of the slide and delete that selection.
+和幻灯片的内容然后删掉所选项
 
 69
 00:02:37,300 --> 00:02:39,000
-Another way of inserting slide breaks
+另外一种在整个笔记本中插入幻灯片分界线的方式
 
 70
 00:02:39,000 --> 00:02:40,000
-throughout the notebook
+(-)
 
 71
 00:02:40,000 --> 00:02:42,000
-is to click the Slide Break Defaults button
+是单击创作工具栏上的 Slide Break Defaults  按钮
 
 72
 00:02:42,000 --> 00:02:43,700
-in the authoring toolbar,
+(-)
 
 73
 00:02:43,700 --> 00:02:45,000
-which opens a dialog box
+这回打开一个对话框
 
 74
 00:02:45,000 --> 00:02:48,300
-where you can choose slide breaks based on cell styles.
+在这个对话框中你可以根据单元格的样式选择幻灯片中断
 
 75
 00:02:48,300 --> 00:02:51,300
-For example, choosing Section in this dialog box
+例如  选择对话框中的 Section
 
 76
 00:02:51,300 --> 00:02:53,800
-and clicking the Set button inserts a slide break
+然后点击设置来在笔记本中每一个 Section 单元前插入幻灯片分界线
 
 77
 00:02:53,800 --> 00:02:56,500
-before every Section cell in the notebook.
+(-)
 
 78
 00:02:56,500 --> 00:02:58,800
-If the notebook is already organized into sections,
+！！不通顺：如果笔记本已经组织成章节 If the notebook is already organized into sections,
 
 79
 00:02:58,800 --> 00:03:03,000
-this is a fast way of turning the notebook into a slideshow.
+这是把笔记本转换成幻灯片的捷径
 
 80
 00:03:03,000 --> 00:03:04,750
-Rather than converting a default notebook
+相比转换默认的笔记本到幻灯片
 
 81
 00:03:04,750 --> 00:03:05,825
-into a slideshow,
+(-)
 
 82
 00:03:05,825 --> 00:03:06,825
-in many cases
+在多数情况下
 
 83
 00:03:06,825 --> 00:03:08,300
-the easiest way to create a new slideshow
+创建新幻灯片最方便的方法
 
 84
 00:03:08,300 --> 00:03:11,000
-is to start by choosing New ► Presenter Notebook
+是从“文件”菜单下 “新建” ► Presenter Notebook 开始
 
 85
 00:03:11,000 --> 00:03:12,000
-from the File menu,
+(-)
 
 86
 00:03:12,000 --> 00:03:14,000
-which brings up this dialog box
+这会打开一个对话框
 
 87
 00:03:14,000 --> 00:03:16,950
@@ -349,107 +350,107 @@ for choosing from the same set of PresenterTools stylesheets,
 
 88
 00:03:16,950 --> 00:03:19,500
-which are here referred to as themes.
+在这里它们叫做主题
 
 89
 00:03:19,500 --> 00:03:21,600
-From this dialog box you can also choose
+从这个对话框理你还可以选择
 
 90
 00:03:21,600 --> 00:03:24,500
-from various default fonts and color schemes.
+各种预设字体格式和配色方案
 
 91
 00:03:24,500 --> 00:03:25,900
-After making some choices,
+做出一些选择后
 
 92
 00:03:25,900 --> 00:03:28,400
-click the Create button to get a slideshow template
+单击“创建”按钮以获得一个幻灯片模板
 
 93
 00:03:28,400 --> 00:03:30,500
-with the chosen PresenterTools stylesheet
+带有所选的 PresenterTools stylesheet
 
 94
 00:03:30,500 --> 00:03:33,500
-and the screen environment set to Slideshow Working
+显示屏自动环境设置为 Slideshow Working
 
 95
 00:03:33,500 --> 00:03:35,800
-and the authoring toolbar at the top and several slides
+创作工具栏显示在顶部  一些幻灯片
 
 96
 00:03:35,800 --> 00:03:38,900
-with some generic content already filled in.
+已经被填充了通用的内容
 
 97
 00:03:38,900 --> 00:03:41,300
-This notebook can then be edited much like any other notebook
+这一笔记本可以和其他任何笔记本一样被编辑
 
 98
 00:03:41,300 --> 00:03:44,500
-to fill in the contents of the slideshow.
+以填充幻灯片的内容
 
 99
 00:03:44,500 --> 00:03:46,200
-Several of the buttons in the authoring toolbar
+创作工具栏上的一些按钮
 
 100
 00:03:46,200 --> 00:03:48,500
-are generic controls for fonts and styling
+是控制字体和样式的通用部件
 
 101
 00:03:48,500 --> 00:03:50,300
-that could apply to any notebook.
+它们可以用于任何笔记本
 
 102
 00:03:50,300 --> 00:03:52,250
-For example, this button brings up a menu
+例如  这个按钮会打开选择单元样式的菜单
 
 103
 00:03:52,250 --> 00:03:53,600
-for choosing cell style,
+(-)
 
 104
 00:03:53,600 --> 00:03:55,600
-which are the same styles that can be chosen
+这与在“格式”菜单的 Style 子菜单中的可选项相同
 
 105
 00:03:55,600 --> 00:03:58,200
-from the Style submenu under the Format menu.
+(-)
 
 106
 00:03:58,200 --> 00:03:59,750
-Next to the cell style menu
+单元格式菜单旁边
 
 107
 00:03:59,750 --> 00:04:01,400
-is an interesting button that can be used
+是一个有趣的按钮  它可以被用来
 
 108
 00:04:01,400 --> 00:04:04,900
-to add font choices to all cells of the selected style.
+将字体设置应用到所有具有相同格式的单元
 
 109
 00:04:04,900 --> 00:04:05,900
-For example,
+例如
 
 110
 00:04:05,900 --> 00:04:09,000
-after setting this text cell to use large, bold characters,
+在我们设置这一文本单元使用大字号、粗体后
 
 111
 00:04:09,000 --> 00:04:10,600
-clicking that button has the effect
+点击这个按钮就会有
 
 112
 00:04:10,600 --> 00:04:13,050
-of applying those options to all of the text cells
+将这些选项应用到所有文本单元的效果
 
 113
 00:04:13,050 --> 00:04:14,300
-in the notebook.
+在这个笔记本里
 
 114
 00:04:14,300 --> 00:04:16,550
