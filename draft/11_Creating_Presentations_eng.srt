@@ -93,7 +93,7 @@ The authoring toolbar and the Slide Break cells
 
 24
 00:00:52,500 --> 00:00:53,800
-这个笔记本的 stylesheet 
+这个笔记本的 stylesheet
 
 25
 00:00:53,800 --> 00:00:56,000
@@ -101,7 +101,7 @@ The authoring toolbar and the Slide Break cells
 
 26
 00:00:56,000 --> 00:00:58,300
-该子菜单位于 Format ► Stylesheet 
+该子菜单位于 Format ► Stylesheet
 
 27
 00:00:58,300 --> 00:01:01,000
@@ -471,7 +471,7 @@ for this notebook.
 
 118
 00:04:20,500 --> 00:04:22,800
-会显示本笔记本内的 private stylesheet 
+会显示本笔记本内的 private stylesheet
 
 119
 00:04:22,800 --> 00:04:24,500
@@ -555,7 +555,7 @@ for this notebook.
 
 139
 00:05:07,800 --> 00:05:10,900
-但是与其他大部分 stylesheets 不同 
+但是与其他大部分 stylesheets 不同
 
 140
 00:05:10,900 --> 00:05:13,000
@@ -615,7 +615,7 @@ for this notebook.
 
 154
 00:05:42,800 --> 00:05:46,000
- stylesheet 的动态缩放系统
+stylesheet 的动态缩放系统
 
 155
 00:05:46,000 --> 00:05:47,000
@@ -644,67 +644,67 @@ to be scaled up or down by the chosen number of steps,
 
 161
 00:06:00,900 --> 00:06:03,900
-and the resized text does change size
+而且调整后的文本大小会根据窗口的大小而改变
 
 162
 00:06:03,900 --> 00:06:05,800
-based on the size of the window.
+(-)
 
 163
 00:06:05,800 --> 00:06:08,300
-Similar issues also apply to images and to graphics.
+类似的问题也适用于图片和绘图
 
 164
 00:06:08,300 --> 00:06:10,000
-For example, selecting this image
+例如  选中这个图片
 
 165
 00:06:10,000 --> 00:06:11,500
-changes the authoring toolbar
+会让创作工具栏现实一个按钮
 
 166
 00:06:11,500 --> 00:06:14,400
-to show a button for locking the current size of the image
+用于锁定当前图片的大小
 
 167
 00:06:14,400 --> 00:06:16,300
-or letting the size of the image change
+或让图片大小随窗口大小改变
 
 168
 00:06:16,300 --> 00:06:18,000
-with the size of the window.
+(-)
 
 169
 00:06:18,000 --> 00:06:19,700
-Choosing Lock to current size
+！！！比对：选择“锁定当前大小”
 
 170
 00:06:19,700 --> 00:06:21,800
-sets the image size option for that selection
+会固定所选图片的大小为当前的值
 
 171
 00:06:21,800 --> 00:06:23,300
-to the current fixed value,
+(-)
 
 172
 00:06:23,300 --> 00:06:26,500
-which results in an image that, like the text shown earlier,
+这样一来  如同刚才的文本一样
 
 173
 00:06:26,500 --> 00:06:28,000
-remains at a fixed size
+该图片在窗口大小变化时会保持固定大小
 
 174
 00:06:28,000 --> 00:06:30,000
-when the size of the window is changed.
+(-)
 
 175
 00:06:30,000 --> 00:06:32,000
-So while dynamic resizing is the default,
+因此  虽然动态缩放是默认选项
 
 176
 00:06:32,000 --> 00:06:35,400
-you can get fixed sizes by specifying sizes
+你仍然可以通过指定you can get fixed sizes by specifying sizes
 
 177
 00:06:35,400 --> 00:06:37,800
@@ -712,91 +712,92 @@ for individual selections.
 
 178
 00:06:37,800 --> 00:06:39,500
-Other buttons in the authoring toolbar
+创作工具栏上的其他按钮
 
 179
 00:06:39,500 --> 00:06:41,300
-include the Start Presentation button,
+！！！比对：包括“开始演示”按钮
 
 180
 00:06:41,300 --> 00:06:43,800
-which is the button to click to start the presentation,
+点击这个按钮即可开始幻灯片演示
 
 181
 00:06:43,800 --> 00:06:45,500
-which we will do in a moment.
+这也是我们待会儿要做的
 
 182
 00:06:45,500 --> 00:06:47,900
-The first button below the Start Presentation button
+“开始演示”下方的第一个按钮
 
 183
 00:06:47,900 --> 00:06:49,000
-brings up a palette of buttons
+可以打开一个有按钮的面板
 
 184
 00:06:49,000 --> 00:06:51,200
-showing the outline of the slideshow.
+它会显示幻灯片的缩略图
 
 185
 00:06:51,200 --> 00:06:52,500
-These buttons can be clicked
+这些按钮可以被点击
 
 186
 00:06:52,500 --> 00:06:55,000
+可以在笔记本的幻灯片之间进行切换
 to navigate between slides in the notebook.
 
 187
 00:06:55,000 --> 00:06:57,500
-This palette also includes a refresh button
+面板上还有一个刷新按钮
 
 188
 00:06:57,500 --> 00:07:00,500
-to update the palette if slides are added or removed.
+可以用于在新增或删除幻灯片后更新面板
 
 189
 00:07:00,500 --> 00:07:03,300
-The button next to that opens the Side Notes palette,
+旁边的按钮可以打开 Side Notes 面板
 
 190
 00:07:03,300 --> 00:07:05,000
-which provides a way of adding notes
+这提供了添加笔记的方法
 
 191
 00:07:05,000 --> 00:07:06,300
-that are intended for the presenter
+这些笔记是为演讲者提供的
 
 192
 00:07:06,300 --> 00:07:08,400
-and that will be shown in this palette,
+它们会在这个面板中显示
 
 193
 00:07:08,400 --> 00:07:11,000
-but that are not displayed in the presentation.
+但不会出现在幻灯片界面
 
 194
 00:07:11,000 --> 00:07:12,500
-To add a side note,
+要添加一个 side note
 
 195
 00:07:12,500 --> 00:07:15,000
-click the Add note to slide button,
+点击 Add note to slide 按钮
 
 196
 00:07:15,000 --> 00:07:17,100
-which inserts a cell called a SideNote cell
+这会在幻灯片笔记本中插入一个叫做 SideNote 的单元
 
 197
 00:07:17,100 --> 00:07:19,000
-into the slideshow notebook.
+(-)
 
 198
 00:07:19,000 --> 00:07:21,600
-This cell can be edited just like any other cell.
+这个单元可以和其他任何单元一样被编辑
 
 199
 00:07:21,600 --> 00:07:24,800
-Clicking the refresh button updates the Side Notes palette
+点击刷新按钮可以在添加新 side note 后更新 Side Notes 面板的内容
 
 200
 00:07:24,800 --> 00:07:27,000
@@ -804,87 +805,87 @@ with any new side notes.
 
 201
 00:07:27,000 --> 00:07:29,300
-Clicking this last button opens a popup menu.
+点击最后的按钮可以打开一个浮动菜单
 
 202
 00:07:29,300 --> 00:07:31,100
-Choosing Style Palette from that menu
+在其中选择 Style Palette
 
 203
 00:07:31,100 --> 00:07:32,400
-opens a palette of buttons
+可以打开一个和创作工具栏类似的带按钮的面板
 
 204
 00:07:32,400 --> 00:07:34,500
-like the buttons in the authoring toolbar.
+(-)
 
 205
 00:07:34,500 --> 00:07:36,300
-Choosing Presentation Controls
+选择 Presentation Controls
 
 206
 00:07:36,300 --> 00:07:39,500
-opens a dialog box for customizing the computer keys
+会打开一个对话框用于自定义切换幻灯片的快捷键
 
 207
 00:07:39,500 --> 00:07:41,500
-for navigating between slides.
+(-)
 
 208
 00:07:41,500 --> 00:07:44,200
-Choosing Theme Options opens the same dialog box
+选择 Theme Options 会打开最初用来选择 stylesheet 的同一个对话框
 
 209
 00:07:44,200 --> 00:07:46,500
-that was used initially for choosing a stylesheet.
+(-)
 
 210
 00:07:46,500 --> 00:07:48,300
-So if you wanted to change the stylesheet
+所以如果你想改变最初选择的 stylesheet
 
 211
 00:07:48,300 --> 00:07:50,800
-from the stylesheet that was chosen initially,
+(-)
 
 212
 00:07:50,800 --> 00:07:52,100
-you can do that here,
+你可以在这里操作
 
 213
 00:07:52,100 --> 00:07:54,600
-or equivalently, by choosing a different stylesheet
+或者从 Stylesheet 子菜单选择另一个 stylesheet
 
 214
 00:07:54,600 --> 00:07:56,400
-from the Stylesheet submenu.
+(-)
 
 215
 00:07:56,400 --> 00:07:58,300
-For example, this changes the fonts
+例如  更换 stylesheet 可以更换幻灯片的字体
 
 216
 00:07:58,300 --> 00:08:00,000
-and the color scheme of the presentation
+和配色方案
 
 217
 00:08:00,000 --> 00:08:03,000
-by changing the stylesheet.
+(-)
 
 218
 00:08:03,000 --> 00:08:04,400
-To start the slideshow,
+要开始演示
 
 219
 00:08:04,400 --> 00:08:06,500
-we can click the Start Presentation button.
+我们可以点击 Start Presentation 按钮
 
 220
 00:08:06,500 --> 00:08:09,000
-At the end of the Start Presentation button
+在 Start Presentation 按钮的最右侧
 
 221
 00:08:09,000 --> 00:08:11,900
-is a popup menu for other screen environments.
+是一个用来设置显示环境的浮动菜单
 
 222
 00:08:11,900 --> 00:08:13,800
@@ -896,7 +897,7 @@ for scrolling through the slides
 
 224
 00:08:15,400 --> 00:08:17,500
-rather than clicking from slide to slide,
+和点击切换幻灯片相比
 
 225
 00:08:17,500 --> 00:08:18,800
@@ -908,297 +909,298 @@ switches the screen environment to Slideshow Presentation,
 
 227
 00:08:22,100 --> 00:08:24,000
-which removes the authoring toolbar
+这会隐藏创作工具栏
 
 228
 00:08:24,000 --> 00:08:27,000
-and the Slide Break cells and the SideNote cells.
+幻灯片分界线和 SideNote 单元
 
 229
 00:08:27,000 --> 00:08:29,000
-Clicking the main Start Presentation button
+点击 Start Presentation 主按钮
 
 230
 00:08:29,000 --> 00:08:30,200
-does all of that
+会同时进行上述操作
 
 231
 00:08:30,200 --> 00:08:33,500
-and also switches to full-screen display.
+并且开启全屏放映
 
 232
 00:08:33,500 --> 00:08:34,900
-After the presentation is started,
+演示开始后
 
 233
 00:08:34,900 --> 00:08:36,000
-you can move between slides
+你可以通过键盘或者单独控制器上的相应按键在幻灯片之间切换
 
 234
 00:08:36,000 --> 00:08:37,900
-using keys on the computer keyboard
+(-)
 
 235
 00:08:37,900 --> 00:08:40,900
-or the corresponding keys on a separate controller.
+(-)2
 
 236
 00:08:40,900 --> 00:08:42,400
-Within the slideshow, there is a button
+在幻灯片中  有一个按钮
 
 237
 00:08:42,400 --> 00:08:44,000
-in the upper-right corner of the window
+显示在窗口右上角
 
 238
 00:08:44,000 --> 00:08:45,000
-that can be clicked
+它可以点击
 
 239
 00:08:45,000 --> 00:08:47,800
-to open a popup menu with other controls.
+来打开包括其他控制选项的浮动菜单
 
 240
 00:08:47,800 --> 00:08:50,800
-There are choices here for moving to the first slide
+这里有切换到第一章幻灯片
 
 241
 00:08:50,800 --> 00:08:53,000
-or to the next slide and so on.
+下一张幻灯片等选项
 
 242
 00:08:53,000 --> 00:08:56,000
-Choosing Toggle Navigation Bar adds on-screen controls
+选择 Toggle Navigation Bar 会在屏幕顶端显示导航条
 
 243
 00:08:56,000 --> 00:08:59,000
-at the top of the window for moving between slides.
+用于切换幻灯片
 
 244
 00:08:59,000 --> 00:09:02,100
-Choosing Toggle Style Tools opens the same palette
+选择 Toggle Style Tools 会打开和之前所展示的 style controls 同样的面板
 
 245
 00:09:02,100 --> 00:09:04,300
-of style controls that was shown earlier.
+(-)
 
 246
 00:09:04,300 --> 00:09:06,000
-In Slideshow Working screen environment,
+在 Slideshow Working 屏幕环境下
 
 247
 00:09:06,000 --> 00:09:08,650
-this palette isn't usually needed since the same controls
+这一面板通常不需要  因为同样的控件
 
 248
 00:09:08,650 --> 00:09:10,800
-are available in the authoring toolbar,
+在创作工具栏中也可以使用
 
 249
 00:09:10,800 --> 00:09:13,800
-but here this palette provides a way of editing the slideshow
+但这个面板提供了一种在实际演示文稿中编辑幻灯片的方法
 
 250
 00:09:13,800 --> 00:09:15,500
-from within the actual presentation,
+(-)
 
 251
 00:09:15,500 --> 00:09:18,800
-rather than from the working notebook environment.
+而不是在工作笔记本环境下
 
 252
 00:09:18,800 --> 00:09:19,800
-Choosing Side Notes
+选择 Side Notes
 
 253
 00:09:19,800 --> 00:09:22,200
-opens the Side Notes palette to show side notes,
+会打开 Side Notes 面板来显示 side notes
 
 254
 00:09:22,200 --> 00:09:25,300
-which you could display on a different monitor
+你可以把这个面板显示在另一个显示器上
 
 255
 00:09:25,300 --> 00:09:27,800
-or on a separate tablet or other device.
+或是在独立的平板电脑抑或其他设备
 
 256
 00:09:27,800 --> 00:09:29,200
-You can also click within this palette
+你也可以在这个面板中点击
 
 257
 00:09:29,200 --> 00:09:31,100
-to move between slides.
+来切换幻灯片
 
 258
 00:09:31,100 --> 00:09:34,000
-Choosing Slide Outline opens the Slide Outline palette
+选择 Slide Outline 会刚才展示过的打开 Slide Outline 面板
 
 259
 00:09:34,000 --> 00:09:35,400
-that was shown earlier,
+(-)
 
 260
 00:09:35,400 --> 00:09:39,000
-which provides yet another way of moving between slides.
+它提供了另一种切换幻灯片的方式
 
 261
 00:09:39,000 --> 00:09:41,000
-Going beyond a basic slideshow like this,
+除了像这样的基本幻灯片之外
 
 262
 00:09:41,000 --> 00:09:43,000
-there's an unlimited range of possibilities
+演示文稿中的内容以及如何控制显示都有无限的可能性
 
 263
 00:09:43,000 --> 00:09:44,900
-for what is displayed in a presentation
+(-)
 
 264
 00:09:44,900 --> 00:09:47,000
-and for how that display is controlled.
+(-)2
 
 265
 00:09:47,000 --> 00:09:48,600
-To illustrate some of the possibilities,
+为了说明其中的部分可能性
 
 266
 00:09:48,600 --> 00:09:49,900
-consider this animation,
+请看这个动画
 
 267
 00:09:49,900 --> 00:09:51,800
-which is used for illustrating a topic
+它用来说明在这个特定的演示中出现的一个话题
 
 268
 00:09:51,800 --> 00:09:54,700
-that comes up during this particular presentation.
+(-)
 
 269
 00:09:54,700 --> 00:09:55,700
-During a presentation,
+在演示过程中
 
 270
 00:09:55,700 --> 00:09:58,000
-the presenter can control this animation
+演讲者可以通过显示屏上的控件控制动画
 
 271
 00:09:58,000 --> 00:10:00,200
-using the controls in the display.
+(-)
 
 272
 00:10:00,200 --> 00:10:02,400
-There are, however, situations where it would be better
+然而  在某些情况下
 
 273
 00:10:02,400 --> 00:10:04,000
-to have the controls somewhere else,
+在其他地方控制放映更好
 
 274
 00:10:04,000 --> 00:10:05,900
-such as in a separate controller.
+例如使用单独的控制器
 
 275
 00:10:05,900 --> 00:10:07,300
-There are several ways to do that,
+有几种方法可以做到这一点
 
 276
 00:10:07,300 --> 00:10:08,800
-one of which is shown here.
+在此我们展示一种方法
 
 277
 00:10:08,800 --> 00:10:11,400
-This example shows a display in the presentation
+这个例子演示了一个画面
 
 278
 00:10:11,400 --> 00:10:13,900
-that depends on a dynamically updated variable
+它依赖于变量来动态更新
 
 279
 00:10:13,900 --> 00:10:16,000
-and a button in a separate notebook
+在单独的笔记本上也有
 
 280
 00:10:16,000 --> 00:10:18,600
-for controlling the value of that variable.
+控制变量取值的控件
 
 281
 00:10:18,600 --> 00:10:19,900
-This allows the presentation
+这允许幻灯片
 
 282
 00:10:19,900 --> 00:10:21,800
-to be controlled by a separate controller,
+被单独的控制器所控制
 
 283
 00:10:21,800 --> 00:10:23,300
-which is useful in settings
+这在演示者不方便点击显示屏上的按钮的情况下非常有用
 
 284
 00:10:23,300 --> 00:10:25,600
-where it is inconvenient for the presenter
+(-)
 
 285
 00:10:25,600 --> 00:10:28,100
-to click on buttons in the display.
+(-)2
 
 286
 00:10:28,100 --> 00:10:30,000
-Wolfram Notebooks support a whole collection of features
+Wolfram Notebooks 支持一系列的程序控制显示功能
 
 287
 00:10:30,000 --> 00:10:32,500
-for programmatic control of the display,
+(-)
 
 288
 00:10:32,500 --> 00:10:34,500
-so it is possible to design presentations
+因此可以设计复杂的动画或图像序列的演示文稿
 
 289
 00:10:34,500 --> 00:10:37,000
-with complex animations or sequences of images,
+(-)
 
 290
 00:10:37,000 --> 00:10:38,800
-and to program all of that in advance
+并预先对所有这些进行编程
 
 291
 00:10:38,800 --> 00:10:41,300
-so that it can be shown during the presentation
+以便在演示过程中通过点击单独控制器上的按钮来控制
 
 292
 00:10:41,300 --> 00:10:44,650
-with the click of a button on an off-screen controller.
+(-)
 
 293
 00:10:44,650 --> 00:10:46,800
-That's the end of the examples for this section.
+本节的例子就到此为止
 
 294
 00:10:46,800 --> 00:10:49,200
-In the Wolfram documentation, you can find more information
+在 Wolfram 文档中  你可以通过搜索演示文稿 (presentations) 或幻灯片 (slideshows) 找到更多的信息
+译注：在线文档不支持中文搜索
 
 295
 00:10:49,200 --> 00:10:52,000
-by searching for presentations or slideshows,
+(-)
 
 296
 00:10:52,000 --> 00:10:53,750
-and in particular from this page
+特别是在准备和进行演示 (preparing and giving presentations) 的这一页
 
 297
 00:10:53,750 --> 00:10:55,650
-on preparing and giving presentations,
+(-)
 
 298
 00:10:55,650 --> 00:10:58,800
-which includes links to workflow guides like this one,
+它包括像这样的工作流程指南的链接
 
 299
 00:10:58,800 --> 00:11:00,200
-with step-by-step instructions
+还有有本节中出现的操作的逐步指导
 
 300
 00:11:00,200 --> 00:11:03,000
-for the operations that came up in this section.
+(-)
 
