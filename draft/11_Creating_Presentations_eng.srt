@@ -1,4 +1,4 @@
-﻿1
+1
 00:00:00,000 --> 00:00:02,500
 这一章节的《 Wolfram 笔记本介绍》的内容
 
@@ -32,7 +32,7 @@
 
 9
 00:00:17,400 --> 00:00:20,700
-待对照！！！然后在弹出的菜单中选择" "来结束幻灯片放映
+然后在弹出的菜单中选择“结束放映”来结束幻灯片放映
 
 10
 00:00:20,700 --> 00:00:22,800
@@ -44,7 +44,7 @@
 
 12
 00:00:25,400 --> 00:00:26,900
-This working slideshow notebook
+这个幻灯片笔记本
 
 13
 00:00:26,900 --> 00:00:28,400
@@ -56,7 +56,7 @@ This working slideshow notebook
 
 15
 00:00:29,900 --> 00:00:33,200
-一是两张幻灯片之间有幻灯片分隔线 (Slide Break) 单元
+一是两张幻灯片之间有幻灯片分界线 (Slide Break) 单元
 
 16
 00:00:33,200 --> 00:00:36,000
@@ -77,7 +77,7 @@ The authoring toolbar is a docked cell
 
 20
 00:00:43,400 --> 00:00:45,600
-The authoring toolbar and the Slide Break cells
+这个创作工具栏和这个幻灯片分界线单元
 
 21
 00:00:45,600 --> 00:00:47,900
@@ -89,23 +89,23 @@ The authoring toolbar and the Slide Break cells
 
 23
 00:00:50,600 --> 00:00:52,500
-是在 stylesheet. 中设置的
+是在样式表 (Stylesheet) 中设置的
 
 24
 00:00:52,500 --> 00:00:53,800
-这个笔记本的 stylesheet
+这个笔记本的样式表
 
 25
 00:00:53,800 --> 00:00:56,000
-是在 PresenterTools 子菜单中选择的
+是在“幻灯片工具” (PresenterTools) 子菜单中选择的
 
 26
 00:00:56,000 --> 00:00:58,300
-该子菜单位于 Format ► Stylesheet
+该子菜单位于“格式” - “样式表”
 
 27
 00:00:58,300 --> 00:01:01,000
-All of the stylesheets in the PresenterTools submenu
+“幻灯片工具”子菜单中所有的样式表
 
 28
 00:01:01,000 --> 00:01:04,000
@@ -117,7 +117,7 @@ All of the stylesheets in the PresenterTools submenu
 
 30
 00:01:06,450 --> 00:01:09,600
-只需要选择 PresenterTools stylesheets 中的一个选项
+只需要选择上述样式表中的一个选项
 
 31
 00:01:09,600 --> 00:01:11,400
@@ -133,15 +133,15 @@ All of the stylesheets in the PresenterTools submenu
 
 34
 00:01:15,200 --> 00:01:17,500
-并且采用的是 normal Default stylesheet,
+并且采用的是常规的“默认” (Default) 样式表
 
 35
 00:01:17,500 --> 00:01:21,000
-也就是在 stylesheet 子菜单中选中的项目
+也就是在“样式表” (Stylesheet) 子菜单中选中的项目
 
 36
 00:01:21,000 --> 00:01:23,800
-菜单的下方是 PresenterTools 子菜单
+菜单的下方是“幻灯片工具” (PresenterTools) 子菜单
 
 37
 00:01:23,800 --> 00:01:26,800
@@ -165,7 +165,7 @@ All of the stylesheets in the PresenterTools submenu
 
 42
 00:01:33,300 --> 00:01:36,000
-但是本节课程是关于更新的 PresenterTools 系统的
+但是本节课程是关于新版 PresenterTools 系统的
 
 43
 00:01:36,000 --> 00:01:39,100
@@ -181,11 +181,11 @@ All of the stylesheets in the PresenterTools submenu
 
 46
 00:01:44,300 --> 00:01:46,250
-一个便捷的插入幻灯片分界线的方式
+一个便捷的插入幻灯片分界线的方式是
 
 47
 00:01:46,250 --> 00:01:48,300
-是首先打开创作工具栏
+首先打开创作工具栏
 
 48
 00:01:48,300 --> 00:01:49,900
@@ -213,12 +213,11 @@ All of the stylesheets in the PresenterTools submenu
 
 54
 00:02:03,200 --> 00:02:05,000
-无论哪种选择都会插入幻灯片中断
+无论哪种选择都会插入一个幻灯片分界线
 
 55
 00:02:05,000 --> 00:02:06,800
 它被一个新的具有名为幻灯片导航栏的格式的单元所标记
-which is marked by a new cell with a cell style called slideshow navigation bar.
 
 56
 00:02:06,800 --> 00:02:10,000
@@ -250,7 +249,7 @@ which is marked by a new cell with a cell style called slideshow navigation bar.
 
 63
 00:02:22,750 --> 00:02:25,000
-来获得新的一页幻灯片
+来获得新一页幻灯片
 
 64
 00:02:25,000 --> 00:02:27,200
@@ -310,7 +309,7 @@ which is marked by a new cell with a cell style called slideshow navigation bar.
 
 78
 00:02:56,500 --> 00:02:58,800
-！！不通顺：如果笔记本已经组织成章节 If the notebook is already organized into sections,
+如果笔记本已经被组织成章节
 
 79
 00:02:58,800 --> 00:03:03,000
@@ -334,7 +333,7 @@ which is marked by a new cell with a cell style called slideshow navigation bar.
 
 84
 00:03:08,300 --> 00:03:11,000
-是从“文件”菜单下 “新建” ► Presenter Notebook 开始
+是从“文件”菜单下“新建” - “Presenter Notebook”开始
 
 85
 00:03:11,000 --> 00:03:12,000
@@ -346,7 +345,7 @@ which is marked by a new cell with a cell style called slideshow navigation bar.
 
 87
 00:03:14,000 --> 00:03:16,950
-for choosing from the same set of PresenterTools stylesheets,
+来从和幻灯片工具里的样式表相同的集合中选择
 
 88
 00:03:16,950 --> 00:03:19,500
@@ -354,7 +353,7 @@ for choosing from the same set of PresenterTools stylesheets,
 
 89
 00:03:19,500 --> 00:03:21,600
-从这个对话框理你还可以选择
+从这个对话框里你还可以选择
 
 90
 00:03:21,600 --> 00:03:24,500
@@ -370,7 +369,7 @@ for choosing from the same set of PresenterTools stylesheets,
 
 93
 00:03:28,400 --> 00:03:30,500
-带有所选的 PresenterTools stylesheet
+带有所选的幻灯片工具的样式表
 
 94
 00:03:30,500 --> 00:03:33,500
@@ -402,7 +401,7 @@ for choosing from the same set of PresenterTools stylesheets,
 
 101
 00:03:48,500 --> 00:03:50,300
-它们可以用于任何笔记本
+它们可以被用于任何笔记本
 
 102
 00:03:50,300 --> 00:03:52,250
@@ -414,7 +413,7 @@ for choosing from the same set of PresenterTools stylesheets,
 
 104
 00:03:53,600 --> 00:03:55,600
-这与在“格式”菜单的 Style 子菜单中的可选项相同
+这与在“格式”菜单的“样式”子菜单中的可选项相同
 
 105
 00:03:55,600 --> 00:03:58,200
@@ -426,7 +425,7 @@ for choosing from the same set of PresenterTools stylesheets,
 
 107
 00:03:59,750 --> 00:04:01,400
-是一个有趣的按钮  它可以被用来
+有一个有趣的按钮 它可以被用来
 
 108
 00:04:01,400 --> 00:04:04,900
@@ -442,11 +441,11 @@ for choosing from the same set of PresenterTools stylesheets,
 
 111
 00:04:09,000 --> 00:04:10,600
-点击这个按钮就会有
+点击这个按钮就会
 
 112
 00:04:10,600 --> 00:04:13,050
-将这些选项应用到该笔记本里所有文本单元的效果
+将这些选项应用到该笔记本里所有文本单元
 
 113
 00:04:13,050 --> 00:04:14,300
@@ -454,12 +453,11 @@ for choosing from the same set of PresenterTools stylesheets,
 
 114
 00:04:14,300 --> 00:04:16,550
-你也可以
-This worked by editing the private stylesheet
+你也可以通过自定义该笔记本的样式表
 
 115
 00:04:16,550 --> 00:04:17,550
-for this notebook.
+来达到相同效果
 
 116
 00:04:17,550 --> 00:04:18,550
@@ -467,11 +465,11 @@ for this notebook.
 
 117
 00:04:18,550 --> 00:04:20,500
-选择“格式”菜单下 Edit Stylesheet
+选择“格式”菜单下的“编辑样式表” (Edit Stylesheet)
 
 118
 00:04:20,500 --> 00:04:22,800
-会显示本笔记本内的 private stylesheet
+会显示本笔记本的私有样式表 (Private Stylesheet)
 
 119
 00:04:22,800 --> 00:04:24,500
@@ -499,15 +497,15 @@ for this notebook.
 
 125
 00:04:33,700 --> 00:04:36,200
-用于一键修改样式表
+被用于一键修改样式表
 
 126
 00:04:36,200 --> 00:04:38,000
-有一个按钮是值得说几句的  按下这个按钮
+有一个按钮是值得说几句的
 
 127
 00:04:38,000 --> 00:04:40,000
-会打开一个浮动菜单
+按下这个按钮会打开一个浮动菜单
 
 128
 00:04:40,000 --> 00:04:42,800
@@ -519,7 +517,7 @@ for this notebook.
 
 130
 00:04:45,500 --> 00:04:47,800
-所有 PresenterTools stylesheets 的功能
+所有幻灯片工具样式表的功能
 
 131
 00:04:47,800 --> 00:04:49,750
@@ -543,7 +541,7 @@ for this notebook.
 
 136
 00:04:58,800 --> 00:05:02,300
-都会随之窗口的大小而改变
+都会随着窗口的大小而改变
 
 137
 00:05:02,300 --> 00:05:04,100
@@ -555,15 +553,15 @@ for this notebook.
 
 139
 00:05:07,800 --> 00:05:10,900
-但是与其他大部分 stylesheets 不同
+但是与其他大部分样式表不同
 
 140
 00:05:10,900 --> 00:05:13,000
-在 RresenterTools stylesheets 中所有关于缩放的选项
+在幻灯片工具样式表中所有关于缩放的选项
 
 141
 00:05:13,000 --> 00:05:15,500
-都已经是这个 stylesheet 的一部分
+都已经是这个样式表的一部分
 
 142
 00:05:15,500 --> 00:05:16,700
@@ -579,7 +577,7 @@ for this notebook.
 
 145
 00:05:20,950 --> 00:05:23,800
-或者是在不同窗口大小的显示系统上进行演示的情况下
+或者是在窗口大小不同的显示系统上进行演示的情况下
 
 146
 00:05:23,800 --> 00:05:26,300
@@ -591,11 +589,11 @@ for this notebook.
 
 148
 00:05:29,300 --> 00:05:32,500
-如果字体大小通过选中一些文字
+如果通过选中一些文字
 
 149
 00:05:32,500 --> 00:05:35,100
-然后在“格式”菜单的 Size 子菜单选则某个字号的方式指定
+并在“格式”菜单的“大小” (Size) 子菜单选择某个字号的方式设置了字体大小
 
 150
 00:05:35,100 --> 00:05:36,600
@@ -636,7 +634,6 @@ stylesheet 的动态缩放系统
 159
 00:05:55,300 --> 00:05:57,400
 会使选中的文字的字号按所选步长的比例放大或缩小
-to be scaled up or down by the chosen number of steps,
 
 160
 00:05:57,400 --> 00:06:00,900
@@ -652,7 +649,7 @@ to be scaled up or down by the chosen number of steps,
 
 163
 00:06:05,800 --> 00:06:08,300
-类似的问题也适用于图片和绘图
+类似的问题也适用于图片和图形
 
 164
 00:06:08,300 --> 00:06:10,000
@@ -660,7 +657,7 @@ to be scaled up or down by the chosen number of steps,
 
 165
 00:06:10,000 --> 00:06:11,500
-会让创作工具栏现实一个按钮
+会让创作工具栏显示一个按钮
 
 166
 00:06:11,500 --> 00:06:14,400
@@ -676,7 +673,7 @@ to be scaled up or down by the chosen number of steps,
 
 169
 00:06:18,000 --> 00:06:19,700
-！！！比对：选择“锁定当前大小”
+选择“锁定当前大小” (Lock to current size)
 
 170
 00:06:19,700 --> 00:06:21,800
@@ -700,15 +697,15 @@ to be scaled up or down by the chosen number of steps,
 
 175
 00:06:30,000 --> 00:06:32,000
-因此  虽然动态缩放是默认选项
+因此 虽然动态缩放是默认选项
 
 176
 00:06:32,000 --> 00:06:35,400
-你仍然可以通过指定you can get fixed sizes by specifying sizes
+你仍然可以为个别对象
 
 177
 00:06:35,400 --> 00:06:37,800
-for individual selections.
+设置固定大小
 
 178
 00:06:37,800 --> 00:06:39,500
@@ -716,7 +713,7 @@ for individual selections.
 
 179
 00:06:39,500 --> 00:06:41,300
-！！！比对：包括“开始演示”按钮
+还包括“开始演示” (Start Presentation) 按钮
 
 180
 00:06:41,300 --> 00:06:43,800
@@ -744,8 +741,7 @@ for individual selections.
 
 186
 00:06:52,500 --> 00:06:55,000
-可以在笔记本的幻灯片之间进行切换
-to navigate between slides in the notebook.
+以在笔记本的幻灯片之间进行切换
 
 187
 00:06:55,000 --> 00:06:57,500
@@ -757,7 +753,7 @@ to navigate between slides in the notebook.
 
 189
 00:07:00,500 --> 00:07:03,300
-旁边的按钮可以打开 Side Notes 面板
+旁边的按钮可以打开“侧边笔记” (Side Notes) 面板
 
 190
 00:07:03,300 --> 00:07:05,000
@@ -777,7 +773,7 @@ to navigate between slides in the notebook.
 
 194
 00:07:11,000 --> 00:07:12,500
-要添加一个 side note
+要添加一个侧边笔记
 
 195
 00:07:12,500 --> 00:07:15,000
@@ -797,11 +793,11 @@ to navigate between slides in the notebook.
 
 199
 00:07:21,600 --> 00:07:24,800
-点击刷新按钮可以在添加新 side note 后更新 Side Notes 面板的内容
+点击刷新按钮可以在添加新的侧边笔记后
 
 200
 00:07:24,800 --> 00:07:27,000
-with any new side notes.
+更新面板的内容
 
 201
 00:07:27,000 --> 00:07:29,300
@@ -809,7 +805,7 @@ with any new side notes.
 
 202
 00:07:29,300 --> 00:07:31,100
-在其中选择 Style Palette
+在其中选择“样式面板” (Style Palette)
 
 203
 00:07:31,100 --> 00:07:32,400
@@ -833,7 +829,7 @@ with any new side notes.
 
 208
 00:07:41,500 --> 00:07:44,200
-选择 Theme Options 会打开最初用来选择 stylesheet 的同一个对话框
+选择“主题选项” (Theme Options) 会打开最初用来选择样式表的同一个对话框
 
 209
 00:07:44,200 --> 00:07:46,500
@@ -841,7 +837,7 @@ with any new side notes.
 
 210
 00:07:46,500 --> 00:07:48,300
-所以如果你想改变最初选择的 stylesheet
+所以如果你想改变最初选择的样式表
 
 211
 00:07:48,300 --> 00:07:50,800
@@ -853,7 +849,7 @@ with any new side notes.
 
 213
 00:07:52,100 --> 00:07:54,600
-或者从 Stylesheet 子菜单选择另一个 stylesheet
+或者从“样式表” (Styleshee)t 子菜单选择另一个样式表
 
 214
 00:07:54,600 --> 00:07:56,400
@@ -861,7 +857,7 @@ with any new side notes.
 
 215
 00:07:56,400 --> 00:07:58,300
-例如  更换 stylesheet 可以更换幻灯片的字体
+例如  更换样式表可以更换幻灯片的字体
 
 216
 00:07:58,300 --> 00:08:00,000
@@ -877,11 +873,11 @@ with any new side notes.
 
 219
 00:08:04,400 --> 00:08:06,500
-我们可以点击 Start Presentation 按钮
+我们可以点击“开始放映” (Start Presentation) 按钮
 
 220
 00:08:06,500 --> 00:08:09,000
-在 Start Presentation 按钮的最右侧
+在“开始放映”按钮的最右侧
 
 221
 00:08:09,000 --> 00:08:11,900
@@ -889,23 +885,23 @@ with any new side notes.
 
 222
 00:08:11,900 --> 00:08:13,800
-Scrolling Presentation gives a display
+单击“滚动放映” (Scrolling Presentation) 按钮可以展示
 
 223
 00:08:13,800 --> 00:08:15,400
-for scrolling through the slides
+滚动浏览所有幻灯片的效果
 
 224
 00:08:15,400 --> 00:08:17,500
-和点击切换幻灯片相比
+而不是通过点击来切换幻灯片
 
 225
 00:08:17,500 --> 00:08:18,800
-and Slideshow Presentation
+而单击 Slideshow Presentation 按钮
 
 226
 00:08:18,800 --> 00:08:22,100
-switches the screen environment to Slideshow Presentation,
+可以把显示环境设置为“Slideshow Presentation”
 
 227
 00:08:22,100 --> 00:08:24,000
@@ -917,7 +913,7 @@ switches the screen environment to Slideshow Presentation,
 
 229
 00:08:27,000 --> 00:08:29,000
-点击 Start Presentation 主按钮
+点击“开始放映”主按钮
 
 230
 00:08:29,000 --> 00:08:30,200
@@ -933,7 +929,7 @@ switches the screen environment to Slideshow Presentation,
 
 233
 00:08:34,900 --> 00:08:36,000
-你可以通过键盘或者单独控制器上的相应按键在幻灯片之间切换
+你可以通过键盘或者独立控制器上的相应按键在幻灯片之间切换
 
 234
 00:08:36,000 --> 00:08:37,900
@@ -953,11 +949,11 @@ switches the screen environment to Slideshow Presentation,
 
 238
 00:08:44,000 --> 00:08:45,000
-它可以点击
+点击它可以
 
 239
 00:08:45,000 --> 00:08:47,800
-来打开包括其他控制选项的浮动菜单
+打开包括其他控制选项的浮动菜单
 
 240
 00:08:47,800 --> 00:08:50,800
@@ -1009,19 +1005,19 @@ switches the screen environment to Slideshow Presentation,
 
 252
 00:09:18,800 --> 00:09:19,800
-选择 Side Notes
+选择“侧边笔记” (Side Notes)
 
 253
 00:09:19,800 --> 00:09:22,200
-会打开 Side Notes 面板来显示 side notes
+会打开侧边笔记面板
 
 254
 00:09:22,200 --> 00:09:25,300
-你可以把这个面板显示在另一个显示器上
+你可以把这个面板显示在另一个显示器、
 
 255
 00:09:25,300 --> 00:09:27,800
-或是在独立的平板电脑抑或其他设备
+独立的平板电脑或其他设备上
 
 256
 00:09:27,800 --> 00:09:29,200
@@ -1089,7 +1085,7 @@ switches the screen environment to Slideshow Presentation,
 
 272
 00:10:00,200 --> 00:10:02,400
-然而  在某些情况下
+然而 在某些情况下
 
 273
 00:10:02,400 --> 00:10:04,000
@@ -1097,7 +1093,7 @@ switches the screen environment to Slideshow Presentation,
 
 274
 00:10:04,000 --> 00:10:05,900
-例如使用单独的控制器
+例如使用独立的控制器
 
 275
 00:10:05,900 --> 00:10:07,300
@@ -1117,7 +1113,7 @@ switches the screen environment to Slideshow Presentation,
 
 279
 00:10:13,900 --> 00:10:16,000
-在单独的笔记本上也有
+在独立的笔记本上也有
 
 280
 00:10:16,000 --> 00:10:18,600
@@ -1129,7 +1125,7 @@ switches the screen environment to Slideshow Presentation,
 
 282
 00:10:19,900 --> 00:10:21,800
-被单独的控制器所控制
+被独立的控制器所控制
 
 283
 00:10:21,800 --> 00:10:23,300
@@ -1165,7 +1161,7 @@ Wolfram Notebooks 支持一系列的程序控制显示功能
 
 291
 00:10:38,800 --> 00:10:41,300
-以便在演示过程中通过点击单独控制器上的按钮来控制
+以便在演示过程中通过点击独立控制器上的按钮来控制
 
 292
 00:10:41,300 --> 00:10:44,650
@@ -1177,8 +1173,7 @@ Wolfram Notebooks 支持一系列的程序控制显示功能
 
 294
 00:10:46,800 --> 00:10:49,200
-在 Wolfram 文档中  你可以通过搜索演示文稿 (presentations) 或幻灯片 (slideshows) 找到更多的信息
-译注：在线文档不支持中文搜索
+在 Wolfram 文档中  你可以通过搜索演示文稿 (presentations) 或幻灯片 (slideshows) 找到更多的信息 (译注：在线文档不支持中文搜索)
 
 295
 00:10:49,200 --> 00:10:52,000
@@ -1203,4 +1198,3 @@ Wolfram Notebooks 支持一系列的程序控制显示功能
 300
 00:11:00,200 --> 00:11:03,000
 (-)
-
